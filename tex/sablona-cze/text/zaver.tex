@@ -1,0 +1,34 @@
+\chapter*{Závěr}
+\phantomsection
+\addcontentsline{toc}{chapter}{Závěr}
+
+V semestrální práci bylo navrhnuto škálovatelné řešení pro měření
+odporu propojení velkého množství elektrických cest. Výsledkem návrhu
+je koncepce měřících a ovládacích karet, které dohromady tvoří pole 4000 pinů
+mezi kterými lze libovolně měřit odpor elektrické cesty.\\
+
+Kombinací těchto karet lze teoreticky docílit měření 4000 projení cest současně v PASS/FAIL režimu do 40\,ms
+a následně výsledky procházet v řídící PC aplikaci.
+Byly navrženy 2 módy ve kterých by mělo zařízení pracovat (PASS/FAIL a měření přesného odporu).\\
+
+K ovládacím kartám bylo navrženo schéma zapojení a téměř hotový návrh PCB. Nicméně ovládací karty nebyly prozatím vyrobeny.
+K měřícím kartám bylo vyrobeno PCB a nyní se čeká na osazení komponentů externí firmou.
+Po otestování měřících karet pomocí prototypových NUCLEO-F429ZI budou dány do výroby i ovládací karty.\\
+
+Dále byl vytvořen firmware pro ovládací karty. Firmware není zdaleka finální, obsahuje však kostru programu, kde
+je implementován telnet a http server. Funkce těchto serverů bude výrazně rozšířena po vyrobení ovládacích karet.
+Momentálně telnet server nedisponuje všemi příkazy potřebnými k ovládání měřících karet. V současnosti jsou implementovány
+pouze příkazy pro nastavení A/D, D/A převodníku a ovládání některých dalších periférií.\\
+
+V semestrální práci byla vytvořena aplikace pro PC, která umožňuje vhodně formátovat vstupní data pro tester a zobrazovat je 
+v interaktivním grafickém režimu. 
+Aplikace však neobsahuje část, pro ovládání karet. Momentálně slouží jako základ
+pro tvorbu měřících matic popsaných v části Algoritmizace a měřící procedury. Dále aplikace
+umožňuje formátovat vstupní data, která jsou generována nejrozšířenějšími ICT testery AGILENT (KEYSIGHT) 30xx.\\
+
+Úkolem do diplomové práce je dokončit firmware a výrobu ovládacích karet. Navrhnout kalibrační procedury měřících karet.
+Vyvinout PC aplikaci pro ovládání karet a zobrazování výsledků měření.
+Společně s konstruktéry navrhnout a realizovat mechanické řešení testeru.
+Mechanické řešení obsahuje především návrh pneumatického kontaktování.
+Dále navrhnout bezpečnostní mechanizmy pro případnou poruchu testeru.
+Na závěr otestovat funkčnost a ověřit věrohodnost předpokládaných parametrů testeru. 

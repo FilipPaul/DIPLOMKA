@@ -1,0 +1,28 @@
+\chapter*{Úvod}
+\phantomsection
+\addcontentsline{toc}{chapter}{Úvod}
+
+\indent Cílem diplomové práce je navrhnout zařízení,
+které bude schopno ověřit správnost interního zapojení In Circuit Testing (ICT) testerů.
+ICT tester slouží k odhalování výrobních chyb a programování Desek Plošných Spojů (DSP - dále
+označováno jako PCB z anglického Printed Circuit Board)
+pomocí připojení velkého množství testovacích jehel. Testovací jehly jsou připojovány do určených
+míst na PCB, kde se následně provádí různé testy.\\
+
+Diplomová práce je vypracována ve spolupráci s firmou Čevor inovation a.s.,
+která se zabývá výrobou ICT testerů. Při výrobě těchto testerů vzniká potřeba kontroly správnosti zapojení fixture části.
+Fixture část je označení pro zakládání (Obr. \ref{fig:ICT_tester}), je odlišná pro každé PCB a obsahuje řádově tisíce propojení.
+Zařízení navrhované v této práci tak není ICT testerem samotným,
+ale slouží právě k ověření správnosti interního zapojení fixture části ICT testeru.
+Jedná se tedy o tester ICT testerů.\\
+
+Ověření správnosti propojení se určuje odporem elektrické cesty.
+Zařízení tedy musí být schopno měřit odpor mezi kterýmikoliv dvěma testovanými body.
+Zároveň jsou zde kladeny požadavky na škálovatelnost celého řešení z pohledu počtu testovaných propojení.
+V diplomové práci se počítá s návrhem zařízení, které má 4000 testovaných bodů.
+Fyzické (reálné) propojení testeru je následně porovnáno s výrobními daty ICT testeru.
+Výsledky testu jsou přenášeny do PC pomocí Ethernetu,
+kde jsou následně zpracovány. Výsledkem testu by pak měla být jasná identifikace chyb.\\
+
+Diplomová práce popisuje funkčnost, hardwarové řešení testeru (návrh PCB) a softwarové řešení v
+podobě firmwaru pro PCB a uživatelského programu pro PC. 

@@ -1,0 +1,8 @@
+*.bat
+
+__pycache__/
+build/
+dist/
+build/
+History/
+Previews/

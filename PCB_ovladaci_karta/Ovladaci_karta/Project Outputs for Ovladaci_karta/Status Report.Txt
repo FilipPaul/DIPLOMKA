@@ -1,0 +1,10 @@
+Output: Copy of Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Ovladaci_karta.PrjPcb]
+   Generated File[Copy of Bill of Materials-Ovladaci_karta.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:12:19 On 06.03.2023
