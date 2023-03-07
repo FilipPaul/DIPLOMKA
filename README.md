@@ -1,0 +1,2 @@
+# DIPLOMKA
+Diploma thesis
