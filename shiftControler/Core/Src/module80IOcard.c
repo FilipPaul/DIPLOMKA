@@ -6,6 +6,7 @@
 #include "globals.h"
 #include "shiftRegisters.h"
 #include "multiplexers.h"
+#include <inttypes.h>
 
 /// SHIFT REGISTER PINS MUST BE CHANGED ACCCORDINGLY ---------
 ShifRegister IO1TO40_OUTPUTS = {
@@ -20,7 +21,7 @@ ShifRegister IO1TO40_OUTPUTS = {
 .srclr_port = NMOS_SHFT_1TO5_SRCLR_GPIO_Port,
 .noe_port = NMOS_SHFT_1TO5_NOE_GPIO_Port,
 .current_satus = 0,
-.shift_reg_length = 16,
+.shift_reg_length = 40,
 };
 
 
@@ -102,6 +103,19 @@ Multiplexer MUXES_41TO80 = {
 .current_satus = 0,
 };
 
+static char bfr[20+1];
+
+static char* uint64ToDecimal(uint64_t v) {
+  char* p = bfr + sizeof(bfr);
+  *(--p) = '\0';
+  for (uint8_t first = 1; v || first; first = 0) {
+    const uint32_t digit = v % 10;
+    const char c = '0' + digit;
+    *(--p) = c;
+    v = v / 10;
+  }
+  return p;
+}
 
 static uint8_t checkNumberOfSubcommands(uint8_t expected_number, uint8_t current_subcommand_index ,commandTemplate* current_command){
     //Function that check if the command has the correct number of subcommands
@@ -136,14 +150,14 @@ static void setCommands(commandTemplate* current_command){
 
     else if(strcmp(current_command->subcommands[1],"REGISTER") == 0){
         if (checkNumberOfSubcommands(3,1,current_command) == 0) return;
-        static void* register_ptr;
+        static ShifRegister* register_ptr;
 
         //SELECT REGISTER
         if (strcmp(current_command->subcommands[2],"IO1TO40_OUTPUTS") == 0){
             register_ptr = &IO1TO40_OUTPUTS;
         }
 
-        else if (strcmp(current_command->subcommands[2],"IO1TO40_OUTPUTS") == 0){
+        else if (strcmp(current_command->subcommands[2],"IO41TO80_OUTPUTS") == 0){
             register_ptr = &IO41TO80_OUTPUTS;
         }
 
@@ -158,13 +172,14 @@ static void setCommands(commandTemplate* current_command){
 
         else{
             sprintf(current_command->response,"ERROR: Unknown Register: %s\n",current_command->subcommands[2]);
+            return;
         }
         //UPDATE REGISTER
         if (strcmp(current_command->subcommands[3],"VALUE") == 0)
         {
             uint64_t data = strtoull(current_command->subcommands[4],NULL,10);
             loadDataToShiftReg(data,register_ptr);
-            sprintf(current_command->response,"OK:Setting Register %s to %s\n",current_command->subcommands[2],current_command->subcommands[4]);
+            sprintf(current_command->response,"OK:Setting Register %s to %s\n",current_command->subcommands[2],uint64ToDecimal(data));
         }
 
         else if(strcmp(current_command->subcommands[3],"DO_N_SHIFTS") == 0)
@@ -175,6 +190,7 @@ static void setCommands(commandTemplate* current_command){
 
         else{
             sprintf(current_command->response,"ERROR: Unknown Register: %s\n",current_command->subcommands[2]);
+            return;
         }
 
     }// REGISTER
@@ -193,7 +209,7 @@ static void readCommands(commandTemplate* current_command){
     if (strcmp(current_command->subcommands[1],"MUX") == 0){
         if (checkNumberOfSubcommands(2,1,current_command) == 0) return;
         //MUX SELECTION
-        static void* mux_ptr;
+        static Multiplexer* mux_ptr;
 
         if (strcmp(current_command->subcommands[2],"MUXES_1TO40") == 0){
             mux_ptr = &MUXES_1TO40;
@@ -205,6 +221,7 @@ static void readCommands(commandTemplate* current_command){
 
         else{
             sprintf(current_command->response,"ERROR: Unknown MUX: %s\n",current_command->subcommands[2]);
+            return;
         }
 
         //MUX READ
@@ -221,7 +238,37 @@ static void readCommands(commandTemplate* current_command){
             sprintf(current_command->response,"OK:Reading MUX: %s, address:%d, value:%d\n",\
             current_command->subcommands[2],(uint8_t)atoi(current_command->subcommands[3]),mux_value);
         }
-    }
+    }//MUX
+
+    else if(strcmp(current_command->subcommands[1],"REGISTER") == 0){
+        if (checkNumberOfSubcommands(1,1,current_command) == 0) return;
+        static ShifRegister* register_ptr;
+
+        //SELECT REGISTER
+        if (strcmp(current_command->subcommands[2],"IO1TO40_OUTPUTS") == 0){
+            register_ptr = &IO1TO40_OUTPUTS;
+        }
+
+        else if (strcmp(current_command->subcommands[2],"IO41TO80_OUTPUTS") == 0){
+            register_ptr = &IO41TO80_OUTPUTS;
+        }
+
+        
+        else if (strcmp(current_command->subcommands[2],"IO1TO40_IMPEDANCES") == 0){
+            register_ptr = &IO1TO40_IMPEDANCES;
+        }
+
+        else if (strcmp(current_command->subcommands[2],"IO41TO80_IMPEDANCES") == 0){
+            register_ptr = &IO41TO80_IMPEDANCES;
+        }
+
+        else{
+            sprintf(current_command->response,"ERROR: Unknown Register: %s\n",current_command->subcommands[2]);
+            return;
+        }
+        //SEND BACK VALUE:
+        sprintf(current_command->response,"OK:Reading Register %s, value:%s\n",current_command->subcommands[2],uint64ToDecimal(register_ptr->current_satus));
+    }// REGISTER
 }
 
 void module80CardParser(commandTemplate* current_command){

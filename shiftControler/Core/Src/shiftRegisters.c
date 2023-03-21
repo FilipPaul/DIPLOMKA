@@ -28,7 +28,8 @@ uint8_t loadDataToShiftReg(uint64_t data, ShifRegister* shiftRegister)
 
   DO_CLK_PULSE(shiftRegister->rclk_port, shiftRegister->rclk_pin); //OUTPUT DATA
   shiftRegister->current_satus = data;
-  printf("TASK ENDED\n");
+  
+  printf("TASK ENDED: %lu%lu\n", (uint32_t)(data / 4294967296UL), (uint32_t)(data % 4294967296UL));
   return 1;
 
 }

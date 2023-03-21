@@ -43,7 +43,8 @@ cFlags: []
 cxxFlags: []
 assemblyFlags: []
 linkerFlags: 
-  - -specs=nano.specs
+  #- -specs=nosys.specs
+  #- -specs=nano.specs
   - -u _printf_float
 
 
