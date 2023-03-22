@@ -37,7 +37,7 @@ ShifRegister IO41TO80_OUTPUTS = {
 .srclr_port = NMOS_SHFT_1TO5_SRCLR_GPIO_Port,
 .noe_port = NMOS_SHFT_1TO5_NOE_GPIO_Port,
 .current_satus = 0,
-.shift_reg_length = 16,
+.shift_reg_length = 40,
 };
 
 ShifRegister IO1TO40_IMPEDANCES = {
@@ -52,7 +52,7 @@ ShifRegister IO1TO40_IMPEDANCES = {
 .srclr_port = NMOS_SHFT_1TO5_SRCLR_GPIO_Port,
 .noe_port = NMOS_SHFT_1TO5_NOE_GPIO_Port,
 .current_satus = 0,
-.shift_reg_length = 16,
+.shift_reg_length = 40,
 };
 
 
@@ -68,7 +68,7 @@ ShifRegister IO41TO80_IMPEDANCES = {
 .srclr_port = NMOS_SHFT_1TO5_SRCLR_GPIO_Port,
 .noe_port = NMOS_SHFT_1TO5_NOE_GPIO_Port,
 .current_satus = 0,
-.shift_reg_length = 16,
+.shift_reg_length = 40,
 };
 
 Multiplexer MUXES_1TO40 = {
