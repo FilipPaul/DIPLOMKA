@@ -151,8 +151,10 @@ Generating : Inner Layer 4
 
 Used DCodes :
     D47
+    D48
     D49
-    D51
+    D50
+    D55
     D56
     D57
     D58
@@ -217,7 +219,7 @@ Generating : Bottom Layer 1
 Used DCodes :
     D11
     D12
-    D14
+    D13
     D15
     D42
     D44
@@ -289,7 +291,7 @@ Used DCodes :
     D83
     D85
     D88
-    D90
+    D91
     D92
 *************************************************************
 
@@ -305,11 +307,11 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D14
-    D15
-    D19
+    D10
+    D12
+    D13
     D20
-    D24
+    D21
     D25
     D26
     D28
@@ -376,13 +378,13 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D14
-    D15
+    D12
+    D13
     D42
     D44
     D65
     D79
-    D94
+    D93
     D95
     D117
     D118
@@ -478,7 +480,7 @@ Generating : Bottom Paste
 Used DCodes :
     D11
     D12
-    D14
+    D13
     D15
     D42
     D44
@@ -512,7 +514,6 @@ Used DCodes :
     D150
     D151
     D152
-    D153
 *************************************************************
 
 *************************************************************
@@ -521,6 +522,7 @@ Generating : Plated through-hole drill file
 
 
 Used DCodes :
+    D153
     D154
     D155
     D156
@@ -534,6 +536,5 @@ Used DCodes :
     D164
     D165
     D166
-    D167
 *************************************************************
 

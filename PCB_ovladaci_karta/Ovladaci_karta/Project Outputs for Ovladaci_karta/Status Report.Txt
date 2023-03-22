@@ -1,10 +1,15 @@
-Output: Copy of Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [Ovladaci_karta.PrjPcb]
-   Generated File[Copy of Bill of Materials-Ovladaci_karta.xlsx]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:54:34 On 22.03.2023
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [PCB_ovladaci_karta.PcbDoc]
+   Generated File[Pick Place for PCB_ovladaci_karta.txt]
+   Generated File[Pick Place for PCB_ovladaci_karta.csv]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 21:12:19 On 06.03.2023
+Finished Output Generation At 10:54:35 On 22.03.2023
