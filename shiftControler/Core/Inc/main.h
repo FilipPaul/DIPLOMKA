@@ -77,6 +77,10 @@ void Error_Handler(void);
 #define RMII_MDIO_GPIO_Port GPIOA
 #define NMOS_SHFT_1TO5_SER_Pin GPIO_PIN_3
 #define NMOS_SHFT_1TO5_SER_GPIO_Port GPIOA
+#define MUX_D1_Pin GPIO_PIN_5
+#define MUX_D1_GPIO_Port GPIOA
+#define MUX_D2_Pin GPIO_PIN_6
+#define MUX_D2_GPIO_Port GPIOA
 #define RMII_CRS_DV_Pin GPIO_PIN_7
 #define RMII_CRS_DV_GPIO_Port GPIOA
 #define RMII_RXD0_Pin GPIO_PIN_4
@@ -97,6 +101,10 @@ void Error_Handler(void);
 #define STLK_RX_GPIO_Port GPIOD
 #define STLK_TX_Pin GPIO_PIN_9
 #define STLK_TX_GPIO_Port GPIOD
+#define MUX_D3_Pin GPIO_PIN_14
+#define MUX_D3_GPIO_Port GPIOD
+#define MUX_D4_Pin GPIO_PIN_15
+#define MUX_D4_GPIO_Port GPIOD
 #define USB_PowerSwitchOn_Pin GPIO_PIN_6
 #define USB_PowerSwitchOn_GPIO_Port GPIOG
 #define USB_OverCurrent_Pin GPIO_PIN_7
@@ -123,12 +131,8 @@ void Error_Handler(void);
 #define RMII_TX_EN_GPIO_Port GPIOG
 #define RMII_TXD0_Pin GPIO_PIN_13
 #define RMII_TXD0_GPIO_Port GPIOG
-#define MUX_D2_Pin GPIO_PIN_4
-#define MUX_D2_GPIO_Port GPIOB
 #define LD2_Pin GPIO_PIN_7
 #define LD2_GPIO_Port GPIOB
-#define MUX_D1_Pin GPIO_PIN_8
-#define MUX_D1_GPIO_Port GPIOB
 #define TIMER_check_Pin GPIO_PIN_9
 #define TIMER_check_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
