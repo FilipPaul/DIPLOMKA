@@ -5,7 +5,7 @@ C:\Users\Filip\Desktop\diplomka\PCB_ovladaci_karta\Ovladaci_karta\Project Output
 File Design Information:
 
 Date:       26.03.23
-Time:       21:55
+Time:       23:57
 Revision:   88a4c57fb80b38f7e82e9b2d41894c1b26e1fcaa
 Variant:    No variations
 Units used: mm
@@ -169,7 +169,7 @@ Units used: mm
 "R38","10k","TopLayer","184,2126","72,7210","270","Resistor - 0402 -  10k - 5% - 125mW","https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D","0402","RC0402JR-7W10KL","10k"
 "R41","1k","TopLayer","146,5104","96,0036","90","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
 "R42","4.87k","TopLayer","114,5540","103,9042","90","Resistor - 0402 -  4.87k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4871X?qs=YMBIwoNQYdV9ZzOLxQ6NUw%3D%3D","0402","ERJ-2RKF4871X","4.87k"
-"R43","220k","BottomLayer","165,4302","103,8860","90","Resistor - 0402 -  220k - 1% - 100mW","https://cz.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ0402F220K?qs=wUXugUrL1qxgaPkTarsp4Q%3D%3D","0402","ERJ-S02F2203X","220k"
+"R43","232k","BottomLayer","165,4302","103,8860","90","Resistor - 0402 -  232k - 0.5% - 62mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ2RKD2323X?qs=YCa%2FAAYMW02KvIWpqTK%252Bgg%3D%3D","0402","ERJ2RKD2323X","232k"
 "R44","1k","BottomLayer","165,5318","107,9246","180","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
 "R45","51k","BottomLayer","165,4556","105,6386","90","Resistor - 0402 -  51k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF5102X?qs=YMBIwoNQYdXcamr3JeKUBw%3D%3D","0402","ERJ-2RKF5102X","51k"
 "R46","0R","TopLayer","183,1000","54,9000","180","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
