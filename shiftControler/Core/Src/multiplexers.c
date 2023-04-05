@@ -11,10 +11,10 @@ GPIO_PinState MUXreadAdress(uint8_t address, Multiplexer* mux){
   return HAL_GPIO_ReadPin(mux->data_out_ports[address / mux->mux_length ], mux->data_out_pins[address / mux->mux_length]);
 }
 
-uint32_t MUXreadAll(Multiplexer* mux){
-  uint32_t data = 0;
+uint64_t MUXreadAll(Multiplexer* mux){
+  uint64_t data = 0;
   for(uint8_t i = 0; i < mux->mux_length*mux->number_of_paralel_muxes; i++){
-    data |= ((uint32_t)MUXreadAdress(i, mux) << i);
+    data |= ((uint64_t)MUXreadAdress(i, mux) << i);
   }
   return data;
 }

@@ -1,0 +1,82 @@
+Change Component DesignItemId : Designator=R14 Old DesignItemId=Resistor - 0402 -51k New DesignItemId=Resistor - 0402 - 4.7k
+Change Component DesignItemId : Designator=R45 Old DesignItemId=Resistor - 0402 -51k New DesignItemId=Resistor - 0402 - 4.7k
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Resistor - 0402 -120k New DesignItemId=Resistor - 0402 - 16k
+Change Component DesignItemId : Designator=R43 Old DesignItemId=Resistor - 0402 -232k New DesignItemId=Resistor - 0402 - 27k
+Change Component DesignItemId : Designator=VR2 Old DesignItemId=TRIMMER - 50k -100mW New DesignItemId=TRIMMER - 5k -100mW
+Change Component DesignItemId : Designator=VR6 Old DesignItemId=TRIMMER - 50k -100mW New DesignItemId=TRIMMER - 5k -100mW
+Change Component Comment : Designator=VR2 Old Comment=50k Trimmer New Comment=5k Trimmer
+Change Component Comment : Designator=VR6 Old Comment=50k Trimmer New Comment=5k Trimmer
+Change Component Comment : Designator=R14 Old Comment=51k New Comment=4.7k
+Change Component Comment : Designator=R45 Old Comment=51k New Comment=4.7k
+Change Component Comment : Designator=R12 Old Comment=120k New Comment=16k
+Change Component Comment : Designator=R43 Old Comment=232k New Comment=27k
+Change Component Description : Designator=R14 Old Description=Resistor - 0402 -  51k - 1% - 100mW New Description=Resistor - 0402 -  4.7k - 1% - 100mW
+Change Component Description : Designator=R45 Old Description=Resistor - 0402 -  51k - 1% - 100mW New Description=Resistor - 0402 -  4.7k - 1% - 100mW
+Change Component Description : Designator=R12 Old Description=Resistor - 0402 -  120k - 1% - 100mW New Description=Resistor - 0402 -  16k - 1% - 100mW
+Change Component Description : Designator=R43 Old Description=Resistor - 0402 -  232k - 0.5% - 62mW New Description=Resistor - 0402 - 27k - 1% - 100mW
+Change Component Description : Designator=VR2 Old Description=Variable Resistor Trimmer - 50k - 25% -100mW - single turn New Description=Variable Resistor Trimmer - 5k - 25% -100mW - single turn
+Change Component Description : Designator=VR6 Old Description=Variable Resistor Trimmer - 50k - 25% -100mW - single turn New Description=Variable Resistor Trimmer - 5k - 25% -100mW - single turn
+Change component parameters: Designator = "R7" ("R7"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\HPCGLEBG\WQHFYURH" ("\HPCGLEBG\WQHFYURH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1501X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PTwSSYoQ29R0%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-2RKF1501X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-2RKF1501X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k5"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\HPCGLEBG\GHADINSA" ("\HPCGLEBG\GHADINSA")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1501X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PTwSSYoQ29R0%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-2RKF1501X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-2RKF1501X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k5"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\QPUBMPOI\JKZSDNTV" ("\QPUBMPOI\JKZSDNTV")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1602X?qs=MVjVSMjNRMp9pwpCSUWuGw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-2RKF1602X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-2RKF1602X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "16k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14" ("R14"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\QPUBMPOI\HRAKWWKN" ("\QPUBMPOI\HRAKWWKN")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=H7k1u0Mp9JQWpspavPhQZA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-2RKF4701X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-2RKF4701X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R43"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\QPUBMPOI\ZRPZTFZV" ("\QPUBMPOI\ZRPZTFZV")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-H2RD2702X?qs=eP2BKZSCXI50Sdsvimutzw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-H2RD2702X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-H2RD2702X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "27k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R45" ("R45"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\QPUBMPOI\BTGDHJBW" ("\QPUBMPOI\BTGDHJBW")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=H7k1u0Mp9JQWpspavPhQZA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-2RKF4701X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-2RKF4701X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VR2" ("VR2"); Footprint = "TC33X2503E"; UniqueID = "\QPUBMPOI\EIQDWHQD" ("\QPUBMPOI\EIQDWHQD")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-502E?qs=r%252B5EJQndA0pTgyiJsDuA%252BA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "3mm SMD TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TC33X-2-502E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "652-TC33X-2-502E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VR6" ("VR6"); Footprint = "TC33X2503E"; UniqueID = "\QPUBMPOI\BEYGGEGA" ("\QPUBMPOI\BEYGGEGA")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-502E?qs=r%252B5EJQndA0pTgyiJsDuA%252BA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "3mm SMD TRIMPOT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TC33X-2-502E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "652-TC33X-2-502E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"

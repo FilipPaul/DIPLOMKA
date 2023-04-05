@@ -13,16 +13,16 @@
 uint8_t runCommand(commandTemplate* current_command){
     //"""Implementation of commands"""
     if (current_command->command == NULL){
-        strcpy(current_command->response,"ERROR:No command received\n");
+        strcpy(current_command->response,"ERROR;No command received\n");
         return 0;
     };
 
     if (strcmp(current_command->command,"HELP") == 0){
-        sprintf(current_command->response,"OK:Help command received\n");
+        sprintf(current_command->response,"OK;Help command received\n");
     }
 
     else if (strcmp(current_command->command,"*IDN?") == 0){
-        sprintf(current_command->response,"OK:STM32 super board\n");
+        sprintf(current_command->response,"OK;STM32 super board\n");
     }
 
     else if (strcmp(current_command->command,"80_IO_CARD") == 0){
@@ -31,7 +31,7 @@ uint8_t runCommand(commandTemplate* current_command){
     }
 
     else{
-        sprintf(current_command->response,"ERROR:No such command\n");
+        sprintf(current_command->response,"ERROR;No such command\n");
         return 0;
     }
     return 1;

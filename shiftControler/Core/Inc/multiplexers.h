@@ -22,5 +22,5 @@ typedef struct Multiplexer{
 } Multiplexer;
 
 GPIO_PinState MUXreadAdress(uint8_t address, Multiplexer* mux);
-uint32_t MUXreadAll(Multiplexer* mux);
+uint64_t MUXreadAll(Multiplexer* mux);
 #endif

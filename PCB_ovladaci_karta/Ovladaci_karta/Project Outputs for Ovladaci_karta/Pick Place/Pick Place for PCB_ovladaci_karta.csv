@@ -1,13 +1,13 @@
 Altium Designer Pick and Place Locations
-C:\Users\Filip\Desktop\diplomka\PCB_ovladaci_karta\Ovladaci_karta\Project Outputs for Ovladaci_karta\Pick Place\Pick Place for PCB_ovladaci_karta.csv
+C:\PROJECTS\DIPLOMKA\PCB_ovladaci_karta\Ovladaci_karta\Project Outputs for Ovladaci_karta\Pick Place\Pick Place for PCB_ovladaci_karta(AssembledForTester).csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       26.03.23
-Time:       23:57
-Revision:   88a4c57fb80b38f7e82e9b2d41894c1b26e1fcaa
-Variant:    No variations
+Date:       05.04.23
+Time:       11:19
+Revision:   3f5f5dc6092b25a26ff9f76ba397e7dd383538d4
+Variant:    AssembledForTester
 Units used: mm
 
 "Designator","Comment","Layer","Center-X(mm)","Center-Y(mm)","Rotation","Description","ComponentLink1URL","Package","PartNumber","Value"
@@ -55,7 +55,6 @@ Units used: mm
 "C42","4.7uF","BottomLayer","150,5030","52,7050","90","General Purpose Ceramic Capacitor, 0603,4.7uF,35V,10%","https://cz.mouser.com/ProductDetail/TDK/C1608X5R1V475K080AC?qs=dfay7wIA1uF9DVjUL4K4oA%3D%3D","0603","C1608X5R1V475K080AC","4.7uF"
 "C43","100nF","TopLayer","146,1000","47,3000","270","Cap Ceramic 0402,0.1uF, 25V,10%","https://eu.mouser.com/ProductDetail/KEMET/C0402C104K3RACTU?qs=YCcZ0GhAU2q7BaxZ%2FluQHA%3D%3D","0402","C0402C104K3RACTU","100nF"
 "D2","RED LED - 2V2","TopLayer","172,7610","88,2020","180","LED RED DIFFUSED 0603 SMD","https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/SML-D12U1WT86?qs=M3jcYzEJUdEySuGkbjHEtQ%3D%3D","0602","SML-D12U1WT86","RED LED - 2.2V"
-"D3","RED LED - 2V2","TopLayer","120,8250","37,2500","180","LED RED DIFFUSED 0603 SMD","https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/SML-D12U1WT86?qs=M3jcYzEJUdEySuGkbjHEtQ%3D%3D","0602","SML-D12U1WT86","RED LED - 2.2V"
 "D4","DIODE -FW:3A - 380mV, Rev: 40V","TopLayer","183,1860","93,2020","270","Schottky DIODE -  DO-214AC-2 -FW:3A - 380mV, Rev: 40V","https://cz.mouser.com/ProductDetail/Vishay-General-Semiconductor/SSA34HE3_A-I?qs=asPD7ZL2j3VimMFbwwU%2FoA%3D%3D","DO-214AC-2","SSA34HE3_A/I","FW:3A - 380mV, Rev: 40V"
 "D6","RED LED - 2V2","TopLayer","187,2126","72,8460","90","LED RED DIFFUSED 0603 SMD","https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/SML-D12U1WT86?qs=M3jcYzEJUdEySuGkbjHEtQ%3D%3D","0602","SML-D12U1WT86","RED LED - 2.2V"
 "D7","ESD - TVS USB","TopLayer","198,8000","72,0500","270","4-line ESD protection","https://cz.mouser.com/ProductDetail/STMicroelectronics/ESDA6V1BC6?qs=9PdvrqCL7oAFp2zmpu55Tw%3D%3D","SOT-23-6","ESDA6V1BC6","ESD for 5V USB rails"
@@ -123,7 +122,7 @@ Units used: mm
 "J15_U_PORT_SINGLE1","2x5 2.54mm connector","TopLayer","180,5844","116,2300","180","2x5position -  2.54x2.54mm connector","https://cz.mouser.com/ProductDetail/Amphenol-Commercial-Products/G821EU210AAL10Y?qs=f9yNj16SXrKgfgt6Mg6Piw%3D%3D","2x5position -  2.54x2.54mm connector","G821EU210AAL10Y","2x5position -  2.54x2.54mm connector"
 "J15_U_PORT_SINGLE2","2x5 2.54mm connector","TopLayer","159,1120","116,2008","180","2x5position -  2.54x2.54mm connector","https://cz.mouser.com/ProductDetail/Amphenol-Commercial-Products/G821EU210AAL10Y?qs=f9yNj16SXrKgfgt6Mg6Piw%3D%3D","2x5position -  2.54x2.54mm connector","G821EU210AAL10Y","2x5position -  2.54x2.54mm connector"
 "J15_U_PORT_SINGLE3","2x5 2.54mm connector","TopLayer","137,6934","116,2050","180","2x5position -  2.54x2.54mm connector","https://cz.mouser.com/ProductDetail/Amphenol-Commercial-Products/G821EU210AAL10Y?qs=f9yNj16SXrKgfgt6Mg6Piw%3D%3D","2x5position -  2.54x2.54mm connector","G821EU210AAL10Y","2x5position -  2.54x2.54mm connector"
-"L1","27nH","TopLayer","142,2489","65,1256","0","Multilayer type RF Inductor 27nH ±5% 0.54? 500mA 0603","https://cz.mouser.com/ProductDetail/Murata-Electronics/LQG18HN27NJ00D?qs=Ak0FrV9sSEhd5kkENoxyIg%3D%3D","0603","LQG18HN27NJ00D","27nH"
+"L1","27nH","TopLayer","142,2489","65,1256","0","Multilayer type RF Inductor 27nH ï¿½5% 0.54? 500mA 0603","https://cz.mouser.com/ProductDetail/Murata-Electronics/LQG18HN27NJ00D?qs=Ak0FrV9sSEhd5kkENoxyIg%3D%3D","0603","LQG18HN27NJ00D","27nH"
 "P1","3x1 2.54mm","TopLayer","159,1056","95,4024","0","Headers & Wire Housings 3P HEADER GOLD 15u single row","https://cz.mouser.com/ProductDetail/TE-Connectivity/5-146280-3?qs=bwpFY26eRVf7xnwkMZzVxA%3D%3D","3x1 2.54mm","5-146280-3","3x1 2.54mm"
 "P2","3x1 2.54mm","TopLayer","159,1310","92,5322","0","Headers & Wire Housings 3P HEADER GOLD 15u single row","https://cz.mouser.com/ProductDetail/TE-Connectivity/5-146280-3?qs=bwpFY26eRVf7xnwkMZzVxA%3D%3D","3x1 2.54mm","5-146280-3","3x1 2.54mm"
 "P3","2x1 2.54mm","TopLayer","152,3238","95,9866","90","Male Header, Pitch 2.54 mm, 1 x 2 Position, Height 8.21 mm, Tail Length 3.05 mm, -65 to 105 degC, RoHS, Bulk","https://cz.mouser.com/ProductDetail/TE-Connectivity/5-146280-2?qs=bwpFY26eRVcxHP%252BQexhLNQ%3D%3D","2x1 2.54mm","5-146280-2","2x1 2.54mm"
@@ -142,13 +141,12 @@ Units used: mm
 "R3","10k","TopLayer","158,7246","89,8398","180","Resistor - 0402 -  10k - 5% - 125mW","https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D","0402","RC0402JR-7W10KL","10k"
 "R4","10k","TopLayer","143,8910","92,3544","180","Resistor - 0402 -  10k - 5% - 125mW","https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D","0402","RC0402JR-7W10KL","10k"
 "R5","270R","TopLayer","200,3806","65,4304","0","Resistor - 0402 - 270R - 1% - 125mW","https://cz.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGP0402F270R?qs=wUXugUrL1qyX8E%252BNg7WV%252Bg%3D%3D","0402","CRGP0402F270R","270R"
-"R7","1k5","BottomLayer","124,0001","41,8000","180","Resistor - 0402 - 1k5 - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1501X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PTwSSYoQ29R0%3D","0402","ERJ2RKF6800X","1k5"
-"R8","1k5","BottomLayer","124,0001","43,0500","180","Resistor - 0402 - 1k5 - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1501X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PTwSSYoQ29R0%3D","0402","ERJ2RKF6800X","1k5"
-"R9","1k","BottomLayer","122,5000","35,7500","180","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
+"R7","1k5","BottomLayer","124,0001","41,8000","180","Resistor - 0402 - 1k5 - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1501X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PTwSSYoQ29R0%3D","0402","ERJ-2RKF1501X","1k5"
+"R8","1k5","BottomLayer","124,0001","43,0500","180","Resistor - 0402 - 1k5 - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1501X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PTwSSYoQ29R0%3D","0402","ERJ-2RKF1501X","1k5"
 "R10","120R","BottomLayer","186,2328","103,8860","180","Resistor - 0402 -  120R - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-S02F1200X?qs=Zyl8A9hlmJqrTWz%252BBOpJnw%3D%3D","0402","ERJ-S02F1200X","120R"
-"R12","120k","TopLayer","183,9360","85,0020","270","Resistor - 0402 -  120k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-S02F1203X?qs=Zyl8A9hlmJoQeBgjsVTVMg%3D%3D","0402","ERJ-S02F1203X","120k"
+"R12","16k","TopLayer","183,9360","85,0020","270","Resistor - 0402 -  16k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF1602X?qs=MVjVSMjNRMp9pwpCSUWuGw%3D%3D","0402","ERJ-2RKF1602X","16k"
 "R13","1k","TopLayer","174,6593","85,9520","180","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
-"R14","51k","TopLayer","175,4360","88,0020","270","Resistor - 0402 -  51k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF5102X?qs=YMBIwoNQYdXcamr3JeKUBw%3D%3D","0402","ERJ-2RKF5102X","51k"
+"R14","4.7k","TopLayer","175,4360","88,0020","270","Resistor - 0402 -  4.7k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=H7k1u0Mp9JQWpspavPhQZA%3D%3D","0402","ERJ-2RKF4701X","4.7k"
 "R18","10k","TopLayer","184,8104","67,4624","270","Resistor - 0402 -  10k - 5% - 125mW","https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D","0402","RC0402JR-7W10KL","10k"
 "R19","49.9R","TopLayer","181,9910","60,5282","270","Resistor - 0402 -  49.9R - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF49R9X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27UdsBFBOB8ls%3D","0402","ERJ-2RKF49R9X","49.9R"
 "R20","49.9R","TopLayer","181,9910","58,6740","90","Resistor - 0402 -  49.9R - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF49R9X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27UdsBFBOB8ls%3D","0402","ERJ-2RKF49R9X","49.9R"
@@ -169,14 +167,12 @@ Units used: mm
 "R38","10k","TopLayer","184,2126","72,7210","270","Resistor - 0402 -  10k - 5% - 125mW","https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D","0402","RC0402JR-7W10KL","10k"
 "R41","1k","TopLayer","146,5104","96,0036","90","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
 "R42","4.87k","TopLayer","114,5540","103,9042","90","Resistor - 0402 -  4.87k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4871X?qs=YMBIwoNQYdV9ZzOLxQ6NUw%3D%3D","0402","ERJ-2RKF4871X","4.87k"
-"R43","232k","BottomLayer","165,4302","103,8860","90","Resistor - 0402 -  232k - 0.5% - 62mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ2RKD2323X?qs=YCa%2FAAYMW02KvIWpqTK%252Bgg%3D%3D","0402","ERJ2RKD2323X","232k"
+"R43","27k","BottomLayer","165,4302","103,8860","90","Resistor - 0402 - 27k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-H2RD2702X?qs=eP2BKZSCXI50Sdsvimutzw%3D%3D","0402","ERJ-H2RD2702X","27k"
 "R44","1k","BottomLayer","165,5318","107,9246","180","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
-"R45","51k","BottomLayer","165,4556","105,6386","90","Resistor - 0402 -  51k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF5102X?qs=YMBIwoNQYdXcamr3JeKUBw%3D%3D","0402","ERJ-2RKF5102X","51k"
+"R45","4.7k","BottomLayer","165,4556","105,6386","90","Resistor - 0402 -  4.7k - 1% - 100mW","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=H7k1u0Mp9JQWpspavPhQZA%3D%3D","0402","ERJ-2RKF4701X","4.7k"
 "R46","0R","TopLayer","183,1000","54,9000","180","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
 "R47","0R","TopLayer","147,4470","56,2864","0","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
-"R48","0R","TopLayer","153,1366","56,3118","180","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
 "R49","0R","TopLayer","155,6512","48,7680","270","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
-"R50","0R","TopLayer","155,5750","52,9590","270","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
 "R51","10k","TopLayer","182,2196","105,3846","270","Resistor - 0402 -  10k - 5% - 125mW","https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D","0402","RC0402JR-7W10KL","10k"
 "R52","0R","TopLayer","180,0000","54,9000","180","Resistor 0603 0R","https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D","0603","ERJ-3GEY0R00V","0R"
 "R6_U_Opto_inputs1","1k","BottomLayer","128,1289","41,5000","90","Resistor 0603 1KR 100mW 1%","https://cz.mouser.com/ProductDetail/YAGEO/RT0603FRE071KL?qs=8cPjvKtxWv68ZVEzoi6JxQ%3D%3D","0603","RT0603FRE071KL","1k"
@@ -223,7 +219,7 @@ Units used: mm
 "U1","STM32F407ZGT6","TopLayer","156,0700","75,2550","0","ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB Internal RAM, 114 I/Os, 144-pin LQFP, -40 to 85 degC, Tray","https://cz.mouser.com/ProductDetail/STMicroelectronics/STM32F407ZGT6?qs=Z8%252BeY1k3TIKo142SZNWnSQ%3D%3D","LQFP144","STM32F407ZGT6","Cortex - M4 uC"
 "U2","ESD - SOT-23-6- TVSPACK - USBLC6-4SC6","TopLayer","184,5000","59,7500","270","ESD Suppressors / TVS Diodes Low Cap ESD Protect -  Working VOltage 5.25V, Br: 6V, Clamp 17V","https://cz.mouser.com/ProductDetail/STMicroelectronics/USBLC6-4SC6?qs=k9dH%2Fx4GHJCNdehb8zInZg%3D%3D","SOT-23-6","USBLC6-4SC6","Operate:5.25V, Br: 6V, Clamp 17V"
 "U4","LTV-816S-TA1","BottomLayer","120,4468","37,7444","270","Photocoupler, 50 mA, -30 to 110 degC, 4-Pin SMD, RoHS, Tape and Reel","https://cz.mouser.com/ProductDetail/Lite-On/LTV-816S-TA1?qs=gnaPJ2cis715Sm%2FgFsy6%2FQ%3D%3D","PDIP-4 Gull Wing","LTV-816S-TA1","output 80V 50mA, Input  1.2V"
-"U5","DP83848JSQ/NOPB","TopLayer","174,5170","60,1560","90","PHYTER® Mini LS Commercial Temperature Single Port 10/100 Mb/s Ethernet Transceiver, 40-pin LLP, Pb-Free, 250 Reel","https://cz.mouser.com/ProductDetail/Texas-Instruments/DP83848JSQ-NOPB?qs=7X5t%252BdzoRHAkvw41SeKPjQ%3D%3D","WQFN-40","DP83848JSQ/NOPB","10/100BASE-T PHY"
+"U5","DP83848JSQ/NOPB","TopLayer","174,5170","60,1560","90","PHYTERï¿½ Mini LS Commercial Temperature Single Port 10/100 Mb/s Ethernet Transceiver, 40-pin LLP, Pb-Free, 250 Reel","https://cz.mouser.com/ProductDetail/Texas-Instruments/DP83848JSQ-NOPB?qs=7X5t%252BdzoRHAkvw41SeKPjQ%3D%3D","WQFN-40","DP83848JSQ/NOPB","10/100BASE-T PHY"
 "U6","AT24MAC602-STUM-T - MAC EEPROM","TopLayer","138,3792","78,3590","180","2-Kbit (256 x 8), 2-wire Serial EEPROM with a Factory-Programmed EUI-64(TM)Address Plus an Embedded Unique 128-bit Serial Number, 1.7 to 5.5 V, -40 to 85 degC, 5-Pin SOT23 (5TS1), Tape and Reel","https://cz.mouser.com/ProductDetail/Microchip-Technology-Atmel/AT24MAC602-STUM-T?qs=s44pgLhgXQiuNdSpdYyLLA%3D%3D","SOT-23-5","AT24MAC602-STUM-T","EEPROM, 2-Kbit, I2C, with MAC"
 "U7","MUX -  SOT-23 - TMUX1308QDYYRQ1","TopLayer","152,5000","41,7500","0","Multiplexer Switch ICs Automotive 5-V, 8:1, 1-channel multiplexer with injection current control and 1.8V logic 16-SOT-23-THN -40 to 125","https://cz.mouser.com/ProductDetail/Texas-Instruments/TMUX1308QDYYRQ1?qs=xZ%2FP%252Ba9zWqaqz9D2kpWQ%2FA%3D%3D","SOT-23-THIN-16","TMUX1308QDYYRQ1","8:1 MUX"
 "U8","SN65HVD232D","BottomLayer","184,8866","99,6188","90","3.3 V CAN Transceiver, 17 mA, -40 to 85 degC, 8-pin SOIC (D), Green (RoHS & no Sb/Br)","https://eu.mouser.com/ProductDetail/Texas-Instruments/SN65HVD232D?qs=QViXGNcIEAueLIS9b8IyYg%3D%3D","SOIC-8","SN65HVD232D","1Mbit CAN , 3-3.6VDC"
@@ -240,10 +236,10 @@ Units used: mm
 "U3_U_Opto_inputs7","LTV-816S-TA1","BottomLayer","191,5184","38,0000","90","Photocoupler, 50 mA, -30 to 110 degC, 4-Pin SMD, RoHS, Tape and Reel","https://cz.mouser.com/ProductDetail/Lite-On/LTV-816S-TA1?qs=gnaPJ2cis715Sm%2FgFsy6%2FQ%3D%3D","PDIP-4 Gull Wing","LTV-816S-TA1","output 80V 50mA, Input  1.2V"
 "U3_U_Opto_inputs8","LTV-816S-TA1","BottomLayer","201,5000","38,0000","90","Photocoupler, 50 mA, -30 to 110 degC, 4-Pin SMD, RoHS, Tape and Reel","https://cz.mouser.com/ProductDetail/Lite-On/LTV-816S-TA1?qs=gnaPJ2cis715Sm%2FgFsy6%2FQ%3D%3D","PDIP-4 Gull Wing","LTV-816S-TA1","output 80V 50mA, Input  1.2V"
 "VR1","1k Trimmer","TopLayer","143,0540","53,5940","270","Variable Resistor Trimmer - 1k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-102E?qs=2hAPiALdQ0nRULMRC6GCtg%3D%3D","3mm SMD TRIMPOT","TC33X-2-102E","1k"
-"VR2","50k Trimmer","TopLayer","180,4360","86,0770","0","Variable Resistor Trimmer - 50k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-503E?qs=tEaODSGlU8NgxHjveDtEEg%3D%3D","3mm SMD TRIMPOT","TC33X-2-102E","50k"
+"VR2","5k Trimmer","TopLayer","180,4360","86,0770","0","Variable Resistor Trimmer - 5k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-502E?qs=r%252B5EJQndA0pTgyiJsDuA%252BA%3D%3D","3mm SMD TRIMPOT","TC33X-2-502E","5k"
 "VR3","1k Trimmer","TopLayer","150,2930","47,8790","270","Variable Resistor Trimmer - 1k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-102E?qs=2hAPiALdQ0nRULMRC6GCtg%3D%3D","3mm SMD TRIMPOT","TC33X-2-102E","1k"
 "VR4","50k Trimmer","TopLayer","131,5212","99,7446","180","Variable Resistor Trimmer - 50k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-503E?qs=tEaODSGlU8NgxHjveDtEEg%3D%3D","3mm SMD TRIMPOT","TC33X-2-102E","50k"
 "VR5","50k Trimmer","TopLayer","125,1872","99,7210","180","Variable Resistor Trimmer - 50k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-503E?qs=tEaODSGlU8NgxHjveDtEEg%3D%3D","3mm SMD TRIMPOT","TC33X-2-102E","50k"
-"VR6","50k Trimmer","TopLayer","168,5780","105,2068","90","Variable Resistor Trimmer - 50k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-503E?qs=tEaODSGlU8NgxHjveDtEEg%3D%3D","3mm SMD TRIMPOT","TC33X-2-102E","50k"
-"Y1","8MHz","TopLayer","137,0648","73,0630","0","Crystal 8MHz ±10ppm CL=18pF SMD-4 5mm x 3.2mm","https://cz.mouser.com/ProductDetail/ABRACON/ABM3B-8.000MHZ-D2-T?qs=icabnvfcbsHVTU9nAlXQRw%3D%3D","SMD 4pin OSC","ABM3B-8.000MHZ-D2-T","8MHz"
+"VR6","5k Trimmer","TopLayer","168,5780","105,2068","90","Variable Resistor Trimmer - 5k - 25% -100mW - single turn","https://cz.mouser.com/ProductDetail/Bourns/TC33X-2-502E?qs=r%252B5EJQndA0pTgyiJsDuA%252BA%3D%3D","3mm SMD TRIMPOT","TC33X-2-502E","5k"
+"Y1","8MHz","TopLayer","137,0648","73,0630","0","Crystal 8MHz ï¿½10ppm CL=18pF SMD-4 5mm x 3.2mm","https://cz.mouser.com/ProductDetail/ABRACON/ABM3B-8.000MHZ-D2-T?qs=icabnvfcbsHVTU9nAlXQRw%3D%3D","SMD 4pin OSC","ABM3B-8.000MHZ-D2-T","8MHz"
 "Y2","50MHz_oscilator","TopLayer","174,3500","68,4000","180","Oscilator - 50MHz - 30ppm - 15pF - 1.71 - 3.63V","https://cz.mouser.com/ProductDetail/KYOCERA-AVX/KC2016Z50.0000C15XXK?qs=sGAEpiMZZMtldj7qu1ydrbV2KlGvrVWI6qQFSeMxWJ%252BAw5U4y9rW5g%3D%3D","2x1.6mm","KC2016Z50.0000C15XXK","50MHz"

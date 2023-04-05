@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=GND Pin=C37-2
+Removed Pin From Net: NetName=USB_5V Pin=C38-1
+Removed Pin From Net: NetName=GND Pin=C38-2
+Removed Pin From Net: NetName=USB_5V Pin=D6-2
+Removed Pin From Net: NetName=USB_ID Pin=D7-1
+Removed Pin From Net: NetName=GND Pin=D7-2
+Removed Pin From Net: NetName=USB_D_P Pin=D7-3
+Removed Pin From Net: NetName=USB_D_N Pin=D7-4
+Removed Pin From Net: NetName=GND Pin=D7-5
+Removed Pin From Net: NetName=USB_5V Pin=FB1-2
+Removed Pin From Net: NetName=GND Pin=J6-2
+Removed Pin From Net: NetName=USB_D_N Pin=J6-3
+Removed Pin From Net: NetName=USB_D_P Pin=J6-4
+Removed Pin From Net: NetName=USB_ID Pin=J6-5
+Removed Pin From Net: NetName=GND Pin=J6-MP1
+Removed Pin From Net: NetName=GND Pin=J6-MP2
+Removed Pin From Net: NetName=GND Pin=J6-MP3
+Removed Pin From Net: NetName=GND Pin=J6-MP4
+Removed Pin From Net: NetName=GND Pin=R34-1
+Removed Pin From Net: NetName=USB_5V Pin=R35-1
+Removed Pin From Net: NetName=USB_SENSE Pin=R35-2
+Removed Pin From Net: NetName=USB_SENSE Pin=R38-1
+Removed Pin From Net: NetName=GND Pin=R38-2
+Change Component Footprint: Designator=J3 Old Footprint=ARJM11D7009ABEW2 New Footprint=ARJM11D7009ABEW2 - better3D

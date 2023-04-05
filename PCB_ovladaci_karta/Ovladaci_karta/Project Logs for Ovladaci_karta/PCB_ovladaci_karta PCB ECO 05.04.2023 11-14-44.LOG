@@ -1,0 +1,52 @@
+Change Component Footprint: Designator=J3 Old Footprint=ARJM11D7009ABEW2 New Footprint=ARJM11D7009ABEW2 - better3D
+Change component parameters: Designator = "C37" ("C37"); Footprint = "0603-CAP"; UniqueID = "\CZAXKLRD\JKVHLIHJ" ("\CZAXKLRD\JKVHLIHJ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/TDK/C1608JB1V225K080AC?qs=xLDY6iXSiQbY%2FrhN9AA4AA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "C1608JB1V225K080AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C38" ("C38"); Footprint = "0603-CAP"; UniqueID = "\CZAXKLRD\FNAGGSZM" ("\CZAXKLRD\FNAGGSZM")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/TDK/C1608JB1V225K080AC?qs=xLDY6iXSiQbY%2FrhN9AA4AA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "C1608JB1V225K080AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D6" ("D6"); Footprint = "0603_RED_LED"; UniqueID = "\CZAXKLRD\NZOUJWTK" ("\CZAXKLRD\NZOUJWTK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/SML-D12U1WT86?qs=M3jcYzEJUdEySuGkbjHEtQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0602"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "SML-D12U1WT86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "RED LED - 2.2V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D7" ("D7"); Footprint = "SOT23-6L"; UniqueID = "\CZAXKLRD\KKGNNMFR" ("\CZAXKLRD\KKGNNMFR")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/STMicroelectronics/ESDA6V1BC6?qs=9PdvrqCL7oAFp2zmpu55Tw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23-6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ESDA6V1BC6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "ESD for 5V USB rails"; VariantName = "[No Variations]"
+Change component parameters: Designator = "FB1" ("FB1"); Footprint = "FERRITE_BEAD"; UniqueID = "\CZAXKLRD\VJVHRJXO" ("\CZAXKLRD\VJVHRJXO")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18EG101TN1D?qs=rjbY5pkpCp4yQ17nVbKqBw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "BLM18EG101TN1D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J6" ("J6"); Footprint = "USB_MICRO"; UniqueID = "\CZAXKLRD\RLPZFFGB" ("\CZAXKLRD\RLPZFFGB")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/CUI-Devices/UJ2-MIBH-G-SMT-TR?qs=IS%252B4QmGtzzpvS1XQusp0iA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "USB 2.0 Type B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "UJ2-MIBH-G-SMT-TR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "USB 2.0 Type B"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R35" ("R35"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\CZAXKLRD\VRWXYQIG" ("\CZAXKLRD\VRWXYQIG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-2RKF4871X?qs=YMBIwoNQYdV9ZzOLxQ6NUw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ-2RKF4871X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.87k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R38" ("R38"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\CZAXKLRD\DTHSVUVF" ("\CZAXKLRD\DTHSVUVF")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/YAGEO/RC0402JR-7W10KL?qs=tggtontpCXPnY%2FhgQXv%2FLg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "RC0402JR-7W10KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Class: Name=U_USB
+Added Differential Pair: Name=USB_D
+Added Class: Name=USB_DIFF

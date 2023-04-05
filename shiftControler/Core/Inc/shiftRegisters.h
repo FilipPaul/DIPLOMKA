@@ -5,6 +5,9 @@
 #include "stdint.h"
 #include "globals.h"
 
+#define REGISTER_ENDIANITY_1_PIN_IS_MSB 0
+#define REGISTER_ENDIANITY_1_PIN_IS_LSB 1
+
 typedef struct ShiftRegisters{
   uint16_t ser_pin;
   uint16_t srclk_pin;
@@ -18,6 +21,7 @@ typedef struct ShiftRegisters{
   GPIO_TypeDef* noe_port;
   uint8_t shift_reg_length;
   uint64_t current_satus;
+  uint8_t endianity;
 } ShifRegister;
 
 uint8_t loadDataToShiftReg(uint64_t data, ShifRegister* shiftRegister);

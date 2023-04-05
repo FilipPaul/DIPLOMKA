@@ -1,0 +1,77 @@
+Added Component: Designator=C40(0402 CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://eu.mouser.com/ProductDetail/KEMET/C0402C104K3RACTU?qs=YCcZ0GhAU2q7BaxZ%2FluQHA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0402C104K3RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "80-C0402C104K3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C41(0402 CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://eu.mouser.com/ProductDetail/KEMET/C0402C104K3RACTU?qs=YCcZ0GhAU2q7BaxZ%2FluQHA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0402C104K3RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "80-C0402C104K3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C42(0603-CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/TDK/C1608X5R1V475K080AC?qs=dfay7wIA1uF9DVjUL4K4oA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C1608X5R1V475K080AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C1608X5R1V475K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Added Component: Designator=C43(0402 CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://eu.mouser.com/ProductDetail/KEMET/C0402C104K3RACTU?qs=YCcZ0GhAU2q7BaxZ%2FluQHA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "C0402C104K3RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "80-C0402C104K3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=R46(0603- SMD resistor)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R52(0603- SMD resistor)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3GEY0R00V?qs=66DK8nO8gJALIOqOWgiVwg%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=DAC_BUFFWER_PWR Pin=C41-1
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=DAC_BUFFWER_PWR Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=NetR47_2 Pin=J1-32
+Added Pin To Net: NetName=NetR49_2 Pin=J20-1
+Added Pin To Net: NetName=NetR49_2 Pin=J20-2
+Added Pin To Net: NetName=NetR47_2 Pin=P12-2
+Added Pin To Net: NetName=NetR49_2 Pin=P13-2
+Added Pin To Net: NetName=NetC31_1 Pin=R46-1
+Added Pin To Net: NetName=3V3_MCU Pin=R46-2
+Added Pin To Net: NetName=NetC32_1 Pin=R52-1
+Added Pin To Net: NetName=3V3_MCU Pin=R52-2
+Change Net Name : Old Net Name=NetR47_2 New Net Name=Vref1
+Change Net Name : Old Net Name=NetR49_2 New Net Name=DAC_terminal
+Added Pin To Net: NetName=NetC40_1 Pin=C40-1
+Added Pin To Net: NetName=NetC40_1 Pin=VR1-1
+Added Net: Name=NetC40_1
+Added Pin To Net: NetName=NetC43_1 Pin=C43-1
+Added Pin To Net: NetName=NetC43_1 Pin=VR3-1
+Added Net: Name=NetC43_1
+Added Member To Class: ClassName=main_scheme Member=Component C40 100nF
+Added Member To Class: ClassName=main_scheme Member=Component C41 100nF
+Added Member To Class: ClassName=main_scheme Member=Component C42 4.7uF
+Added Member To Class: ClassName=main_scheme Member=Component C43 100nF
+Added Member To Class: ClassName=U_Ethernet Member=Component R46 0R
+Added Member To Class: ClassName=U_Ethernet Member=Component R52 0R

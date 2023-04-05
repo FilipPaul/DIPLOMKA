@@ -1,0 +1,11 @@
+Change Component DesignItemId : Designator=R43 Old DesignItemId=Resistor - 0402 -220k New DesignItemId=Resistor - 0402 -232k
+Change Component Comment : Designator=R43 Old Comment=220k New Comment=232k
+Change Component Description : Designator=R43 Old Description=Resistor - 0402 -  220k - 1% - 100mW New Description=Resistor - 0402 -  232k - 0.5% - 62mW
+Change component parameters: Designator = "R43" ("R43"); Footprint = "RESC1005X40X25NL05T05"; UniqueID = "\QPUBMPOI\ZRPZTFZV" ("\QPUBMPOI\ZRPZTFZV")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "myLinks"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://cz.mouser.com/ProductDetail/Panasonic/ERJ2RKD2323X?qs=YCa%2FAAYMW02KvIWpqTK%252Bgg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ERJ2RKD2323X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-2RKD2323X"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "232k"; VariantName = "[No Variations]"
