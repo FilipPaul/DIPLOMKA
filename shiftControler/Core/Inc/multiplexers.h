@@ -19,6 +19,7 @@ typedef struct Multiplexer{
   GPIO_TypeDef* data_out_ports[10];
   GPIO_TypeDef* noe_port;
   uint64_t current_satus;
+  uint8_t endianity;
 } Multiplexer;
 
 GPIO_PinState MUXreadAdress(uint8_t address, Multiplexer* mux);

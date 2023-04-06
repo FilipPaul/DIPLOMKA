@@ -16,5 +16,6 @@ uint64_t MUXreadAll(Multiplexer* mux){
   for(uint8_t i = 0; i < mux->mux_length*mux->number_of_paralel_muxes; i++){
     data |= ((uint64_t)MUXreadAdress(i, mux) << i);
   }
+  mux->current_satus = data;
   return data;
 }

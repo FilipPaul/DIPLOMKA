@@ -15,6 +15,7 @@
         "globals.h": "c",
         "stdint.h": "c",
         "stdlib.h": "c",
-        "multiplexers.h": "c"
+        "multiplexers.h": "c",
+        "type_traits": "c"
     }
 }
