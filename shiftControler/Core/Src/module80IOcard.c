@@ -38,16 +38,16 @@ ShifRegister IO1TO40_OUTPUTS = {
 
 
 ShifRegister IO41TO80_OUTPUTS = {
-.ser_pin = NMOS_SHFT_1TO5_SER_Pin,
-.srclk_pin = NMOS_SHFT_1TO5_SRCLK_Pin,
-.rclk_pin = NMOS_SHFT_1TO5_RCLK_Pin,
-.srclr_pin = NMOS_SHFT_1TO5_SRCLR_Pin,
-.noe_pin = NMOS_SHFT_1TO5_NOE_Pin,
-.ser_port = NMOS_SHFT_1TO5_SER_GPIO_Port,
-.srclk_port = NMOS_SHFT_1TO5_SRCLK_GPIO_Port,
-.rclk_port = NMOS_SHFT_1TO5_RCLK_GPIO_Port,
-.srclr_port = NMOS_SHFT_1TO5_SRCLR_GPIO_Port,
-.noe_port = NMOS_SHFT_1TO5_NOE_GPIO_Port,
+.ser_pin = PMOS_SHFT_6TO10_SER_Pin,
+.srclk_pin = PMOS_SHFT_6TO10_SRCLK_Pin,
+.rclk_pin = PMOS_SHFT_6TO10_RCLK_Pin,
+.srclr_pin = PMOS_SHFT_6TO10_SRCLR_Pin,
+.noe_pin = PMOS_SHFT_6TO10_NOE_Pin,
+.ser_port = PMOS_SHFT_6TO10_SER_GPIO_Port,
+.srclk_port = PMOS_SHFT_6TO10_SRCLK_GPIO_Port,
+.rclk_port = PMOS_SHFT_6TO10_RCLK_GPIO_Port,
+.srclr_port = PMOS_SHFT_6TO10_SRCLR_GPIO_Port,
+.noe_port = PMOS_SHFT_6TO10_NOE_GPIO_Port,
 .current_satus = 0,
 .shift_reg_length = 40,
 .endianity = REGISTER_ENDIANITY_1_PIN_IS_MSB,
@@ -71,16 +71,16 @@ ShifRegister IO1TO40_IMPEDANCES = {
 
 
 ShifRegister IO41TO80_IMPEDANCES = {
-.ser_pin = NMOS_SHFT_1TO5_SER_Pin,
-.srclk_pin = NMOS_SHFT_1TO5_SRCLK_Pin,
-.rclk_pin = NMOS_SHFT_1TO5_RCLK_Pin,
-.srclr_pin = NMOS_SHFT_1TO5_SRCLR_Pin,
-.noe_pin = NMOS_SHFT_1TO5_NOE_Pin,
-.ser_port = NMOS_SHFT_1TO5_SER_GPIO_Port,
-.srclk_port = NMOS_SHFT_1TO5_SRCLK_GPIO_Port,
-.rclk_port = NMOS_SHFT_1TO5_RCLK_GPIO_Port,
-.srclr_port = NMOS_SHFT_1TO5_SRCLR_GPIO_Port,
-.noe_port = NMOS_SHFT_1TO5_NOE_GPIO_Port,
+.ser_pin = NMOS_SHFT_6TO10_SER_Pin,
+.srclk_pin = NMOS_SHFT_6TO10_SRCLK_Pin,
+.rclk_pin = NMOS_SHFT_6TO10_RCLK_Pin,
+.srclr_pin = NMOS_SHFT_6TO10_SRCLR_Pin,
+.noe_pin = NMOS_SHFT_6TO10_NOE_Pin,
+.ser_port = NMOS_SHFT_6TO10_SER_GPIO_Port,
+.srclk_port = NMOS_SHFT_6TO10_SRCLK_GPIO_Port,
+.rclk_port = NMOS_SHFT_6TO10_RCLK_GPIO_Port,
+.srclr_port = NMOS_SHFT_6TO10_SRCLR_GPIO_Port,
+.noe_port = NMOS_SHFT_6TO10_NOE_GPIO_Port,
 .current_satus = 0,
 .shift_reg_length = 40,
 .endianity = REGISTER_ENDIANITY_1_PIN_IS_MSB,
@@ -100,22 +100,22 @@ Multiplexer MUXES_1TO40 = {
 .data_out_ports = {MUX_D1_GPIO_Port, MUX_D2_GPIO_Port,MUX_D3_GPIO_Port,MUX_D4_GPIO_Port,MUX_D5_GPIO_Port},
 .noe_port = MUX_nOE_GPIO_Port,
 .current_satus = 0,
-.endianity = REGISTER_ENDIANITY_1_PIN_IS_LSB,
+.endianity = REGISTER_ENDIANITY_1_PIN_IS_MSB,
 };
 
 Multiplexer MUXES_41TO80 = {
-.A0_pin = MUX_A0_Pin,
-.A1_pin = MUX_A1_Pin,
-.A2_pin = MUX_A2_Pin,
-.data_out_pins = {MUX_D1_Pin, MUX_D2_Pin,MUX_D3_Pin,MUX_D4_Pin,MUX_D5_Pin},
+.A0_pin = MUX2_A0_Pin,
+.A1_pin = MUX2_A1_Pin,
+.A2_pin = MUX2_A2_Pin,
+.data_out_pins = {MUX_D6_Pin, MUX_D7_Pin,MUX_D8_Pin,MUX_D9_Pin,MUX_D10_Pin},
 .mux_length = 8,
 .number_of_paralel_muxes = 5,
-.noe_pin = MUX_nOE_Pin,
-.A0_port = MUX_A0_GPIO_Port,
-.A1_port = MUX_A1_GPIO_Port,
-.A2_port = MUX_A2_GPIO_Port,
-.data_out_ports = {MUX_D1_GPIO_Port, MUX_D2_GPIO_Port,MUX_D3_GPIO_Port,MUX_D4_GPIO_Port,MUX_D5_GPIO_Port},
-.noe_port = MUX_nOE_GPIO_Port,
+.noe_pin = MUX2_nOE_Pin,
+.A0_port = MUX2_A0_GPIO_Port,
+.A1_port = MUX2_A1_GPIO_Port,
+.A2_port = MUX2_A2_GPIO_Port,
+.data_out_ports = {MUX_D6_GPIO_Port, MUX_D7_GPIO_Port,MUX_D8_GPIO_Port,MUX_D9_GPIO_Port,MUX_D10_GPIO_Port},
+.noe_port = MUX2_nOE_GPIO_Port,
 .current_satus = 0,
 .endianity = REGISTER_ENDIANITY_1_PIN_IS_MSB,
 };
@@ -241,9 +241,9 @@ static void measureCommands(commandTemplate* current_command){
                     if(pin_voltages[pin+40] != -1) continue; //if the pin is already measured, skip it, because it is already measured
                     uint16_t number_of_oposite_readings = 0;
                     for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
-                        number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_41TO80) != ((MUXES_1TO40.current_satus >> (40-pin)) & 0x01));
+                        number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_41TO80) != ((MUXES_1TO40.current_satus >> (40 - pin)) & 0x01));
                         if (number_of_oposite_readings > voltage_read_averages/2){
-                            pin_voltages[pin] = DAC_VALUE * voltage_reference /4096;
+                            pin_voltages[pin+40] = DAC_VALUE * voltage_reference /4096;
                             break;
                         }
                     }
@@ -254,9 +254,9 @@ static void measureCommands(commandTemplate* current_command){
             //RESPONSE
             sprintf(current_command->response,"OK;");
             for (uint8_t i = 0; i < 80; i++){
-                sprintf(current_command->response + strlen(current_command->response),"(%d:%f);",i,pin_voltages[i]);
+                sprintf(current_command->response + strlen(current_command->response),"%f;",pin_voltages[i]);
             }
-            sprintf(current_command->response + strlen(current_command->response),"Time: %lu\n",(_us_tick - start_2500_ns_value));
+            sprintf(current_command->response + strlen(current_command->response),"\n");
         }//ALL
 
         else{ //ANY NUMBER

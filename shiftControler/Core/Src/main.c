@@ -379,7 +379,12 @@ static void MX_GPIO_Init(void)
                           |LD2_Pin|TIMER_check_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(USB_PowerSwitchOn_GPIO_Port, USB_PowerSwitchOn_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOD, NMOS_SHFT_6TO10_RCLK_Pin|NMOS_SHFT_6TO10_SRCLR_Pin|NMOS_SHFT_6TO10_SRCLK_Pin|NMOS_SHFT_6TO10_SER_Pin
+                          |NMOS_SHFT_6TO10_NOE_Pin|PMOS_SHFT_6TO10_RCLK_Pin|MUX2_A0_Pin|MUX2_A1_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOG, PMOS_SHFT_6TO10_SRCLR_Pin|PMOS_SHFT_6TO10_SRCLK_Pin|PMOS_SHFT_6TO10_SER_Pin|PMOS_SHFT_6TO10_NOE_Pin
+                          |USB_PowerSwitchOn_Pin|MUX2_A2_Pin|MUX2_nOE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : USER_Btn_Pin */
   GPIO_InitStruct.Pin = USER_Btn_Pin;
@@ -422,12 +427,23 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : USB_PowerSwitchOn_Pin */
-  GPIO_InitStruct.Pin = USB_PowerSwitchOn_Pin;
+  /*Configure GPIO pins : NMOS_SHFT_6TO10_RCLK_Pin NMOS_SHFT_6TO10_SRCLR_Pin NMOS_SHFT_6TO10_SRCLK_Pin NMOS_SHFT_6TO10_SER_Pin
+                           NMOS_SHFT_6TO10_NOE_Pin PMOS_SHFT_6TO10_RCLK_Pin MUX2_A0_Pin MUX2_A1_Pin */
+  GPIO_InitStruct.Pin = NMOS_SHFT_6TO10_RCLK_Pin|NMOS_SHFT_6TO10_SRCLR_Pin|NMOS_SHFT_6TO10_SRCLK_Pin|NMOS_SHFT_6TO10_SER_Pin
+                          |NMOS_SHFT_6TO10_NOE_Pin|PMOS_SHFT_6TO10_RCLK_Pin|MUX2_A0_Pin|MUX2_A1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(USB_PowerSwitchOn_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PMOS_SHFT_6TO10_SRCLR_Pin PMOS_SHFT_6TO10_SRCLK_Pin PMOS_SHFT_6TO10_SER_Pin PMOS_SHFT_6TO10_NOE_Pin
+                           USB_PowerSwitchOn_Pin MUX2_A2_Pin MUX2_nOE_Pin */
+  GPIO_InitStruct.Pin = PMOS_SHFT_6TO10_SRCLR_Pin|PMOS_SHFT_6TO10_SRCLK_Pin|PMOS_SHFT_6TO10_SER_Pin|PMOS_SHFT_6TO10_NOE_Pin
+                          |USB_PowerSwitchOn_Pin|MUX2_A2_Pin|MUX2_nOE_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
 
   /*Configure GPIO pin : USB_OverCurrent_Pin */
   GPIO_InitStruct.Pin = USB_OverCurrent_Pin;
@@ -456,6 +472,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(MUX_nOE_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : MUX_D10_Pin MUX_D9_Pin MUX_D8_Pin MUX_D7_Pin
+                           MUX_D6_Pin */
+  GPIO_InitStruct.Pin = MUX_D10_Pin|MUX_D9_Pin|MUX_D8_Pin|MUX_D7_Pin
+                          |MUX_D6_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
   /*Configure GPIO pins : MUX_D3_Pin MUX_D4_Pin MUX_D2_Pin MUX_D5_Pin */
   GPIO_InitStruct.Pin = MUX_D3_Pin|MUX_D4_Pin|MUX_D2_Pin|MUX_D5_Pin;
@@ -492,7 +516,7 @@ void StartDefaultTask(void const * argument)
   printf("TCP Server started\n");
   printf("DELAY 25us\n");
   _2500_ns_delay(40);
-  printf("DELAY done\n");
+  printf("BOOTED FROM DFU\n");
   HAL_GPIO_WritePin(MUX_nOE_GPIO_Port, MUX_nOE_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(MUX_A0_GPIO_Port, MUX_A0_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(MUX_A1_GPIO_Port, MUX_A1_Pin, GPIO_PIN_RESET);
