@@ -188,7 +188,6 @@ static void measureCommands(commandTemplate* current_command){
     if (strcmp(current_command->subcommands[1],"VOLTAGE") == 0){
         if (checkNumberOfSubcommands(1,1,current_command) == 0) return;
         if (strcmp(current_command->subcommands[2],"ALL") == 0){ //MEASURE VOLTAGE AT ALL PINS IN HIGH Z STATE
-            uint32_t start_2500_ns_value = _us_tick;
             if (dac_ramp_direction ==  DAC_RAMP_DIRECTION_DOWN){ //initial value for ramp  down is FFF
                 HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0xFFF);
             }
@@ -241,7 +240,7 @@ static void measureCommands(commandTemplate* current_command){
                     if(pin_voltages[pin+40] != -1) continue; //if the pin is already measured, skip it, because it is already measured
                     uint16_t number_of_oposite_readings = 0;
                     for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
-                        number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_41TO80) != ((MUXES_1TO40.current_satus >> (40 - pin)) & 0x01));
+                        number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_41TO80) != ((MUXES_41TO80.current_satus >> (40 - pin)) & 0x01));
                         if (number_of_oposite_readings > voltage_read_averages/2){
                             pin_voltages[pin+40] = DAC_VALUE * voltage_reference /4096;
                             break;
