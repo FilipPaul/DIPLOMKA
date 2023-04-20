@@ -1,0 +1,2706 @@
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%DEV_MODE
+Probe        [2 14.71  73.6]  On Device: 1%tp120.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  74.0) <30> [2 14.71  73.6]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Drv.  
+             Analog Guard  
+
+ Path        (2 15.37  74.0) <30> [2 14.71  73.6]
+ Use         S Bus Sense  
+
+ Path        (2 18.00  60.0) <90> [2 14.71  73.6]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%FLMD0
+Probe        [2 13.87  70.7]  On Device: 1%tp414.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  37.0) <140> [2 13.87  70.7]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 17.40  75.4]  On Device: 1%tp112.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 18.00  62.0) <70> [2 17.40  75.4]
+ Use         GP Relay  
+
+ Path        (2 17.00  40.0) <110> (2 18.00  62.0) <70> [2 17.40  75.4]
+ Use         Ground  
+
+
+Page 2
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 17.50  19.0) <90> (2 17.00  40.0) <110> (2 18.00  62.0)
+               <70> [2 17.40  75.4]
+ Use         Ground  
+
+ Path        (2 17.50  40.0) <90> (2 17.50  19.0) <90> (2 17.00  40.0) <110> 
+              (2 18.00  62.0) <70> [2 17.40  75.4]
+ Use         Ground  
+
+ Path        (2 17.50  20.0) <180> (2 18.00  62.0) <70> [2 17.40  75.4]
+ Use         Ground  
+
+ Path        (2 18.00  61.0) <70> [2 17.40  75.4]
+ Use         GP Relay  
+
+ Path        (2 23.00  20.0) <200> (2 18.00  61.0) <70> [2 17.40  75.4]
+ Use         Ground  
+
+ Path        (2 23.00  19.0) <200> (2 18.00  61.0) <70> [2 17.40  75.4]
+ Use         Ground  
+
+ Path        (2 23.00  75.0) <120> [2 17.40  75.4]
+ Use          
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 13.76  74.8]  On Device: 1%tp413.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 13.93  77.0) <30> [2 13.76  74.8]
+ Use         Shorts Test  ASRU Detector   Analog Guard   ASRU Source  
+             G Bus Sense  
+
+ Path        (2 14.50  60.0) <70> [2 13.76  74.8]
+ Use         Ground  
+
+ Path        (2 15.00  40.0) <90> (2 14.50  60.0) <70> [2 13.76  74.8]
+ Use         Ground  
+
+ Path        (2 14.50  19.0) <170> (2 14.50  60.0) <70> [2 13.76  74.8]
+ Use         Ground  
+
+ Path        (2 15.50  59.0) <170> (2 14.50  19.0) <170> (2 14.50  60.0)
+               <70> [2 13.76  74.8]
+ Use         Ground  
+
+
+Page 3
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 23.00  60.0) <200> [2 13.76  74.8]
+ Use         Ground  
+
+ Path        (2 23.00  43.0) <80> (2 23.00  60.0) <200> [2 13.76  74.8]
+ Use          
+
+ Path        (2 23.00  59.0) <80> (2 23.00  43.0) <80> (2 23.00  60.0) <200> 
+              [2 13.76  74.8]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 12.67  73.0]  On Device: 1%tp105.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 15.00  59.0) <80> [2 12.67  73.0]
+ Use         Ground  
+
+ Path        (2 15.50  19.0) <170> (2 15.00  59.0) <80> [2 12.67  73.0]
+ Use         Ground  
+
+ Path        (2 15.50  40.0) <90> (2 15.50  19.0) <170> (2 15.00  59.0)
+               <80> [2 12.67  73.0]
+ Use         Ground  
+
+ Path        (2 17.00  60.0) <110> [2 12.67  73.0]
+ Use         Ground  
+
+ Path        (2 13.00  49.0) <110> [2 12.67  73.0]
+ Use         Ground  
+
+ Path        (2 14.00  59.0) <60> (2 13.00  49.0) <110> [2 12.67  73.0]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 17.50  69.5]  On Device: 1%tp109.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 17.50  60.0) <60> [2 17.50  69.5]
+ Use         Ground  
+
+ Path        (2 14.50  39.0) <120> (2 17.50  60.0) <60> [2 17.50  69.5]
+ Use         Ground  
+
+ Path        (2 15.00  19.0) <180> (2 17.50  60.0) <60> [2 17.50  69.5]
+ Use         Ground  
+
+
+Page 4
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 17.00  39.0) <110> (2 15.00  19.0) <180> (2 17.50  60.0)
+               <60> [2 17.50  69.5]
+ Use         Ground  
+
+ Path        (2 14.50  65.0) <70> [2 17.50  69.5]
+ Use         Shorts Test  Detector Lo   S Bus Sense   G Bus Sense  
+
+ Path        (2 12.91  05.0) <280> [2 17.50  69.5]
+ Use         DUT Power Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 12.94  67.7]  On Device: 1%tp107.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 14.00  60.0) <60> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 14.00  39.0) <90> (2 14.00  60.0) <60> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 14.00  20.0) <90> (2 14.00  39.0) <90> (2 14.00  60.0) <60> 
+              [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 15.00  39.0) <90> (2 14.00  20.0) <90> (2 14.00  39.0) <90> 
+              (2 14.00  60.0) <60> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 15.50  60.0) <90> (2 15.00  39.0) <90> (2 14.00  20.0) <90> 
+              (2 14.00  39.0) <90> (2 14.00  60.0) <60> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 14.50  20.0) <90> (2 14.00  39.0) <90> (2 14.00  60.0) <60> 
+              [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 17.00  19.0) <180> (2 14.00  60.0) <60> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 15.00  60.0) <70> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 15.00  20.0) <170> (2 15.00  60.0) <70> [2 12.94  67.7]
+ Use         Ground  
+
+
+Page 5
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 15.50  39.0) <90> (2 15.00  20.0) <170> (2 15.00  60.0)
+               <70> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 17.00  20.0) <170> (2 15.00  60.0) <70> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 13.00  50.0) <80> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 14.00  19.0) <130> (2 13.00  50.0) <80> [2 12.94  67.7]
+ Use         Ground  
+
+ Path        (2 14.00  40.0) <90> (2 14.00  19.0) <130> (2 13.00  50.0)
+               <80> [2 12.94  67.7]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 13.12  76.0]  On Device: 1%tp102.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 15.50  60.0) <90> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 15.00  39.0) <90> (2 15.50  60.0) <90> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 14.00  20.0) <90> (2 15.00  39.0) <90> (2 15.50  60.0) <90> 
+              [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 14.00  39.0) <90> (2 14.00  20.0) <90> (2 15.00  39.0) <90> 
+              (2 15.50  60.0) <90> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 14.50  20.0) <90> (2 14.00  39.0) <90> (2 14.00  20.0) <90> 
+              (2 15.00  39.0) <90> (2 15.50  60.0) <90> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 14.00  60.0) <90> (2 14.00  39.0) <90> (2 14.00  20.0) <90> 
+              (2 15.00  39.0) <90> (2 15.50  60.0) <90> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 17.00  19.0) <180> (2 14.00  60.0) <90> (2 14.00  39.0)
+               <90> (2 14.00  20.0) <90> (2 15.00  39.0) <90> (2 15.50  60.0)
+               <90> [2 13.12  76.0]
+ Use         Ground  
+
+
+Page 6
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 17.00  59.0) <110> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 23.00  59.0) <210> [2 13.12  76.0]
+ Use         Ground  
+
+ Path        (2 23.00  43.0) <80> (2 23.00  59.0) <210> [2 13.12  76.0]
+ Use          
+
+ Path        (2 23.00  60.0) <80> (2 23.00  43.0) <80> (2 23.00  59.0) <210> 
+              [2 13.12  76.0]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 12.89  75.7]  On Device: 1%tp104.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 14.00  59.0) <80> [2 12.89  75.7]
+ Use         Ground  
+
+ Path        (2 13.00  49.0) <60> (2 14.00  59.0) <80> [2 12.89  75.7]
+ Use         Ground  
+
+ Path        (2 14.50  59.0) <80> [2 12.89  75.7]
+ Use         Ground  
+
+ Path        (2 17.50  39.0) <110> (2 14.50  59.0) <80> [2 12.89  75.7]
+ Use         Ground  
+
+ Path        (2 15.50  20.0) <170> (2 14.50  59.0) <80> [2 12.89  75.7]
+ Use         Ground  
+
+ Path        (2 23.00  40.0) <260> [2 12.89  75.7]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%GND
+Probe        [2 12.89  76.3]  On Device: 1%tp114.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 15.50  59.0) <90> [2 12.89  76.3]
+ Use         Ground  
+
+ Path        (2 14.50  19.0) <170> (2 15.50  59.0) <90> [2 12.89  76.3]
+ Use         Ground  
+
+
+Page 7
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 14.50  60.0) <170> (2 14.50  19.0) <170> (2 15.50  59.0)
+               <90> [2 12.89  76.3]
+ Use         Ground  
+
+ Path        (2 15.00  40.0) <90> (2 14.50  60.0) <170> (2 14.50  19.0)
+               <170> (2 15.50  59.0) <90> [2 12.89  76.3]
+ Use         Ground  
+
+ Path        (2 17.50  59.0) <120> [2 12.89  76.3]
+ Use         Ground  
+
+ Path        (2 23.00  39.0) <260> [2 12.89  76.3]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    1%GND_PREV
+Probe        TERMINAL
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  18.0) <00>   1%GND_PREV   
+ Use         Detector Hi  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%KL30
+Probe        [2 13.05  73.4]  On Device: 1%tp111.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  64.0) <60> [2 13.05  73.4]
+ Use         Source Hi   Detector Hi   Shorts Test  ASRU Source   Analog Guard  
+             ASRU Detector  
+
+ Path        (2 18.00  58.0) <120> [2 13.05  73.4]
+ Use         GP Relay  
+
+ Path        (2 23.00  73.0) <200> [2 13.05  73.4]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%KL30
+Probe        [2 12.67  72.3]  On Device: 1%tp108.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  64.0) <60> [2 12.67  72.3]
+ Use         Source Hi   Detector Hi   Shorts Test  ASRU Source   Analog Guard  
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%KL30V
+Probe        [2 15.80  76.6]  On Device: 1%tp268.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  56.0) <90> [2 15.80  76.6]
+ Use         Detector Hi   Source Hi   Shorts Test  ASRU Detector  
+             ASRU Source   Analog Guard  
+
+
+Page 8
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%KL30V
+Probe        [2 15.80  67.6]  On Device: 1%tp264.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  78.0) <70> [2 15.80  67.6]
+ Use         Detector Hi   I Bus Sense   S Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%KL30V
+Probe        [2 16.93  76.6]  On Device: 1%tp230.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  78.0) <30> [2 16.93  76.6]
+ Use         Detector Hi   I Bus Sense   S Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%KL30V
+Probe        [2 16.93  67.6]  On Device: 1%tp226.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  56.0) <60> [2 16.93  67.6]
+ Use         Detector Hi   Source Hi   Shorts Test  ASRU Detector  
+             ASRU Source   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%LIN
+Probe        [2 14.38  75.4]  On Device: 1%tp117.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  75.0) <30> [2 14.38  75.4]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector  
+
+ Path        (2 23.00  77.0) <170> [2 14.38  75.4]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%LIN
+Probe        [2 13.41  70.6]  On Device: 1%tp116.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  75.0) <40> [2 13.41  70.6]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%LIN_S
+Probe        [2 12.67  71.7]  On Device: 1%tp110.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  63.0) <70> [2 12.67  71.7]
+ Use         ASRU Source   ASRU Detector   Shorts Test 
+
+
+Page 9
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%LIN_S
+Probe        [2 13.11  70.9]  On Device: 1%tp113.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  63.0) <60> [2 13.11  70.9]
+ Use         ASRU Source   ASRU Detector   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P1_PWM06
+Probe        [2 15.48  72.7]  On Device: 1%tp201.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  38.0) <140> [2 15.48  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P2_PWM10
+Probe        [2 16.37  72.7]  On Device: 1%tp241.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  38.0) <140> [2 16.37  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P3_PWM08
+Probe        [2 15.82  72.7]  On Device: 1%tp261.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  57.0) <80> [2 15.82  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P4_PWM14
+Probe        [2 17.05  72.7]  On Device: 1%tp203.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  57.0) <90> [2 17.05  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P5_PWM12
+Probe        [2 16.71  72.7]  On Device: 1%tp221.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  58.0) <70> [2 16.71  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P6_LIN_TXD
+Probe        [2 14.47  73.4]  On Device: 1%tp123.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  72.0) <30> [2 14.47  73.4]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   Digital Drv.  
+
+
+Page 10
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P7_LIN_RXD
+Probe        [2 14.26  73.9]  On Device: 1%tp126.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.13  75.0) <30> [2 14.26  73.9]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P11_VAR_1
+Probe        [2 14.18  73.4]  On Device: 1%tp416.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  58.0) <80> [2 14.18  73.4]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P13_VAR_0
+Probe        [2 13.92  73.6]  On Device: 1%tp417.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  75.0) <70> [2 13.92  73.6]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Digital Drv.   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P14_RDY
+Probe        [2 13.85  73.1]  On Device: 1%tp410.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  37.0) <160> [2 13.85  73.1]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P15_TRST
+Probe        [2 14.02  73.1]  On Device: 1%tp407.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  37.0) <160> [2 14.02  73.1]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P16_TMS
+Probe        [2 13.94  72.7]  On Device: 1%tp409.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  37.0) <160> [2 13.94  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+
+Page 11
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P17_TCK
+Probe        [2 13.67  72.9]  On Device: 1%tp406.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  69.0) <30> [2 13.67  72.9]
+ Use         Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P18_TDO
+Probe        [2 13.77  72.6]  On Device: 1%tp408.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  77.0) <30> [2 13.77  72.6]
+ Use         Shorts Test  Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P19_TDI
+Probe        [2 13.67  72.3]  On Device: 1%tp405.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  38.0) <140> [2 13.67  72.3]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P20_RESET
+Probe        [2 13.91  74.2]  On Device: 1%tp411.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  74.0) <80> [2 13.91  74.2]
+ Use         Detector Hi   ASRU Detector   Shorts Test  Digital Drv.  
+             Analog Guard   ASRU Source  
+
+ Path        (2 18.00  63.0) <110> [2 13.91  74.2]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P27_SBC_NTRIG
+Probe        [2 14.71  73.0]  On Device: 1%tp119.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  38.0) <140> [2 14.71  73.0]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P29_PWM01
+Probe        [2 15.27  71.5]  On Device: 1%tp250.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  38.0) <140> [2 15.27  71.5]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+
+Page 12
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P30_PWM07
+Probe        [2 16.30  71.5]  On Device: 1%tp260.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  38.0) <140> [2 16.30  71.5]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P32_U12S_EIN
+Probe        [2 13.93  70.2]  On Device: 1%tp130.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  58.0) <70> [2 13.93  70.2]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P35_VCC_NTC_EIN
+Probe        [2 13.82  70.0]  On Device: 1%tp135.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  70.0) <40> [2 13.82  70.0]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P37_AN_U12S
+Probe        [2 14.22  69.4]  On Device: 1%tp131.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  58.0) <60> [2 14.22  69.4]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P39_SBC_EN
+Probe        [2 14.12  73.8]  On Device: 1%tp122.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  76.0) <30> [2 14.12  73.8]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P42_AN_TEMP_PCB3
+Probe        [2 14.83  68.9]  On Device: 1%tp302.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  69.0) <30> [2 14.83  68.9]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector   Analog Guard  
+
+
+Page 13
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P43_AN_TEMP_PCB2
+Probe        [2 14.70  68.9]  On Device: 1%tp301.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  69.0) <30> [2 14.70  68.9]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P44_AN_TEMP_PCB1
+Probe        [2 14.74  69.8]  On Device: 1%tp300.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  70.0) <30> [2 14.74  69.8]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P45_VAR_2
+Probe        [2 14.55  69.8]  On Device: 1%tp418.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  70.0) <60> [2 14.55  69.8]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P51_PWM03
+Probe        [2 15.61  71.5]  On Device: 1%tp224.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  57.0) <70> [2 15.61  71.5]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P52_PWM05
+Probe        [2 15.95  71.5]  On Device: 1%tp200.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  57.0) <70> [2 15.95  71.5]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P53_PWM13
+Probe        [2 17.24  71.8]  On Device: 1%tp202.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  57.0) <70> [2 17.24  71.8]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+
+Page 14
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P54_PWM11
+Probe        [2 17.12  71.8]  On Device: 1%tp220.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  57.0) <70> [2 17.12  71.8]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P62_PWM09
+Probe        [2 16.78  71.8]  On Device: 1%tp240.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  58.0) <70> [2 16.78  71.8]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P63_PWM04
+Probe        [2 15.14  72.7]  On Device: 1%tp225.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  58.0) <70> [2 15.14  72.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%P64_PWM02
+Probe        [2 14.87  72.4]  On Device: 1%tp251.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  73.0) <70> [2 14.87  72.4]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN405
+Probe        [2 15.59  73.4]  On Device: 1%tp206.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.62  77.0) <60> [2 15.59  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN408
+Probe        [2 16.74  70.7]  On Device: 1%tp242.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.62  68.0) <30> [2 16.74  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN409
+Probe        [2 17.42  70.7]  On Device: 1%tp205.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.39  69.0) <30> [2 17.42  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+
+Page 15
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN411
+Probe        [2 15.85  70.7]  On Device: 1%tp204.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  69.0) <30> [2 15.85  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN412
+Probe        [2 16.19  70.7]  On Device: 1%tp262.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.38  70.0) <30> [2 16.19  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN416
+Probe        [2 15.93  73.4]  On Device: 1%tp263.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  76.0) <30> [2 15.93  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN419
+Probe        [2 15.17  70.7]  On Device: 1%tp252.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  72.0) <30> [2 15.17  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN420
+Probe        [2 16.47  73.4]  On Device: 1%tp243.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  72.0) <30> [2 16.47  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN423
+Probe        [2 14.90  73.4]  On Device: 1%tp253.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  72.0) <30> [2 14.90  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN425
+Probe        [2 15.51  70.7]  On Device: 1%tp232.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 16.95  72.0) <40> [2 15.51  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+
+Page 16
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN426
+Probe        [2 15.24  73.4]  On Device: 1%tp233.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.01  73.0) <30> [2 15.24  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN429
+Probe        [2 17.15  73.4]  On Device: 1%tp207.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 16.92  74.0) <30> [2 17.15  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN430
+Probe        [2 17.08  70.7]  On Device: 1%tp222.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.60  71.0) <30> [2 17.08  70.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN431
+Probe        [2 16.81  73.4]  On Device: 1%tp223.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 16.92  73.0) <30> [2 16.81  73.4]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN443
+Probe        [2 13.68  74.4]  On Device: 1%tp115.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  76.0) <30> [2 13.68  74.4]
+ Use         Detector Lo   ASRU Source   Digital Drv.   ASRU Source  
+             Shorts Test  Analog Guard   ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN444
+Probe        [2 13.61  69.0]  On Device: 1%tp127.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  67.0) <30> [2 13.61  69.0]
+ Use         Source Hi   ASRU Source   Shorts Test 
+
+ Path        (2 14.50  68.0) <30> [2 13.61  69.0]
+ Use         ASRU Source   Digital Drv.   Detector Hi   Digital Rcv.  
+             ASRU Source   Shorts Test 
+
+
+Page 17
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN447
+Probe        [2 14.68  74.1]  On Device: 1%tp125.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.36  73.0) <30> [2 14.68  74.1]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN449
+Probe        [2 14.37  73.7]  On Device: 1%tp132.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  78.0) <30> [2 14.37  73.7]
+ Use          
+
+ Path        (2 14.00  78.0) <30> [2 14.37  73.7]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN450
+Probe        [2 14.59  73.5]  On Device: 1%tp121.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  75.0) <30> [2 14.59  73.5]
+ Use         ASRU Detector   ASRU Source   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN451
+Probe        [2 13.72  70.4]  On Device: 1%tp400.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.11  70.0) <30> [2 13.72  70.4]
+ Use         ASRU Source   ASRU Detector   Frequency Meas.   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN452
+Probe        [2 13.73  69.0]  On Device: 1%tp133.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 13.88  69.0) <30> [2 13.73  69.0]
+ Use         ASRU Source   Digital Drv.   Detector Hi   Digital Rcv.  
+             ASRU Detector   Shorts Test 
+
+ Path        (2 14.00  68.0) <30> [2 13.73  69.0]
+ Use         Source Hi   ASRU Detector   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN453
+Probe        [2 13.69  71.3]  On Device: 1%tp403.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  66.0) <30> [2 13.69  71.3]
+ Use         ASRU Detector   ASRU Source   Shorts Test 
+
+
+Page 18
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN454
+Probe        [2 14.81  74.1]  On Device: 1%tp419.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  63.0) <60> [2 14.81  74.1]
+ Use         ASRU Detector   Shorts Test 
+
+ Path        (2 15.50  63.0) <60> [2 14.81  74.1]
+ Use         I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN456
+Probe        [2 13.86  71.8]  On Device: 1%tp420.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  68.0) <30> [2 13.86  71.8]
+ Use         Detector Hi   Shorts Test  ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN457
+Probe        [2 14.70  70.5]  On Device: 1%tp421.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  68.0) <30> [2 14.70  70.5]
+ Use         Detector Hi   Shorts Test  ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN463
+Probe        [2 14.05  69.0]  On Device: 1%tp129.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  65.0) <30> [2 14.05  69.0]
+ Use         Detector Lo   Digital Rcv.   Analog Guard   ASRU Source  
+             Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN465
+Probe        [2 14.65  75.2]  On Device: 1%tp106.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  76.0) <30> [2 14.65  75.2]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN466
+Probe        [2 13.56  71.3]  On Device: 1%tp401.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  71.0) <30> [2 13.56  71.3]
+ Use         ASRU Detector   Frequency Meas.   Shorts Test 
+
+
+Page 19
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%SIGN467
+Probe        [2 13.47  69.2]  On Device: 1%tp128.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  66.0) <30> [2 13.47  69.2]
+ Use         Detector Hi   ASRU Detector   Shorts Test 
+
+ Path        (2 14.50  67.0) <30> [2 13.47  69.2]
+ Use         Source Hi   Digital Rcv.   ASRU Detector   Shorts Test 
+             ASRU Source  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T200
+Probe        [2 15.63  70.7]  On Device: 1%tp210.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  66.0) <60> [2 15.63  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T200
+Probe        [2 14.82  67.6]  On Device: 1%tp209.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  55.0) <80> [2 14.82  67.6]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T201
+Probe        [2 17.20  70.7]  On Device: 1%tp213.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  78.0) <40> [2 17.20  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T201
+Probe        [2 17.07  67.6]  On Device: 1%tp212.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  55.0) <70> [2 17.07  67.6]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T202
+Probe        [2 14.82  76.6]  On Device: 1%tp214.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  78.0) <30> [2 14.82  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+
+Page 20
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T202
+Probe        [2 15.81  73.5]  On Device: 1%tp216.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  55.0) <90> [2 15.81  73.5]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T203
+Probe        [2 17.07  76.6]  On Device: 1%tp217.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.60  67.0) <60> [2 17.07  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T203
+Probe        [2 17.38  73.5]  On Device: 1%tp219.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  66.0) <70> [2 17.38  73.5]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T204
+Probe        [2 16.86  70.7]  On Device: 1%tp228.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  64.0) <40> [2 16.86  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T204
+Probe        [2 16.51  67.6]  On Device: 1%tp227.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  55.0) <70> [2 16.51  67.6]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T205
+Probe        [2 16.51  76.6]  On Device: 1%tp229.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  66.0) <60> [2 16.51  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+
+Page 21
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T205
+Probe        [2 17.04  73.5]  On Device: 1%tp231.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  55.0) <110> [2 17.04  73.5]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T206
+Probe        [2 15.29  70.7]  On Device: 1%tp236.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  67.0) <30> [2 15.29  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T206
+Probe        [2 14.26  67.6]  On Device: 1%tp235.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  64.0) <30> [2 14.26  67.6]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T207
+Probe        [2 14.26  76.6]  On Device: 1%tp237.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  64.0) <70> [2 14.26  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T207
+Probe        [2 15.47  73.5]  On Device: 1%tp239.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  55.0) <90> [2 15.47  73.5]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T208
+Probe        [2 16.52  70.7]  On Device: 1%tp246.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  65.0) <30> [2 16.52  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+
+Page 22
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T208
+Probe        [2 15.95  67.6]  On Device: 1%tp245.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  64.0) <30> [2 15.95  67.6]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T209
+Probe        [2 15.95  76.6]  On Device: 1%tp247.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.57  77.0) <30> [2 15.95  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T209
+Probe        [2 16.70  73.5]  On Device: 1%tp249.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  62.0) <70> [2 16.70  73.5]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T210
+Probe        [2 14.95  70.7]  On Device: 1%tp256.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  67.0) <30> [2 14.95  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T210
+Probe        [2 13.70  67.6]  On Device: 1%tp255.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  62.0) <30> [2 13.70  67.6]
+ Use         Detector Hi  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T211
+Probe        [2 13.70  76.6]  On Device: 1%tp257.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  65.0) <70> [2 13.70  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+
+Page 23
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T211
+Probe        [2 15.13  73.5]  On Device: 1%tp259.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  62.0) <70> [2 15.13  73.5]
+ Use         Detector Hi  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T212
+Probe        [2 15.97  70.7]  On Device: 1%tp266.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  65.0) <60> [2 15.97  70.7]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T212
+Probe        [2 15.39  67.6]  On Device: 1%tp265.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  62.0) <30> [2 15.39  67.6]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T213
+Probe        [2 15.39  76.6]  On Device: 1%tp267.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  65.0) <60> [2 15.39  76.6]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%T213
+Probe        [2 16.15  73.5]  On Device: 1%tp269.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  62.0) <70> [2 16.15  73.5]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%UINT
+Probe        [2 13.86  75.1]  On Device: 1%tp118.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  76.0) <40> [2 13.86  75.1]
+ Use         Shorts Test  ASRU Source   ASRU Detector   Analog Guard  
+
+
+Page 24
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%VCC_NTC
+Probe        [2 13.91  69.7]  On Device: 1%tp134.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.39  70.0) <30> [2 13.91  69.7]
+ Use         Detector Lo   Digital Rcv.   Shorts Test  ASRU Detector  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%1 - 1%VDD
+Probe        [2 13.99  74.7]  On Device: 1%tp124.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  77.0) <30> [2 13.99  74.7]
+ Use         Source Hi   Digital Rcv.   Shorts Test  ASRU Source  
+             Analog Guard  
+
+ Path        (2 15.50  78.0) <40> [2 13.99  74.7]
+ Use         Shorts Test  Detector Hi   ASRU Source   Analog Guard  
+
+ Path        (2 17.00  62.0) <90> [2 13.99  74.7]
+ Use         Shorts Test  Source Hi   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%DEV_MODE
+Probe        [2 14.71  07.9]  On Device: 2%tp120.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  09.0) <30> [2 14.71  07.9]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Drv.  
+             Analog Guard  
+
+ Path        (2 15.50  09.0) <30> [2 14.71  07.9]
+ Use         S Bus Sense  
+
+ Path        (2 18.00  50.0) <180> [2 14.71  07.9]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%FLMD0
+Probe        [2 13.87  05.0]  On Device: 2%tp414.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  42.0) <160> [2 13.87  05.0]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 17.40  09.7]  On Device: 2%tp112.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 18.00  48.0) <170> [2 17.40  09.7]
+ Use         GP Relay  
+
+
+Page 25
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 17.50  59.0) <60> (2 18.00  48.0) <170> [2 17.40  09.7]
+ Use         Ground  
+
+ Path        (2 18.00  51.0) <170> [2 17.40  09.7]
+ Use         GP Relay  
+
+ Path        (2 17.00  59.0) <60> (2 18.00  51.0) <170> [2 17.40  09.7]
+ Use         Ground  
+
+ Path        (2 17.00  60.0) <60> (2 18.00  51.0) <170> [2 17.40  09.7]
+ Use         Ground  
+
+ Path        (2 23.00  43.0) <180> [2 17.40  09.7]
+ Use          
+
+ Path        (2 23.00  59.0) <80> (2 23.00  43.0) <180> [2 17.40  09.7]
+ Use         Ground  
+
+ Path        (2 23.00  60.0) <80> (2 23.00  43.0) <180> [2 17.40  09.7]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 13.76  09.1]  On Device: 2%tp413.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 13.00  11.0) <30> [2 13.76  09.1]
+ Use         DUT Power Sense  
+
+ Path        (2 14.50  39.0) <130> (2 13.00  11.0) <30> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 17.50  60.0) <120> (2 14.50  39.0) <130> (2 13.00  11.0)
+               <30> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 15.00  19.0) <180> (2 17.50  60.0) <120> (2 14.50  39.0)
+               <130> (2 13.00  11.0) <30> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 17.00  39.0) <110> (2 15.00  19.0) <180> (2 17.50  60.0)
+               <120> (2 14.50  39.0) <130> (2 13.00  11.0) <30> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 14.50  40.0) <130> (2 13.00  11.0) <30> [2 13.76  09.1]
+ Use         Ground  
+
+
+Page 26
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 15.00  19.0) <60> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 17.00  39.0) <110> (2 15.00  19.0) <60> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 17.50  60.0) <180> (2 15.00  19.0) <60> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 14.50  39.0) <120> (2 17.50  60.0) <180> (2 15.00  19.0)
+               <60> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 13.00  11.0) <130> (2 14.50  39.0) <120> (2 17.50  60.0)
+               <180> (2 15.00  19.0) <60> [2 13.76  09.1]
+ Use         DUT Power Sense  
+
+ Path        (2 14.50  40.0) <130> (2 13.00  11.0) <130> (2 14.50  39.0)
+               <120> (2 17.50  60.0) <180> (2 15.00  19.0) <60> [2 13.76  09.1]
+ Use         Ground  
+
+ Path        (2 17.00  42.0) <160> [2 13.76  09.1]
+ Use         Shorts Test  Detector Lo   S Bus Sense   G Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 12.67  07.3]  On Device: 2%tp105.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 14.50  20.0) <80> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 14.00  39.0) <90> (2 14.50  20.0) <80> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 14.00  20.0) <90> (2 14.00  39.0) <90> (2 14.50  20.0) <80> 
+              [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 15.00  39.0) <90> (2 14.00  20.0) <90> (2 14.00  39.0) <90> 
+              (2 14.50  20.0) <80> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 15.50  60.0) <90> (2 15.00  39.0) <90> (2 14.00  20.0) <90> 
+              (2 14.00  39.0) <90> (2 14.50  20.0) <80> [2 12.67  07.3]
+ Use         Ground  
+
+
+Page 27
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 14.00  60.0) <90> (2 14.00  39.0) <90> (2 14.50  20.0) <80> 
+              [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 17.00  19.0) <180> (2 14.00  60.0) <90> (2 14.00  39.0)
+               <90> (2 14.50  20.0) <80> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 17.00  20.0) <110> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 15.00  60.0) <170> (2 17.00  20.0) <110> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 15.00  20.0) <170> (2 15.00  60.0) <170> (2 17.00  20.0)
+               <110> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 15.50  39.0) <90> (2 15.00  20.0) <170> (2 15.00  60.0)
+               <170> (2 17.00  20.0) <110> [2 12.67  07.3]
+ Use         Ground  
+
+ Path        (2 23.00  39.0) <230> [2 12.67  07.3]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 17.50  03.8]  On Device: 2%tp109.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 17.50  19.0) <70> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 17.50  40.0) <90> (2 17.50  19.0) <70> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 17.00  40.0) <90> (2 17.50  19.0) <70> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 17.00  19.0) <80> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 14.00  60.0) <180> (2 17.00  19.0) <80> [2 17.50  03.8]
+ Use         Ground  
+
+
+Page 28
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 14.00  39.0) <90> (2 14.00  60.0) <180> (2 17.00  19.0)
+               <80> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 14.00  20.0) <90> (2 14.00  39.0) <90> (2 14.00  60.0) <180> 
+              (2 17.00  19.0) <80> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 15.00  39.0) <90> (2 14.00  20.0) <90> (2 14.00  39.0) <90> 
+              (2 14.00  60.0) <180> (2 17.00  19.0) <80> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 15.50  60.0) <90> (2 15.00  39.0) <90> (2 14.00  20.0) <90> 
+              (2 14.00  39.0) <90> (2 14.00  60.0) <180> (2 17.00  19.0)
+               <80> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 14.50  20.0) <90> (2 14.00  39.0) <90> (2 14.00  60.0) <180> 
+              (2 17.00  19.0) <80> [2 17.50  03.8]
+ Use         Ground  
+
+ Path        (2 23.00  19.0) <130> [2 17.50  03.8]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 12.94  01.9]  On Device: 2%tp107.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 15.50  20.0) <90> [2 12.94  01.9]
+ Use         Ground  
+
+ Path        (2 14.50  59.0) <170> (2 15.50  20.0) <90> [2 12.94  01.9]
+ Use         Ground  
+
+ Path        (2 17.50  39.0) <110> (2 14.50  59.0) <170> (2 15.50  20.0)
+               <90> [2 12.94  01.9]
+ Use         Ground  
+
+ Path        (2 17.50  20.0) <120> [2 12.94  01.9]
+ Use         Ground  
+
+ Path        (2 23.00  40.0) <260> [2 12.94  01.9]
+ Use         Ground  
+
+
+Page 29
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 13.12  10.3]  On Device: 2%tp102.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 14.50  13.0) <40> [2 13.12  10.3]
+ Use         Shorts Test  ASRU Detector   Analog Guard   ASRU Source  
+             G Bus Sense  
+
+ Path        (2 15.00  40.0) <120> (2 14.50  13.0) <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.50  60.0) <90> (2 15.00  40.0) <120> (2 14.50  13.0)
+               <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.50  19.0) <170> (2 14.50  60.0) <90> (2 15.00  40.0)
+               <120> (2 14.50  13.0) <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 15.50  59.0) <170> (2 14.50  19.0) <170> (2 14.50  60.0)
+               <90> (2 15.00  40.0) <120> (2 14.50  13.0) <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 15.00  59.0) <200> (2 14.50  13.0) <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 15.50  19.0) <170> (2 15.00  59.0) <200> (2 14.50  13.0)
+               <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 15.50  40.0) <90> (2 15.50  19.0) <170> (2 15.00  59.0)
+               <200> (2 14.50  13.0) <40> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.00  19.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.00  40.0) <90> (2 14.00  19.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 13.00  50.0) <130> (2 14.00  19.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.00  20.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+
+Page 30
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 14.00  39.0) <90> (2 14.00  20.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.50  20.0) <90> (2 14.00  39.0) <90> (2 14.00  20.0) <60> 
+              [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 14.00  60.0) <90> (2 14.00  39.0) <90> (2 14.00  20.0) <60> 
+              [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 17.00  19.0) <180> (2 14.00  60.0) <90> (2 14.00  39.0)
+               <90> (2 14.00  20.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 15.00  39.0) <90> (2 14.00  20.0) <60> [2 13.12  10.3]
+ Use         Ground  
+
+ Path        (2 15.50  60.0) <90> (2 15.00  39.0) <90> (2 14.00  20.0) <60> 
+              [2 13.12  10.3]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 12.89  10.0]  On Device: 2%tp104.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 14.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.50  59.0) <170> (2 14.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 14.50  60.0) <170> (2 14.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.00  40.0) <90> (2 14.50  60.0) <170> (2 14.50  19.0)
+               <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 14.50  13.0) <120> (2 15.00  40.0) <90> (2 14.50  60.0)
+               <170> (2 14.50  19.0) <70> [2 12.89  10.0]
+ Use         Shorts Test  ASRU Detector   Analog Guard   ASRU Source  
+             G Bus Sense  
+
+
+Page 31
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 15.00  59.0) <200> (2 14.50  13.0) <120> (2 15.00  40.0)
+               <90> (2 14.50  60.0) <170> (2 14.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.50  19.0) <170> (2 15.00  59.0) <200> (2 14.50  13.0)
+               <120> (2 15.00  40.0) <90> (2 14.50  60.0) <170> (2 14.50  19.0)
+               <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.50  40.0) <90> (2 15.50  19.0) <170> (2 15.00  59.0)
+               <200> (2 14.50  13.0) <120> (2 15.00  40.0) <90> (2 14.50  60.0)
+               <170> (2 14.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.50  40.0) <90> (2 15.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.00  59.0) <170> (2 15.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 14.50  13.0) <200> (2 15.00  59.0) <170> (2 15.50  19.0)
+               <70> [2 12.89  10.0]
+ Use         Shorts Test  ASRU Detector   Analog Guard   ASRU Source  
+             G Bus Sense  
+
+ Path        (2 15.00  40.0) <120> (2 14.50  13.0) <200> (2 15.00  59.0)
+               <170> (2 15.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 14.50  60.0) <90> (2 15.00  40.0) <120> (2 14.50  13.0)
+               <200> (2 15.00  59.0) <170> (2 15.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 14.50  19.0) <170> (2 14.50  60.0) <90> (2 15.00  40.0)
+               <120> (2 14.50  13.0) <200> (2 15.00  59.0) <170> (2 15.50  19.0)
+               <70> [2 12.89  10.0]
+ Use         Ground  
+
+ Path        (2 15.50  59.0) <170> (2 14.50  19.0) <170> (2 14.50  60.0)
+               <90> (2 15.00  40.0) <120> (2 14.50  13.0) <200> (2 15.00  59.0)
+               <170> (2 15.50  19.0) <70> [2 12.89  10.0]
+ Use         Ground  
+
+
+Page 32
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 23.00  20.0) <200> [2 12.89  10.0]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%GND
+Probe        [2 12.89  10.5]  On Device: 2%tp114.1
+Wire         Color: Black      Gauge: 28
+ Path        (2 15.00  20.0) <70> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 15.50  39.0) <90> (2 15.00  20.0) <70> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 15.00  60.0) <170> (2 15.00  20.0) <70> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 17.00  20.0) <170> (2 15.00  60.0) <170> (2 15.00  20.0)
+               <70> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 13.00  49.0) <170> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 14.00  59.0) <60> (2 13.00  49.0) <170> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 13.00  50.0) <170> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 14.00  19.0) <130> (2 13.00  50.0) <170> [2 12.89  10.5]
+ Use         Ground  
+
+ Path        (2 14.00  40.0) <90> (2 14.00  19.0) <130> (2 13.00  50.0)
+               <170> [2 12.89  10.5]
+ Use         Ground  
+
+-----------------------------------------------------------------------------
+Node Name    2%GND_PREV
+Probe        TERMINAL
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  11.0) <00>   2%GND_PREV   
+ Use         Detector Hi  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%KL30
+Probe        [2 13.05  07.6]  On Device: 2%tp111.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  14.0) <40> [2 13.05  07.6]
+ Use         Source Hi   Detector Hi   Shorts Test  ASRU Source   Analog Guard  
+             ASRU Detector  
+
+
+Page 33
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 18.00  52.0) <210> [2 13.05  07.6]
+ Use         GP Relay  
+
+ Path        (2 23.00  41.0) <230> [2 13.05  07.6]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%KL30
+Probe        [2 12.67  06.6]  On Device: 2%tp108.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  14.0) <60> [2 12.67  06.6]
+ Use         Source Hi   Detector Hi   Shorts Test  ASRU Source   Analog Guard  
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%KL30V
+Probe        [2 15.80  10.9]  On Device: 2%tp268.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.64  11.0) <40> [2 15.80  10.9]
+ Use         Source Hi   Shorts Test  ASRU Detector   ASRU Source  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%KL30V
+Probe        [2 15.80  01.8]  On Device: 2%tp264.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  12.0) <60> [2 15.80  01.8]
+ Use         Detector Hi   I Bus Sense   S Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%KL30V
+Probe        [2 16.93  10.9]  On Device: 2%tp230.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  12.0) <30> [2 16.93  10.9]
+ Use         Detector Hi   I Bus Sense   S Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%KL30V
+Probe        [2 17.49  10.9]  On Device: 2%tp218.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.64  11.0) <30> [2 17.49  10.9]
+ Use         Source Hi   Shorts Test  ASRU Detector   ASRU Source  
+             Analog Guard  
+
+
+Page 34
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%LIN
+Probe        [2 14.38  09.7]  On Device: 2%tp117.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  12.0) <30> [2 14.38  09.7]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector  
+
+ Path        (2 23.00  45.0) <230> [2 14.38  09.7]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%LIN
+Probe        [2 13.41  04.8]  On Device: 2%tp116.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  12.0) <60> [2 13.41  04.8]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%LIN_S
+Probe        [2 12.67  05.9]  On Device: 2%tp110.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  23.0) <90> [2 12.67  05.9]
+ Use         ASRU Source   ASRU Detector   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%LIN_S
+Probe        [2 13.11  05.1]  On Device: 2%tp113.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  23.0) <90> [2 13.11  05.1]
+ Use         ASRU Source   ASRU Detector   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P1_PWM06
+Probe        [2 15.48  06.9]  On Device: 2%tp201.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  41.0) <140> [2 15.48  06.9]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P2_PWM10
+Probe        [2 16.37  06.9]  On Device: 2%tp241.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  41.0) <140> [2 16.37  06.9]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+
+Page 35
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P3_PWM08
+Probe        [2 15.82  06.9]  On Device: 2%tp261.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  22.0) <80> [2 15.82  06.9]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P4_PWM14
+Probe        [2 17.05  06.9]  On Device: 2%tp203.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  22.0) <90> [2 17.05  06.9]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P5_PWM12
+Probe        [2 16.71  06.9]  On Device: 2%tp221.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  21.0) <70> [2 16.71  06.9]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P6_LIN_TXD
+Probe        [2 14.47  07.6]  On Device: 2%tp123.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.40  07.0) <30> [2 14.47  07.6]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P7_LIN_RXD
+Probe        [2 14.26  08.2]  On Device: 2%tp126.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.14  09.0) <30> [2 14.26  08.2]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P11_VAR_1
+Probe        [2 14.18  07.6]  On Device: 2%tp416.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  21.0) <70> [2 14.18  07.6]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P13_VAR_0
+Probe        [2 13.92  07.9]  On Device: 2%tp417.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  21.0) <70> [2 13.92  07.9]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Digital Drv.   Analog Guard  
+
+
+Page 36
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P14_RDY
+Probe        [2 13.85  07.4]  On Device: 2%tp410.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  42.0) <140> [2 13.85  07.4]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P15_TRST
+Probe        [2 14.02  07.4]  On Device: 2%tp407.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  42.0) <140> [2 14.02  07.4]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P16_TMS
+Probe        [2 13.94  07.0]  On Device: 2%tp409.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  42.0) <140> [2 13.94  07.0]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P17_TCK
+Probe        [2 13.67  07.1]  On Device: 2%tp406.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.39  04.0) <30> [2 13.67  07.1]
+ Use         Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P18_TDO
+Probe        [2 13.77  06.9]  On Device: 2%tp408.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.54  10.0) <30> [2 13.77  06.9]
+ Use         Shorts Test  Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P19_TDI
+Probe        [2 13.67  06.5]  On Device: 2%tp405.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  41.0) <140> [2 13.67  06.5]
+ Use         ASRU Detector   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P20_RESET
+Probe        [2 13.91  08.4]  On Device: 2%tp411.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  21.0) <70> [2 13.91  08.4]
+ Use         Detector Hi   ASRU Detector   Shorts Test  Digital Drv.  
+             Analog Guard   ASRU Source  
+
+
+Page 37
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 18.00  49.0) <180> [2 13.91  08.4]
+ Use         GP Relay  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P27_SBC_NTRIG
+Probe        [2 14.71  07.2]  On Device: 2%tp119.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  41.0) <140> [2 14.71  07.2]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P29_PWM01
+Probe        [2 15.27  05.7]  On Device: 2%tp250.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  41.0) <140> [2 15.27  05.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P30_PWM07
+Probe        [2 16.30  05.7]  On Device: 2%tp260.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  41.0) <160> [2 16.30  05.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P32_U12S_EIN
+Probe        [2 13.93  04.5]  On Device: 2%tp130.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  04.0) <70> [2 13.93  04.5]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P35_VCC_NTC_EIN
+Probe        [2 13.82  04.3]  On Device: 2%tp135.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  04.0) <40> [2 13.82  04.3]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P37_AN_U12S
+Probe        [2 14.22  03.7]  On Device: 2%tp131.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.60  05.0) <80> [2 14.22  03.7]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   ASRU Detector  
+
+
+Page 38
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P39_SBC_EN
+Probe        [2 14.12  08.1]  On Device: 2%tp122.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  10.0) <30> [2 14.12  08.1]
+ Use         Shorts Test  Digital Rcv.   Digital Drv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P42_AN_TEMP_PCB3
+Probe        [2 14.83  03.1]  On Device: 2%tp302.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  03.0) <30> [2 14.83  03.1]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P43_AN_TEMP_PCB2
+Probe        [2 14.70  03.2]  On Device: 2%tp301.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  03.0) <30> [2 14.70  03.2]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P44_AN_TEMP_PCB1
+Probe        [2 14.74  04.0]  On Device: 2%tp300.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  04.0) <30> [2 14.74  04.0]
+ Use         ASRU Source   Shorts Test  Digital Rcv.   Digital Drv.  
+             ASRU Detector   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P45_VAR_2
+Probe        [2 14.55  04.1]  On Device: 2%tp418.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.36  04.0) <70> [2 14.55  04.1]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P51_PWM03
+Probe        [2 15.61  05.7]  On Device: 2%tp224.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  22.0) <80> [2 15.61  05.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+
+Page 39
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P52_PWM05
+Probe        [2 15.95  05.7]  On Device: 2%tp200.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  22.0) <80> [2 15.95  05.7]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P53_PWM13
+Probe        [2 17.24  06.1]  On Device: 2%tp202.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  22.0) <80> [2 17.24  06.1]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P54_PWM11
+Probe        [2 17.12  06.1]  On Device: 2%tp220.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  22.0) <80> [2 17.12  06.1]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P62_PWM09
+Probe        [2 16.78  06.0]  On Device: 2%tp240.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  21.0) <70> [2 16.78  06.0]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P63_PWM04
+Probe        [2 15.14  06.9]  On Device: 2%tp225.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  21.0) <70> [2 15.14  06.9]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%P64_PWM02
+Probe        [2 14.87  06.6]  On Device: 2%tp251.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 16.88  07.0) <60> [2 14.87  06.6]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.   Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN405
+Probe        [2 15.59  07.7]  On Device: 2%tp206.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  10.0) <40> [2 15.59  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+
+Page 40
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN408
+Probe        [2 16.74  05.0]  On Device: 2%tp242.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  01.0) <30> [2 16.74  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN409
+Probe        [2 17.42  05.0]  On Device: 2%tp205.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.63  02.0) <30> [2 17.42  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN411
+Probe        [2 15.85  05.0]  On Device: 2%tp204.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  03.0) <40> [2 15.85  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN412
+Probe        [2 16.19  05.0]  On Device: 2%tp262.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  03.0) <30> [2 16.19  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN416
+Probe        [2 15.93  07.7]  On Device: 2%tp263.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  07.0) <40> [2 15.93  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN419
+Probe        [2 15.17  05.0]  On Device: 2%tp252.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.44  06.0) <30> [2 15.17  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN420
+Probe        [2 16.47  07.7]  On Device: 2%tp243.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  09.0) <30> [2 16.47  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+
+Page 41
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN423
+Probe        [2 14.90  07.7]  On Device: 2%tp253.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  06.0) <30> [2 14.90  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN425
+Probe        [2 15.51  05.0]  On Device: 2%tp232.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  06.0) <60> [2 15.51  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN426
+Probe        [2 15.24  07.7]  On Device: 2%tp233.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  07.0) <30> [2 15.24  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN429
+Probe        [2 17.15  07.7]  On Device: 2%tp207.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  09.0) <30> [2 17.15  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN430
+Probe        [2 17.08  05.0]  On Device: 2%tp222.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 16.95  06.0) <30> [2 17.08  05.0]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN431
+Probe        [2 16.81  07.7]  On Device: 2%tp223.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.58  08.0) <30> [2 16.81  07.7]
+ Use         Digital Drv.   ASRU Source   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN443
+Probe        [2 13.68  08.7]  On Device: 2%tp115.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 13.92  11.0) <30> [2 13.68  08.7]
+ Use         Detector Lo   ASRU Source   Digital Drv.   ASRU Source  
+             Shorts Test  Analog Guard   ASRU Detector  
+
+
+Page 42
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN444
+Probe        [2 13.61  03.3]  On Device: 2%tp127.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 13.92  02.0) <30> [2 13.61  03.3]
+ Use         ASRU Source   Digital Drv.   Detector Hi   Digital Rcv.  
+             ASRU Source   Shorts Test 
+
+ Path        (2 14.00  01.0) <30> [2 13.61  03.3]
+ Use         Source Hi   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN447
+Probe        [2 14.68  08.4]  On Device: 2%tp125.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  10.0) <30> [2 14.68  08.4]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN449
+Probe        [2 14.37  08.0]  On Device: 2%tp132.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  11.0) <30> [2 14.37  08.0]
+ Use         ASRU Source   ASRU Detector   Shorts Test  Digital Rcv.  
+             Analog Guard  
+
+ Path        (2 14.00  12.0) <30> [2 14.37  08.0]
+ Use          
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN450
+Probe        [2 14.59  07.8]  On Device: 2%tp121.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.63  07.0) <30> [2 14.59  07.8]
+ Use         ASRU Detector   ASRU Source   Shorts Test  Digital Drv.  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN451
+Probe        [2 13.72  04.6]  On Device: 2%tp400.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.06  05.0) <30> [2 13.72  04.6]
+ Use         ASRU Source   ASRU Detector   Frequency Meas.   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN452
+Probe        [2 13.73  03.3]  On Device: 2%tp133.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 13.89  03.0) <30> [2 13.73  03.3]
+ Use         ASRU Source   Digital Drv.   Detector Hi   Digital Rcv.  
+             ASRU Detector   Shorts Test 
+
+
+Page 43
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+ Path        (2 14.50  03.0) <30> [2 13.73  03.3]
+ Use         Source Hi   ASRU Detector   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN453
+Probe        [2 13.69  05.5]  On Device: 2%tp403.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  02.0) <40> [2 13.69  05.5]
+ Use         ASRU Detector   ASRU Source   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN454
+Probe        [2 14.81  08.4]  On Device: 2%tp419.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  23.0) <70> [2 14.81  08.4]
+ Use         ASRU Detector   Shorts Test 
+
+ Path        (2 15.00  24.0) <80> [2 14.81  08.4]
+ Use         I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN456
+Probe        [2 13.86  06.1]  On Device: 2%tp420.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.58  02.0) <60> [2 13.86  06.1]
+ Use         Detector Hi   Shorts Test  ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN457
+Probe        [2 14.70  04.7]  On Device: 2%tp421.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  01.0) <30> [2 14.70  04.7]
+ Use         Detector Hi   Shorts Test  ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN463
+Probe        [2 14.05  03.2]  On Device: 2%tp129.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  01.0) <30> [2 14.05  03.2]
+ Use         Detector Lo   Digital Rcv.   Analog Guard   ASRU Source  
+             Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN465
+Probe        [2 14.65  09.4]  On Device: 2%tp106.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  10.0) <30> [2 14.65  09.4]
+ Use         ASRU Detector   Shorts Test  Digital Rcv.  
+
+
+Page 44
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN466
+Probe        [2 13.56  05.6]  On Device: 2%tp401.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.58  06.0) <30> [2 13.56  05.6]
+ Use         ASRU Detector   Frequency Meas.   Shorts Test 
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%SIGN467
+Probe        [2 13.47  03.5]  On Device: 2%tp128.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  02.0) <30> [2 13.47  03.5]
+ Use         Source Hi   Digital Rcv.   ASRU Detector   Shorts Test 
+             ASRU Source  
+
+ Path        (2 14.50  01.0) <30> [2 13.47  03.5]
+ Use         Detector Hi   ASRU Detector   Shorts Test  ASRU Source  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T200
+Probe        [2 15.63  04.9]  On Device: 2%tp210.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  12.0) <60> [2 15.63  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T200
+Probe        [2 14.82  01.8]  On Device: 2%tp209.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  13.0) <70> [2 14.82  01.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T201
+Probe        [2 17.20  04.9]  On Device: 2%tp213.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  15.0) <60> [2 17.20  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T201
+Probe        [2 17.07  01.8]  On Device: 2%tp212.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  14.0) <80> [2 17.07  01.8]
+ Use         Detector Hi   I Bus Sense  
+
+
+Page 45
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T202
+Probe        [2 14.82  10.9]  On Device: 2%tp214.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  14.0) <30> [2 14.82  10.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T202
+Probe        [2 15.81  07.8]  On Device: 2%tp216.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  15.0) <40> [2 15.81  07.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T203
+Probe        [2 17.07  10.9]  On Device: 2%tp217.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  14.0) <30> [2 17.07  10.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T203
+Probe        [2 17.38  07.8]  On Device: 2%tp219.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  15.0) <60> [2 17.38  07.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T204
+Probe        [2 16.86  04.9]  On Device: 2%tp228.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  16.0) <60> [2 16.86  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T204
+Probe        [2 16.51  01.8]  On Device: 2%tp227.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  17.0) <80> [2 16.51  01.8]
+ Use         Detector Hi   I Bus Sense  
+
+
+Page 46
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T205
+Probe        [2 16.51  10.9]  On Device: 2%tp229.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  16.0) <60> [2 16.51  10.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T205
+Probe        [2 17.04  07.8]  On Device: 2%tp231.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  17.0) <70> [2 17.04  07.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T206
+Probe        [2 15.29  04.9]  On Device: 2%tp236.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  15.0) <70> [2 15.29  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T206
+Probe        [2 14.26  01.8]  On Device: 2%tp235.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  16.0) <70> [2 14.26  01.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T207
+Probe        [2 14.26  10.9]  On Device: 2%tp237.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  15.0) <30> [2 14.26  10.9]
+ Use         Digital Rcv.   Source Hi   Shorts Test  ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T207
+Probe        [2 15.47  07.8]  On Device: 2%tp239.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  16.0) <60> [2 15.47  07.8]
+ Use         Detector Hi   ASRU Source   I Bus Sense  
+
+
+Page 47
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T208
+Probe        [2 16.52  04.9]  On Device: 2%tp246.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  17.0) <70> [2 16.52  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T208
+Probe        [2 15.95  01.8]  On Device: 2%tp245.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  18.0) <80> [2 15.95  01.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T209
+Probe        [2 15.95  10.9]  On Device: 2%tp247.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  18.0) <40> [2 15.95  10.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T209
+Probe        [2 16.70  07.8]  On Device: 2%tp249.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  17.0) <80> [2 16.70  07.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T210
+Probe        [2 14.95  04.9]  On Device: 2%tp256.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  14.0) <70> [2 14.95  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T210
+Probe        [2 13.70  01.8]  On Device: 2%tp255.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  01.0) <80> [2 13.70  01.8]
+ Use         Detector Hi  
+
+
+Page 48
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T211
+Probe        [2 13.70  10.9]  On Device: 2%tp257.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  16.0) <30> [2 13.70  10.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T211
+Probe        [2 15.13  07.8]  On Device: 2%tp259.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  17.0) <60> [2 15.13  07.8]
+ Use         Detector Hi  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T212
+Probe        [2 15.97  04.9]  On Device: 2%tp266.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.50  18.0) <70> [2 15.97  04.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T212
+Probe        [2 15.39  01.8]  On Device: 2%tp265.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.00  23.0) <110> [2 15.39  01.8]
+ Use         Detector Hi   I Bus Sense  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T213
+Probe        [2 15.39  10.9]  On Device: 2%tp267.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  18.0) <60> [2 15.39  10.9]
+ Use         Digital Rcv.   Source Hi   ASRU Source   Shorts Test 
+             ASRU Detector  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%T213
+Probe        [2 16.15  07.8]  On Device: 2%tp269.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 15.00  23.0) <80> [2 16.15  07.8]
+ Use         Detector Hi   I Bus Sense  
+
+
+Page 49
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%UINT
+Probe        [2 13.86  09.4]  On Device: 2%tp118.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  13.0) <30> [2 13.86  09.4]
+ Use         Shorts Test  ASRU Source   ASRU Detector   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%VCC_NTC
+Probe        [2 13.91  03.9]  On Device: 2%tp134.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.07  04.0) <30> [2 13.91  03.9]
+ Use         Detector Lo   Digital Rcv.   Shorts Test  ASRU Detector  
+             Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    pscm_7fold_sta3%2 - 2%VDD
+Probe        [2 13.99  08.9]  On Device: 2%tp124.1
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.50  14.0) <30> [2 13.99  08.9]
+ Use         Source Hi   Digital Rcv.   Shorts Test  ASRU Source  
+             Analog Guard  
+
+ Path        (2 14.00  23.0) <70> [2 13.99  08.9]
+ Use         Shorts Test  Detector Hi   ASRU Source   Analog Guard  
+
+ Path        (2 15.00  29.0) <90> [2 13.99  08.9]
+ Use         Shorts Test  Source Hi   Analog Guard  
+
+-----------------------------------------------------------------------------
+Node Name    AUTOFILE
+Pin          (2 18.00  78.0)
+Wire         Color: Black      Gauge: 28
+ Path        (2 18.00  68.0) <30> (2 18.00  69.0) <30> (2 18.00  70.0) <30> 
+              (2 18.00  75.0) <30> (2 18.00  78.0)
+ Use         Autofile   Ground  
+
+-----------------------------------------------------------------------------
+Node Name    FIXTURE EN
+Pin          (2 18.00  38.0)
+Wire         Color: Black      Gauge: 28
+ Path        (2 18.00  39.0) <30> (2 18.00  38.0)
+ Use         Ground   Fixture Enable 
+
+
+Page 50
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TRACE REPORT           Thu Aug 15 12:59:39 2019      
+
+C:/Agilent_ICT/boards/pscm_7fold_sta3/fixture/trace
+------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Node Name    OTHER
+Pin          (2 12.91  71.0)
+Wire         Color: Blue       Gauge: 28
+ Path        (2 13.00  72.0) <30> (2 12.91  71.0)
+ Use          
+
+-----------------------------------------------------------------------------
+Node Name    OTHER
+Pin          (2 12.89  73.0)
+Wire         Color: Blue       Gauge: 28
+ Path        (2 13.00  75.0) <30> (2 12.93  74.0) <30> (2 12.89  73.0)
+ Use          
+
+-----------------------------------------------------------------------------
+Node Name    RX_LIN
+Probe        TERMINAL
+Wire         Color: Blue       Gauge: 28
+ Path        (2 14.00  30.0) <00>     RX_LIN     
+ Use         Digital Rcv.   Digital Rcv.  
+
+-----------------------------------------------------------------------------
+Node Name    SAFETY DISABLE
+Pin          (2 18.00  43.0)
+Wire         Color: Black      Gauge: 28
+ Path        (2 18.00  44.0) <30> (2 18.00  43.0)
+ Use         Ground   Safety Disable 
+
+-----------------------------------------------------------------------------
+Node Name    TX_LIN
+Probe        TERMINAL
+Wire         Color: Blue       Gauge: 28
+ Path        (2 17.50  29.0) <00>     TX_LIN     
+ Use         Digital Drv.  
+

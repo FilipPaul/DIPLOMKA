@@ -1,0 +1,490 @@
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Mon Sep  3 14:06:03 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1893_1896/fixture/summary
+------------------------------------------------------------------------------
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "1893_1896" was placed at X =  32198, Y = -75677
+  with a rotation of  0.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Mon Sep  3 14:07:08 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1893_1896/fixture/summary
+------------------------------------------------------------------------------
+
+
+   BOARD 1893_1896%1 PROBE REPORT FOR ALL NODES 
+
+
+   Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    0
+   Maximum probe force density (oz./sq. in.)                 =  104
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =   48
+   Number of 50MIL probes used                               =    2
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    0
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =  125
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =    0
+   Number of devices that are testjet probe inaccessible     =    0
+   Number of installed testjet probes added to the fixture   =    3
+   Number of future testjet probes added to the fixture      =    0
+   Alternate probing locations discarded                     =    0
+
+   BOARD 1893_1896%2 PROBE REPORT FOR ALL NODES 
+
+
+   Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    0
+   Maximum probe force density (oz./sq. in.)                 =  104
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =   48
+   Number of 50MIL probes used                               =    2
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    0
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =  126
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =    0
+   Number of devices that are testjet probe inaccessible     =    0
+   Number of installed testjet probes added to the fixture   =    3
+   Number of future testjet probes added to the fixture      =    0
+   Alternate probing locations discarded                     =    0
+
+   Pins blocked during this run of Probe Select              =   18
+      Blocked pins actually in the configuration             =   10
+      Blocked pins not in the configuration                  =    8
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Mon Sep  3 14:10:03 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1893_1896/fixture/summary
+------------------------------------------------------------------------------
+
+     Module Pin Assignment was run at the standard experience level.
+ 
+Remote sense measurement for Node 1%P12V on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P12Z on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V61 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V65 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V69 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN903 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN905 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN907 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN909 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN910 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN911 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN916 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN930 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN931 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN934 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN936 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN937 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN938 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN941 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN944 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN953 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN957 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN960 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN964 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN966 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN974 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN990 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P12V on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P12Z on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V61 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V65 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V69 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN785 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN791 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN792 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN799 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN800 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN806 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN808 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN810 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN812 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN814 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN820 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN821 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN824 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN826 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN827 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN828 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN831 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN834 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN843 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN847 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN850 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN854 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN856 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN879 on Board 1893_1896 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Mon Sep  3 14:10:03 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1893_1896/fixture/summary
+------------------------------------------------------------------------------
+
+                      ASSIGNMENT REPORT FOR ALL BOARDS
+ 
+     SUMMARY STATISTICS
+ 
+        For precision nodes:
+ 
+            The average BRC to probe distance is 1.845.
+            The standard deviation is 1.803.
+ 
+            * precision nodes include critical nodes, digital 
+              nodes, and analog nodes using external 
+              instrumentation or the time interval counter
+ 
+        For all nodes:
+ 
+            The assignment used 307 interface pins for 247 nodes.
+            The efficiency is 0.805.
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TOOLING                Mon Sep  3 14:10:13 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1893_1896/fixture/summary
+------------------------------------------------------------------------------
+
+The node '1%V150%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%V433%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V150%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V433%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+Fixture Type : Agilent SimPlate Express
+Fixture Size : Bank 2
+Fixture Part Number : 44200S
+Top Probes Allowed : Testjet Enabled Only
+Autofile : 1100
+Units : Metric
+Wiring Method : Automatic
+-----------------------------------------------------------------------------
+Count
+-----
+    4  Probes    Type:  50 mil  Spring Force Max.: 1 N 
+    2  Probes    Type:  75 mil  Spring Force Max.: 2 N 
+    6  Probes    Type:  75 mil  Spring Force Max.: 1 N 
+   86  Probes    Type: 100 mil  Spring Force Max.: 1 N 
+  166  Probes    Type: 100 mil  Spring Force Max.: 2 N 
+   23  Extra Probes Type: 100 mil
+    6  Probe :  Testjet Standard Using Probe Method
+  414  Pins
+  145  Extra Pins
+    1  TestJet MUX Cards 
+    4  Hybrid Cards
+    2  Analog Cards
+    1  Access Cards
+    4  Tooling Pins
+
+Count  Color  Gauge  Length 
+------|------|-----|---------
+   43  Black   28    30 mm
+    8  Black   28    40 mm
+   18  Black   28    60 mm
+   15  Black   28    70 mm
+   11  Black   28    90 mm
+    4  Black   28   110 mm
+    1  Black   28   120 mm
+    2  Black   28   130 mm
+    3  Black   28   140 mm
+    2  Black   28   160 mm
+    1  Black   28   170 mm
+    1  Black   28   180 mm
+    1  Black   28   200 mm
+    1  Black   28   210 mm
+    6  Black   28   230 mm
+    1  Black   28   260 mm
+    1  Black   28   280 mm
+-----------------------------
+  119  Black   28  8970 mm
+
+    1   Blue   30    30 mm
+    1   Blue   30    40 mm
+    1   Blue   30    70 mm
+    1   Blue   30   140 mm
+-----------------------------
+    4   Blue   30   280 mm
+
+   37   Blue   28    30 mm
+   13   Blue   28    40 mm
+   14   Blue   28    60 mm
+   20   Blue   28    70 mm
+   15   Blue   28    80 mm
+   16   Blue   28    90 mm
+   24   Blue   28   110 mm
+   20   Blue   28   120 mm
+   14   Blue   28   130 mm
+   20   Blue   28   140 mm
+   14   Blue   28   160 mm
+   12   Blue   28   170 mm
+    9   Blue   28   180 mm
+   19   Blue   28   200 mm
+   25   Blue   28   210 mm
+   16   Blue   28   230 mm
+-----------------------------
+  288   Blue   28  34800 mm
+
+    2   Red    28    60 mm
+    3   Red    28    90 mm
+    1   Red    28   120 mm
+    2   Red    28   130 mm
+    1   Red    28   210 mm
+    1   Red    28   230 mm
+-----------------------------
+   10   Red    28  1210 mm
+
+=============================
+  421              45260 mm Total
+
+
+see files: wires, inserts, trace, drill, drillsup, drilltop, details

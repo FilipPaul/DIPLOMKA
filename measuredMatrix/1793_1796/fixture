@@ -1,0 +1,3469 @@
+!!!!   13    0    1 1191919290   0000                                         
+!---------------------------------------------------------------------------
+!FIXTURE DESCRIPTION LISTER                     Tue Oct 09, 2007 11:37:29 AM
+!
+!fixture.o
+!---------------------------------------------------------------------------
+
+
+OPTIONS
+  Fixture Type   EXPRESS;
+  Fixture Size   BANK2;
+  Fixture Part Number   44200S;
+  Top Probes Allowed OFF;
+  Density Threshold  104.0;
+  Heavy Probe Force    8.0;
+  Light Probe Force    4.0;
+  Autofile         1101;
+  Metric Units  ON;
+  Wirewrapping  AUTO;
+
+  PANEL 1793_1796
+    PLACEMENT    27630,  -47472  0.0;    ! with respect to tooling origin
+
+    OUTLINE
+         -1000,   -1000
+         95488,   -1000
+         95488,   72812
+         -1000,   72812
+         -1000,   -1000;
+
+    OTHER
+      PINS
+        20971 BLOCKED;
+        20972 BLOCKED;
+        21571 BLOCKED;
+        21572 BLOCKED;
+        21573 BLOCKED;
+        21909 BLOCKED;
+        21910 BLOCKED;
+        21911 BLOCKED;
+        209170 BLOCKED;
+        209171 BLOCKED;
+        209172 BLOCKED;
+        209173 BLOCKED;
+        215171 BLOCKED;
+        215172 BLOCKED;
+        215173 BLOCKED;
+        219109 BLOCKED;
+        219110 BLOCKED;
+        219111 BLOCKED;
+        219112 BLOCKED;
+        21056 BLOCKED;
+        21057 BLOCKED;
+        21058 BLOCKED;
+        21145 BLOCKED;
+        21149 BLOCKED;
+        21152 BLOCKED;
+        21641 BLOCKED;
+        21749 BLOCKED;
+        21752 BLOCKED;
+        21753 BLOCKED;
+        21754 BLOCKED;
+        21848 BLOCKED;
+        21851 BLOCKED;
+        21856 BLOCKED;
+        210128 BLOCKED;
+        210142 BLOCKED;
+        210151 BLOCKED;
+        211142 BLOCKED;
+        211148 BLOCKED;
+        211153 BLOCKED;
+        211154 BLOCKED;
+        216151 BLOCKED;
+        217139 BLOCKED;
+        217148 BLOCKED;
+        217151 BLOCKED;
+        217153 BLOCKED;
+        217154 BLOCKED;
+        22378 SOCKETED;
+        22377 SOCKETED;
+        22376 SOCKETED;
+        22375 SOCKETED;
+        22374 SOCKETED;
+        22373 SOCKETED;
+        22372 SOCKETED;
+        22371 SOCKETED;
+        22370 SOCKETED;
+        22369 SOCKETED;
+        22368 SOCKETED;
+        22367 SOCKETED;
+        22366 SOCKETED;
+        22365 SOCKETED;
+        22334 SOCKETED;
+        22333 SOCKETED;
+        22332 SOCKETED;
+        22331 SOCKETED;
+        22330 SOCKETED;
+        22329 SOCKETED;
+        22328 SOCKETED;
+        22327 SOCKETED;
+        22326 SOCKETED;
+        22325 SOCKETED;
+        22324 SOCKETED;
+        22323 SOCKETED;
+        22322 SOCKETED;
+        22321 SOCKETED;
+        22318 SOCKETED;
+        22317 SOCKETED;
+        22316 SOCKETED;
+        22315 SOCKETED;
+        22314 SOCKETED;
+        22313 SOCKETED;
+        22312 SOCKETED;
+        22311 SOCKETED;
+        22310 SOCKETED;
+        22309 SOCKETED;
+        22308 SOCKETED;
+        22307 SOCKETED;
+        22306 SOCKETED;
+        22305 SOCKETED;
+        22304 SOCKETED;
+        22303 SOCKETED;
+        22302 SOCKETED;
+        22301 SOCKETED;
+        221101 SOCKETED;
+        221102 SOCKETED;
+        22102 SOCKETED;
+        22101 SOCKETED;
+        219101 SOCKETED;
+        219102 SOCKETED;
+        219121 SOCKETED;
+        219122 SOCKETED;
+        219141 SOCKETED;
+        219142 SOCKETED;
+        219162 SOCKETED;
+        219163 SOCKETED;
+        21962 SOCKETED   -949;
+        21921 SOCKETED   -706;
+        21963 SOCKETED;
+        21942 SOCKETED;
+        21941 SOCKETED;
+        21922 SOCKETED;
+        21902 SOCKETED;
+        21901 SOCKETED;
+        21857 SOCKETED   -956;
+        21839 SOCKETED   -666;
+        21838 SOCKETED;
+        21801 SOCKETED;
+        21802 SOCKETED;
+        21803 SOCKETED;
+        21805 DRILLED;
+        21806 DRILLED;
+        21807 DRILLED;
+        21808 DRILLED;
+        21809 DRILLED;
+        21810 DRILLED;
+        21811 DRILLED;
+        21812 DRILLED;
+        21813 DRILLED;
+        21815 SOCKETED;
+        21816 SOCKETED;
+        21818 SOCKETED;
+        21819 SOCKETED;
+        21820 DRILLED;
+        21821 SOCKETED;
+        21822 DRILLED;
+        21823 SOCKETED;
+        21844 SOCKETED;
+        21843 SOCKETED;
+        21849 SOCKETED;
+        21866 SOCKETED;
+        21868 SOCKETED;
+        21869 SOCKETED;
+        21870 DRILLED;
+        21871 DRILLED;
+        21872 SOCKETED;
+        21873 DRILLED;
+        21874 DRILLED;
+        21875 DRILLED;
+        21878 SOCKETED;
+        21876 SOCKETED;
+        21877 DRILLED;
+        21850 SOCKETED    302;
+        21867 DRILLED    749;
+        217101 SOCKETED;
+        217102 SOCKETED;
+        217121 SOCKETED;
+        217122 SOCKETED;
+        217141 SOCKETED;
+        217142 SOCKETED;
+        217163 SOCKETED;
+        217164 SOCKETED;
+        21722 SOCKETED   -980;
+        21764 SOCKETED;
+        21763 SOCKETED;
+        21741 SOCKETED;
+        21721 SOCKETED;
+        21702 SOCKETED;
+        21701 SOCKETED;
+        21742 SOCKETED    845;
+        216142 SOCKETED   -860;
+        216164 SOCKETED;
+        216163 SOCKETED;
+        216141 SOCKETED;
+        216122 SOCKETED;
+        216121 SOCKETED;
+        216102 SOCKETED;
+        216101 SOCKETED;
+        21601 SOCKETED;
+        21602 SOCKETED;
+        21621 SOCKETED;
+        21622 SOCKETED;
+        21643 SOCKETED;
+        21664 SOCKETED;
+        21665 SOCKETED;
+        21642 SOCKETED    752;
+        214166 SOCKETED;
+        214165 SOCKETED;
+        214142 SOCKETED;
+        214141 SOCKETED;
+        214122 SOCKETED;
+        214121 SOCKETED;
+        214102 SOCKETED;
+        214101 SOCKETED;
+        21401 SOCKETED;
+        21402 SOCKETED;
+        21421 SOCKETED;
+        21422 SOCKETED;
+        21441 SOCKETED;
+        21442 SOCKETED;
+        21464 SOCKETED;
+        21465 SOCKETED;
+        21347 DRILLED   -600;
+        21301 DRILLED;
+        21302 DRILLED;
+        21303 DRILLED;
+        21304 DRILLED;
+        21305 DRILLED;
+        21306 DRILLED;
+        21307 DRILLED;
+        21308 DRILLED;
+        21309 DRILLED;
+        21310 DRILLED;
+        21311 DRILLED;
+        21312 DRILLED;
+        21325 SOCKETED;
+        21326 SOCKETED;
+        21329 SOCKETED;
+        21330 SOCKETED;
+        21332 SOCKETED;
+        21343 DRILLED;
+        21344 DRILLED;
+        21345 DRILLED;
+        21346 DRILLED;
+        21348 DRILLED;
+        21353 DRILLED;
+        21354 DRILLED;
+        21355 DRILLED;
+        21356 DRILLED;
+        21357 DRILLED;
+        21358 DRILLED;
+        21371 SOCKETED;
+        21372 SOCKETED;
+        21373 SOCKETED;
+        21374 SOCKETED;
+        21375 SOCKETED;
+        21376 SOCKETED;
+      WIRES
+        21839 TO 21838 Black    28    3.00;
+        21844 TO 21843 Black    28    3.00;
+        21868 TO 21866 Black    28    3.00;
+        21869 TO 21868 Black    28    3.00;
+        21872 TO 21869 Black    28    3.00;
+        21876 TO 21872 Black    28    3.00;
+        21878 TO 21876 Black    28    3.00;
+        21371 TO 21372 Blue    28    3.00;
+        21373 TO 21374 Blue    28    3.00;
+        21374 TO 21375 Blue    28    3.00;
+  
+    BOARD "1793_1796:1"
+      PLACEMENT        0,       0  0.0;    ! with respect to panel origin
+  
+      OUTLINE
+           94488,   30906
+               0,   30906
+               0,       0
+           94488,       0
+           94488,   30906;
+  
+      TOOLING
+          3750      1181,   29724;
+          3750     93307,    1181;
+  
+      NODE "1:BP_EIN"
+        PINS
+          219138;
+        PROBES
+          P7        36616,   13583 LWT MANDATORY;
+        WIRES
+          219138 TO P7 Blue    28    7.00;
+  
+      NODE "1:BP_HALTEN"
+        PINS
+          21761;
+        PROBES
+          P8        31690,   19552 LWT MANDATORY;
+        WIRES
+          21761 TO P8 Blue    28    6.00;
+  
+      NODE "1:BYPASS"
+        PINS
+          216149;
+        PROBES
+          P9        34281,   13330 LWT MANDATORY;
+        WIRES
+          216149 TO P9 Blue    28    3.00;
+  
+      NODE "1:FP1"
+        PINS
+          21951    786;
+        PROBES
+          P10       32795,   17922 LWT MANDATORY;
+        WIRES
+          21951 TO P10 Blue    28    6.00;
+  
+      NODE "1:FP3"
+        PINS
+          216161;
+        PROBES
+          P11       31283,   17091 LWT MANDATORY;
+        WIRES
+          216161 TO P11 Blue    28    6.00;
+  
+      NODE "1:FP_3"
+        PINS
+          22165;
+        PROBES
+          P12       29893,   20803 LWT MANDATORY;
+        WIRES
+          22165 TO P12 Blue    28   11.00;
+  
+      NODE "1:INPUT"
+        PINS
+          22135;
+        PROBES
+          P13       55925,    6492 "1:x401".4 MANDATORY;
+        WIRES
+          22135 TO P13 Blue    28    6.00;
+  
+      NODE "1:L1"
+        PINS
+          220103;
+          22003;
+        PROBES
+          P147      78346,   27579 "1:x101".1 MANDATORY;
+        ALTERNATES
+             75728,   28071 "1:k101".3;
+        WIRES
+          220103 TO P147 Blue    28   13.00;
+          22003 TO P147 Blue    28   12.00;
+  
+      NODE "1:L3"
+        PINS
+          221165;
+          22169;
+        PROBES
+          P148      16142,   27618 "1:x301".1 MANDATORY;
+        ALTERNATES
+             18760,   16201 "1:k103".4;
+        WIRES
+          221165 TO P148 Blue    28   12.00;
+          22169 TO P148 Blue    28   12.00;
+  
+      NODE "1:L_3"
+        PINS
+          221158;
+        PROBES
+          P14       31301,    4324 LWT 75MIL MANDATORY;
+        WIRES
+          221158 TO P14 Blue    28    7.00;
+  
+      NODE "1:M" GROUND
+        PINS
+          22355;
+          22353;
+          22349;
+          22154;
+          22153;
+          219119;
+          219120;
+          219139;
+          219140;
+          219159;
+          219160;
+          21920   -842;
+          21960;
+          21959;
+          21940;
+          21919;
+          21939;
+          21854;
+          21858;
+          217160;
+          217159;
+          21860;
+          21852    179;
+          21314;
+          21313;
+          21317;
+          217119;
+          217120;
+          217140;
+          21760;
+          21759;
+          21740;
+          21720;
+          21719;
+          21739;
+          216140;
+          216139;
+        PROBES
+          P176      28902,   12953 "1:p913".1 LWT MANDATORY;
+          P177      28902,   17953 "1:p900".1 LWT MANDATORY;
+          P178      55925,    7492 "1:x401".3 MANDATORY;
+          P179      66693,   11677 "1:c102".2 MANDATORY;
+          P180      38472,    7488 "1:x402".3 LWT MANDATORY;
+          P181      45807,   10965 "1:r447".1;
+          P182      45807,   14902 "1:r446".1;
+          P183      59434,    8401 "1:c106".2;
+          P184      54301,   14953 "1:c103".2;
+        WIRES
+          22359 TO 21852 Black    28   11.00;
+          22355 TO P180 Black    28   11.00;
+          22353 TO P180 Black    28   11.00;
+          22349 TO P181 Black    28   11.00;
+          22340 TO P184 Black    28   12.00;
+          22339 TO P183 Black    28   11.00;
+          22339 TO 217159 Black    28    5.50;
+          221159 TO 22154 Black    28    3.00;
+          22160 TO 21852 Black    28    8.00;
+          22059 TO 22154 Black    28    4.00;
+          22154 TO P176 Black    28    8.00;
+          220159 TO 22153 Black    28    3.00;
+          22153 TO P176 Black    28    8.00;
+          22140 TO P183 Black    28    7.00;
+          22139 TO P178 Black    28    7.00;
+          22120 TO 217140 Black    28   12.00;
+          22119 TO 21940 Black    28   11.00;
+          22040 TO P183 Black    28    6.00;
+          22039 TO P178 Black    28    4.00;
+          22020 TO 217140 Black    28   11.00;
+          22019 TO 21939 Black    28    9.00;
+          219119 TO 21920 Black    28    3.00;
+          219120 TO 21920 Black    28    3.00;
+          219139 TO 21740 Black    28    7.00;
+          219140 TO 21740 Black    28    7.00;
+          219159 TO 21959 Black    28    3.00;
+          219160 TO 21960 Black    28    3.00;
+          21920 TO 21940 Black    28    9.00;
+          21960 TO 21858 Black    28    3.00;
+          21959 TO 21854 Black    28    4.00;
+          21940 TO P181 Black    28    3.00;
+          21939 TO P178 Black    28    3.00;
+          21919 TO 21939 Black    28    9.00;
+          21860 TO P180 Black    28    7.00;
+          21854 TO P177 Black    28    3.00;
+          21660 TO 21854 Black    28    6.00;
+          21759 TO 21858 Black    28    3.00;
+          21858 TO P177 Black    28    4.00;
+          217160 TO 21860 Black    28    3.00;
+          217159 TO 21860 Black    28    3.00;
+          21852 TO P177 Black    28    3.00;
+          21350 TO P181 Black    28   11.00;
+          21314 TO P179 Black    28   12.00;
+          21313 TO P179 Black    28   12.00;
+          21317 TO P176 Black    28   18.00;
+          217119 TO 21719 Black    28    3.00;
+          217120 TO 21720 Black    28    3.00;
+          217140 TO P182 Black    28    3.00;
+          216140 TO P182 Black    28    3.00;
+          21349 TO P182 Black    28    9.00;
+          21739 TO P184 Black    28    3.00;
+          216139 TO P184 Black    28    3.00;
+          21760 TO 21759 Black    28    3.00;
+          216160 TO 21759 Black    28    3.00;
+          21740 TO 216140 Black    28    3.00;
+          21720 TO 21739 Black    28    9.00;
+          21719 TO 21739 Black    28    9.00;
+          216119 TO 216140 Black    28    9.00;
+          21639 TO 216139 Black    28    3.00;
+          21619 TO 216139 Black    28    9.00;
+          21659 TO 21349 Black    28    8.00;
+          214139 TO 21350 Black    28    7.00;
+  
+      NODE "1:P1V61"
+        PINS
+          221144;
+          22149;
+        PROBES
+          P15       38371,    8932 LWT MANDATORY;
+        WIRES
+          221144 TO P15 Blue    28    8.00;
+          22149 TO P15 Blue    28    7.00;
+  
+      NODE "1:P1V65"
+        PINS
+          22150;
+          22138;
+        PROBES
+          P16       37500,    5753 LWT 75MIL MANDATORY;
+        WIRES
+          22150 TO P16 Blue    28    6.00;
+          22138 TO P16 Blue    28    7.00;
+  
+      NODE "1:P1V69"
+        PINS
+          221145;
+          22147;
+        PROBES
+          P17       38462,    9854 LWT MANDATORY;
+        WIRES
+          221145 TO P17 Blue    28    8.00;
+          22147 TO P17 Blue    28    7.00;
+  
+      NODE "1:P3V3"
+        PINS
+          22351;
+          221148;
+          22148;
+          21862   -749;
+        PROBES
+          P166      37472,    7488 "1:x402".1 LWT MANDATORY;
+          P167      27902,   14453 "1:p910".1 LWT MANDATORY;
+          P168      27902,   16453 "1:p903".1 LWT MANDATORY;
+          P169      56925,    7492 "1:x401".1 MANDATORY;
+        ALTERNATES
+             45807,   16902 "1:r446".2;
+        WIRES
+          22351 TO P166 Blue    28    9.00;
+          221148 TO P166 Blue    28    7.00;
+          221148 TO P168 Blue    28    9.00;
+          22148 TO P167 Blue    28    8.00;
+          21862 TO P169 Blue    28   12.00;
+          21862 TO P168 Blue    28    6.00;
+  
+      NODE "1:P6V2"
+        PINS
+          221175;
+        PROBES
+          P18       21984,   23166 MANDATORY;
+        WIRES
+          221175 TO P18 Blue    28   13.00;
+  
+      NODE "1:P12V"
+        PINS
+          221146;
+          221147;
+        PROBES
+          P170      39888,   12961 LWT MANDATORY;
+          P171      23484,   15492 "1:k103".1 LWT MANDATORY;
+          P172      23355,   12062 LWT MANDATORY;
+          P173      71004,   17913 "1:k101".1 MANDATORY;
+        ALTERNATES
+             37472,    6488 "1:x402".2 75MIL;
+             35197,   22129 "1:k430".A;
+             56925,    6492 "1:x401".2;
+             61651,    8401 "1:c106".1;
+             62795,   12416 "1:l103".2;
+        WIRES
+          221146 TO 221147 Blue    28    1.00;
+          221146 TO P170 Blue    28    8.00;
+          221146 TO P171 Blue    28   11.00;
+          221147 TO P172 Blue    28    9.00;
+          221147 TO P173 Blue    28   13.00;
+  
+      NODE "1:SIGN548"
+        PINS
+          22142;
+        PROBES
+          P19       50878,   14179 MANDATORY;
+        WIRES
+          22142 TO P19 Blue    28    8.00;
+  
+      NODE "1:SIGN549"
+        PINS
+          221115;
+        PROBES
+          P164      51075,   25728 "1:x100".3 MANDATORY;
+        ALTERNATES
+             50315,   22149 "1:c100".2;
+             64476,   27393 "1:t200".6;
+        WIRES
+          221115 TO P164 Blue    28   16.00;
+  
+      NODE "1:SIGN550"
+        PINS
+          221131;
+        PROBES
+          P20       62795,   14416 "1:l103".1 MANDATORY;
+        WIRES
+          221131 TO P20 Blue    28    9.00;
+  
+      NODE "1:SIGN551"
+        PINS
+          22108;
+        PROBES
+          P21       58161,   25728 "1:x100".1 MANDATORY;
+        WIRES
+          22108 TO P21 Blue    28   16.00;
+  
+      NODE "1:SIGN552"
+        PINS
+          22141;
+        PROBES
+          P22       51071,   10673 MANDATORY;
+        WIRES
+          22141 TO P22 Blue    28    7.00;
+  
+      NODE "1:SIGN553"
+        PINS
+          22133;
+        PROBES
+          P23       56063,   12048 MANDATORY;
+        WIRES
+          22133 TO P23 Blue    28    8.00;
+  
+      NODE "1:SIGN556"
+        PINS
+          22122;
+        PROBES
+          P24       50091,   14835 MANDATORY;
+        WIRES
+          22122 TO P24 Blue    28   11.00;
+  
+      NODE "1:SIGN558"
+        PINS
+          22121;
+        PROBES
+          P25       49853,   18987 MANDATORY;
+        WIRES
+          22121 TO P25 Blue    28   12.00;
+  
+      NODE "1:SIGN559"
+        PINS
+          221137;
+        PROBES
+          P26       50058,   13231 MANDATORY;
+        WIRES
+          221137 TO P26 Blue    28    9.00;
+  
+      NODE "1:SIGN560"
+        PINS
+          22115;
+        PROBES
+          P165      54618,   25728 "1:x100".2 MANDATORY;
+        ALTERNATES
+             58639,   19119 "1:c100".1;
+             68476,   27393 "1:t200".5;
+        WIRES
+          22115 TO P165 Blue    28   14.00;
+  
+      NODE "1:SIGN561" POWER
+         3    18.00     1.00;
+        PINS
+          221132;
+          221141;
+          21316;
+          21315;
+          21318;
+        PROBES
+          P174      60818,   17803 "1:l102".2 MANDATORY;
+          P175      54301,   17170 "1:c103".1;
+        WIRES
+          221132 TO P174 Red    28    9.00;
+          221141 TO P174 Red    28   11.00;
+          21316 TO P175 Red    28   12.00;
+          21315 TO P175 Red    28   12.00;
+          21318 TO P174 Red    28   11.00;
+  
+      NODE "1:SIGN564"
+        PINS
+          221121;
+        PROBES
+          P27       54289,   19312 MANDATORY;
+        WIRES
+          221121 TO P27 Blue    28   12.00;
+  
+      NODE "1:SIGN565"
+        PINS
+          22112;
+        PROBES
+          P28       56036,   24205 MANDATORY;
+        WIRES
+          22112 TO P28 Blue    28   14.00;
+  
+      NODE "1:SIGN566"
+        PINS
+          221112;
+        PROBES
+          P29       55655,   21159 MANDATORY;
+        WIRES
+          221112 TO P29 Blue    28   14.00;
+  
+      NODE "1:SIGN567"
+        PINS
+          22129;
+          22128;
+        PROBES
+          P149      66693,   17583 "1:c102".1 MANDATORY;
+        ALTERNATES
+             62818,   17803 "1:l102".1;
+        WIRES
+          22129 TO P149 Blue    28    9.00;
+          22128 TO P149 Blue    28    9.00;
+  
+      NODE "1:SIGN568"
+        PINS
+          22127;
+        PROBES
+          P30       68476,   23393 "1:t200".1 MANDATORY;
+        WIRES
+          22127 TO P30 Blue    28   11.00;
+  
+      NODE "1:SIGN569"
+        PINS
+          221130;
+        PROBES
+          P31       64476,   23393 "1:t200".10 MANDATORY;
+        WIRES
+          221130 TO P31 Blue    28   12.00;
+  
+      NODE "1:SIGN571"
+        PINS
+          221127;
+        PROBES
+          P32       67123,   19999 MANDATORY;
+        WIRES
+          221127 TO P32 Blue    28   11.00;
+  
+      NODE "1:SIGN573"
+        PINS
+          22002;
+        PROBES
+          P150      71004,   26575 "1:k101".2 MANDATORY;
+        ALTERNATES
+             53925,    6492 "1:x401".8;
+        WIRES
+          22002 TO P150 Blue    28   13.00;
+  
+      NODE "1:SIGN575"
+        PINS
+          22123;
+        PROBES
+          P33       52925,    7492 "1:x401".9 MANDATORY;
+        WIRES
+          22123 TO P33 Blue    28    9.00;
+  
+      NODE "1:SIGN576"
+        PINS
+          221113;
+        PROBES
+          P34       10698,   27999 MANDATORY;
+        WIRES
+          221113 TO P34 Blue    28   26.00;
+  
+      NODE "1:SIGN577"
+        PINS
+          22116;
+        PROBES
+          P35       84491,    7953 MANDATORY;
+        WIRES
+          22116 TO P35 Blue    28    7.00;
+  
+      NODE "1:SIGN578"
+        PINS
+          221109;
+        PROBES
+          P36       83386,   10921 MANDATORY;
+        WIRES
+          221109 TO P36 Blue    28    9.00;
+  
+      NODE "1:SIGN579"
+        PINS
+          221177;
+        PROBES
+          P37       11181,   23238 MANDATORY;
+        WIRES
+          221177 TO P37 Blue    28   12.00;
+  
+      NODE "1:SIGN580"
+        PINS
+          221125;
+          221128;
+        PROBES
+          P38       64820,    6822 75MIL MANDATORY;
+        WIRES
+          221125 TO P38 Blue    28    7.00;
+          221128 TO P38 Blue    28    7.00;
+  
+      NODE "1:SIGN581"
+        PINS
+          221173;
+          22173;
+        PROBES
+          P39       25313,   18399 LWT MANDATORY;
+        WIRES
+          221173 TO P39 Blue    28   12.00;
+          22173 TO P39 Blue    28   12.00;
+  
+      NODE "1:SIGN582"
+        PINS
+          221171;
+          22171;
+        PROBES
+          P40       26494,   18324 LWT 75MIL MANDATORY;
+        WIRES
+          221171 TO P40 Blue    28   12.00;
+          22171 TO P40 Blue    28   12.00;
+  
+      NODE "1:SIGN583"
+        PINS
+          221154;
+          221155;
+        PROBES
+          P41       26490,   19089 LWT 75MIL MANDATORY;
+        WIRES
+          221154 TO P41 Blue    28   11.00;
+          221155 TO P41 Blue    28   11.00;
+  
+      NODE "1:SIGN585"
+        PINS
+          220101;
+        PROBES
+          P42       81949,   21334 MANDATORY;
+        WIRES
+          220101 TO P42 Blue    28   12.00;
+  
+      NODE "1:SIGN586"
+        PINS
+          22114;
+        PROBES
+          P43       15840,   10690 MANDATORY;
+        WIRES
+          22114 TO P43 Blue    28   21.00;
+  
+      NODE "1:SIGN587"
+        PINS
+          221178;
+        PROBES
+          P44       13543,   10690 MANDATORY;
+        WIRES
+          221178 TO P44 Blue    28   11.00;
+  
+      NODE "1:SIGN589"
+        PINS
+          221111;
+        PROBES
+          P45       78779,   19196 MANDATORY;
+        WIRES
+          221111 TO P45 Blue    28   11.00;
+  
+      NODE "1:SIGN590"
+        PINS
+          22110;
+        PROBES
+          P46       80709,   19193 MANDATORY;
+        WIRES
+          22110 TO P46 Blue    28    9.00;
+  
+      NODE "1:SIGN591"
+        PINS
+          221168;
+        PROBES
+          P47       31821,   28780 MANDATORY;
+        WIRES
+          221168 TO P47 Blue    28   14.00;
+  
+      NODE "1:SIGN594"
+        PINS
+          221114;
+          22113;
+        PROBES
+          P151       8622,    9705 "1:v213".G2 MANDATORY;
+          P152      10748,    7835 "1:v203".G2 MANDATORY;
+        WIRES
+          221114 TO P152 Blue    28   23.00;
+          22113 TO P151 Blue    28   23.00;
+  
+      NODE "1:SIGN595"
+        PINS
+          221174;
+        PROBES
+          P153       8622,   18957 "1:v213".G1 MANDATORY;
+          P154      10748,   20827 "1:v203".G1 MANDATORY;
+        WIRES
+          221174 TO P153 Blue    28   11.00;
+          221174 TO P154 Blue    28   11.00;
+  
+      NODE "1:SIGN596"
+        PINS
+          22126;
+        PROBES
+          P48       70429,   13272 75MIL MANDATORY;
+        WIRES
+          22126 TO P48 Blue    28    8.00;
+  
+      NODE "1:SIGN597"
+        PINS
+          22131;
+          22130;
+        PROBES
+          P49       65298,    6351 50MIL MANDATORY;
+        WIRES
+          22131 TO 22130 Blue    28    3.00;
+          22130 TO P49 Blue    30    6.00;
+  
+      NODE "1:SIGN598"
+        PINS
+          221122;
+          221123;
+        PROBES
+          P50       69677,   13283 75MIL MANDATORY;
+        WIRES
+          221122 TO P50 Blue    28    9.00;
+          221123 TO P50 Blue    28    9.00;
+  
+      NODE "1:SIGN601"
+        PINS
+          22111;
+          22001;
+        PROBES
+          P155      83740,   15216 "1:v201".G1 MANDATORY;
+          P156      85866,   17087 "1:v211".G1 MANDATORY;
+        WIRES
+          22111 TO P156 Blue    28    9.00;
+          22001 TO P155 Blue    28    9.00;
+  
+      NODE "1:SIGN603"
+        PINS
+          22176;
+        PROBES
+          P51       16736,   14617 MANDATORY;
+        WIRES
+          22176 TO P51 Blue    28   11.00;
+  
+      NODE "1:SIGN604"
+        PINS
+          221151;
+        PROBES
+          P52       31973,   23207 MANDATORY;
+        WIRES
+          221151 TO P52 Blue    28   12.00;
+  
+      NODE "1:SIGN605"
+        PINS
+          221129;
+        PROBES
+          P53       65614,    6933 75MIL MANDATORY;
+        WIRES
+          221129 TO P53 Blue    28    7.00;
+  
+      NODE "1:SIGN606"
+        PINS
+          221153;
+        PROBES
+          P54       26344,   10500 LWT MANDATORY;
+        WIRES
+          221153 TO P54 Blue    28    8.00;
+  
+      NODE "1:SIGN607"
+        PINS
+          221152;
+        PROBES
+          P55       36810,   10015 LWT 75MIL MANDATORY;
+        WIRES
+          221152 TO P55 Blue    28    8.00;
+  
+      NODE "1:SIGN608"
+        PINS
+          219153;
+        PROBES
+          P56       30012,    7771 LWT 75MIL MANDATORY;
+        WIRES
+          219153 TO P56 Blue    28    3.00;
+  
+      NODE "1:SIGN609"
+        PINS
+          21952;
+        PROBES
+          P57       31756,   11072 LWT MANDATORY;
+        WIRES
+          21952 TO P57 Blue    28    3.00;
+  
+      NODE "1:SIGN610"
+        PINS
+          22161;
+        PROBES
+          P58       33390,    9583 LWT 75MIL MANDATORY;
+        WIRES
+          22161 TO P58 Blue    28    8.00;
+  
+      NODE "1:SIGN611"
+        PINS
+          22163;
+        PROBES
+          P59       32132,    2833 LWT MANDATORY;
+        WIRES
+          22163 TO P59 Blue    28    7.00;
+  
+      NODE "1:SIGN612"
+        PINS
+          221150;
+        PROBES
+          P60       33927,    8181 LWT 75MIL MANDATORY;
+        WIRES
+          221150 TO P60 Blue    28    7.00;
+  
+      NODE "1:SIGN613"
+        PINS
+          21750;
+        PROBES
+          P61       31774,    8504 LWT MANDATORY;
+        WIRES
+          21750 TO P61 Blue    28    3.00;
+  
+      NODE "1:SIGN614"
+        PINS
+          219161;
+        PROBES
+          P62       25445,   10337 LWT MANDATORY;
+        WIRES
+          219161 TO P62 Blue    28    6.00;
+  
+      NODE "1:SIGN615"
+        PINS
+          221157;
+        PROBES
+          P63       23775,   10242 LWT MANDATORY;
+        WIRES
+          221157 TO P63 Blue    28    8.00;
+  
+      NODE "1:SIGN616"
+        PINS
+          219151;
+        PROBES
+          P64       31779,    9710 LWT MANDATORY;
+        WIRES
+          219151 TO P64 Blue    28    4.00;
+  
+      NODE "1:SIGN617"
+        PINS
+          21956;
+        PROBES
+          P65       25000,    8871 LWT MANDATORY;
+        WIRES
+          21956 TO P65 Blue    28    3.00;
+  
+      NODE "1:SIGN618"
+        PINS
+          221138;
+        PROBES
+          P66       36797,    9295 LWT 75MIL MANDATORY;
+        WIRES
+          221138 TO P66 Blue    28    9.00;
+  
+      NODE "1:SIGN619"
+        PINS
+          22175;
+        PROBES
+          P67       31011,    5791 LWT MANDATORY;
+        WIRES
+          22175 TO P67 Blue    28   12.00;
+  
+      NODE "1:SIGN620"
+        PINS
+          221172;
+          21863;
+        PROBES
+          P68       33379,    8865 LWT 75MIL MANDATORY;
+        WIRES
+          221172 TO P68 Blue    28   12.00;
+          21863 TO P68 Blue    28    7.00;
+  
+      NODE "1:SIGN621"
+        PINS
+          22352;
+          22172;
+        PROBES
+          P69       27259,   12452 LWT MANDATORY;
+        WIRES
+          22352 TO P69 Blue    28   11.00;
+          22172 TO P69 Blue    28   11.00;
+  
+      NODE "1:SIGN622"
+        PINS
+          22106;
+        PROBES
+          P70       30813,   13290 LWT MANDATORY;
+        WIRES
+          22106 TO P70 Blue    28   21.00;
+  
+      NODE "1:SIGN623"
+        PINS
+          21751   -612;
+        PROBES
+          P71       31816,   13354 LWT MANDATORY;
+        WIRES
+          21751 TO P71 Blue    28    3.00;
+  
+      NODE "1:SIGN624"
+        PINS
+          22156;
+        PROBES
+          P72       24239,    8396 LWT MANDATORY;
+        WIRES
+          22156 TO P72 Blue    28    7.00;
+  
+      NODE "1:SIGN625"
+        PINS
+          221135;
+        PROBES
+          P73       41472,    7488 "1:x402".9 LWT MANDATORY;
+        WIRES
+          221135 TO P73 Blue    28    8.00;
+  
+      NODE "1:SIGN626"
+        PINS
+          21949    649;
+        PROBES
+          P74       37095,   10782 LWT MANDATORY;
+        WIRES
+          21949 TO P74 Blue    28    3.00;
+  
+      NODE "1:SIGN627"
+        PINS
+          221176;
+        PROBES
+          P75       27800,    6209 LWT MANDATORY;
+        WIRES
+          221176 TO P75 Blue    28   12.00;
+  
+      NODE "1:SIGN628"
+        PINS
+          221149;
+        PROBES
+          P76       35590,    6482 LWT MANDATORY;
+        WIRES
+          221149 TO P76 Blue    28    7.00;
+  
+      NODE "1:SIGN629"
+        PINS
+          22143;
+        PROBES
+          P77       39472,    6488 "1:x402".6 50MIL MANDATORY;
+        WIRES
+          22143 TO P77 Blue    30    7.00;
+  
+      NODE "1:SIGN630"
+        PINS
+          22157;
+        PROBES
+          P78       25007,    7817 LWT MANDATORY;
+        WIRES
+          22157 TO P78 Blue    28    7.00;
+  
+      NODE "1:SIGN631"
+        PINS
+          22178;
+        PROBES
+          P79       33109,    7971 LWT 75MIL MANDATORY;
+        WIRES
+          22178 TO P79 Blue    28   13.00;
+  
+      NODE "1:SIGN632"
+        PINS
+          219154;
+        PROBES
+          P80       28053,    7805 LWT MANDATORY;
+        WIRES
+          219154 TO P80 Blue    28    3.00;
+  
+      NODE "1:SIGN633"
+        PINS
+          22145;
+        PROBES
+          P81       40472,    7488 "1:x402".7 LWT MANDATORY;
+        WIRES
+          22145 TO P81 Blue    28    7.00;
+  
+      NODE "1:SIGN634"
+        PINS
+          21953;
+        PROBES
+          P82       29219,    7805 LWT 75MIL MANDATORY;
+        WIRES
+          21953 TO P82 Blue    28    3.00;
+  
+      NODE "1:SIGN635"
+        PINS
+          22144;
+        PROBES
+          P83       36021,    2653 LWT MANDATORY;
+        WIRES
+          22144 TO P83 Blue    28    6.00;
+  
+      NODE "1:SIGN636"
+        PINS
+          221161;
+        PROBES
+          P84       33407,   11427 LWT MANDATORY;
+        WIRES
+          221161 TO P84 Blue    28    9.00;
+  
+      NODE "1:SIGN637"
+        PINS
+          221167;
+        PROBES
+          P85       28166,   12502 LWT MANDATORY;
+        WIRES
+          221167 TO P85 Blue    28   11.00;
+  
+      NODE "1:SIGN638"
+        PINS
+          22146;
+        PROBES
+          P86       34576,    6537 LWT MANDATORY;
+        WIRES
+          22146 TO P86 Blue    28    7.00;
+  
+      NODE "1:SIGN639"
+        PINS
+          22177;
+        PROBES
+          P87       25666,   14040 LWT MANDATORY;
+        WIRES
+          22177 TO P87 Blue    28   12.00;
+  
+      NODE "1:SIGN640"
+        PINS
+          221136;
+        PROBES
+          P88       38077,    5028 LWT MANDATORY;
+        WIRES
+          221136 TO P88 Blue    28    8.00;
+  
+      NODE "1:SIGN641"
+        PINS
+          217152    789;
+        PROBES
+          P89       30581,   11740 LWT MANDATORY;
+        WIRES
+          217152 TO P89 Blue    28    3.00;
+  
+      NODE "1:SIGN642"
+        PINS
+          221156;
+        PROBES
+          P90       25297,    6978 LWT MANDATORY;
+        WIRES
+          221156 TO P90 Blue    28    7.00;
+  
+      NODE "1:SIGN643"
+        PINS
+          22170;
+        PROBES
+          P91       24255,    6159 LWT MANDATORY;
+        WIRES
+          22170 TO P91 Blue    28    8.00;
+  
+      NODE "1:SIGN644"
+        PINS
+          221133;
+        PROBES
+          P92       34669,    8175 LWT 75MIL MANDATORY;
+        WIRES
+          221133 TO P92 Blue    28   11.00;
+  
+      NODE "1:SIGN645"
+        PINS
+          221107;
+        PROBES
+          P93       25533,   12379 LWT MANDATORY;
+        WIRES
+          221107 TO P93 Blue    28   23.00;
+  
+      NODE "1:SIGN646"
+        PINS
+          219152;
+        PROBES
+          P94       31440,   12058 LWT MANDATORY;
+        WIRES
+          219152 TO P94 Blue    28    4.00;
+  
+      NODE "1:SIGN647"
+        PINS
+          22137;
+        PROBES
+          P95       36963,    5325 50MIL MANDATORY;
+        WIRES
+          22137 TO P95 Blue    30    8.00;
+  
+      NODE "1:SIGN648"
+        PINS
+          221162;
+        PROBES
+          P96       33505,    6500 LWT MANDATORY;
+        WIRES
+          221162 TO P96 Blue    28    8.00;
+  
+      NODE "1:SIGN649"
+        PINS
+          221166;
+        PROBES
+          P97       31361,    7613 LWT MANDATORY;
+        WIRES
+          221166 TO P97 Blue    28    9.00;
+  
+      NODE "1:SIGN652"
+        PINS
+          221170;
+        PROBES
+          P98       26958,    6341 LWT MANDATORY;
+        WIRES
+          221170 TO P98 Blue    28    9.00;
+  
+      NODE "1:SIGN655"
+        PINS
+          22356;
+          22162;
+        PROBES
+          P99       26816,    5381 LWT MANDATORY;
+        WIRES
+          22356 TO P99 Blue    28    9.00;
+          22162 TO P99 Blue    28    7.00;
+  
+      NODE "1:SIGN658"
+        PINS
+          221163;
+        PROBES
+          P100      24797,   24822 75MIL MANDATORY;
+        WIRES
+          221163 TO P100 Blue    28   12.00;
+  
+      NODE "1:SIGN659"
+        PINS
+          22164;
+        PROBES
+          P101      24805,   25587 75MIL MANDATORY;
+        WIRES
+          22164 TO P101 Blue    28   12.00;
+  
+      NODE "1:SIGN660"
+        PINS
+          221164;
+        PROBES
+          P102      21279,   24897 MANDATORY;
+        WIRES
+          221164 TO P102 Blue    28   12.00;
+  
+      NODE "1:SIGN661"
+        PINS
+          22078;
+        PROBES
+          P103      24339,   26539 MANDATORY;
+        WIRES
+          22078 TO P103 Blue    28   13.00;
+  
+      NODE "1:SIGN662"
+        PINS
+          22158;
+        PROBES
+          P104      21409,   25769 MANDATORY;
+        WIRES
+          22158 TO P104 Blue    28   11.00;
+  
+      NODE "1:SIGN663"
+        PINS
+          21651;
+        PROBES
+          P105      33153,   20718 LWT MANDATORY;
+        WIRES
+          21651 TO P105 Blue    28    3.00;
+  
+      NODE "1:SIGN664"
+        PINS
+          217149    934;
+        PROBES
+          P106      36029,   19527 LWT MANDATORY;
+        WIRES
+          217149 TO P106 Blue    28    3.00;
+  
+      NODE "1:SIGN666"
+        PINS
+          22151;
+        PROBES
+          P107      36421,   16595 LWT 75MIL MANDATORY;
+        WIRES
+          22151 TO P107 Blue    28    9.00;
+  
+      NODE "1:SIGN667"
+        PINS
+          21748    917;
+        PROBES
+          P108      37505,   16961 LWT MANDATORY;
+        WIRES
+          21748 TO P108 Blue    28    3.00;
+  
+      NODE "1:SIGN668"
+        PINS
+          216152;
+        PROBES
+          P109      31283,   17965 LWT MANDATORY;
+        WIRES
+          216152 TO P109 Blue    28    3.00;
+  
+      NODE "1:SIGN669"
+        PINS
+          22168;
+        PROBES
+          P110      21722,   26920 MANDATORY;
+        WIRES
+          22168 TO P110 Blue    28   12.00;
+  
+      NODE "1:SIGN671"
+        PINS
+          221134;
+          22134;
+        PROBES
+          P157      39870,   25728 "1:x400".2 MANDATORY;
+        ALTERNATES
+             35197,   26129 "1:k430".11;
+        WIRES
+          221134 TO P157 Blue    28   13.00;
+          22134 TO P157 Blue    28   12.00;
+  
+      NODE "1:SIGN672"
+        PINS
+          22118;
+        PROBES
+          P158      43413,   25728 "1:x400".1 MANDATORY;
+        ALTERNATES
+             35197,   29129 "1:k430".14;
+        WIRES
+          22118 TO P158 Blue    28   16.00;
+  
+      NODE "1:SIGN673"
+        PINS
+          22132;
+        PROBES
+          P111      32197,   22129 "1:k430".B LWT MANDATORY;
+        WIRES
+          22132 TO P111 Blue    28   13.00;
+  
+      NODE "1:SIGN674"
+        PINS
+          22152;
+        PROBES
+          P112      30511,   18405 LWT MANDATORY;
+        WIRES
+          22152 TO P112 Blue    28    9.00;
+  
+      NODE "1:SIGN675"
+        PINS
+          22125;
+        PROBES
+          P113      46978,   24625 MANDATORY;
+        WIRES
+          22125 TO P113 Blue    28   13.00;
+  
+      NODE "1:SIGN676"
+        PINS
+          221126;
+        PROBES
+          P114      46007,   23576 MANDATORY;
+        WIRES
+          221126 TO P114 Blue    28   13.00;
+  
+      NODE "1:SIGN677"
+        PINS
+          221124;
+        PROBES
+          P115      45449,   22117 MANDATORY;
+        WIRES
+          221124 TO P115 Blue    28   13.00;
+  
+      NODE "1:SIGN678"
+        PINS
+          22124;
+        PROBES
+          P116      47205,   23134 MANDATORY;
+        WIRES
+          22124 TO P116 Blue    28   12.00;
+  
+      NODE "1:SIGN679"
+        PINS
+          21861;
+          21637;
+        PROBES
+          P117      46234,   20944 MANDATORY;
+        WIRES
+          21861 TO P117 Blue    28    9.00;
+          21637 TO P117 Blue    28    3.00;
+  
+      NODE "1:SIGN680"
+        PINS
+          219150;
+          21859;
+        PROBES
+          P118      35697,   17933 LWT MANDATORY;
+        WIRES
+          219150 TO P118 Blue    28    7.00;
+          21859 TO P118 Blue    28    6.00;
+  
+      NODE "1:SIGN681"
+        PINS
+          21855   -844;
+          217162;
+        PROBES
+          P119      28902,   15953 "1:p904".1 LWT MANDATORY;
+        WIRES
+          21855 TO P119 Blue    28    3.00;
+          217162 TO P119 Blue    28    6.00;
+  
+      NODE "1:SIGN682"
+        PINS
+          22155;
+        PROBES
+          P120      27902,   15453 "1:p905".1 LWT MANDATORY;
+        WIRES
+          22155 TO P120 Blue    28    8.00;
+  
+      NODE "1:SIGN683"
+        PINS
+          21961;
+        PROBES
+          P121      28902,   13953 "1:p912".1 LWT MANDATORY;
+        WIRES
+          21961 TO P121 Blue    28    6.00;
+  
+      NODE "1:SIGN684"
+        PINS
+          217147;
+        PROBES
+          P122      37420,   15276 LWT MANDATORY;
+        WIRES
+          217147 TO P122 Blue    28    3.00;
+  
+      NODE "1:SIGN685"
+        PINS
+          21954;
+        PROBES
+          P123      27902,   13453 "1:p911".1 LWT MANDATORY;
+        WIRES
+          21954 TO P123 Blue    28    4.00;
+  
+      NODE "1:SIGN687"
+        PINS
+          22354;
+          21661;
+        PROBES
+          P124      27902,   17453 "1:p901".1 LWT MANDATORY;
+        WIRES
+          22354 TO P124 Blue    28   12.00;
+          21661 TO P124 Blue    28    4.00;
+  
+      NODE "1:SIGN689"
+        PINS
+          221169;
+        PROBES
+          P159      23484,    6831 "1:k103".2 LWT MANDATORY;
+        ALTERNATES
+             40472,    6488 "1:x402".8 50MIL;
+        WIRES
+          221169 TO P159 Blue    28    9.00;
+  
+      NODE "1:SIGN690"
+        PINS
+          21646;
+        PROBES
+          P125      42113,   19289 MANDATORY;
+        WIRES
+          21646 TO P125 Blue    28    3.00;
+  
+      NODE "1:SIGN691"
+        PINS
+          21645;
+        PROBES
+          P126      42074,   17749 MANDATORY;
+        WIRES
+          21645 TO P126 Blue    28    3.00;
+  
+      NODE "1:SIGN692"
+        PINS
+          221142;
+        PROBES
+          P127      39472,    7488 "1:x402".5 LWT MANDATORY;
+        WIRES
+          221142 TO P127 Blue    28    7.00;
+  
+      NODE "1:SIGN693"
+        PINS
+          216147;
+        PROBES
+          P128      38619,   16921 LWT MANDATORY;
+        WIRES
+          216147 TO P128 Blue    28    3.00;
+  
+      NODE "1:SIGN694"
+        PINS
+          216148;
+        PROBES
+          P129      38505,   19474 MANDATORY;
+        WIRES
+          216148 TO P129 Blue    28    3.00;
+  
+      NODE "1:SIGN695"
+        PINS
+          219147;
+        PROBES
+          P130      38472,    6488 "1:x402".4 LWT MANDATORY;
+        WIRES
+          219147 TO P130 Blue    28    3.00;
+  
+      NODE "1:SIGN696"
+        PINS
+          22350;
+          21648;
+        PROBES
+          P131      36336,   17362 LWT 75MIL MANDATORY;
+        WIRES
+          22350 TO P131 Blue    28   12.00;
+          21648 TO P131 Blue    28    3.00;
+  
+      NODE "1:SIGN697"
+        PINS
+          220102;
+        PROBES
+          P160      83740,   28209 "1:v201".G2 MANDATORY;
+          P161      85866,   26339 "1:v211".G2 MANDATORY;
+        WIRES
+          220102 TO P161 Blue    28   12.00;
+          220102 TO P160 Blue    28   12.00;
+  
+      NODE "1:SIGN698"
+        PINS
+          21853;
+          217161;
+        PROBES
+          P132      28902,   14953 "1:p906".1 LWT MANDATORY;
+        WIRES
+          21853 TO P132 Blue    28    3.00;
+          217161 TO P132 Blue    28    4.00;
+  
+      NODE "1:SIGN699"
+        PINS
+          217144;
+        PROBES
+          P133      42368,   20340 MANDATORY;
+        WIRES
+          217144 TO P133 Blue    28    3.00;
+  
+      NODE "1:SIGN700"
+        PINS
+          21747    857;
+        PROBES
+          P134      37627,   16161 LWT 75MIL MANDATORY;
+        WIRES
+          21747 TO P134 Blue    28    3.00;
+  
+      NODE "1:SIGN701"
+        PINS
+          22117;
+        PROBES
+          P135      53925,    7492 "1:x401".7 MANDATORY;
+        WIRES
+          22117 TO P135 Blue    28   11.00;
+  
+      NODE "1:SIGN714"
+        PINS
+          22109;
+        PROBES
+          P136      54925,    6492 "1:x401".6 MANDATORY;
+        WIRES
+          22109 TO P136 Blue    28   13.00;
+  
+      NODE "1:SIGN785"
+        PINS
+          221117;
+        PROBES
+          P137      70165,    5231 MANDATORY;
+        WIRES
+          221117 TO P137 Blue    28    8.00;
+  
+      NODE "1:STSPGMSG"
+        PINS
+          22136;
+        PROBES
+          P138      54925,    7492 "1:x401".5 MANDATORY;
+        WIRES
+          22136 TO P138 Blue    28    7.00;
+  
+      NODE "1:T1"
+        PINS
+          221118;
+        PROBES
+          P162      78346,    3287 "1:x102".1 MANDATORY;
+        ALTERNATES
+             75728,   17205 "1:k101".4;
+        WIRES
+          221118 TO P162 Blue    28    7.00;
+  
+      NODE "1:T3"
+        PINS
+          22174;
+        PROBES
+          P163      16142,    3287 "1:x302".1 MANDATORY;
+        ALTERNATES
+             18760,    5335 "1:k103".3;
+        WIRES
+          22174 TO P163 Blue    28    7.00;
+  
+      NODE "1:T_3"
+        PINS
+          221143;
+        PROBES
+          P139      31493,    5046 LWT 75MIL MANDATORY;
+        WIRES
+          221143 TO P139 Blue    28    8.00;
+  
+      NODE "1:T_START"
+        PINS
+          21738;
+        PROBES
+          P140      44807,   15902 "1:r446".W MANDATORY;
+        WIRES
+          21738 TO P140 Blue    28    3.00;
+  
+      NODE "1:THY_L1_SPGNULL"
+        PINS
+          21938;
+        PROBES
+          P141      36523,   12717 LWT MANDATORY;
+        WIRES
+          21938 TO P141 Blue    28    7.00;
+  
+      NODE "1:THY_L3_SPGNULL"
+        PINS
+          21649;
+        PROBES
+          P142      35245,   13594 LWT MANDATORY;
+        WIRES
+          21649 TO P142 Blue    28    4.00;
+  
+      NODE "1:U_START"
+        PINS
+          21943;
+        PROBES
+          P143      44807,   11965 "1:r447".W MANDATORY;
+        WIRES
+          21943 TO P143 Blue    28    3.00;
+  
+      NODE "1:VSPG_IMSG_1"
+        PINS
+          221110;
+        PROBES
+          P144      48925,    6492 "1:x401".18 MANDATORY;
+        WIRES
+          221110 TO P144 Blue    28   14.00;
+  
+      NODE "1:VSPG_IMSG_2"
+        PINS
+          221116;
+        PROBES
+          P145      45472,    6488 "1:x402".18 MANDATORY;
+        WIRES
+          221116 TO P145 Blue    28   13.00;
+  
+      NODE "1:ZOSC"
+        PINS
+          21762;
+        PROBES
+          P146      28902,   16953 "1:p902".1 LWT MANDATORY;
+        WIRES
+          21762 TO P146 Blue    28    4.00;
+  
+      TESTJET
+        PROBES
+          P1        42942,    8058 "1:x402";
+          P2        40002,    5918 "1:x402";
+          P3        35466,   16818 "1:d400";
+          P4        32526,   14678 "1:d400";
+          P5        23134,   25541 "1:n401";
+          P6        23134,   24291 "1:n401";
+  
+      OTHER
+        PINS
+          21627    598;
+          21630    532;
+          21635   -944;
+          21657   -922;
+          21658    -22;
+          21715    839;
+          21716    678;
+          21725   -582;
+          21728   -786;
+          21731   -668;
+          21732   -691;
+          21736    853;
+          21737    772;
+          21745   -627;
+          21817   -636;
+          21842   -609;
+          21847    828;
+          21864   -667;
+          215117   -727;
+          215120    827;
+          215121    692;
+          215122   -797;
+          215127    848;
+          215130    782;
+          215158    594;
+          215162    954;
+          215165   -660;
+          215166   -698;
+          216118   -681;
+          216128    646;
+          216135   -551;
+          216136   -470;
+          216144    716;
+          216165   -775;
+          216166   -756;
+          217126    734;
+          217131   -281;
+          217146    630;
+          217150    793;
+          217155   -427;
+          217156   -435;
+        ALTERNATES
+             36327,   25728 "1:x400".3;
+    END BOARD
+  
+    BOARD "1793_1796:2"
+      PLACEMENT        0,   40906  0.0;    ! with respect to panel origin
+  
+      OUTLINE
+           94488,   30906
+               0,   30906
+               0,       0
+           94488,       0
+           94488,   30906;
+  
+      TOOLING
+          3750      1181,   29724;
+          3750     93307,    1181;
+  
+      NODE "2:BP_EIN"
+        PINS
+          216137;
+        PROBES
+          P191      36616,   13583 LWT MANDATORY;
+        WIRES
+          216137 TO P191 Blue    28   12.00;
+  
+      NODE "2:BP_HALTEN"
+        PINS
+          214164;
+        PROBES
+          P192      31691,   19552 LWT MANDATORY;
+        WIRES
+          214164 TO P192 Blue    28    9.00;
+  
+      NODE "2:BYPASS"
+        PINS
+          21462;
+        PROBES
+          P193      34281,   13330 LWT MANDATORY;
+        WIRES
+          21462 TO P193 Blue    28    8.00;
+  
+      NODE "2:FP1"
+        PINS
+          216150   -770;
+        PROBES
+          P194      32792,   17923 LWT MANDATORY;
+        WIRES
+          216150 TO P194 Blue    28   12.00;
+  
+      NODE "2:FP3"
+        PINS
+          216153   -903;
+        PROBES
+          P195      31268,   17085 LWT MANDATORY;
+        WIRES
+          216153 TO P195 Blue    28   12.00;
+  
+      NODE "2:FP_3"
+        PINS
+          22065;
+        PROBES
+          P196      29897,   20806 LWT MANDATORY;
+        WIRES
+          22065 TO P196 Blue    28   20.00;
+  
+      NODE "2:INPUT"
+        PINS
+          22035;
+        PROBES
+          P197      55925,    6492 "2:x401".4 MANDATORY;
+        WIRES
+          22035 TO P197 Blue    28   14.00;
+  
+      NODE "2:L1"
+        PINS
+          220122;
+          22022;
+        PROBES
+          P334      78346,   27618 "2:x101".1 MANDATORY;
+        ALTERNATES
+             75728,   28071 "2:k431".3;
+        WIRES
+          220122 TO P334 Blue    28   21.00;
+          22022 TO P334 Blue    28   20.00;
+  
+      NODE "2:L3"
+        PINS
+          220165;
+          22067;
+        PROBES
+          P335      16142,   27618 "2:x301".1 MANDATORY;
+        ALTERNATES
+             18760,   16201 "2:k103".4;
+        WIRES
+          220165 TO P335 Blue    28   21.00;
+          22067 TO P335 Blue    28   20.00;
+  
+      NODE "2:L_3"
+        PINS
+          220158;
+        PROBES
+          P198      31295,    4326 LWT 75MIL MANDATORY;
+        WIRES
+          220158 TO P198 Blue    28   16.00;
+  
+      NODE "2:M" GROUND
+        PINS
+          22363;
+          22361;
+          22360;
+          22359;
+          22357;
+          22343;
+          22341;
+          22340;
+          22339;
+          22337;
+          22335;
+          22320;
+          22319;
+          221119;
+          221120;
+          221139;
+          221140;
+          221159;
+          221160;
+          22160;
+          22159;
+          22140;
+          22139;
+          22120;
+          22119;
+          220119;
+          220120;
+          220139;
+          220140;
+          220159;
+          220160;
+          22060;
+          22059;
+          22054;
+          22053;
+          22040;
+          22039;
+          22020;
+          22019;
+          216160;
+          216159;
+          216120;
+          216119;
+          21619;
+          21620;
+          21639;
+          21640;
+          21659;
+          21660;
+          214160;
+          214159;
+          214140;
+          214139;
+          214120;
+          214119;
+          21419;
+          21420;
+          21439;
+          21440;
+          21460;
+          21459;
+          21319;
+          21320;
+          21323;
+          21349;
+          21350;
+        PROBES
+          P361      28902,   12953 "2:p913".1 LWT MANDATORY;
+          P362      28902,   17953 "2:p900".1 LWT MANDATORY;
+          P363      55925,    7492 "2:x401".3 MANDATORY;
+          P364      61429,   18450 "2:c102".2 MANDATORY;
+          P365      38472,    7488 "2:x402".3 LWT MANDATORY;
+          P366      62079,   27416 "2:c103".2 MANDATORY;
+          P367      45807,   10965 "2:r447".1;
+          P368      63787,   19999 "2:c104".2;
+          P369      45807,   14902 "2:r446".1;
+          P370      59600,   10003 "2:c109".2;
+        WIRES
+          22363 TO P361 Black    28   23.00;
+          22361 TO P361 Black    28   23.00;
+          22360 TO 22159 Black    28    6.00;
+          22359 TO P362 Black    28   23.00;
+          22343 TO 22357 Black    28    2.50;
+          22357 TO P361 Black    28   23.00;
+          22343 TO P363 Black    28   21.00;
+          22341 TO P363 Black    28   21.00;
+          22340 TO P366 Black    28   26.00;
+          22339 TO P368 Black    28   23.00;
+          22337 TO P363 Black    28   21.00;
+          22335 TO P367 Black    28   21.00;
+          22320 TO 22139 Black    28    9.00;
+          22320 TO 21640 Black    28   16.00;
+          22319 TO 22039 Black    28   11.00;
+          221119 TO 22040 Black    28   11.00;
+          221120 TO 21639 Black    28   14.00;
+          221139 TO 220139 Black    28    3.00;
+          221140 TO 21439 Black    28   14.00;
+          221160 TO 22159 Black    28    3.00;
+          22160 TO 21440 Black    28   16.00;
+          22159 TO 22053 Black    28    4.00;
+          220139 TO 22140 Black    28    3.00;
+          22140 TO P369 Black    28   18.00;
+          22139 TO P364 Black    28   20.00;
+          22120 TO P366 Black    28   23.00;
+          22119 TO 21440 Black    28   17.00;
+          220119 TO 22019 Black    28    3.00;
+          220120 TO 21640 Black    28   13.00;
+          220140 TO 220139 Black    28    3.00;
+          220140 TO 21439 Black    28   13.00;
+          220159 TO 22054 Black    28    3.00;
+          220160 TO 22054 Black    28    3.00;
+          22060 TO 22059 Black    28    3.00;
+          22059 TO 22053 Black    28    3.00;
+          22054 TO P365 Black    28   16.00;
+          22053 TO P365 Black    28   14.00;
+          22040 TO P369 Black    28   17.00;
+          22039 TO P364 Black    28   18.00;
+          22020 TO P366 Black    28   21.00;
+          22019 TO 21620 Black    28    9.00;
+          216160 TO 21659 Black    28    3.00;
+          216159 TO 21659 Black    28    3.00;
+          216120 TO 216119 Black    28    3.00;
+          216119 TO 21619 Black    28    3.00;
+          21619 TO 21620 Black    28    3.00;
+          21620 TO P368 Black    28   12.00;
+          21639 TO P364 Black    28   11.00;
+          21640 TO P369 Black    28    9.00;
+          21660 TO 21459 Black    28    6.00;
+          214160 TO 21460 Black    28    3.00;
+          214159 TO 21460 Black    28    3.00;
+          214140 TO 214139 Black    28    3.00;
+          214120 TO 21420 Black    28    3.00;
+          214119 TO 21419 Black    28    3.00;
+          21419 TO 21323 Black    28    3.00;
+          21420 TO 21323 Black    28    3.00;
+          21439 TO P368 Black    28    8.00;
+          21440 TO P367 Black    28    6.00;
+          21460 TO 21459 Black    28    3.00;
+          21459 TO P362 Black    28    7.00;
+          21319 TO P370 Black    28    7.00;
+          21320 TO P370 Black    28    7.00;
+          21323 TO P365 Black    28   11.00;
+          21349 TO P367 Black    28    4.00;
+          21350 TO P362 Black    28    6.00;
+  
+      NODE "2:P1V61"
+        PINS
+          220144;
+          22049;
+        PROBES
+          P199      38371,    8932 LWT MANDATORY;
+        WIRES
+          220144 TO P199 Blue    28   16.00;
+          22049 TO P199 Blue    28   16.00;
+  
+      NODE "2:P1V65"
+        PINS
+          22050;
+          22038;
+        PROBES
+          P200      37509,    5743 LWT 75MIL MANDATORY;
+        WIRES
+          22050 TO P200 Blue    28   14.00;
+          22038 TO P200 Blue    28   14.00;
+  
+      NODE "2:P1V69"
+        PINS
+          220145;
+          22047;
+        PROBES
+          P201      38462,    9854 LWT MANDATORY;
+        WIRES
+          220145 TO P201 Blue    28   17.00;
+          22047 TO P201 Blue    28   16.00;
+  
+      NODE "2:P3V3"
+        PINS
+          22347;
+          22345;
+          220148;
+          22048;
+        PROBES
+          P353      37472,    7488 "2:x402".1 LWT MANDATORY;
+          P354      27902,   14453 "2:p910".1 LWT MANDATORY;
+          P355      27902,   16453 "2:p903".1 LWT MANDATORY;
+          P356      56925,    7492 "2:x401".1 MANDATORY;
+        ALTERNATES
+             45807,   12965 "2:r447".2;
+             45807,   16902 "2:r446".2;
+        WIRES
+          22347 TO P353 Blue    28   21.00;
+          22345 TO P353 Blue    28   21.00;
+          22048 TO 220148 Blue    28    1.00;
+          220148 TO P353 Blue    28   16.00;
+          220148 TO P354 Blue    28   18.00;
+          22048 TO P356 Blue    28   16.00;
+          22048 TO P355 Blue    28   17.00;
+  
+      NODE "2:P6V2"
+        PINS
+          220173;
+        PROBES
+          P202      21984,   23166 MANDATORY;
+        WIRES
+          220173 TO P202 Blue    28   21.00;
+  
+      NODE "2:P12V"
+        PINS
+          220146;
+          220147;
+        PROBES
+          P357      39888,   13000 LWT MANDATORY;
+          P358      23484,   15492 "2:k103".1 LWT MANDATORY;
+          P359      23361,   12068 LWT MANDATORY;
+          P360      71004,   17913 "2:k431".1 MANDATORY;
+        ALTERNATES
+             37472,    6488 "2:x402".2 75MIL;
+             35194,   22130 "2:k430".A;
+             56925,    6492 "2:x401".2;
+             61816,   10003 "2:c109".1;
+             65394,    8416 "2:l103".2;
+        WIRES
+          220147 TO 220146 Blue    28    1.00;
+          220146 TO P357 Blue    28   17.00;
+          220146 TO P358 Blue    28   18.00;
+          220147 TO P359 Blue    28   17.00;
+          220147 TO P360 Blue    28   21.00;
+  
+      NODE "2:SIGN350"
+        PINS
+          220110;
+          22010;
+        PROBES
+          P351      51075,   25728 "2:x100".3 MANDATORY;
+        ALTERNATES
+             50197,   23822 "2:c100".2;
+             52795,   22583 "2:l101".1;
+        WIRES
+          220110 TO P351 Blue    28   23.00;
+          22010 TO P351 Blue    28   23.00;
+  
+      NODE "2:SIGN352"
+        PINS
+          220109;
+        PROBES
+          P352      54618,   25728 "2:x100".2 MANDATORY;
+        ALTERNATES
+             52795,   18416 "2:l100".1;
+             50197,   17916 "2:c100".1;
+        WIRES
+          220109 TO P352 Blue    28   23.00;
+  
+      NODE "2:SIGN354"
+        PINS
+          220115;
+        PROBES
+          P203      62961,   15329 MANDATORY;
+        WIRES
+          220115 TO P203 Blue    28   20.00;
+  
+      NODE "2:SIGN355"
+        PINS
+          220128;
+          22027;
+        PROBES
+          P204      68205,   14572 MANDATORY;
+        WIRES
+          220128 TO P204 Blue    28   17.00;
+          22027 TO P204 Blue    28   17.00;
+  
+      NODE "2:SIGN356"
+        PINS
+          220130;
+          22018;
+        PROBES
+          P336      65110,   24333 "2:l102".2 MANDATORY;
+        ALTERNATES
+             66004,   19999 "2:c104".1;
+        WIRES
+          220130 TO P336 Blue    28   20.00;
+          22018 TO P336 Blue    28   20.00;
+  
+      NODE "2:SIGN357"
+        PINS
+          22014;
+        PROBES
+          P205      64727,   16375 MANDATORY;
+        WIRES
+          22014 TO P205 Blue    28   18.00;
+  
+      NODE "2:SIGN358" POWER
+         4    26.00     0.80;
+        PINS
+          22032;
+          22031;
+          21321;
+          21322;
+          21324;
+        PROBES
+          P371      63110,   24333 "2:l102".1 MANDATORY;
+          P372      59409,   23999 "2:c102".1;
+          P373      59862,   27416 "2:c103".1;
+        WIRES
+          22032 TO P372 Red    28   20.00;
+          22031 TO P372 Red    28   20.00;
+          21321 TO P371 Red    28    9.00;
+          21322 TO P373 Red    28    9.00;
+          21324 TO P372 Red    28    8.00;
+  
+      NODE "2:SIGN359"
+        PINS
+          220132;
+        PROBES
+          P206      57027,   10091 MANDATORY;
+        WIRES
+          220132 TO P206 Blue    28   17.00;
+  
+      NODE "2:SIGN361"
+        PINS
+          22015;
+        PROBES
+          P207      66844,   23041 MANDATORY;
+        WIRES
+          22015 TO P207 Blue    28   20.00;
+  
+      NODE "2:SIGN362"
+        PINS
+          220116;
+        PROBES
+          P208      66834,   23874 75MIL MANDATORY;
+        WIRES
+          220116 TO P208 Blue    28   21.00;
+  
+      NODE "2:SIGN363"
+        PINS
+          220117;
+        PROBES
+          P209      67391,   21166 MANDATORY;
+        WIRES
+          220117 TO P209 Blue    28   20.00;
+  
+      NODE "2:SIGN364"
+        PINS
+          220127;
+        PROBES
+          P210      68099,   20428 MANDATORY;
+        WIRES
+          220127 TO P210 Blue    28   20.00;
+  
+      NODE "2:SIGN365"
+        PINS
+          22026;
+        PROBES
+          P211      69478,   20021 MANDATORY;
+        WIRES
+          22026 TO P211 Blue    28   18.00;
+  
+      NODE "2:SIGN366"
+        PINS
+          220118;
+        PROBES
+          P212      68260,   16583 MANDATORY;
+        WIRES
+          220118 TO P212 Blue    28   18.00;
+  
+      NODE "2:SIGN376"
+        PINS
+          22028;
+        PROBES
+          P213      65394,   10416 "2:l103".1 MANDATORY;
+        WIRES
+          22028 TO P213 Blue    28   16.00;
+  
+      NODE "2:SIGN377"
+        PINS
+          22025;
+        PROBES
+          P337      71004,   26575 "2:k431".2 MANDATORY;
+        ALTERNATES
+             53925,    6492 "2:x401".8;
+        WIRES
+          22025 TO P337 Blue    28   20.00;
+  
+      NODE "2:SIGN381"
+        PINS
+          220104;
+        PROBES
+          P214      58161,   25728 "2:x100".1 MANDATORY;
+        WIRES
+          220104 TO P214 Blue    28   23.00;
+  
+      NODE "2:SIGN382"
+        PINS
+          22007;
+        PROBES
+          P215      68898,   29598 MANDATORY;
+        WIRES
+          22007 TO P215 Blue    28   23.00;
+  
+      NODE "2:SIGN383"
+        PINS
+          220135;
+        PROBES
+          P216      54795,   22583 "2:l101".2 MANDATORY;
+        WIRES
+          220135 TO P216 Blue    28   20.00;
+  
+      NODE "2:SIGN384"
+        PINS
+          220134;
+        PROBES
+          P217      54795,   18416 "2:l100".2 MANDATORY;
+        WIRES
+          220134 TO P217 Blue    28   18.00;
+  
+      NODE "2:SIGN385"
+        PINS
+          22009;
+        PROBES
+          P218      56554,   13666 MANDATORY;
+        WIRES
+          22009 TO P218 Blue    28   20.00;
+  
+      NODE "2:SIGN386"
+        PINS
+          22008;
+        PROBES
+          P219      57443,   11663 MANDATORY;
+        WIRES
+          22008 TO P219 Blue    28   20.00;
+  
+      NODE "2:SIGN387"
+        PINS
+          220121;
+        PROBES
+          P220      52925,    7492 "2:x401".9 MANDATORY;
+        WIRES
+          220121 TO P220 Blue    28   17.00;
+  
+      NODE "2:SIGN388"
+        PINS
+          22166;
+        PROBES
+          P221      10697,   28000 MANDATORY;
+        WIRES
+          22166 TO P221 Blue    28   23.00;
+  
+      NODE "2:SIGN389"
+        PINS
+          220111;
+        PROBES
+          P222      84491,    6931 MANDATORY;
+        WIRES
+          220111 TO P222 Blue    28   16.00;
+  
+      NODE "2:SIGN390"
+        PINS
+          22029;
+        PROBES
+          P223      65614,    6933 75MIL MANDATORY;
+        WIRES
+          22029 TO P223 Blue    28   14.00;
+  
+      NODE "2:SIGN391"
+        PINS
+          22004;
+        PROBES
+          P224      83386,   10921 MANDATORY;
+        WIRES
+          22004 TO P224 Blue    28   17.00;
+  
+      NODE "2:SIGN392"
+        PINS
+          220175;
+        PROBES
+          P225      11181,   23230 MANDATORY;
+        WIRES
+          220175 TO P225 Blue    28   20.00;
+  
+      NODE "2:SIGN393"
+        PINS
+          220151;
+        PROBES
+          P226      31973,   23207 MANDATORY;
+        WIRES
+          220151 TO P226 Blue    28   20.00;
+  
+      NODE "2:SIGN394"
+        PINS
+          220124;
+          22023;
+        PROBES
+          P227      64820,    6822 75MIL MANDATORY;
+        WIRES
+          220124 TO P227 Blue    28   16.00;
+          22023 TO P227 Blue    28   14.00;
+  
+      NODE "2:SIGN395"
+        PINS
+          220171;
+          22071;
+        PROBES
+          P228      25314,   18398 LWT MANDATORY;
+        WIRES
+          220171 TO P228 Blue    28   20.00;
+          22071 TO P228 Blue    28   18.00;
+  
+      NODE "2:SIGN396"
+        PINS
+          22070;
+          22041;
+        PROBES
+          P229      26495,   18323 LWT 75MIL MANDATORY;
+        WIRES
+          22070 TO P229 Blue    28   18.00;
+          22041 TO P229 Blue    28   18.00;
+  
+      NODE "2:SIGN397"
+        PINS
+          220154;
+          220155;
+        PROBES
+          P230      26489,   19089 LWT 75MIL MANDATORY;
+        WIRES
+          220154 TO P230 Blue    28   18.00;
+          220155 TO P230 Blue    28   18.00;
+  
+      NODE "2:SIGN399"
+        PINS
+          22011;
+        PROBES
+          P231      81949,   21334 MANDATORY;
+        WIRES
+          22011 TO P231 Blue    28   18.00;
+  
+      NODE "2:SIGN400"
+        PINS
+          220177;
+        PROBES
+          P232      15840,   10690 MANDATORY;
+        WIRES
+          220177 TO P232 Blue    28   18.00;
+  
+      NODE "2:SIGN401"
+        PINS
+          22077;
+        PROBES
+          P233      13543,   10690 MANDATORY;
+        WIRES
+          22077 TO P233 Blue    28   17.00;
+  
+      NODE "2:SIGN403"
+        PINS
+          22006;
+        PROBES
+          P234      78779,   19196 MANDATORY;
+        WIRES
+          22006 TO P234 Blue    28   18.00;
+  
+      NODE "2:SIGN404"
+        PINS
+          220106;
+        PROBES
+          P235      80709,   19193 MANDATORY;
+        WIRES
+          220106 TO P235 Blue    28   20.00;
+  
+      NODE "2:SIGN405"
+        PINS
+          220167;
+        PROBES
+          P236      31768,   29319 MANDATORY;
+        WIRES
+          220167 TO P236 Blue    28   23.00;
+  
+      NODE "2:SIGN408"
+        PINS
+          22167;
+          220178;
+        PROBES
+          P338       8622,    9705 "2:v213".G2 MANDATORY;
+          P339      10748,    7835 "2:v203".G2 MANDATORY;
+        WIRES
+          22167 TO P339 Blue    28   17.00;
+          220178 TO P338 Blue    28   17.00;
+  
+      NODE "2:SIGN409"
+        PINS
+          22074;
+        PROBES
+          P340       8622,   18957 "2:v213".G1 MANDATORY;
+          P341      10748,   20827 "2:v203".G1 MANDATORY;
+        WIRES
+          22074 TO P340 Blue    28   18.00;
+          22074 TO P341 Blue    28   18.00;
+  
+      NODE "2:SIGN410"
+        PINS
+          220126;
+        PROBES
+          P237      70150,   12825 75MIL MANDATORY;
+        WIRES
+          220126 TO P237 Blue    28   17.00;
+  
+      NODE "2:SIGN411"
+        PINS
+          220129;
+          22030;
+        PROBES
+          P238      65298,    6351 50MIL MANDATORY;
+        WIRES
+          220129 TO 22030 Blue    28    3.00;
+          22030 TO P238 Blue    30   14.00;
+  
+      NODE "2:SIGN412"
+        PINS
+          22017;
+          22016;
+        PROBES
+          P239      69437,   12829 75MIL MANDATORY;
+        WIRES
+          22017 TO P239 Blue    28   17.00;
+          22016 TO P239 Blue    28   17.00;
+  
+      NODE "2:SIGN415"
+        PINS
+          220107;
+          220108;
+        PROBES
+          P342      83740,   15216 "2:v201".G1 MANDATORY;
+          P343      85866,   17087 "2:v211".G1 MANDATORY;
+        WIRES
+          220107 TO P343 Blue    28   18.00;
+          220108 TO P342 Blue    28   18.00;
+  
+      NODE "2:SIGN416"
+        PINS
+          22013;
+        PROBES
+          P344      83740,   28209 "2:v201".G2 MANDATORY;
+          P345      85866,   26339 "2:v211".G2 MANDATORY;
+        WIRES
+          22013 TO P345 Blue    28   20.00;
+          22013 TO P344 Blue    28   21.00;
+  
+      NODE "2:SIGN417"
+        PINS
+          220174;
+        PROBES
+          P240      16736,   14617 MANDATORY;
+        WIRES
+          220174 TO P240 Blue    28   18.00;
+  
+      NODE "2:SIGN418"
+        PINS
+          220153;
+        PROBES
+          P241      26344,   10500 LWT MANDATORY;
+        WIRES
+          220153 TO P241 Blue    28   17.00;
+  
+      NODE "2:SIGN419"
+        PINS
+          220152;
+        PROBES
+          P242      36792,   10102 LWT 75MIL MANDATORY;
+        WIRES
+          220152 TO P242 Blue    28   17.00;
+  
+      NODE "2:SIGN420"
+        PINS
+          214153;
+        PROBES
+          P243      30012,    7771 LWT 75MIL MANDATORY;
+        WIRES
+          214153 TO P243 Blue    28    6.00;
+  
+      NODE "2:SIGN421"
+        PINS
+          214150;
+        PROBES
+          P244      31757,   11072 LWT MANDATORY;
+        WIRES
+          214150 TO P244 Blue    28    6.00;
+  
+      NODE "2:SIGN422"
+        PINS
+          22061;
+        PROBES
+          P245      33390,    9583 LWT 75MIL MANDATORY;
+        WIRES
+          22061 TO P245 Blue    28   16.00;
+  
+      NODE "2:SIGN423"
+        PINS
+          220162;
+        PROBES
+          P246      32132,    2833 LWT MANDATORY;
+        WIRES
+          220162 TO P246 Blue    28   16.00;
+  
+      NODE "2:SIGN424"
+        PINS
+          220150;
+        PROBES
+          P247      33927,    8181 LWT 75MIL MANDATORY;
+        WIRES
+          220150 TO P247 Blue    28   16.00;
+  
+      NODE "2:SIGN425"
+        PINS
+          214163;
+        PROBES
+          P248      31774,    8504 LWT MANDATORY;
+        WIRES
+          214163 TO P248 Blue    28    7.00;
+  
+      NODE "2:SIGN426"
+        PINS
+          21656   -679;
+        PROBES
+          P249      25446,   10338 LWT MANDATORY;
+        WIRES
+          21656 TO P249 Blue    28    9.00;
+  
+      NODE "2:SIGN427"
+        PINS
+          220157;
+        PROBES
+          P250      23775,   10242 LWT MANDATORY;
+        WIRES
+          220157 TO P250 Blue    28   17.00;
+  
+      NODE "2:SIGN428"
+        PINS
+          214151;
+        PROBES
+          P251      31779,    9710 LWT MANDATORY;
+        WIRES
+          214151 TO P251 Blue    28    6.00;
+  
+      NODE "2:SIGN429"
+        PINS
+          21456;
+        PROBES
+          P252      25000,    8871 LWT MANDATORY;
+        WIRES
+          21456 TO P252 Blue    28    4.00;
+  
+      NODE "2:SIGN430"
+        PINS
+          220138;
+        PROBES
+          P253      36805,    9391 LWT 75MIL MANDATORY;
+        WIRES
+          220138 TO P253 Blue    28   17.00;
+  
+      NODE "2:SIGN431"
+        PINS
+          22073;
+        PROBES
+          P254      31011,    5791 LWT MANDATORY;
+        WIRES
+          22073 TO P254 Blue    28   17.00;
+  
+      NODE "2:SIGN432"
+        PINS
+          22348;
+          220131;
+        PROBES
+          P255      33379,    8865 LWT 75MIL MANDATORY;
+        WIRES
+          22348 TO P255 Blue    28   21.00;
+          220131 TO P255 Blue    28   18.00;
+  
+      NODE "2:SIGN433"
+        PINS
+          22346;
+          220170;
+        PROBES
+          P256      27259,   12452 LWT MANDATORY;
+        WIRES
+          22346 TO P256 Blue    28   23.00;
+          220170 TO P256 Blue    28   18.00;
+  
+      NODE "2:SIGN434"
+        PINS
+          22107;
+        PROBES
+          P257      30813,   13290 LWT MANDATORY;
+        WIRES
+          22107 TO P257 Blue    28   26.00;
+  
+      NODE "2:SIGN435"
+        PINS
+          214162;
+        PROBES
+          P258      31814,   13357 LWT MANDATORY;
+        WIRES
+          214162 TO P258 Blue    28    8.00;
+  
+      NODE "2:SIGN436"
+        PINS
+          22056;
+        PROBES
+          P259      24239,    8396 LWT MANDATORY;
+        WIRES
+          22056 TO P259 Blue    28   16.00;
+  
+      NODE "2:SIGN437"
+        PINS
+          22042;
+        PROBES
+          P260      41472,    7488 "2:x402".9 LWT MANDATORY;
+        WIRES
+          22042 TO P260 Blue    28   14.00;
+  
+      NODE "2:SIGN438"
+        PINS
+          21447;
+        PROBES
+          P261      37095,   10782 LWT 75MIL MANDATORY;
+        WIRES
+          21447 TO P261 Blue    28    6.00;
+  
+      NODE "2:SIGN439"
+        PINS
+          22075;
+        PROBES
+          P262      27800,    6209 LWT MANDATORY;
+        WIRES
+          22075 TO P262 Blue    28   17.00;
+  
+      NODE "2:SIGN440"
+        PINS
+          220149;
+        PROBES
+          P263      35695,    6572 LWT MANDATORY;
+        WIRES
+          220149 TO P263 Blue    28   16.00;
+  
+      NODE "2:SIGN441"
+        PINS
+          22043;
+        PROBES
+          P264      39472,    6488 "2:x402".6 50MIL MANDATORY;
+        WIRES
+          22043 TO P264 Blue    30   14.00;
+  
+      NODE "2:SIGN442"
+        PINS
+          22057;
+        PROBES
+          P265      25007,    7817 LWT MANDATORY;
+        WIRES
+          22057 TO P265 Blue    28   14.00;
+  
+      NODE "2:SIGN443"
+        PINS
+          220176;
+        PROBES
+          P266      33109,    7971 LWT 75MIL MANDATORY;
+        WIRES
+          220176 TO P266 Blue    28   20.00;
+  
+      NODE "2:SIGN444"
+        PINS
+          21454;
+        PROBES
+          P267      28053,    7805 LWT MANDATORY;
+        WIRES
+          21454 TO P267 Blue    28    4.00;
+  
+      NODE "2:SIGN445"
+        PINS
+          22045;
+        PROBES
+          P268      40472,    7488 "2:x402".7 LWT MANDATORY;
+        WIRES
+          22045 TO P268 Blue    28   14.00;
+  
+      NODE "2:SIGN446"
+        PINS
+          21453;
+        PROBES
+          P269      29219,    7805 LWT 75MIL MANDATORY;
+        WIRES
+          21453 TO P269 Blue    28    4.00;
+  
+      NODE "2:SIGN447"
+        PINS
+          22044;
+        PROBES
+          P270      36020,    2651 LWT MANDATORY;
+        WIRES
+          22044 TO P270 Blue    28   14.00;
+  
+      NODE "2:SIGN448"
+        PINS
+          220143;
+        PROBES
+          P271      33407,   11427 LWT MANDATORY;
+        WIRES
+          220143 TO P271 Blue    28   17.00;
+  
+      NODE "2:SIGN449"
+        PINS
+          220166;
+        PROBES
+          P272      28166,   12502 LWT MANDATORY;
+        WIRES
+          220166 TO P272 Blue    28   18.00;
+  
+      NODE "2:SIGN450"
+        PINS
+          22046;
+        PROBES
+          P273      34576,    6537 LWT MANDATORY;
+        WIRES
+          22046 TO P273 Blue    28   14.00;
+  
+      NODE "2:SIGN451"
+        PINS
+          22076;
+        PROBES
+          P274      25666,   14040 LWT MANDATORY;
+        WIRES
+          22076 TO P274 Blue    28   18.00;
+  
+      NODE "2:SIGN452"
+        PINS
+          220136;
+        PROBES
+          P275      38082,    5009 LWT MANDATORY;
+        WIRES
+          220136 TO P275 Blue    28   16.00;
+  
+      NODE "2:SIGN453"
+        PINS
+          21463;
+        PROBES
+          P276      30581,   11738 LWT MANDATORY;
+        WIRES
+          21463 TO P276 Blue    28    7.00;
+  
+      NODE "2:SIGN454"
+        PINS
+          220156;
+        PROBES
+          P277      25297,    6978 LWT MANDATORY;
+        WIRES
+          220156 TO P277 Blue    28   16.00;
+  
+      NODE "2:SIGN455"
+        PINS
+          22069;
+        PROBES
+          P278      24255,    6159 LWT MANDATORY;
+        WIRES
+          22069 TO P278 Blue    28   16.00;
+  
+      NODE "2:SIGN456"
+        PINS
+          22033;
+        PROBES
+          P279      34669,    8175 LWT 75MIL MANDATORY;
+        WIRES
+          22033 TO P279 Blue    28   17.00;
+  
+      NODE "2:SIGN457"
+        PINS
+          221108;
+        PROBES
+          P280      25533,   12379 LWT MANDATORY;
+        WIRES
+          221108 TO P280 Blue    28   28.00;
+  
+      NODE "2:SIGN458"
+        PINS
+          214152;
+        PROBES
+          P281      31440,   12058 LWT MANDATORY;
+        WIRES
+          214152 TO P281 Blue    28    7.00;
+  
+      NODE "2:SIGN459"
+        PINS
+          22037;
+        PROBES
+          P282      36982,    5340 50MIL MANDATORY;
+        WIRES
+          22037 TO P282 Blue    30   14.00;
+  
+      NODE "2:SIGN460"
+        PINS
+          220141;
+        PROBES
+          P283      33505,    6500 LWT MANDATORY;
+        WIRES
+          220141 TO P283 Blue    28   16.00;
+  
+      NODE "2:SIGN461"
+        PINS
+          22066;
+        PROBES
+          P284      31361,    7613 LWT MANDATORY;
+        WIRES
+          22066 TO P284 Blue    28   16.00;
+  
+      NODE "2:SIGN511"
+        PINS
+          220169;
+        PROBES
+          P285      26958,    6341 LWT MANDATORY;
+        WIRES
+          220169 TO P285 Blue    28   17.00;
+  
+      NODE "2:SIGN514"
+        PINS
+          22362;
+          22062;
+        PROBES
+          P286      26816,    5381 LWT MANDATORY;
+        WIRES
+          22362 TO P286 Blue    28   20.00;
+          22062 TO P286 Blue    28   14.00;
+  
+      NODE "2:SIGN517"
+        PINS
+          220163;
+        PROBES
+          P287      24797,   24822 75MIL MANDATORY;
+        WIRES
+          220163 TO P287 Blue    28   21.00;
+  
+      NODE "2:SIGN518"
+        PINS
+          22064;
+        PROBES
+          P288      24805,   25587 75MIL MANDATORY;
+        WIRES
+          22064 TO P288 Blue    28   20.00;
+  
+      NODE "2:SIGN519"
+        PINS
+          220164;
+        PROBES
+          P289      21279,   24897 MANDATORY;
+        WIRES
+          220164 TO P289 Blue    28   21.00;
+  
+      NODE "2:SIGN520"
+        PINS
+          22058;
+        PROBES
+          P290      24339,   26539 MANDATORY;
+        WIRES
+          22058 TO P290 Blue    28   20.00;
+  
+      NODE "2:SIGN521"
+        PINS
+          22063;
+        PROBES
+          P291      21409,   25769 MANDATORY;
+        WIRES
+          22063 TO P291 Blue    28   20.00;
+  
+      NODE "2:SIGN522"
+        PINS
+          21451;
+        PROBES
+          P292      33153,   20718 LWT MANDATORY;
+        WIRES
+          21451 TO P292 Blue    28    8.00;
+  
+      NODE "2:SIGN523"
+        PINS
+          21449;
+        PROBES
+          P293      36029,   19527 LWT MANDATORY;
+        WIRES
+          21449 TO P293 Blue    28    7.00;
+  
+      NODE "2:SIGN524"
+        PINS
+          22051;
+        PROBES
+          P294      36421,   16595 LWT 75MIL MANDATORY;
+        WIRES
+          22051 TO P294 Blue    28   17.00;
+  
+      NODE "2:SIGN525"
+        PINS
+          214161;
+        PROBES
+          P295      31283,   17965 LWT MANDATORY;
+        WIRES
+          214161 TO P295 Blue    28    9.00;
+  
+      NODE "2:SIGN526"
+        PINS
+          22068;
+        PROBES
+          P296      21722,   26920 MANDATORY;
+        WIRES
+          22068 TO P296 Blue    28   21.00;
+  
+      NODE "2:SIGN527"
+        PINS
+          220137;
+          22034;
+        PROBES
+          P346      35194,   26130 "2:k430".11 MANDATORY;
+        ALTERNATES
+             39870,   25728 "2:x400".2;
+        WIRES
+          220137 TO P346 Blue    28   21.00;
+          22034 TO P346 Blue    28   21.00;
+  
+      NODE "2:SIGN528"
+        PINS
+          220133;
+        PROBES
+          P297      32194,   22130 "2:k430".B LWT MANDATORY;
+        WIRES
+          220133 TO P297 Blue    28   21.00;
+  
+      NODE "2:SIGN529"
+        PINS
+          22052;
+        PROBES
+          P298      30511,   18405 LWT MANDATORY;
+        WIRES
+          22052 TO P298 Blue    28   18.00;
+  
+      NODE "2:SIGN530"
+        PINS
+          22024;
+        PROBES
+          P299      46978,   24625 MANDATORY;
+        WIRES
+          22024 TO P299 Blue    28   21.00;
+  
+      NODE "2:SIGN531"
+        PINS
+          220125;
+        PROBES
+          P300      46007,   23576 MANDATORY;
+        WIRES
+          220125 TO P300 Blue    28   21.00;
+  
+      NODE "2:SIGN532"
+        PINS
+          22021;
+        PROBES
+          P301      45449,   22117 MANDATORY;
+        WIRES
+          22021 TO P301 Blue    28   21.00;
+  
+      NODE "2:SIGN533"
+        PINS
+          220123;
+        PROBES
+          P302      47205,   23134 MANDATORY;
+        WIRES
+          220123 TO P302 Blue    28   21.00;
+  
+      NODE "2:SIGN534"
+        PINS
+          22336;
+          216138;
+        PROBES
+          P303      46234,   20944 MANDATORY;
+        WIRES
+          22336 TO P303 Blue    28   23.00;
+          216138 TO P303 Blue    28   12.00;
+  
+      NODE "2:SIGN535"
+        PINS
+          22338;
+          21638;
+        PROBES
+          P304      35697,   17933 LWT MANDATORY;
+        WIRES
+          22338 TO P304 Blue    28   23.00;
+          21638 TO P304 Blue    28   12.00;
+  
+      NODE "2:SIGN536"
+        PINS
+          22055;
+        PROBES
+          P305      27902,   15453 "2:p905".1 LWT MANDATORY;
+        WIRES
+          22055 TO P305 Blue    28   17.00;
+  
+      NODE "2:SIGN537"
+        PINS
+          21663;
+        PROBES
+          P306      28902,   13953 "2:p912".1 LWT MANDATORY;
+        WIRES
+          21663 TO P306 Blue    28   11.00;
+  
+      NODE "2:SIGN538"
+        PINS
+          21461;
+        PROBES
+          P307      27902,   13453 "2:p911".1 LWT MANDATORY;
+        WIRES
+          21461 TO P307 Blue    28    7.00;
+  
+      NODE "2:SIGN539"
+        PINS
+          22364;
+          21654;
+        PROBES
+          P308      27902,   17453 "2:p901".1 LWT MANDATORY;
+        WIRES
+          22364 TO P308 Blue    28   23.00;
+          21654 TO P308 Blue    28   11.00;
+  
+      NODE "2:SIGN540"
+        PINS
+          216145    552;
+        PROBES
+          P309      42113,   19289 MANDATORY;
+        WIRES
+          216145 TO P309 Blue    28   12.00;
+  
+      NODE "2:SIGN541"
+        PINS
+          214137;
+        PROBES
+          P310      42074,   17749 MANDATORY;
+        WIRES
+          214137 TO P310 Blue    28    8.00;
+  
+      NODE "2:SIGN542"
+        PINS
+          220142;
+        PROBES
+          P311      39472,    7488 "2:x402".5 LWT MANDATORY;
+        WIRES
+          220142 TO P311 Blue    28   16.00;
+  
+      NODE "2:SIGN543"
+        PINS
+          21436;
+        PROBES
+          P312      38619,   16921 LWT MANDATORY;
+        WIRES
+          21436 TO P312 Blue    28    8.00;
+  
+      NODE "2:SIGN544"
+        PINS
+          21647;
+        PROBES
+          P313      38505,   19474 MANDATORY;
+        WIRES
+          21647 TO P313 Blue    28   11.00;
+  
+      NODE "2:SIGN545"
+        PINS
+          214135;
+        PROBES
+          P314      38472,    6488 "2:x402".4 LWT MANDATORY;
+        WIRES
+          214135 TO P314 Blue    28    7.00;
+  
+      NODE "2:SIGN546"
+        PINS
+          22358;
+          21437;
+        PROBES
+          P315      36336,   17362 LWT 75MIL MANDATORY;
+        WIRES
+          22358 TO P315 Blue    28   23.00;
+          21437 TO P315 Blue    28    8.00;
+  
+      NODE "2:SIGN547"
+        PINS
+          220168;
+        PROBES
+          P347      23484,    6831 "2:k103".2 LWT MANDATORY;
+        ALTERNATES
+             40472,    6488 "2:x402".8 50MIL;
+        WIRES
+          220168 TO P347 Blue    28   16.00;
+  
+      NODE "2:SIGN548"
+        PINS
+          220172;
+        PROBES
+          P348      35194,   29130 "2:k430".14 MANDATORY;
+        ALTERNATES
+             36327,   25728 "2:x400".1;
+        WIRES
+          220172 TO P348 Blue    28   23.00;
+  
+      NODE "2:SIGN549"
+        PINS
+          22344;
+          21653;
+        PROBES
+          P316      28902,   14953 "2:p906".1 LWT MANDATORY;
+        WIRES
+          22344 TO P316 Blue    28   23.00;
+          21653 TO P316 Blue    28    9.00;
+  
+      NODE "2:SIGN550"
+        PINS
+          22342;
+          216162;
+        PROBES
+          P317      28902,   15953 "2:p904".1 LWT MANDATORY;
+        WIRES
+          22342 TO P317 Blue    28   23.00;
+          216162 TO P317 Blue    28   12.00;
+  
+      NODE "2:SIGN551"
+        PINS
+          21448;
+        PROBES
+          P318      37497,   16968 LWT MANDATORY;
+        WIRES
+          21448 TO P318 Blue    28    7.00;
+  
+      NODE "2:SIGN552"
+        PINS
+          21445;
+        PROBES
+          P319      42365,   20341 MANDATORY;
+        WIRES
+          21445 TO P319 Blue    28    8.00;
+  
+      NODE "2:SIGN553"
+        PINS
+          214149;
+        PROBES
+          P320      37420,   15276 LWT MANDATORY;
+        WIRES
+          214149 TO P320 Blue    28    7.00;
+  
+      NODE "2:SIGN554"
+        PINS
+          214148;
+        PROBES
+          P321      37633,   16149 LWT 75MIL MANDATORY;
+        WIRES
+          214148 TO P321 Blue    28    7.00;
+  
+      NODE "2:SIGN557"
+        PINS
+          22012;
+        PROBES
+          P322      53925,    7492 "2:x401".7 MANDATORY;
+        WIRES
+          22012 TO P322 Blue    28   18.00;
+  
+      NODE "2:SIGN561"
+        PINS
+          22005;
+        PROBES
+          P323      54925,    6492 "2:x401".6 MANDATORY;
+        WIRES
+          22005 TO P323 Blue    28   20.00;
+  
+      NODE "2:SIGN564"
+        PINS
+          220112;
+        PROBES
+          P324      69935,    5476 MANDATORY;
+        WIRES
+          220112 TO P324 Blue    28   17.00;
+  
+      NODE "2:STSPGMSG"
+        PINS
+          22036;
+        PROBES
+          P325      54925,    7492 "2:x401".5 MANDATORY;
+        WIRES
+          22036 TO P325 Blue    28   14.00;
+  
+      NODE "2:T1"
+        PINS
+          220113;
+        PROBES
+          P349      78346,    3287 "2:x102".1 MANDATORY;
+        ALTERNATES
+             75728,   17205 "2:k431".4;
+        WIRES
+          220113 TO P349 Blue    28   14.00;
+  
+      NODE "2:T3"
+        PINS
+          22072;
+        PROBES
+          P350      16142,    3287 "2:x302".1 MANDATORY;
+        ALTERNATES
+             18760,    5335 "2:k103".3;
+        WIRES
+          22072 TO P350 Blue    28   14.00;
+  
+      NODE "2:T_3"
+        PINS
+          220161;
+        PROBES
+          P326      31499,    5059 LWT 75MIL MANDATORY;
+        WIRES
+          220161 TO P326 Blue    28   16.00;
+  
+      NODE "2:T_START"
+        PINS
+          21435;
+        PROBES
+          P327      44807,   15902 "2:r446".W MANDATORY;
+        WIRES
+          21435 TO P327 Blue    28    7.00;
+  
+      NODE "2:THY_L1_SPGNULL"
+        PINS
+          214138;
+        PROBES
+          P328      36523,   12717 LWT MANDATORY;
+        WIRES
+          214138 TO P328 Blue    28    8.00;
+  
+      NODE "2:THY_L3_SPGNULL"
+        PINS
+          21438;
+        PROBES
+          P329      35245,   13594 LWT MANDATORY;
+        WIRES
+          21438 TO P329 Blue    28    8.00;
+  
+      NODE "2:U_START"
+        PINS
+          214136;
+        PROBES
+          P330      44807,   11965 "2:r447".W MANDATORY;
+        WIRES
+          214136 TO P330 Blue    28    7.00;
+  
+      NODE "2:VSPG_IMSG_1"
+        PINS
+          220105;
+        PROBES
+          P331      48925,    6492 "2:x401".18 MANDATORY;
+        WIRES
+          220105 TO P331 Blue    28   21.00;
+  
+      NODE "2:VSPG_IMSG_2"
+        PINS
+          220114;
+        PROBES
+          P332      45472,    6488 "2:x402".18 MANDATORY;
+        WIRES
+          220114 TO P332 Blue    28   20.00;
+  
+      NODE "2:ZOSC"
+        PINS
+          21662;
+        PROBES
+          P333      28902,   16953 "2:p902".1 LWT MANDATORY;
+        WIRES
+          21662 TO P333 Blue    28   11.00;
+  
+      TESTJET
+        PROBES
+          P185      42942,    8058 "2:x402";
+          P186      40002,    5918 "2:x402";
+          P187      35466,   16818 "2:d400";
+          P188      32526,   14678 "2:d400";
+          P189      23134,   25541 "2:n401";
+          P190      23134,   24291 "2:n401";
+  
+      OTHER
+        PINS
+          21034   -774;
+          21036   -748;
+          21039   -439;
+          21041    599;
+          21044   -733;
+          21046   -779;
+          21048   -660;
+          21049   -560;
+          21059    925;
+          21119   -536;
+          21120   -537;
+          21125    750;
+          21132   -868;
+          21136   -929;
+          21137   -802;
+          21138   -728;
+          21139    792;
+          21151    615;
+          21153    738;
+          21154    579;
+          21155   -984;
+          21156   -918;
+          21167   -662;
+          21352   -957;
+          209117    692;
+          209122    623;
+          209127   -551;
+          209149   -810;
+          209151   -587;
+          209152   -545;
+          210118    771;
+          210136   -596;
+          210149   -810;
+          211117   -771;
+          211127    779;
+          211131   -670;
+          211151    943;
+          211157   -650;
+          211161    746;
+          211162    741;
+        ALTERNATES
+             43413,   25728 "2:x400".3;
+    END BOARD
+  END PANEL
+
+END

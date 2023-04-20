@@ -1,0 +1,3033 @@
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Tue Oct  9 09:19:58 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+ 
+Trying to use the placement entered into the board_xy file by the user.
+
+The selected board placement will not be compatible
+   with the automatic board handler.
+ (WARNING BPL44)
+
+Board "1793_1796%1" has potential locations that are outside the probable area
+   of the fixture.   Subsequent fixture software may have no alternative
+   but to use some of these locations for probing to insure access to
+   all nodes.  Selecting a new board placement could eliminate this
+   problem. (WARNING BPL85)
+
+Tooling pin (1181,29724) on board "1793_1796%1" is outside the probable area
+   of the fixture.  Placing tooling pins in this region of the fixture is
+   not recommended.  Selecting a new board placement could eliminate this
+   problem. (WARNING BPL86)
+
+Board "1793_1796%2" has potential locations that are outside the probable area
+   of the fixture.   Subsequent fixture software may have no alternative
+   but to use some of these locations for probing to insure access to
+   all nodes.  Selecting a new board placement could eliminate this
+   problem. (WARNING BPL85)
+
+Tooling pin (1181,29724) on board "1793_1796%2" is outside the probable area
+   of the fixture.  Placing tooling pins in this region of the fixture is
+   not recommended.  Selecting a new board placement could eliminate this
+   problem. (WARNING BPL86)
+
+The board "1793_1796" was placed at X =  0, Y =  0
+  with a rotation of  0.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT 3070 FIXTURE CONSULTANT PLACEMENT VALUES     Tue Oct 09, 2007 9:20:49 A
+
+/C=/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Placement relative to board center, 74874, -11566, 0.0
+Placement relative to board origin, 27630, -47472, 0.0
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+ 
+
+CALCULATED PROBE TO PROBE CLEARANCES (Standard Spacing)
+-------------------------------------------------------
+
+    P r o b e    t o    P r o b e       Min Clearance
+--------------------------------------  -------------
+
+ Long    probe - Long    probe             1000
+ 100 Mil probe - Long    probe             950
+ 75  Mil probe - Long    probe             870
+ 100 Mil probe - 100 Mil probe             850
+ 75  Mil probe - 100 Mil probe             800
+ 50  Mil probe - Long    probe             800
+ 50  Mil probe - 100 Mil probe             720
+ 75  Mil probe - 75  Mil probe             700
+ 50  Mil probe - 75  Mil probe             660
+ 50  Mil probe - 50  Mil probe             490
+ Long    probe - 375 Mil tooling pin       2910
+ 100 Mil probe - 375 Mil tooling pin       2850
+ 75  Mil probe - 375 Mil tooling pin       2780
+ 50  Mil probe - 375 Mil tooling pin       2700
+ Long    probe - 200 Mil tooling pin       1600
+ 100 Mil probe - 200 Mil tooling pin       1525
+ 75  Mil probe - 200 Mil tooling pin       1475
+ 50  Mil probe - 200 Mil tooling pin       1275
+
+
+Board: 1793_1796
+
+                  ERRORS AND WARNINGS
+                  -------------------
+
+
+Personality pins providing scarce resources have been blocked.
+   Please see the Pins Blocked By Probe Select report in the details
+   file for further information.
+ (WARNING PBS94)
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%1
+
+                  ERRORS AND WARNINGS
+                  -------------------
+
+
+Node "1%SIGN540" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN541" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN542" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN543" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN544" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN545" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN546" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN554" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN555" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN557" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN570" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN584" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN588" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN650" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN653" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN654" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN707" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN708" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN709" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN716" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN786" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%1
+
+                  NODES NEEDING MORE PROBES
+                  -------------------------   
+Node: 1%SIGN540
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        87824,5512 [1%r125.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        87969,3875 [1%r128.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN541
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        82992,5416 [1%r121.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        84031,3833 [1%r123.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN542
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        85827,3833 [1%r123.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        86028,5512 [1%r125.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN543
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        89602,12583 [1%r124.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        89642,11323 [1%r127.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN544
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        91969,18712 [1%r122.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        92047,25166 [1%r120.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN545
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        89602,14379 [1%r124.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        91969,16916 [1%r122.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN546
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        73037,9403 [1%r129.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        73712,10030 [1%r126.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN554
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        66394,25011 [1%r108.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        66406,25657 [1%r104.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN555
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        62505,25015 [1%r105.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        62531,25726 [1%r101.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN557
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        68683,16790 [1%r111.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        68691,16014 [1%r112.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN570
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        68683,17540 [1%r111.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        68700,18272 [1%r109.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN584
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        77441,22971 [1%r207.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        79213,22916 [1%r202.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN588
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        11220,13416 [1%r215.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        13976,14666 [1%r210.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN650
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8843,2250 TOP [1%r439.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        10049,2258 TOP [1%r437.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN653
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4049,2269 TOP [1%r442.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4083,3354
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        5236,3787 [1%r444.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN654
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        5845,2269 TOP [1%r442.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        7047,2250 TOP [1%r439.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN707
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8135,27749 [1%r403.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        11614,25333 [1%r402.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN708
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,27795 [1%r405.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        6339,27749 [1%r403.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN709
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,25999 [1%r405.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4724,24629 [1%r406.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN716
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        71020,8586 [1%r132.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        72291,8657 [1%r129.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN786
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        70203,6880 [1%r135.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        70274,7840 [1%r132.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%2
+
+                  ERRORS AND WARNINGS
+                  -------------------
+
+
+Node "2%SIGN351" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN353" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN360" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN367" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN368" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN369" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN370" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN371" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN373" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN374" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN398" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN402" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN509" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN510" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN512" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN513" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN515" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN516" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN562" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN565" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%2
+
+                  NODES NEEDING MORE PROBES
+                  -------------------------   
+Node: 2%SIGN351
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        53506,20749 [2%r101.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        54213,20749 [2%r107.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN353
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        53506,16499 [2%r100.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        54291,16499 [2%r106.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN360
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        66364,26218 [2%r103.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        68268,24916 [2%r105.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN367
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        88466,3932 [2%r128.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        88687,5632 [2%r125.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN368
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        82992,5416 [2%r121.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        84175,3952 [2%r123.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN369
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        85971,3952 [2%r123.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        86891,5632 [2%r125.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN370
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        90185,11271 [2%r127.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        90480,12580 [2%r124.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN371
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        91969,18712 [2%r122.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        92047,25166 [2%r120.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN373
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        90480,14376 [2%r124.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        91969,16916 [2%r122.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN374
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        73174,9412 [2%r129.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        73798,10042 [2%r126.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN398
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        77441,22971 [2%r207.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        79213,22916 [2%r202.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN402
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        11220,13416 [2%r215.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        13976,14666 [2%r210.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN509
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8841,2250 TOP [2%r439.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        10047,2259 TOP [2%r437.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN510
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,27795 [2%r405.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        6339,27749 [2%r403.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN512
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4045,2268 TOP [2%r442.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4090,3360
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        5235,3787 [2%r444.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN513
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        5841,2268 TOP [2%r442.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        7044,2250 TOP [2%r439.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN515
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,25999 [2%r405.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4723,24627 [2%r406.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN516
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8135,27749 [2%r403.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        11614,25333 [2%r402.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN562
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        71480,8236 [2%r132.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        72427,8665 [2%r129.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN565
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        70155,7141 [2%r135.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        70425,8236 [2%r132.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+                  PINS BLOCKED BY PROBE SELECT
+                  ----------------------------
+
+Pin 21056 is not in the configuration
+    Blocked by probes:
+        P287  24797,24822   Board: 1793_1796%2   Node: 2%SIGN517
+        P288  24805,25587   Board: 1793_1796%2   Node: 2%SIGN518
+
+Pin 21057 is not in the configuration
+    Blocked by probes:
+        P189  23134,25541 [Testjet probe 2%n401]   Board: 1793_1796%2
+        P190  23134,24291 [Testjet probe 2%n401]   Board: 1793_1796%2
+
+Pin 21058 is not in the configuration
+    Blocked by probes:
+        P289  21279,24897   Board: 1793_1796%2   Node: 2%SIGN519
+        P291  21409,25769   Board: 1793_1796%2   Node: 2%SIGN521
+
+Pin 21145 is not in the configuration
+    Blocked by probes:
+        P309  42113,19289   Board: 1793_1796%2   Node: 2%SIGN540
+        P310  42074,17749   Board: 1793_1796%2   Node: 2%SIGN541
+
+Pin 21149 is not in the configuration
+    Blocked by probes:
+        P187  35466,16818 [Testjet probe 2%d400]   Board: 1793_1796%2
+        P293  36029,19527                          Board: 1793_1796%2   Node: 2%SIGN523
+        P304  35697,17933                          Board: 1793_1796%2   Node: 2%SIGN535
+
+Pin 21152 is not in the configuration
+    Blocked by probes:
+        P192  31691,19552   Board: 1793_1796%2   Node: 2%BP_HALTEN
+        P195  31268,17085   Board: 1793_1796%2   Node: 2%FP3
+        P295  31283,17965   Board: 1793_1796%2   Node: 2%SIGN525
+
+Pin 21641 provides hybrid card resources 
+    Blocked by probes:
+        P113  46978,24625   Board: 1793_1796%1   Node: 1%SIGN675
+        P116  47205,23134   Board: 1793_1796%1   Node: 1%SIGN678
+
+Pin 21749 provides hybrid card resources 
+    Blocked by probes:
+        P3    35466,16818 [Testjet probe 1%d400]   Board: 1793_1796%1
+        P118  35697,17933                          Board: 1793_1796%1   Node: 1%SIGN680
+
+Pin 21752 provides hybrid card resources 
+    Blocked by probes:
+        P11   31283,17091   Board: 1793_1796%1   Node: 1%FP3
+        P109  31283,17965   Board: 1793_1796%1   Node: 1%SIGN668
+
+Pin 21753 provides hybrid card resources 
+    Blocked by probes:
+        P119  28902,15953 [1%p904.1]   Board: 1793_1796%1   Node: 1%SIGN681
+        P146  28902,16953 [1%p902.1]   Board: 1793_1796%1   Node: 1%ZOSC
+        P177  28902,17953 [1%p900.1]   Board: 1793_1796%1   Node: 1%M
+
+Pin 21754 provides hybrid card resources 
+    Blocked by probes:
+        P119  28902,15953 [1%p904.1]   Board: 1793_1796%1   Node: 1%SIGN681
+        P120  27902,15453 [1%p905.1]   Board: 1793_1796%1   Node: 1%SIGN682
+        P124  27902,17453 [1%p901.1]   Board: 1793_1796%1   Node: 1%SIGN687
+        P168  27902,16453 [1%p903.1]   Board: 1793_1796%1   Node: 1%P3V3
+
+Pin 21848 provides GP relay (scarce)
+    Blocked by probes:
+        P55  36810,10015   Board: 1793_1796%1   Node: 1%SIGN607
+        P74  37095,10782   Board: 1793_1796%1   Node: 1%SIGN626
+
+Pin 21851 provides GP relay (scarce)
+    Blocked by probes:
+        P57  31756,11072   Board: 1793_1796%1   Node: 1%SIGN609
+        P58  33390,9583    Board: 1793_1796%1   Node: 1%SIGN610
+        P64  31779,9710    Board: 1793_1796%1   Node: 1%SIGN616
+
+Pin 21856 provides GP relay (scarce)
+    Blocked by probes:
+        P62  25445,10337   Board: 1793_1796%1   Node: 1%SIGN614
+        P65  25000,8871    Board: 1793_1796%1   Node: 1%SIGN617
+
+Pin 210128 is not in the configuration
+    Blocked by probes:
+        P207  66844,23041   Board: 1793_1796%2   Node: 2%SIGN361
+        P209  67391,21166   Board: 1793_1796%2   Node: 2%SIGN363
+
+Pin 210142 is not in the configuration
+    Blocked by probes:
+        P300  46007,23576   Board: 1793_1796%2   Node: 2%SIGN531
+        P301  45449,22117   Board: 1793_1796%2   Node: 2%SIGN532
+        P303  46234,20944   Board: 1793_1796%2   Node: 2%SIGN534
+
+Pin 210151 is not in the configuration
+    Blocked by probes:
+        P226  31973,23207              Board: 1793_1796%2   Node: 2%SIGN393
+        P292  33153,20718              Board: 1793_1796%2   Node: 2%SIGN522
+        P297  32194,22130 [2%k430.B]   Board: 1793_1796%2   Node: 2%SIGN528
+
+Pin 211142 is not in the configuration
+    Blocked by probes:
+        P369  45807,14902 [2%r446.1]   Board: 1793_1796%2   Node: 2%M
+        ALT   45807,12965 [2%r447.2]   Board: 1793_1796%2   Node: 2%P3V3
+
+Pin 211148 is not in the configuration
+    Blocked by probes:
+        P191  36616,13583   Board: 1793_1796%2   Node: 2%BP_EIN
+        P294  36421,16595   Board: 1793_1796%2   Node: 2%SIGN524
+        P320  37420,15276   Board: 1793_1796%2   Node: 2%SIGN553
+
+Pin 211153 is not in the configuration
+    Blocked by probes:
+        P306  28902,13953 [2%p912.1]   Board: 1793_1796%2   Node: 2%SIGN537
+        P316  28902,14953 [2%p906.1]   Board: 1793_1796%2   Node: 2%SIGN549
+        P317  28902,15953 [2%p904.1]   Board: 1793_1796%2   Node: 2%SIGN550
+
+Pin 211154 is not in the configuration
+    Blocked by probes:
+        P305  27902,15453 [2%p905.1]   Board: 1793_1796%2   Node: 2%SIGN536
+        P306  28902,13953 [2%p912.1]   Board: 1793_1796%2   Node: 2%SIGN537
+        P307  27902,13453 [2%p911.1]   Board: 1793_1796%2   Node: 2%SIGN538
+        P354  27902,14453 [2%p910.1]   Board: 1793_1796%2   Node: 2%P3V3
+
+Pin 216151 provides hybrid card resources 
+    Blocked by probes:
+        P8    31690,19552              Board: 1793_1796%1   Node: 1%BP_HALTEN
+        P105  33153,20718              Board: 1793_1796%1   Node: 1%SIGN663
+        P111  32197,22129 [1%k430.B]   Board: 1793_1796%1   Node: 1%SIGN673
+
+Pin 217139 provides ground (scarce)
+    Blocked by probes:
+        P19  50878,14179   Board: 1793_1796%1   Node: 1%SIGN548
+        P26  50058,13231   Board: 1793_1796%1   Node: 1%SIGN559
+
+Pin 217148 provides hybrid card resources 
+    Blocked by probes:
+        P7    36616,13583   Board: 1793_1796%1   Node: 1%BP_EIN
+        P122  37420,15276   Board: 1793_1796%1   Node: 1%SIGN684
+
+Pin 217151 provides hybrid card resources 
+    Blocked by probes:
+        P4   32526,14678 [Testjet probe 1%d400]   Board: 1793_1796%1
+        P71  31816,13354                          Board: 1793_1796%1   Node: 1%SIGN623
+
+Pin 217153 provides hybrid card resources 
+    Blocked by probes:
+        P121  28902,13953 [1%p912.1]   Board: 1793_1796%1   Node: 1%SIGN683
+        P176  28902,12953 [1%p913.1]   Board: 1793_1796%1   Node: 1%M
+
+Pin 217154 provides hybrid card resources 
+    Blocked by probes:
+        P69   27259,12452              Board: 1793_1796%1   Node: 1%SIGN621
+        P85   28166,12502              Board: 1793_1796%1   Node: 1%SIGN637
+        P120  27902,15453 [1%p905.1]   Board: 1793_1796%1   Node: 1%SIGN682
+        P121  28902,13953 [1%p912.1]   Board: 1793_1796%1   Node: 1%SIGN683
+        P123  27902,13453 [1%p911.1]   Board: 1793_1796%1   Node: 1%SIGN685
+        P167  27902,14453 [1%p910.1]   Board: 1793_1796%1   Node: 1%P3V3
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%1
+
+                    MISCELLANEOUS
+                    -------------
+
+50MIL probes:
+    1%SIGN597         ( via. )
+    1%SIGN629         ( 1%x402.6 )
+    1%SIGN647         ( via. )
+
+Light spring force probes:
+    1%BP_EIN  ( via. )
+    1%BP_HALTEN       ( via. )
+    1%BYPASS  ( via. )
+    1%FP1     ( via. )
+    1%FP3     ( via. )
+    1%FP_3    ( via. )
+    1%L_3     ( via. )
+    1%M       ( 1%p900.1 )
+    1%M       ( 1%p913.1 )
+    1%M       ( 1%x402.3 )
+    1%P1V61   ( via. )
+    1%P1V65   ( via. )
+    1%P1V69   ( via. )
+    1%P3V3    ( 1%p903.1 )
+    1%P3V3    ( 1%p910.1 )
+    1%P3V3    ( 1%x402.1 )
+    1%P12V    ( 1%k103.1 )
+    1%P12V    ( via. )
+    1%P12V    ( via. )
+    1%SIGN581         ( via. )
+    1%SIGN582         ( via. )
+    1%SIGN583         ( via. )
+    1%SIGN597         ( via. )
+    1%SIGN606         ( via. )
+    1%SIGN607         ( via. )
+    1%SIGN608         ( via. )
+    1%SIGN609         ( via. )
+    1%SIGN610         ( via. )
+    1%SIGN611         ( via. )
+    1%SIGN612         ( via. )
+    1%SIGN613         ( via. )
+    1%SIGN614         ( via. )
+    1%SIGN615         ( via. )
+    1%SIGN616         ( via. )
+    1%SIGN617         ( via. )
+    1%SIGN618         ( via. )
+    1%SIGN619         ( via. )
+    1%SIGN620         ( via. )
+    1%SIGN621         ( via. )
+    1%SIGN622         ( via. )
+    1%SIGN623         ( via. )
+    1%SIGN624         ( via. )
+    1%SIGN625         ( 1%x402.9 )
+    1%SIGN626         ( via. )
+    1%SIGN627         ( via. )
+    1%SIGN628         ( via. )
+    1%SIGN629         ( 1%x402.6 )
+    1%SIGN630         ( via. )
+    1%SIGN631         ( via. )
+    1%SIGN632         ( via. )
+    1%SIGN633         ( 1%x402.7 )
+    1%SIGN634         ( via. )
+    1%SIGN635         ( via. )
+    1%SIGN636         ( via. )
+    1%SIGN637         ( via. )
+    1%SIGN638         ( via. )
+    1%SIGN639         ( via. )
+    1%SIGN640         ( via. )
+    1%SIGN641         ( via. )
+    1%SIGN642         ( via. )
+    1%SIGN643         ( via. )
+    1%SIGN644         ( via. )
+    1%SIGN645         ( via. )
+    1%SIGN646         ( via. )
+    1%SIGN647         ( via. )
+    1%SIGN648         ( via. )
+    1%SIGN649         ( via. )
+    1%SIGN652         ( via. )
+    1%SIGN655         ( via. )
+    1%SIGN663         ( via. )
+    1%SIGN664         ( via. )
+    1%SIGN666         ( via. )
+    1%SIGN667         ( via. )
+    1%SIGN668         ( via. )
+    1%SIGN673         ( 1%k430.B )
+    1%SIGN674         ( via. )
+    1%SIGN680         ( via. )
+    1%SIGN681         ( 1%p904.1 )
+    1%SIGN682         ( 1%p905.1 )
+    1%SIGN683         ( 1%p912.1 )
+    1%SIGN684         ( via. )
+    1%SIGN685         ( 1%p911.1 )
+    1%SIGN687         ( 1%p901.1 )
+    1%SIGN689         ( 1%k103.2 )
+    1%SIGN692         ( 1%x402.5 )
+    1%SIGN693         ( via. )
+    1%SIGN695         ( 1%x402.4 )
+    1%SIGN696         ( via. )
+    1%SIGN698         ( 1%p906.1 )
+    1%SIGN700         ( via. )
+    1%T_3     ( via. )
+    1%THY_L1_SPGNULL  ( via. )
+    1%THY_L3_SPGNULL  ( via. )
+    1%ZOSC    ( 1%p902.1 )
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 09:21:26 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%2
+
+                    MISCELLANEOUS
+                    -------------
+
+50MIL probes:
+    2%SIGN411         ( via. )
+    2%SIGN441         ( 2%x402.6 )
+    2%SIGN459         ( via. )
+
+Light spring force probes:
+    2%BP_EIN  ( via. )
+    2%BP_HALTEN       ( via. )
+    2%BYPASS  ( via. )
+    2%FP1     ( via. )
+    2%FP3     ( via. )
+    2%FP_3    ( via. )
+    2%L_3     ( via. )
+    2%M       ( 2%p900.1 )
+    2%M       ( 2%p913.1 )
+    2%M       ( 2%x402.3 )
+    2%P1V61   ( via. )
+    2%P1V65   ( via. )
+    2%P1V69   ( via. )
+    2%P3V3    ( 2%p903.1 )
+    2%P3V3    ( 2%p910.1 )
+    2%P3V3    ( 2%x402.1 )
+    2%P12V    ( 2%k103.1 )
+    2%P12V    ( via. )
+    2%P12V    ( via. )
+    2%SIGN395         ( via. )
+    2%SIGN396         ( via. )
+    2%SIGN397         ( via. )
+    2%SIGN411         ( via. )
+    2%SIGN418         ( via. )
+    2%SIGN419         ( via. )
+    2%SIGN420         ( via. )
+    2%SIGN421         ( via. )
+    2%SIGN422         ( via. )
+    2%SIGN423         ( via. )
+    2%SIGN424         ( via. )
+    2%SIGN425         ( via. )
+    2%SIGN426         ( via. )
+    2%SIGN427         ( via. )
+    2%SIGN428         ( via. )
+    2%SIGN429         ( via. )
+    2%SIGN430         ( via. )
+    2%SIGN431         ( via. )
+    2%SIGN432         ( via. )
+    2%SIGN433         ( via. )
+    2%SIGN434         ( via. )
+    2%SIGN435         ( via. )
+    2%SIGN436         ( via. )
+    2%SIGN437         ( 2%x402.9 )
+    2%SIGN438         ( via. )
+    2%SIGN439         ( via. )
+    2%SIGN440         ( via. )
+    2%SIGN441         ( 2%x402.6 )
+    2%SIGN442         ( via. )
+    2%SIGN443         ( via. )
+    2%SIGN444         ( via. )
+    2%SIGN445         ( 2%x402.7 )
+    2%SIGN446         ( via. )
+    2%SIGN447         ( via. )
+    2%SIGN448         ( via. )
+    2%SIGN449         ( via. )
+    2%SIGN450         ( via. )
+    2%SIGN451         ( via. )
+    2%SIGN452         ( via. )
+    2%SIGN453         ( via. )
+    2%SIGN454         ( via. )
+    2%SIGN455         ( via. )
+    2%SIGN456         ( via. )
+    2%SIGN457         ( via. )
+    2%SIGN458         ( via. )
+    2%SIGN459         ( via. )
+    2%SIGN460         ( via. )
+    2%SIGN461         ( via. )
+    2%SIGN511         ( via. )
+    2%SIGN514         ( via. )
+    2%SIGN522         ( via. )
+    2%SIGN523         ( via. )
+    2%SIGN524         ( via. )
+    2%SIGN525         ( via. )
+    2%SIGN528         ( 2%k430.B )
+    2%SIGN529         ( via. )
+    2%SIGN535         ( via. )
+    2%SIGN536         ( 2%p905.1 )
+    2%SIGN537         ( 2%p912.1 )
+    2%SIGN538         ( 2%p911.1 )
+    2%SIGN539         ( 2%p901.1 )
+    2%SIGN542         ( 2%x402.5 )
+    2%SIGN543         ( via. )
+    2%SIGN545         ( 2%x402.4 )
+    2%SIGN546         ( via. )
+    2%SIGN547         ( 2%k103.2 )
+    2%SIGN549         ( 2%p906.1 )
+    2%SIGN550         ( 2%p904.1 )
+    2%SIGN551         ( via. )
+    2%SIGN553         ( via. )
+    2%SIGN554         ( via. )
+    2%T_3     ( via. )
+    2%THY_L1_SPGNULL  ( via. )
+    2%THY_L3_SPGNULL  ( via. )
+    2%ZOSC    ( 2%p902.1 )
+
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Tue Oct  9 09:27:51 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+     Module Pin Assignment was run at the standard experience level.
+ 
+Remote sense measurement for Node 1%L1 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%L3 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V61 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V65 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V69 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN548 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN559 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN567 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN580 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN581 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN582 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN583 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN597 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN598 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN606 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN607 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN610 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN611 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN612 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN615 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN618 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN628 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN636 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN640 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN642 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN647 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN648 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN658 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN659 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN660 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN661 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN669 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN671 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%L1 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%L3 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V61 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V65 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V69 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN350 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN355 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN356 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN364 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN365 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN394 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN395 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN396 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN397 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN411 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN412 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN418 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN419 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN422 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN423 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN424 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN427 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN430 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN440 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN448 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN452 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN454 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN459 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN460 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN517 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN518 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN519 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN520 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN526 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN527 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Tue Oct  9 09:27:51 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+                   ASSIGNMENT REPORT FOR BOARD 1793_1796
+ 
+ 
+     WARNING:  These long wires are connected to a precision node
+               which may affect the performance of that node.
+ 
+  Wire between 22336 and node 2%SIGN534 is 8.709 inches.
+     Precision node 2%SIGN534 is used for analog and digital wiring.
+  Wire between 22338 and node 2%SIGN535 is 8.521 inches.
+     Precision node 2%SIGN535 is used for analog and digital wiring.
+  Wire between 22342 and node 2%SIGN550 is 8.343 inches.
+     Precision node 2%SIGN550 is used for analog and digital wiring.
+  Wire between 22344 and node 2%SIGN549 is 8.188 inches.
+     Precision node 2%SIGN549 is used for analog and digital wiring.
+  Wire between 22358 and node 2%SIGN546 is 8.430 inches.
+     Precision node 2%SIGN546 is used for analog and digital wiring.
+  Wire between 22364 and node 2%SIGN539 is 8.449 inches.
+     Precision node 2%SIGN539 is used for analog and digital wiring.
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Tue Oct  9 09:27:51 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+     SUMMARY STATISTICS
+ 
+        For precision nodes:
+ 
+            The average BRC to probe distance is 2.182.
+            The standard deviation is 1.960.
+ 
+            * precision nodes include critical nodes, digital 
+              nodes, and analog nodes using external 
+              instrumentation or the time interval counter
+ 
+        For all nodes:
+ 
+            The assignment used 397 interface pins for 321 nodes.
+            The efficiency is 0.809.
+ 
+            The wirelist references 361 interface pins on pin cards.
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TOOLING                Tue Oct  9 09:28:06 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+ 
+The node '1%SIGN540' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN541' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN542' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN543' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN544' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN545' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN546' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN554' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN555' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN557' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN570' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN584' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN588' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN650' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN653' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN654' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN707' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN708' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN709' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN716' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN786' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%V432%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%V433%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN351' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN353' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN360' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN367' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN368' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN369' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN370' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN371' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN373' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN374' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN398' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN402' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN509' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN510' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN512' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN513' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN515' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN516' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN562' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN565' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V432%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V433%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+
+Scanner Module and Card Usage
+
+   Module  # Card  #
+   -----------------
+   Module  3 Card  1
+   Module  3 Card  2
+   Module  3 Card  4
+   Module  3 Card  5
+   Module  3 Card  6
+   Module  3 Card  7
+   Module  3 Card  8
+   Module  3 Card  9
+   Module  3 Card 11
+------------------------------------------------------------------------------
+AGILENT 3070 FIXTURE CONSULTANT WIRE CHANGE REPORT  Tue Oct 09, 2007 10:36:42 A
+
+/C=/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+                |     From      |     To        |     From      |      To       
+Length|Ga|Color |(b   r      c )|(b   r      c )|    X       Y  |    X       Y  
+------|--|------|---------------|---------------|-------|-------|-------|-------
+Add 
+   1.0 28  Blue  (2 21.50  46.0) (2 21.50  47.0)  171732  -156909  167922  -156909
+   5.5 28  Black (2 23.00  39.0) (2 17.50  59.0)  198402  -183579  122202  -85789
+   1.0 28  Blue  (2 20.50  47.0) (2 20.50  46.0)  167922  -139129  171732  -139129
+   1.0 28  Blue  (2 20.00  48.0) (2 20.50  48.0)  164112  -130239  164112  -139129
+   2.5 28  Black (2 23.00  43.0) (2 23.00  57.0)  183162  -183579  129822  -183579
+
+Remove    0 
+Add       5 
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+ 
+
+CALCULATED PROBE TO PROBE CLEARANCES (Standard Spacing)
+-------------------------------------------------------
+
+    P r o b e    t o    P r o b e       Min Clearance
+--------------------------------------  -------------
+
+ Long    probe - Long    probe             1000
+ 100 Mil probe - Long    probe             950
+ 75  Mil probe - Long    probe             870
+ 100 Mil probe - 100 Mil probe             850
+ 75  Mil probe - 100 Mil probe             800
+ 50  Mil probe - Long    probe             800
+ 50  Mil probe - 100 Mil probe             720
+ 75  Mil probe - 75  Mil probe             700
+ 50  Mil probe - 75  Mil probe             660
+ 50  Mil probe - 50  Mil probe             490
+ Long    probe - 375 Mil tooling pin       2910
+ 100 Mil probe - 375 Mil tooling pin       2850
+ 75  Mil probe - 375 Mil tooling pin       2780
+ 50  Mil probe - 375 Mil tooling pin       2700
+ Long    probe - 200 Mil tooling pin       1600
+ 100 Mil probe - 200 Mil tooling pin       1525
+ 75  Mil probe - 200 Mil tooling pin       1475
+ 50  Mil probe - 200 Mil tooling pin       1275
+
+
+Board: 1793_1796
+
+                   CHANGES MADE BY PROBE SELECT
+                   ----------------------------
+
+
+*********************No changes for this board*********************
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%1
+
+                  ERRORS AND WARNINGS
+                  -------------------
+
+
+Node "1%SIGN540" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN541" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN542" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN543" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN544" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN545" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN546" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN554" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN555" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN557" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN570" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN584" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN588" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN650" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN653" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN654" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN707" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN708" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN709" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN716" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "1%SIGN786" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%1
+
+                   CHANGES MADE BY PROBE SELECT
+                   ----------------------------
+
+Nodes added to the fixture:
+    1%V432%in1
+    1%V433%in1
+
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%1
+
+                  NODES NEEDING MORE PROBES
+                  -------------------------   
+Node: 1%SIGN540
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        87824,5512 [1%r125.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        87969,3875 [1%r128.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN541
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        82992,5416 [1%r121.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        84031,3833 [1%r123.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN542
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        85827,3833 [1%r123.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        86028,5512 [1%r125.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN543
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        89602,12583 [1%r124.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        89642,11323 [1%r127.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN544
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        91969,18712 [1%r122.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        92047,25166 [1%r120.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN545
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        89602,14379 [1%r124.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        91969,16916 [1%r122.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN546
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        73037,9403 [1%r129.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        73712,10030 [1%r126.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN554
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        66394,25011 [1%r108.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        66406,25657 [1%r104.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN555
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        62505,25015 [1%r105.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        62531,25726 [1%r101.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN557
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        68683,16790 [1%r111.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        68691,16014 [1%r112.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN570
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        68683,17540 [1%r111.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        68700,18272 [1%r109.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN584
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        77441,22971 [1%r207.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        79213,22916 [1%r202.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN588
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        11220,13416 [1%r215.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        13976,14666 [1%r210.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN650
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8843,2250 TOP [1%r439.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        10049,2258 TOP [1%r437.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN653
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4049,2269 TOP [1%r442.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4083,3354
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        5236,3787 [1%r444.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN654
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        5845,2269 TOP [1%r442.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        7047,2250 TOP [1%r439.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN707
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8135,27749 [1%r403.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        11614,25333 [1%r402.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN708
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,27795 [1%r405.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        6339,27749 [1%r403.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN709
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,25999 [1%r405.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4724,24629 [1%r406.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN716
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        71020,8586 [1%r132.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        72291,8657 [1%r129.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 1%SIGN786
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        70203,6880 [1%r135.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        70274,7840 [1%r132.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%2
+
+                  ERRORS AND WARNINGS
+                  -------------------
+
+
+Node "2%SIGN351" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN353" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN360" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN367" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN368" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN369" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN370" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN371" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN373" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN374" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN398" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN402" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN509" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN510" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN512" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN513" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN515" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN516" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN562" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+Node "2%SIGN565" is inaccessible because it has no accessible
+   probing locations.  Please see the Nodes Needing More Probes
+   report in the details file for further information.
+ (WARNING PBS124)
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%2
+
+                   CHANGES MADE BY PROBE SELECT
+                   ----------------------------
+
+Nodes added to the fixture:
+    2%V432%in1
+    2%V433%in1
+
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Tue Oct  9 10:40:44 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+Board: 1793_1796%2
+
+                  NODES NEEDING MORE PROBES
+                  -------------------------   
+Node: 2%SIGN351
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        53506,20749 [2%r101.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        54213,20749 [2%r107.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN353
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        53506,16499 [2%r100.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        54291,16499 [2%r106.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN360
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        66364,26218 [2%r103.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        68268,24916 [2%r105.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN367
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        88466,3932 [2%r128.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        88687,5632 [2%r125.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN368
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        82992,5416 [2%r121.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        84175,3952 [2%r123.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN369
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        85971,3952 [2%r123.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        86891,5632 [2%r125.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN370
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        90185,11271 [2%r127.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        90480,12580 [2%r124.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN371
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        91969,18712 [2%r122.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        92047,25166 [2%r120.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN373
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        90480,14376 [2%r124.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        91969,16916 [2%r122.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN374
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        73174,9412 [2%r129.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        73798,10042 [2%r126.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN398
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        77441,22971 [2%r207.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        79213,22916 [2%r202.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN402
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        11220,13416 [2%r215.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        13976,14666 [2%r210.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN509
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8841,2250 TOP [2%r439.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        10047,2259 TOP [2%r437.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN510
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,27795 [2%r405.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        6339,27749 [2%r403.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN512
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4045,2268 TOP [2%r442.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4090,3360
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        5235,3787 [2%r444.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN513
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        5841,2268 TOP [2%r442.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        7044,2250 TOP [2%r439.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN515
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        4055,25999 [2%r405.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        4723,24627 [2%r406.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN516
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        8135,27749 [2%r403.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        11614,25333 [2%r402.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN562
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        71480,8236 [2%r132.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        72427,8665 [2%r129.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+Node: 2%SIGN565
+    Probes needed: 1
+    Probes selected: 0
+    Probing locations not used:
+        70155,7141 [2%r135.1]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+        70425,8236 [2%r132.2]
+            Marked NO_PROBE or NO_ACCESS in "board_xy"
+
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Tue Oct  9 10:41:20 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+     Module Pin Assignment was run at the standard experience level.
+ 
+Remote sense measurement for Node 1%L1 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%L3 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V61 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V65 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%P1V69 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN548 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN559 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN567 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN580 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN581 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN582 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN583 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN597 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN598 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN606 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN607 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN610 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN611 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN612 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN615 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN618 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN628 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN636 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN640 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN642 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN647 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN648 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN658 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN659 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN660 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN661 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN669 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 1%SIGN671 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%L1 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%L3 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V61 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V65 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%P1V69 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN350 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN355 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN356 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN364 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN365 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN394 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN395 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN396 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN397 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN411 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN412 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN418 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN419 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN422 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN423 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN424 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN427 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN430 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN440 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN448 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN452 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN454 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN459 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN460 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN517 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN518 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN519 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN520 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN526 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+Remote sense measurement for Node 2%SIGN527 on Board 1793_1796 
+would be improved with a second probe.  Only one probe for this 
+node was found in the fixture. Two probes are required to separate 
+signal from sense. (WARNING MPA425)
+
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Tue Oct  9 10:41:20 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+                   ASSIGNMENT REPORT FOR BOARD 1793_1796
+ 
+ 
+     WARNING:  These long wires are connected to a precision node
+               which may affect the performance of that node.
+ 
+  Wire between 22336 and node 2%SIGN534 is 8.709 inches.
+     Precision node 2%SIGN534 is used for analog and digital wiring.
+  Wire between 22338 and node 2%SIGN535 is 8.521 inches.
+     Precision node 2%SIGN535 is used for analog and digital wiring.
+  Wire between 22342 and node 2%SIGN550 is 8.343 inches.
+     Precision node 2%SIGN550 is used for analog and digital wiring.
+  Wire between 22344 and node 2%SIGN549 is 8.188 inches.
+     Precision node 2%SIGN549 is used for analog and digital wiring.
+  Wire between 22358 and node 2%SIGN546 is 8.430 inches.
+     Precision node 2%SIGN546 is used for analog and digital wiring.
+  Wire between 22364 and node 2%SIGN539 is 8.449 inches.
+     Precision node 2%SIGN539 is used for analog and digital wiring.
+------------------------------------------------------------------------------
+AGILENT ICT MODULE PIN ASSIGNMENT          Tue Oct  9 10:41:20 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+     SUMMARY STATISTICS
+ 
+        For precision nodes:
+ 
+            The average BRC to probe distance is 2.182.
+            The standard deviation is 1.960.
+ 
+            * precision nodes include critical nodes, digital 
+              nodes, and analog nodes using external 
+              instrumentation or the time interval counter
+ 
+        For all nodes:
+ 
+            The assignment used 397 interface pins for 321 nodes.
+            The efficiency is 0.809.
+ 
+            The wirelist references 361 interface pins on pin cards.
+------------------------------------------------------------------------------
+AGILENT ICT FIXTURE TOOLING                Tue Oct  9 10:41:29 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+ 
+The node '1%SIGN540' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN541' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN542' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN543' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN544' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN545' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN546' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN554' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN555' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN557' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN570' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN584' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN588' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN650' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN653' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN654' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN707' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN708' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN709' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN716' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%SIGN786' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%V432%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '1%V433%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN351' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN353' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN360' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN367' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN368' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN369' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN370' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN371' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN373' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN374' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN398' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN402' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN509' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN510' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN512' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN513' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN515' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN516' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN562' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%SIGN565' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V432%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+The node '2%V433%in1' is being removed from the fixture 
+ since it is inaccessible, has no test resources assigned to it or both.
+ (WARNING FXT40)
+
+Scanner Module and Card Usage
+
+   Module  # Card  #
+   -----------------
+   Module  3 Card  1
+   Module  3 Card  2
+   Module  3 Card  4
+   Module  3 Card  5
+   Module  3 Card  6
+   Module  3 Card  7
+   Module  3 Card  8
+   Module  3 Card  9
+   Module  3 Card 11
+
+------------------------------------------------------------------------------
+AGILENT ICT BOTTOM WIRE DIFFERENCE REPORT  Tue Oct  9 10:41:31 2007      
+
+C:/Agilent_ICT/boards/Trutnov/3RW30/1793_1796/fixture/details
+------------------------------------------------------------------------------
+
+                |     From      |     To        |     From      |      To
+Length|Ga|Color |(b   r      c )|(b   r      c )|    X       Y  |    X       Y
+------|--|------|---------------|---------------|-------|-------|-------|-------
+ 
+Remove    0
+Add    0
