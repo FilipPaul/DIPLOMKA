@@ -66,6 +66,3 @@ cursor.execute("SHOW TABLES")
 print(cursor.fetchall())
 cursor.commit()
 
-3
-,
-

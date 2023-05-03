@@ -16,8 +16,8 @@ uint16_t dac_ramp_min_value = 0;
 uint16_t dac_ramp_max_value = 4095;
 uint16_t dac_ramp_step = 1;
 uint16_t dac_ramp_delay_in_2500_ns = 2;
-uint16_t voltage_read_averages = 10;
-float voltage_reference = 3.3;
+uint16_t voltage_read_averages = 2;
+float voltage_reference = 3.3144;
 uint8_t dac_ramp_direction = DAC_RAMP_DIRECTION_DOWN;
 /// SHIFT REGISTER PINS MUST BE CHANGED ACCCORDINGLY ---------
 ShifRegister IO1TO40_OUTPUTS = {
@@ -195,13 +195,37 @@ static void measureCommands(commandTemplate* current_command){
                 HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000); //initial value for ramp up is 0
             }
         
-            //FILL ALL MEASURED VALUES WITH -1 (NOT MEASURED)
-            for (uint8_t i = 0; i < 80; i++){
-                pin_voltages[i] = -1;
-            }
             //READ STATUS OF EACH PIN FOR FIRST MULTIPLEXER
             MUXreadAll(&MUXES_1TO40);
             MUXreadAll(&MUXES_41TO80);
+
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000); //initial value for ramp up is 0
+
+            //FILL ALL MEASURED VALUES WITH -2 (NOT MEASURED) and for all out of range values
+            for (uint8_t i = 0; i < 80; i++){
+                if ( i < 40){
+                    if (MUXreadAdress(i,&MUXES_1TO40) == ((MUXES_1TO40.current_satus >> i) & 0x01)){
+                        pin_voltages[i] = -1;
+                    }
+                    else{
+                        pin_voltages[i] = -2;
+                    }
+                }
+                else{
+                    if (MUXreadAdress(i,&MUXES_41TO80) == ((MUXES_41TO80.current_satus >> (i-40)) & 0x01)){
+                        pin_voltages[i] = -1;
+                    } 
+                    else{
+                        pin_voltages[i] = -2;
+                    }
+                }
+
+                
+                
+            }
+
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0xFFF);
+
 
             for (uint16_t i = dac_ramp_min_value; i < dac_ramp_max_value  ; i = i + dac_ramp_step) // For each DAC step
             {
@@ -221,7 +245,7 @@ static void measureCommands(commandTemplate* current_command){
                 for (uint8_t pin = 0; pin < 40; pin++)
                 {
                     //AVERAGE EACH READ....
-                    if(pin_voltages[pin] != -1) continue; //if the pin is already measured, skip it, because it is already measured
+                    if(pin_voltages[pin] != -2) continue; //if the pin is already measured, skip it, because it is already measured
                     uint16_t number_of_oposite_readings = 0;
                     for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
                         number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_1TO40) != ((MUXES_1TO40.current_satus >> pin) & 0x01));
@@ -237,7 +261,7 @@ static void measureCommands(commandTemplate* current_command){
                 //READ STATUS OF EACH PIN FOR SECOND MULTIPLEXER
                 for (uint8_t pin = 0; pin < 40; pin++)
                 {
-                    if(pin_voltages[pin+40] != -1) continue; //if the pin is already measured, skip it, because it is already measured
+                    if(pin_voltages[pin+40] != -2) continue; //if the pin is already measured, skip it, because it is already measured
                     uint16_t number_of_oposite_readings = 0;
                     for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
                         number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_41TO80) != ((MUXES_41TO80.current_satus >> (40 - pin)) & 0x01));
@@ -255,6 +279,7 @@ static void measureCommands(commandTemplate* current_command){
             for (uint8_t i = 0; i < 80; i++){
                 sprintf(current_command->response + strlen(current_command->response),"%f;",pin_voltages[i]);
             }
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000);
             sprintf(current_command->response + strlen(current_command->response),"\n");
         }//ALL
 
@@ -273,10 +298,30 @@ static void measureCommands(commandTemplate* current_command){
             //READ STATUS OF EACH PIN FOR FIRST MULTIPLEXER
             if (pin_number < 40){
                 initial_value =  MUXreadAdress(pin_number,&MUXES_1TO40);
+                HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000); //initial value for ramp up is 0
+                if (initial_value  ==  MUXreadAdress(pin_number,&MUXES_1TO40)){ //OUT OF RANGE
+                    pin_voltages[pin_number] = -2;
+                    sprintf(current_command->response,"ERROR;Voltage OUT OF RANGE:-2\n");
+                    HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000);
+                    return;
+                }
+                else{
+                    HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0xFFF);
+                }
             }
             else if (pin_number < 80){
                 pin_number -= 40;
                 initial_value =  MUXreadAdress(pin_number,&MUXES_41TO80);
+                HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000); //initial value for ramp up is 0
+                if (initial_value  ==  MUXreadAdress(pin_number,&MUXES_41TO80)){ //OUT OF RANGE
+                    pin_voltages[pin_number] = -2;
+                    HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000);
+                    sprintf(current_command->response,"ERROR;Voltage OUT OF RANGE:-2\n");
+                    return;
+                }
+                else{
+                    HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0xFFF);
+                }
             }
             else{
                 sprintf(current_command->response,"ERROR; PIN NUMBER OUT OF RANGE");
@@ -301,13 +346,14 @@ static void measureCommands(commandTemplate* current_command){
                     number_of_oposite_readings += (MUXreadAdress(pin_number,&MUXES_1TO40) != initial_value);
                     if (number_of_oposite_readings > voltage_read_averages/2){
                         pin_voltages[pin_number] = DAC_VALUE * voltage_reference /4096;
+                        HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000);
                         sprintf(current_command->response,"OK;Voltage:%f\n",pin_voltages[pin_number]);
                         return;
                     }
                 }//AVERAGINGLOOP
 
             }//DAC LOOP
-             sprintf(current_command->response,"ERROR;Voltage OUT OF RANGE:-1\n");
+             sprintf(current_command->response,"ERROR;Voltage OUT OF RANGE:-2\n");
         }//ANY NUMBER
     }//VOLTAGE
 }//MEASURE COMMANDS
@@ -373,7 +419,7 @@ static void setCommands(commandTemplate* current_command){
 
         else if (strcmp(current_command->subcommands[2], "VOLTAGE_READ_AVERAGES") == 0){
             voltage_read_averages = atoi(current_command->subcommands[3]);
-            sprintf(current_command->response,"OK;DAC_RAMP_DELAY_2500_NS set to:%d\n",voltage_read_averages);
+            sprintf(current_command->response,"OK;VOLTAGE_READ_AVERAGES set to:%d\n",voltage_read_averages);
         }
 
         else if (strcmp(current_command->subcommands[2], "VOLTAGE_REFERENCE") == 0){

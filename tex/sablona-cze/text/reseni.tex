@@ -65,20 +65,20 @@ fixture části ICT testeru. Pro tento účel je navržena následující koncep
 
     \begin{figure}[ht!]
         \centering
-        \includegraphics[width = 1\textwidth]{obrazky/3D_ovl_karta.png}
+        \includegraphics[width = 0.7\textwidth]{obrazky/3D_ovl_karta.png}
         \caption{Ovládací karta - 3D model (Není vyrobena jedná se o předběžný návrh)}
         \label{fig:Ovládací karta - 3D model}
     \end{figure}
 
     Jednotlivé ovládací karty mají možnost připojení k ethernetové síti pomocí
-    100BASE-T PHY a jsou schopny ovládat až 2 měřící karty zároveň.
+    100BASE-T PHY a jsou schopny ovládat měřící karty.
     Ovládací karty komunikují pouze s řídící PC aplikací (nikoliv mezi sebou).
     Řídící PC aplikace řídí všechny testy. Ovládací karty mají v sobě implementován Telnet a http server,
     přičemž se pro hlavní komunikaci používá právě Telnet server.
     Takto lze využít jakékoliv zařízení s přístupem do sítě pro řízení testeru.\\
     
     Řídící aplikace využívá ke své činnosti celou řadu vstupních souborů. Jedná se o soubory, které definují zapojení fixture, CAD, CAM a další data\cite{CAD_wiki}.
-    Protože vstupní soubory nemají jednotný formát pro každého výrobce, aplikace nejprve data převede do SQL databáze (ACCESS). S takto zpracovanými daty již lze
+    Protože vstupní soubory nemají jednotný formát pro každého výrobce, aplikace nejprve data převede do mySQL databáze. S takto zpracovanými daty již lze
     provádět jednotné operace. Aplikace porovnává naměřená data z jednotlivých karet ze vstupními soubory a následně generuje výsledek testu propojení
     v co nejsrozumitelnější podobě.
 

@@ -2,7 +2,7 @@
 \section{Základní požadavky na Ovládací karty}
     Následující seznam popisuje základní požadavky na ovládací karty, seznam je seřazen podle priorit.
     \begin{enumerate}
-        \item Schopno ovládat měřící karty.
+        \item Schopnost ovládat měřící karty.
         \item Možnost komunikace pomocí 100\,Mbit Ethernetu.
         \item Dostupnost komponentů.
         \item Cena komponentů.
@@ -30,13 +30,14 @@
     Pro komunikaci s PC aplikací se primárně počítá s telnet serverem,
     který běží na mikrokontroléru. Nicméně pro debugovací
     účely je možno s ovládací kartou komunikovat i pomocí USB.
-    K programování mikrokontroléru lze použít interface SWD nebo JTAG.\\
+    K programování mikrokontroléru lze použít interface SWD, JTAG nebo DFU (USB bootloader).\\
 
-    Díky poměrně vysokému počtu I/O pinů,
-    je možno pomocí jednoho mikrokontroléru ovládat napřímo až 2 měřící karty.
-    Shift registry a multiplexery, umístěny na
-    měřící kartě, jsou ovládány pomocí metody bit bangingu.
-    Pro každou z měřících karet je použit dedikovaný D/A a A/D převodník\cite{MARTINT}.
+    Jednotlivé shift registry a multiplexery jsou ovládány, skrze ovládací kartu, pomocí metody bit bangingu.
+    Dále ovládací karta poskytuje 12-bitový DA a AD převodík.\cite{MARTINT}.\\
+
+    Ovládací karta obsahuje i další periferie jako například CAN, LIN, RTC, opticky oddělené vstupy a výstupy apod.
+    Tyto periferie slouží k použití karty v jiném projektu než je právě diplomová práce a proto nejsou podrobněji diskutovány.
+
 
     \subsubsection{D/A převodník}
     STM32F407ZGT6 nabízí dva 12-bit D/A převodníky s možností využití integrovaného bufferu v podobě
@@ -60,25 +61,29 @@
         f_{max} = \frac{1}{2\pi \cdot  C_{dac} \cdot  R_{dac}} = \frac{1}{2\pi \cdot 10\,pF \cdot 15\,k\Omega} = 1,06\,MHz
     \end{equation}
 
-    Protože kapacitní zátěž společně s výstupním odporem operačního zesilovače by mohla
+    Kapacitní zátěž společně s výstupním odporem operačního zesilovače by mohla
     způsobit nestabilitu a s tím spojené nežádoucí oscilace v časové oblasti.
-    Byl přidán do obvodu odpor R\_comp. Tento odpor přidá nulu do přenosové funkce a zabrání tak
-    tomu, aby se fáze přenosové charakteristiky dostala do nuly (zajistí stabilitu).\\
-    
-    Protože datasheet neuvádí přesnou hodnotu výstupního odporu operačního zesilovače a nelze jednoznačně
-    určit kapacitní zátěž, je odpor R\_comp realizován trimmerem. Trimmer je použit při kalibraci
-    D/A převodníku. Kalibrace je prováděna tak, že se na výstupu D/A převodníku nastaví obdélníkový
+    Z tohoto důvodu datasheet použitého operačního zesilovače AD8531 doporučuje použít v případě vyšší kapacitní zátěže tzv. snubber network.
+    V datasheetu je možno nalézt následující hodnoty součástek pro různou kapacitní zátěž (v Obr. \ref{fig: DAC-externí zesilovač} realizováno
+    kombinací součástek C\_SNUBB a R\_COMP).
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[]{obrazky/snubber_values.png}
+        \caption{Snubber Network (obrázek převzat z \cite{OPA_datasheet})}
+        \label{fig: Snubber Network}
+    \end{figure}
+
+    Protože datasheet neuvádí hodnoty součástek pro kapacitní zátěž 240\,pF, je odpor R\_COMP realizován
+    trimmerem pro možnost kalibrace. Hodnota kapacity C\_SNUBB byla zvolena 100\,nF.\\
+    Kalibrace je prováděna tak, že se na výstupu D/A převodníku nastaví obdélníkový
     signál o frekvenci 500\,kHz a poté se trimmerem nastaví taková hodnota, aby v časové oblasti
     byl co nejmenší překmit\cite{DAC_stability,OPA_stability}.\\
-
-    Nevýhodou kompenzačního rezistoru je však přidání nechtěného DC offsetu D/A převodníku. Tento offset by
-    však měl být zanedbatelný, protože vstupní odpor komparátoru je vysoký. Zároveň je na výstup externího zesilovače
-    připojen A/D převodník pro případnou kompenzaci offsetu.
 
     \subsubsection{Programování a debuging}
     Pro účely debugování a programování mikrokontroléru jsou zpřístupněny SWD a JTAG piny.
     Dále je možno modifikovat konfiguraci mikrokontroléru pomocí jumperů, které jsou propojeny
     s boot piny mikrokontroléru. Při normálním provozu se počítá s programováním pomocí SWD rozhraní.
+    Případně je také možné mikrokontrolér naprogramovat přes USB konektor pomocí zabudovaného DFU.
 
     \subsubsection{Konfigurace hodinového signálu}
     
@@ -87,12 +92,12 @@
     připojen do High Speed Clock pinů mikrokontroléru. V případě ovládací karty bylo použit 8\,MHz
     krystalového rezonátoru ABM3B-8.000MHZ-D2-T společně s 2x27\,pF zatěžovacími kapacitory.\\
 
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[height = 0.2\textheight]{obrazky/CLK_rezonator.png}
-        \caption{8\,MHz krystalový rezonátor}
-        \label{fig: MHz krystalový rezonátor}
-    \end{figure}
+    %%\begin{figure}[ht!]
+    %%    \centering
+    %%    \includegraphics[height = 0.2\textheight]{obrazky/CLK_rezonator.png}
+    %%    \caption{8\,MHz krystalový rezonátor}
+    %%    \label{fig: MHz krystalový rezonátor}
+    %%\end{figure}
 
     Pro jednodušší konfiguraci hodinových signálů mikrokontroléru bylo využito programu STM32CubeMX.
     Výsledná konfigurace hodinových signálů je znázorněna na následujícím obrázku.
@@ -160,7 +165,7 @@
     Ovládací kartu lze napájet přímo z USB portu, přičemž napájení je opatřeno
     vstupním filtrem realizovaným feritovou perličkou a kondenzátorem (více v sekci o napájení).
     Obdobně jako u ethernetu je i zde nutno při návrhu PCB použít diferenciální páry
-    pro datové signály (50\,$\Omega$). Každý ze signálů,
+    pro datové signály (90\,$\Omega$). Každý ze signálů,
     který je vyveden na USB-micro konektor je opatřen TVS diodami pro ochranu
     proti ESD. \\
 
@@ -193,8 +198,7 @@
 
     Očekávaný maximální proud fyzické vrstvy ethernetu je přibližně 150\,mA.
     Proudový odběr ovládací karty nelze jednoznačně určit,
-    protože je závislý na firmwaru mikrokontroléru (deska není zatím fyzicky vyrobená a
-    proudový odběr bude ověřen experimentálně).
+    protože je závislý na firmwaru mikrokontroléru.
     Nicméně se očekává, že by proud v nejhorším případě neměl přesáhnout 500\,mA. 
     Použitý regulátor by měl být schopen dodat do obvodu proud 1A, což by
     mělo být dostačující.\\ 
@@ -280,155 +284,287 @@ přiřazení čísla portu ethernetového switche k IP adrese připojených ovl�
 lze přiřadit jednotlivé ovládací karty k jednotlivým řadám bRC pinů bez nutnosti dodatečné konfigurace
 či různému kódování řad.\\
 
-Z pohledu celého systému je hlavním řídícím prvkem PC aplikace.
-Ovládací karty společně s měřícími kartami nabízejí PC aplikaci high level služby.
-Tyto high level jsou dostupné díky telnet server ovládací karty. Pojmem high level služby
-si lze představit například telnet příkaz \#SET;IMPEDANCE;HIGHZ;PINS;ALL ,tento příkaz odešle
-PC aplikace některé z ovládacích karet. Karta nastaví všechny bRC piny na připojených měřících kartách
-do vysoké impedance a odešle potvrzení zpět řídící aplikaci pomocí telnet příkazu následovně
-\#SET;IMPEDANCE;HIGHZ;PINS;ALL;ACK. Na následujícím obrázku lze pozorovat složitější příklad mezi
-PC aplikací a ovládacími kartami.
+Z pohledu celého systému je hlavním řídícím prvkem PC aplikace. V následující části je popsán Komunikační
+protokol, který je použit pro komunikaci mezi PC aplikací a ovládacími kartami.
+
+\section{Komunikační protokol ovládacích karet}
+Komunikační protokol je založen na ASCII příkazech a je tak relativně čitelný pro člověka.
+Jednotlivé příkazy protokolu jsou přenášeny pomocí TCP/IP rámců (port 23) v případě ethernetového rozhraní nebo
+pomocí Virtuálního COM portu v případě USB rozhraní. Pro obě možnosti připojení se protokol neliší.\\
+
+Jednotlivé příkazy jsou vyhodnocovány po obdržení znaku CR (ASCII 0x0D), LF (ACII 0x0A) popřípadě libovolnou kombinací těchto znaků. Odpovědi
+z ovládacích karet jsou zakončeny znakem LF. Ovládací karta je určena obecně k ovládání více modulů než pouze měřících karet. Nicméně pro účely
+diplomové práce jsou diskutovány pouze příkazy vztahující se k měřícím kartám. Každý příkaz vztahující se k měřícím kartám obsahuje prefix 80\_IO\_CARD.
+Jednotlivé parametry příkazu jsou odděleny mezerou.\\
+
+Pro každý příkaz odesílá ovládací karta odpovědi začínajícími prefixem "ERROR;" nebo "OK;" (bez uvozovek) podle toho, zda-li byl příkaz vyhodnocen úspěšně či nikoliv.
+Poté následuje textová odpověď na příkaz zakončená znakem LF.
+Příkazy jsou obecně rozděleny do 3 skupin (SET READ a MEASUERE). Skupina SET slouží k nastavení parametrů měření, skupina READ slouží k čtení nastavených parametrů
+a skupina MEASURE slouží k samotnému měření.\\
+
+V následujicích podkapitolách jsou popsány jednotlivé příkazy pomocí následující konvence:
+\begin{itemize}
+    \item Znak | značí, že je možné použít pouze jeden z uvedených parametrů.
+    \item Text v uvozovkách značí nastavitelnou hodnotu do příkazu se zadává bez uvozovek a v případě desetinných čísel je použita destinná tečka.
+    \item Text mezi * je vysvětlen podrobněji v dané sekci
+    
+\end{itemize}
+
+\subsection{Příkazy SET}
+\subsubsection{SET DAC}
+Příkaz SET DAC slouží k nastavení napětí na výstupu DAC. Protože se jedná o 12 bitový převodník, je možné nastavit pouze hodnoty napětí, které jsou násobky
+napětí referenčního napětí. Pokud je zadáno napětí, které není násobkem referenčního napětí, je nastaveno nejbližší nižší napětí.
+Referenční napětí ovládací karty je nastaveno při kalibraci příkazem SET CONFIGURATION VOLTAGE\_REFERENCE. Případně je hodnotu referenčního napětí možno získat
+příkazem READ CONFIGURATION VOLTAGE\_READINGS.
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD SET DAC "Napětí ve V"
+    \item \textbf{Příklad:}\\
+    -> 80\_IO\_CARD SET DAC 2.75\\
+    <- OK;DAC: 3398, discretized Value in Volts:2.74959
+    \item \textbf{Interpretace odpovědi:} Tato odpověď byla obdržena při referenčním napětí 3.314400V. Hodnota 3398 je bitová hodnota, která je zapsána do registru DAC a
+    hodnota 2.74959 je odpovídající hodnota napětí.
+\end{itemize}
+
+\subsubsection{SET SHIFT\_REGISTER}
+Příkaz SET SHIFT\_REGISTER slouží k nastavení výstupní hodnoty posuvného registru či celé skupiny posuvných registrů.
+Prvním parametrem příkazu je volba skupiny posuvných registrů.
+Relevantní skupiny posuvných registrů pro diplomovou práci jsou IO1TO40\_OUTPUTS, IO41TO80\_OUTPUTS, IO1TO40\_IMPEDANCES a IO41TO80\_IMPEDANCES.
+Správnou kombinací výstupů těchto posuvných registrů lze nastavit jakýkoliv bRC pin do vysoké či nízké impedance a případně i výstupní hodnotu napětí.\\
+
+Druhým parametrem je volba způsobu zadání výstupní hodnoty registrů. K dispozici jsou následující možnosti: VALUE a DO\_N\_SHIFTS.
+V případě možnosti VALUE následuje decimální hodnota jejíž bitové vyjádření reprezentuje stavy jednotlivých výstupů posuvných registrů.
+Každý ze skupin registrů má svoji endianitu, kterou lze zjistit z příkazu READ CONFIGURATION SHIFT\_REGISTERS (podrobněji popsáno dále). 
+Druhý způsob je DO\_N\_SHIFTS, který posune celý obsah posuvného registru o zadaný počet bitů v pravo či vlevo v závislosti na endianitě registru.
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD SET SHIFT\_REGISTER *registr* *způsob* "Hodnota"
+    \item \textbf{*registr*:} IO1TO40\_OUTPUTS, IO41TO80\_OUTPUTS,\\
+    IO1TO40\_IMPEDANCES, IO41TO80\_IMPEDANCES
+    \item \textbf{*způsob*:} VALUE, DO\_N\_SHIFTS
+    \item \textbf{Příklad:}\\
+    -> 80\_IO\_CARD SET SHIFT\_REGISTER IO1TO40\_IMPEDANCES VALUE 4\\
+    <- OK;Setting Register:IO1TO40\_IMPEDANCES to:4\\
+    -> 80\_IO\_CARD SET SHIFT\_REGISTER IO1TO40\_IMPEDANCES DO\_N\_SHIFTS 4\\
+    <- OK;Setting Register:IO1TO4\_IMPEDANCES to:16
+    \item \textbf{Interpretace odpovědi:} Obecně lze vždy v odpovědi nalézt nový stav registru po provedení požadované operace.
+\end{itemize}
+
+\subsubsection{SET CONFIGURATION}
+Příkazy v této skupině obecně slouží k nastavení stavových hodnot, kalibračních hodnot případně nastavení způsobu
+měření určitých hodnot. Hodnoty, které potřebují být nastaveny pomocí prefixu SET CONFIGURATION jsou popsány v sekcích pro které jsou tyto hodnoty používány.
+Ukázky vybraných hodnot, které lze nastavit pomocí příkazu SET CONFIGURATION jsou uvedeny například v sekci READ CONFIGURATION.
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD SET CONFIGURATION *Název konfigurace* "Hodnota"
+    \item \textbf{*Název konfigurace*:} Popsáno v sekcích pro které jsou hodnoty používány.
+    \item \textbf{Příklad:}\\
+    -> 80\_IO\_CARD SET CONFIGURATION VOLTAGE\_REFERENCE 3.3144\\
+    <- OK;VOLTAGE\_REFERENCE set to:3.314400
+    \item \textbf{Interpretace odpovědi:} Obecně lze vždy v odpovědi nalézt potvrzení o nastavení hodnoty.
+\end{itemize}
+
+\subsection{Příkazy READ}
+\subsubsection{READ MUX}
+Příkaz READ MUX umožňuje číst hodnoty z multiplexerů umístěných na ovládací kartě. Příkaz se zkládá ze 2 parametrů. Prvním parametrem je volba
+skupiny multiplexerů. Pro ovládací kartu jsou k dispozici 2 skupiny (MUXES\_1TO40 a MUXES\_41TO80). Druhým parametrem je volba podoby obdržené hodnoty.
+První možností je přečíst hodnotu celé skupiny multiplexeru za použití parametru ALL. Výsledkem tohoto příkazu je 40bitové číslo v decimální podobě,
+kde každý bit reprezentuje stav jednoho bRC pinu připojeného ke zvolenému multiplexeru. 40biová hodnota je vztažena k endianitě multiplexeru, kterou lze zjistit
+příkazem 80\_IO\_CARD READ CONFIGURATION MULTIPLEXERS.
+Druhou možností je zadat přímo číslo pinu, jehož stav chceme zjistit. Výsledkem tohoto příkazu je 1bitová hodnota v decimální podobě.
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD READ MUX *multiplexer* "číslopinu"|ALL
+    \item \textbf{*multiplexer*:} MUXES\_1TO40 a MUXES\_41TO80
+    \item \textbf{Příklad:}\\
+    -> 80\_IO\_CARD READ MUX MUXES\_1TO40 ALL\\
+    <- OK;Reading MUX MUXES\_1TO40, ALL:0\\
+    -> 80\_IO\_CARD READ MUX MUXES\_1TO40 1\\
+    <- OK;Reading MUX: MUXES\_1TO40, address:1, value:0
+    \item \textbf{Interpretace odpovědi:} V případě parametru ALL je v odpovědi obsažena 40bitová hodnota v decimální podobě. V případě zadání čísla pinu je v odpovědi obsažena 1bitová hodnota v decimální podobě.
+\end{itemize}
+
+\subsubsection{READ SHIFT\_REGISTER}
+Tento příkaz slouží k získání aktuální hodnoty shiftregistru. Jediným parametrem tohoto příkazu je jméno skupiny shiftregistru.
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD READ MUX *register*
+    \item \textbf{*register*:} IO1TO40\_OUTPUTS, IO41TO80\_OUTPUTS,\\
+    IO1TO40\_IMPEDANCES, IO41TO80\_IMPEDANCES
+    \item \textbf{Příklad:}\\
+    -> 80\_IO\_CARD READ SHIFT\_REGISTER IO1TO40\_OUTPUTS\\
+    <- OK;Reading Register IO1TO40\_OUTPUTS, value:1099511627775\\
+    \item \textbf{Interpretace odpovědi:} V odpovědi je obsažena 40bitová hodnota v decimální podobě,
+    kde jednotlivé bity této hodnoty značí aktuální výstupní hodnotu shiftregistru v závislosti na jeho endianitě.
+    V případě výpadku napájení se může stát, že hodnota shiftregistru nebude odpovídat skutečnému stavu výstupních pinů.
+\end{itemize}
+
+
+\subsubsection{READ CONFIGURATION}
+Příkaz READ CONFIGURATION slouží k získání konfigurace ovládací karty. Ovládací karta obsahuje poměrně obsáhlé množství konfigurací.
+V této sekci jsou popsány pouze ty konfigurace, které jsou využívány v diplomové práci. Některé vyčtené tímto příkazem nastavovat
+pomocí příkazu SET CONFIGURATION.
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD READ CONFIGURATION *konfigurace*
+    \item \textbf{Příklad SHIFT\_REGISTERS:}\\
+    -> 80\_IO\_CARD READ CONFIGURATION SHIFT\_REGISTERS\\
+    <- OK;IO1TO40\_OUTPUTS:(length:40,endianity:1,value:1099511627775);\\
+    IO41TO80\_OUTPUTS:(length:40,endianity:0,value:0);\\
+    IO1TO40\_IMPEDANCES:(length:40,endianity:1,value:1);\\
+    IO41TO80\_IMPEDANCES:(length:40,endianity:0,value:0);
+    \item \textbf{Interpretace odpovědi:} V odpovědi jsou obsaženy veškeré informace o konfiguraci posuvných registrů.
+    \item \textbf{Příklad MULTIPLEXERS:}\\
+    -> 80\_IO\_CARD READ CONFIGURATION MULTIPLEXERS\\
+    <- OK;MUXES\_1TO40:(bits:8,paralel:5,endianity:0,value:0);\\
+    MUXES\_41TO80:(bits:8,paralel:5,endianity:0,value:0);
+    \item \textbf{Interpretace odpovědi:} V odpovědi jsou obsaženy veškeré informace o konfiguraci multiplexerů.
+    \item \textbf{Příklad VOLTAGE\_READINGS:}\\
+    -> 80\_IO\_CARD READ CONFIGURATION VOLTAGE\_READINGS\\
+    <- OK;DAC\_RAMP\_DIRECTION:0;\\
+    DAC\_RAMP\_MIN\_VALUE\_VALUE:0;\\
+    DAC\_RAMP\_MAX\_VALUE\_VALUE:4095;\\
+    DAC\_RAMP\_STEP:1;\\
+    DAC\_RAMP\_DELAY\_2500\_NS:2;\\
+    VOLTAGE\_READ\_AVERAGES:2;\\
+    VOLTAGE\_REFERENCE:3.314400;
+    \item \textbf{Interpretace odpovědi:} V odpovědi jsou obsaženy veškeré nastavitelné parametry, které se využívají při měření napětí na jednotlivých pinech příkazy MEASURE.
+\end{itemize}
+
+
+
+
+
+\subsection{Příkazy MEASURE}
+\subsubsection{MEASURE VOLTAGE}
+Příkaz MEASURE VOLTAGE slouží k měření napětí na určitém bRC pinu či pinech. V případě použití parametru ALL je změřeno napětí na všech 80 pinech měřící karty.
+V případě, že je místo parametru ALL zadáno číslo tak příkaz vrátí hodnotu napětí na daném pinu.\\
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD MEASURE VOLTAGE ALL|"číslo pinu"
+    \item \textbf{Příklad ALL:}\\
+    -> 80\_IO\_CARD MEASURE VOLTAGE ALL\\
+    <- OK;2.965643;2.860450;2.431585;-1.000000;0.922465;........;-1.00000;-1.000000;
+    \item \textbf{Interpretace odpovědi:} V odpovědi jsou obsaženy hodnoty napětí na všech 80 pinech odděleny znakem ;. "...." V příkladu značí, že výpis byl zkrácen.
+    Hodnota -1 značí, že napětí je mimo rozsah měřící karty.
+
+    \item \textbf{Příklad číslo pinu:}\\
+    -> 80\_IO\_CARD MEASURE VOLTAGE 3
+    <- OK;Voltage:2.128143\\
+    \item \textbf{Interpretace odpovědi:} V odpovědi je obsaženo napětí na pinu 3 (číslováno od 0). V případě, že napětí je mimo rozsah měřící karty, tak příkaz vrátí hodnotu -1.
+\end{itemize}
+
+Proces měření napětí lze konfigurovat pomocí příkazů ze skupiny SET CONFIGURATION. Následující část popisuje vliv vybraných parametrů.
+Měření napětí probíhá pomocí porovnávání nastavené hodnoty D/A převodníku s měřenou hodnotou napětí na bRC pinu. V reálném zapojení je tohoto dosaženo pomocí komparátoru.
+Výstup komparátoru je z důvodu velkého množství pinů multiplexován na digitální vstup mikrokontroléru (Obr.\ref{fig: bRC pin voltage measurement}). 
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width = 1\textwidth]{obrazky/telnet_communication.png}
-    \caption{Telnet komunikace}
-    \label{fig:Telnet komunikace}
+    \includegraphics[width = 0.9\textwidth]{obrazky/Voltage_measurement_example.png}
+    \caption{Zjednodušené schéma zapojení pro měření napětí na bRC pinu}
+    \label{fig: bRC pin voltage measurement}
 \end{figure}
 
-V příkladu na obr. \ref{fig:Telnet komunikace} PC aplikace nejprve zašle všem připojeným ovládacím kartám
-(broadcast) příkaz pro nastavení všech pinů do vysoké impedance. Poté PC aplikace čeká až obdrží potvrzení 
-od všech připojených karet. Následně nastaví pomocí ovládací karty č. 1 pin č. 17 na měřící kartě jako výstup.
-Po obdrženém potvrzení ok ovládací karty 1 odešle PC aplikace dotaz ovládací kartě 2. Tento dotaz
-(\#MEASURE;FASTVALUE;RESISTANCE;150;PINS;50TO55) by se do lidské řeči dal přeložit následovně. Nastav 
-výstup D/A převodník tak, aby hodnota napětí změřená na komparátoru odpovídá odporu 150 ohmů.
-Následně vrať výstupní data multiplexeru pro piny 50 až 55.
-Z odpovědi ovládací karty lze určit zda mezi pinem (řada 1 pin 17)
-a piny (řada 3 piny 50-55) je odpor odpor propojení menší než 150 ohmů.\\ 
+Měření popsána v této sekci byla provedena na reálné měřící kartě, kde výstup multiplexeru pro měřený bRC pin je přivedenen na pin D1 olvádací karty. Měření byla provedena pomocí
+osciloskopu KEYSIGHT DSOX1204A a digitánlního 6 a 1/2 místného multimetru. Kde jednotlivé průběhy napětí jsou následně zpracovány pomocí programu MATLAB.\\
 
-Z příkladu je také patrné, že karty samotné neinicializují komunikaci a komunikují pouze s PC aplikací.
-Tímto je sice poněkud redukován výpočetní výkon systému, ale zároveň se řízení velmi zjednodušuje.
-Řízení pomocí PC aplikace také zajišťuje synchronizaci mezi jednotlivými kartami.
+Na obrázku \ref{fig: bRC pin voltage measurement DACRAMP1} je zobrazen průběh napětí jednotlivých uzlů z obr. \ref{fig: bRC pin voltage measurement}. Modře je znázorněna měřená hodnota napětí na bRC pinu,
+která má podle multimetru hodnotu 2.1475V, příčemž příkaz vrátil hodnotu napětí 2.1275V. Tato hodnota je závislá na nastavení napěťové reference příkazem 80\_PIN\_CARD SET CONFIGURATION VOTAGE\_REFERENCE.\\
 
-\section{Mód PASS/FAIL}
-V sekci (Volba velikosti odporu děliče Rout) byly zmíněny dva módy, ve kterých tester funguje.
-Prvním z módu je PASS/FAIL mód. V tomto módu používá obsluha externí sondu připojenou k pinu č. 80
-měřící karty připojené k ovládací kartě č.1. Obsluha je vyzvána k připojení externí sondy k 
-určité testovací jehle (probe). Tester následně otestuje, které propojení mezi bRC piny a sondou splňuje požadavky
-na mezní hodnotu odporu cesty.\\
-
-Naměřená jsou odesílána do PC aplikace, která výsledky porovnává
-s konfiguračními soubory a v závislosti na výsledku informuje obsluhu o dalším postupu.
-Informování obsluhy je realizováno akusticky (obdobně jako continuity test u multimetru)
-a vizuálně na displeji. Celý systém tak musí provést měření, co nejrychleji, aby aplikace byla schopna informovat
-obsluhu v reálném čase s co nejnižší odezvou.\\
-
-Pro tento mód testeru je možné použít obdobný postup jako na obr. \ref{fig:Telnet komunikace}.
-Zde se místo pinu 17 použije pin 80 a místo pinů 50-55 se postupně proměří všechny cesty po skupinách
-40 pinů (zdůvodnění proč zrovna 40 pinů je v sekci o návrhu měřící karty).\\
-
-PC aplikace postupně ukládá naměřená data z jednotlivých měřících karet do matice o rozměru 50x78 (rozměr používaných bRC pinů).
-A následně je porovnává s maticí vytvořenou z konfiguračních souborů. Na obrázku níže jsou zobrazeny matice naměřených
-a očekávaných hodnot. Matice má pro názornost rozměr pouze 3x3.
+Červeně je zobrazena hodnota napětí na výstupu D/A převodníku a zeleně je znázorněn výstup multiplexeru. 
+Každá z následujících diskutovaných konfigurací v této sekci začíná prefixem 80\_PIN\_CARD SET CONFIGURATION, přičemž je tento prefix vynecháván.
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width = 0.7\textwidth]{obrazky/MATRIX_COMPARISSON.png}
-    \caption{PASS/FAIL matrix}
-    \label{fig:PASS/FAIL matrix}
+    \includegraphics[width = 0.9\textwidth]{obrazky/matlab_generated/pin_step1.eps}
+    \caption{Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 1)}
+    \label{fig: bRC pin voltage measurement DACRAMP1}
 \end{figure}
 
-V matici naměřených hodnot jsou zeleně znázorněny výsledky, které se shodují s předpokládanými hodnotami.
-Červeně jsou naopak zobrazeny hodnoty, které jsou rozdílné. Hodnota 0 znamená, že mezi externí sondou (probe pinem)
-a bRC pinem odpovídající pozici v matici není propojení cesty nižší jak zvolená mezní hodnota odporu.
-Naopak hodnota 1 znamená, že mezi sondou a bRC pinem je propojení cesty v požadovaném rozsahu. Z výsledků
-měření na obr. \ref{fig:PASS/FAIL matrix} je tedy patrné, že zkoumaný probe pin je někde špatně připojený do 
-bRC pinu (řada 2, sloupec 1). Z konfiguračních souborů lze zjistit i název signálu, který vede do tohoto probe
-popřípadě bRC pinu a obsluhu informovat o tom, mezi kterými signály a piny vznikl problém.
-Tímto postupem se proměří všechny probe piny (každý probe pin má sadu těchto matic).\\
-
-
-\section{Mód měření přesné hodnoty odporu}
-Tento mód se oproti PASS/FAIL módu liší tím, že zde nejsou kladeny žádné nároky na čas měření, protože proces
-je plně automatizován a měření probíhá pouze mezi bRC piny.
-V tomto módu však tester zjišťuje co nejpřesnější hodnotu propojení cest.
-Obdobně jako v PASS/FAIL módu je výsledkem matice propojení, kde jsou nyní však místo jedniček a nul hodnoty
-změřeného odporu. Matice vytvořená z konfiguračních dat však zůstává stejná, protože data v sobě nemají
-žádné hodnoty odporu propojení. Lze pak stanovit určitý treshold obdobně jako při PASS/FAIL režimu a
-určit tak, zda naměřené hodnoty odpovídají očekávaným datům. Následující obrázek ukazuje 
-vzniklé matice pro jeden bRC pin pro zvolený treshold 30\,$\Omega$.\\
+Měření napětí probíhá tak, že se na D/A převodníku nastavují sestupně (případně vzestupně v závislosti na konfiguraci DAC\_RAMP\_DIRECTION) hodnoty napětí. Při každém kroku se kontroluje,
+zda nedošlo k překlopení napěťové úrovně na výstupu komparátoru (respektive multiplexeru - D1 pin).
+Detekce překlopení probíhá tak, že se vyčítá N-krát (lze nastavit konfigurací VOLTAGE\_READ\_AVERAGES) logická hodnota na pinu D1.
+Pokud je alespoň polovina z takto vyčtených hodnot opačné logické úrovně než logická úroveň pinu D1 na počátku měření,
+tak se přepočte aktuálně nastavená hodnota registru D/A převodníku na napětí a toto napětí se odešle do PC aplikace.
+Detekce překlopení komparátoru je patrná na obrázku \ref{fig: bRC pin voltage measurement DACRAMP1}
+přibližně v čase 30\,ms.
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width = 0.7\textwidth]{obrazky/MATRIX_TRUEVALUE.png}
-    \caption{TRUEVALUE matrix}
-    \label{fig:TRUEVALUE matrix}
+    \includegraphics[width = 0.9\textwidth]{obrazky/matlab_generated/pin_step5.eps}
+    \caption{Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 5)}
+    \label{fig: bRC pin voltage measurement DACRAMP5}
 \end{figure}
 
-V obr. \ref{fig:TRUEVALUE matrix} lze najít hodnoty odporu 100000$\Omega$. Tyto hodnoty však neodpovídjí reálné hodnotě propojení
-cest, ale je značí že měřená hodnota odporu je mimo rozsah testeru a lze tak předpokládat, že zde žádné propojení není.
-Dále je zde možno najít červené pole s hodnotou 32$\Omega$. Podle matice vytvořené z konfiguračního 
-souboru by tato cesta měla být propojená. Nicméně pro zvolený treshold 30$\Omega$ je tato hodnota odporu propojení
-považována za příliš vysokou a vyhodnocena jako chybné propojení.\\
+Další nastavitelnou konfigurací je DAC\_RAMP\_STEP, která udává bitový krok rampy D/A převodníku. Takto lze měření urychlit za cenu snížení přesnosti.
+Na obrázku \ref{fig: bRC pin voltage measurement DACRAMP5} je zobrazen průběh napětí při nastavení DAC\_RAMP\_STEP = 5. Touto změnou
+bylo dosaženo změření stejného napětí jako v předchozím bodě přibližně za 6\,ms.\\
 
-Přesná hodnota odporu se zde měří tak, že pro každou skupinku pinů, je vytvořena rampa D/A převodníku a 
-monitoruje se, při jaké hodnotě napětí na D/A převodníku se překlopí výstup komparátoru daného pinu. Aby se 
-minimalizovala chyba vzniklá úbytkem napětí na P-channel mosfetu (viz kapitola o návrhu měřící karty),
-lze zároveň využít rampu D/A převodníku pro změření přesného výstupu napětí bRC pinu a výsledek měření tak vztáhnout
-přímo k napětí na bRC pinu.\\
-
-\chapter{Řídící PC aplikace}
-Pro účely testeru byla vyvinuta PC aplikace založená na programovacím jazyku python. Tato aplikace umožňuje
-nejen komunikovat s testerem a provádět měření, ale také převádět vstupní CAD, CAM, gerber a různé textové konfigurační
-soubory do vhodného formátu pro účely testeru.\\
-
-Aplikace se skládá ze 3 hlavních záložek (Routing, Probe Test a Auto Test) v horním levém rohu. V semestrální práci Je
-dokončena funkce pouze záložky routing.
-
-\section{Záložka routing}
-Tato část řídící aplikace má na starosti převod všech vstupních dat do vhodného grafického zobrazení a vytvoření
-propojovacích matic (viz obr. \ref{fig:TRUEVALUE matrix} a Obr.\ref{fig:PASS/FAIL matrix}).
-Ve svém GUI je záložka koncipována tak, aby obsluha testu byla schopna identifikovat různá propojení bRC a probe pinů.
-Zároveň by mělo být možné na základě tohoto GUI zapojit celou fixture část.\\
+Z obrázků \ref{fig: bRC pin voltage measurement DACRAMP1} a \ref{fig: bRC pin voltage measurement DACRAMP5} lze dedukovat, že celkový čas je závislý 
+na měřeném napětí. V případě, že je zvolena sestupná rampa a měřené napětí je nulové budou průběhy vypadat následovně:
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width = 1\textwidth]{obrazky/PC_AP_top_view.png}
-    \caption{PC aplikace - záložka routing}
-    \label{PC aplikace - záložka routing}
+    \includegraphics[width = 0.9\textwidth]{obrazky/matlab_generated/pin_out_of_range.eps}
+    \caption{Časové průběhy napětí - měření nízkého napětí na bRC pinu (DAC\_RAMP = 5)}
+    \label{fig: bRC pin voltage measurement low Voltage}
 \end{figure}
 
-Záložka se skládá ze 3 hlavních částí (net viewer, pin viewer a data graphics viewer).
-V části netviewer jsou zobrazeny všechny bRC a probe piny (jsou zde i jiné piny, které nejsou diskutovány v diplomové práci).
-Každý pin zde má svou polohu vyjádřenou dvěma způsoby. Prvním způsobem je značení pomocí bRC. Toto označení je
-vztaženo k mřížce, kterou tvoří spodní část fixture (obr. \ref{fig:ICT_tester}). Protože jednotlivé piny mají svou toleranci
-a nemusí ležet přímo v bodě mřížky, je označení bRC nepřesné a je zaokrouhleno k nejbližšímu bodu mřížky.
-Druhým a přesným způsobem je označení pomocí x a y souřadnic.\\
+Na obrázku \ref{fig: bRC pin voltage measurement low Voltage} lze pozorovat, že pokud napětí je příliš nízké, tak se výstup komparátoru nikdy nepřeklopí a 
+příkaz vrátí v odpovědi hodnotu -1.
+To je způsobeno tím, že D/A převodník není schopen generovat nulové napětí. Při nastavení registru D/A převodníku na 0 je na výstupu převodníku napětí přibližně 70\,mV.
+Lze tak měřit pouze napětí, které je vyšší než tato dolní mez. Horní mez měření není omezena, protože napájecí napětí bRC pinů je nižší než napětí,
+které je D/A převodník schopen generovat. Zároveň obrázek \ref{fig: bRC pin voltage measurement low Voltage} demonstruje přibližnou maximální dobu
+měření (19ms pro DAC\_RAMP\_STEP = 5 a 95ms pro DAC\_RAMP\_STEP = 1). \\
 
-Některé piny mají neprázdná pole označení ve sloupci testpoint.
-Toto označení znamená, že se jedná o probe pin a bude ho nutné otestovat externí sondou. Zároveň probe piny
-mají ve sloupci type průměr testovací jehly (bRC piny mají označení pin). Dále je zde vidět Node (uzel) do kterého pin patří.\\
-
-Po kliknutí do příslušného řádku v části netviewer se v části graphic data viewer zobrazí červeně zvolený pin
-a zároveň zeleně všechny probe a bRC piny se stejným označením node (obr. \ref{PC aplikace - záložka routing}).
-V části graphic data viewer zároveň lze klikat myší na jednotlivé piny a tím je označit v sekci netviewer.
-Takto lze jednoduše procházet zapojení fixture části. Část graphic data viewer umožňuje různě přibližovat a posouvat
-zobrazení.\\
-
-V části pin viewer jsou zobrazeny podrobné informace o vybraném (červeném) pinu.
-Každý řádek v této sekci (může jich být libovolný počet) obsahuje informace o propojení zvoleného červeného pinu s nějakým
-dalším pinem. Na obr(\ref{PC aplikace - záložka routing}) je patrné, že v části pin viewer je pouze jeden řádek, ale zároveň
-z části graphic data viewer je jasně vidět, že uzel 1\%GND obsahuje daleko více pinů. To je způsobeno tím,
-že uzly nejsou vždy tvořeny paralelním propojením všech pinů. Dále aby bylo možno fixture zapojit, obsluha musí v části
-pin viewer vidět pouze propojení kam dále má vést propojení. Zobrazeny jsou tedy pouze cesty, které vedou z tohoto pinu.
-Toto je patrné i z informací v příslušném řádku části pin viewer. V obr.(\ref{PC aplikace - záložka routing}) jsou ve sloupcích
-r\_from a c\_from (značí z kterého pinu vede cesta) stejná data jako ve sloupcích r a c v části netviewer. Jedná se tudíž
-o červený vybraný pin. Sloupce r\_to a c\_to jsou souřadnice pinu, kam má vést další cesta. Po kliknutí do řádku
-v části pin viewer se v části graphic viewer znázorní pomyslné propojení (\ref{PC aplikace - Zobrazení cesty}).
-Zároveň lze z řádku v sekci pin viewer vyčíst data o délce, typu a barvě použitého propojovacího drátu.
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width = 0.9\textwidth]{obrazky/PC_AP_top_only1.png}
-    \caption{PC aplikace - Zobrazení cesty}
-    \label{PC aplikace - Zobrazení cesty}
+    \includegraphics[width = 0.9\textwidth]{obrazky/matlab_generated/pin_out_of_range_opt.eps}
+    \caption{Časové průběhy napětí - měření nízkého napětí na bRC pinu optimalizace}
+    \label{fig: bRC pin voltage measurement low Voltage opt}
 \end{figure}
+
+
+Vzhledem k charakteru propojení bRC pinů, kde je většina pinů buď propojena tvrdým zkratem (napětí na bRC pinu blízké 3V) nebo rozpojená (napětí na pinu blízké 0V),
+vzniká potřeba zkrátit čas měření napětí mimo rozsah D/A převodníku. Z tohoto důvodu je před začátkem měření nejrve změřena logická hodnota výstupu multiplexeru (D1 pin) při
+nejnižší a nejvyšší napěťové hodnotě D/A převodníku. Pokud je výstup multiplexeru v obou případech stejný, tak se předpokládá, že je hodnota nižší než dolní mez D/A převodníku
+a příkaz vrátí hodnotu -1. Při reálném provozu, tak nemůže nastat situace z obr. \ref{fig: bRC pin voltage measurement low Voltage}.
+Měření pak probíhá podle obr. \ref{fig: bRC pin voltage measurement low Voltage opt}. Optimalizované měření pak v případě, že je měřená hodnota mimo rozsah
+,trvá pouze přibližně 0.02\,ms nezávisle na použitých konfigurací.\\
+
+Další konfigurace, které lze využít jsou DAC\_RAMP\_MAX\_VALUE\linebreak a DAC\_RAMP\_MIN\_VALUE,
+které určují dolní a horní mez rampy D/A převodníku. Tímto lze zkrátit čas měření za cenu nižšího rozsahu.
+Zároveň je na tyto mezní hodnoty aplikována stejná metoda jako je popsána v předhozím odstavci. Nicméně nyní dolní mez D/A převodníku nepředstavuje hardwarovou dolní mez měření,
+nýbrž mez nastavenou příkazem DAC\_RAMP\_MIN\_VALUE. V případě využívání DAC\_RAMP\_MAX\_VALUE může dojít k měření hodnoty napětí mimo tuto horní mez. Protože pro funkčnost měřící karty není
+nutné rozlišovat zda měřená hodnota je nad horní nebo pod dolní mezí a v obou případech vrací příkaz hodnotu -1.\\ 
+
+Prozatím  bylo diskutováno pouze měření napětí na jednom pinu.
+V případě \linebreak příkazu 80\_IO\_CARD MEASURE VOLTAGE ALL jsou změřena napětí na všech bRC pinech současně během jedné rampy
+D/A převodníku (Obr. \ref{fig: bRC pin voltage measurement allpins}).
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 0.9\textwidth]{obrazky/matlab_generated/all_pins.eps}
+    \caption{Časové průběhy napětí - měření napětí na všech pinech současně}
+    \label{fig: bRC pin voltage measurement allpins}
+\end{figure}
+
+Měření všech pinů probíhá obdobně jako u měření jednotlivých pinů. Nejprve se u všech pinů zkontroluje, zda je měřené napětí v mezích.
+Následuje D/A rampa, kde se při každém kroku kontroluje u každého pinu, zda nedošlo k překlopení komparátoru. Pokud dojde k překlopení komparátoru,
+tak se uloží aktuální hodnota D/A převodníku do paměti mikrokontroléru. Pokud je pro daný pin již v paměti uložená nějaká hodnota, tak při dalším
+kroku D/A rampy již nedochází ke kontrole překlopení komparátoru. To je patrné z obr. \ref{fig: bRC pin voltage measurement allpins}, kde není rampa
+D/A převodníku lineární a postupně se měření urychluje s počtem již změřených pinů.\\ 
+
+Zelený průběh napětí na D1 pinu vypadá takto, protože se jedná o výstup multiplexeru. Multiplexery jsou řízeny pomocí společné adresace, takže
+se v průběhu měření ,opakovaně a nechtěně, přepíná i výstup již změřeného pinu. Teoreticky by se dalo předpokládat, že takováto aktivita na všech
+výstupních pinech multiplexerů bude způsobovat rušení, nicméně při dosavadním měření se tato skutečnost nijak výrazně neprojevila a tak je ignorována.
+Případně by rušení šlo do jisté míry omezit správnou posloupností měření pinů.
+
+\subsubsection{MEASURE ADC}
+Tento příkaz slouží k změření aktuální hodnoty A/D převodníku. Příkaz vrací hodnotu již přepočtenou na napětí, toto napětí je vztaženo k referenčnímu napětí,
+které lze nastavit příkazem 80\_IO\_CARD SET CONFIGURATION VOLTAGE\_REFERENCE
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Obecný tvar:} 80\_IO\_CARD MEASURE ADC
+    \item \textbf{Příklad:}\\
+    -> 80\_IO\_CARD MEASURE ADC\\
+    <- OK;ADC, value:3.004\\
+    \item \textbf{Interpretace odpovědi:} Odpověď obsahuje změřenou hodnotu A/D převodníku vztaženou k referenčnímu napětí.
+\end{itemize}

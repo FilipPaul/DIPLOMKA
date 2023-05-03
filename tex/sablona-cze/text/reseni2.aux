@@ -11,12 +11,13 @@
 \@writefile{toc}{\contentsline {subsubsection}{D/A převodník}{31}{section*.73}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces DAC-externí zesilovač}}{31}{figure.74}\protected@file@percent }
 \newlabel{fig: DAC-externí zesilovač}{{3.2}{31}{DAC-externí zesilovač}{figure.74}{}}
+\citation{OPA_datasheet}
 \citation{DAC_stability}
 \citation{OPA_stability}
-\@writefile{toc}{\contentsline {subsubsection}{Programování a debuging}{32}{section*.76}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Konfigurace hodinového signálu}{32}{section*.77}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 8\,MHz krystalový rezonátor}}{32}{figure.78}\protected@file@percent }
-\newlabel{fig: MHz krystalový rezonátor}{{3.3}{32}{8\,MHz krystalový rezonátor}{figure.78}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Snubber Network (obrázek převzat z \cite  {OPA_datasheet})}}{32}{figure.76}\protected@file@percent }
+\newlabel{fig: Snubber Network}{{3.3}{32}{Snubber Network (obrázek převzat z \cite {OPA_datasheet})}{figure.76}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Programování a debuging}{32}{section*.77}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Konfigurace hodinového signálu}{32}{section*.78}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Clock configuration}}{33}{figure.79}\protected@file@percent }
 \newlabel{fig: Clock configuration}{{3.4}{33}{Clock configuration}{figure.79}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Konektivita}{33}{subsection.80}\protected@file@percent }
@@ -32,22 +33,32 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Distribuce napájení}}{36}{figure.87}\protected@file@percent }
 \newlabel{fig:Distribuce napájení}{{3.7}{36}{Distribuce napájení}{figure.87}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Algoritmizace a měřící procedury}{37}{chapter.89}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Telnet komunikace}}{37}{figure.90}\protected@file@percent }
-\newlabel{fig:Telnet komunikace}{{4.1}{37}{Telnet komunikace}{figure.90}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Mód PASS/FAIL}{38}{section.91}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces PASS/FAIL matrix}}{38}{figure.92}\protected@file@percent }
-\newlabel{fig:PASS/FAIL matrix}{{4.2}{38}{PASS/FAIL matrix}{figure.92}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Mód měření přesné hodnoty odporu}{39}{section.93}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces TRUEVALUE matrix}}{39}{figure.94}\protected@file@percent }
-\newlabel{fig:TRUEVALUE matrix}{{4.3}{39}{TRUEVALUE matrix}{figure.94}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Řídící PC aplikace}{40}{chapter.95}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Záložka routing}{40}{section.96}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces PC aplikace - záložka routing}}{40}{figure.97}\protected@file@percent }
-\newlabel{PC aplikace - záložka routing}{{5.1}{40}{PC aplikace - záložka routing}{figure.97}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces PC aplikace - Zobrazení cesty}}{41}{figure.98}\protected@file@percent }
-\newlabel{PC aplikace - Zobrazení cesty}{{5.2}{41}{PC aplikace - Zobrazení cesty}{figure.98}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Komunikační protokol ovládacích karet}{37}{section.90}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Příkazy SET}{38}{subsection.91}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{SET DAC}{38}{section*.92}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{SET SHIFT\_REGISTER}{38}{section*.93}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{SET CONFIGURATION}{39}{section*.94}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Příkazy READ}{39}{subsection.95}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{READ MUX}{39}{section*.96}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{READ SHIFT\_REGISTER}{39}{section*.97}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{READ CONFIGURATION}{40}{section*.98}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Příkazy MEASURE}{41}{subsection.99}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{MEASURE VOLTAGE}{41}{section*.100}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Zjednodušené schéma zapojení pro měření napětí na bRC pinu}}{41}{figure.101}\protected@file@percent }
+\newlabel{fig: bRC pin voltage measurement}{{4.1}{41}{Zjednodušené schéma zapojení pro měření napětí na bRC pinu}{figure.101}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 1)}}{42}{figure.102}\protected@file@percent }
+\newlabel{fig: bRC pin voltage measurement DACRAMP1}{{4.2}{42}{Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 1)}{figure.102}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 5)}}{42}{figure.103}\protected@file@percent }
+\newlabel{fig: bRC pin voltage measurement DACRAMP5}{{4.3}{42}{Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 5)}{figure.103}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Časové průběhy napětí - měření nízkého napětí na bRC pinu (DAC\_RAMP = 5)}}{43}{figure.104}\protected@file@percent }
+\newlabel{fig: bRC pin voltage measurement low Voltage}{{4.4}{43}{Časové průběhy napětí - měření nízkého napětí na bRC pinu (DAC\_RAMP = 5)}{figure.104}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Časové průběhy napětí - měření nízkého napětí na bRC pinu optimalizace}}{43}{figure.105}\protected@file@percent }
+\newlabel{fig: bRC pin voltage measurement low Voltage opt}{{4.5}{43}{Časové průběhy napětí - měření nízkého napětí na bRC pinu optimalizace}{figure.105}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Časové průběhy napětí - měření napětí na všech pinech současně}}{44}{figure.106}\protected@file@percent }
+\newlabel{fig: bRC pin voltage measurement allpins}{{4.6}{44}{Časové průběhy napětí - měření napětí na všech pinech současně}{figure.106}{}}
+\@writefile{toc}{\contentsline {subsubsection}{MEASURE ADC}{45}{section*.107}\protected@file@percent }
 \@setckpt{text/reseni2}{
-\setcounter{page}{42}
+\setcounter{page}{46}
 \setcounter{equation}{0}
 \setcounter{enumi}{4}
 \setcounter{enumii}{0}
@@ -56,19 +67,19 @@
 \setcounter{footnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
-\setcounter{chapter}{5}
+\setcounter{chapter}{4}
 \setcounter{section}{1}
-\setcounter{subsection}{0}
+\setcounter{subsection}{3}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{2}
+\setcounter{figure}{6}
 \setcounter{table}{0}
 \setcounter{Item}{10}
 \setcounter{Hfootnote}{1}
-\setcounter{bookmark@seq@number}{38}
+\setcounter{bookmark@seq@number}{46}
 \setcounter{AM@survey}{0}
 \setcounter{lstnumber}{1}
-\setcounter{section@level}{1}
+\setcounter{section@level}{3}
 \setcounter{lstlisting}{0}
 }

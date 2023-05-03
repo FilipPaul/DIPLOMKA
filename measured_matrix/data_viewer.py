@@ -82,6 +82,8 @@ class APP(QtWidgets.QWidget):
     def loadDataFolder(self):
         file = str(QtWidgets.QFileDialog.getExistingDirectory(self, "Select Directory"))
         print(file)
+        if file == "" or file == None:
+            return
         storeInsertionsInDatabase(dBCursor,parseInsertion(path_to_file=file+"/inserts"))
         self.list_of_insertions = loadInsertionsFromDatabase(dBCursor)
         
