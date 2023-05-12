@@ -560,44 +560,7 @@ pro výstup multiplexerů (pull up výstupu komparátoru) a je tím zajištěna 
 
 \subsection{Návrh PCB}
 Pro návrh PCB bylo využito softwaru Altium Designer. PCB bylo vyrobeno firmou
-JLCPCB.
-Jedná se o 6-ti vrstvé PCB s následujícím rozložením vrstev.
-Jednotlivé vrstvy mají následující účel:
-\begin{itemize}
-    \item TOP layer: signal; polygon - GND
-    \item inner layer 1: GND
-    \item inner layer 2: signal; polygon - GND
-    \item inner layer 3: signal/PWR; polygon - PWR\_MCU, Vref
-    \item inner layer 4: PWR; polygon - BOARD\_PWR, Vpins, Vcomp
-    \item BOTTOM layer: signal; polygon - GND, Vref
-\end{itemize}
-
-\noindent Za označením "polygon -"\ jsou uvedeny jména signálů, které mají v dané vrstvě nějaký polygon.
-Následující obrázek zobrazuje všechny vrstvy současně bez polygonů. Na další straně jsou jednotlivé vrstvy
-včetně polygonů.
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[width = 1\textwidth]{obrazky/all_layers_no_poly.png}
-    \caption{Všechny vrstvy bez polygonů}
-    \label{fig:Všechny vrstvy bez polygonů}
-\end{figure}
-\clearpage
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[height = 0.15\textheight]{obrazky/layer_top.png}
-    \includegraphics[height = 0.15\textheight]{obrazky/layer_2.png}
-    \includegraphics[height = 0.15\textheight]{obrazky/layer_3.png}
-    \includegraphics[height = 0.15\textheight]{obrazky/layer_4.png}
-    \includegraphics[height = 0.15\textheight]{obrazky/layer_5.png}
-    \includegraphics[height = 0.15\textheight]{obrazky/layer_bot.png}
-    \caption{Vrstvy PCB top to bottom včetně polygonů}
-    \label{fig:Vrstvy PCB top to bottom}
-    
-\end{figure}
-
-\clearpage
+JLCPCB. Jedná se o 6-ti vrstvé PCB, přičemž podrobnější informace lze najít v příloze na konci diplomové práce.
 
 Pro minimalizaci zemních smyček jsou po celé desce rozmístěny stitching vias,
 které propojují GND signály.
@@ -610,15 +573,9 @@ Tento rozměr je dán roztečí jednotlivých řad bRC pinů. Na následujícíc
 s DIN konektorem, který přesahuje výšku 8mm (nebude však osazen). Finální rozměry měřící karty bez DIN konektoru jsou
 (délka x šířka x výška) 215 x 62.5x 7.65mm. PCB obsahuje několik děr pro uchycení pomocí M3 šroubů.
 
-
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width = 1\textwidth]{obrazky/karta_3D.png}
-    \includegraphics[width = 1\textwidth]{obrazky/karta_3D_bot.png}
-    \caption{3D model top a bot s osazeným DIN konektorem}
-    \label{fig:3D model top a bot}
-    
+    \includegraphics[width = 1\textwidth]{obrazky/all_layers_no_poly.png}
+    \caption{Výsledný návrh PCB měřící karty - všechny vrstvy bez zobrazených polygonů}
+    \label{fig:Všechny vrstvy bez polygonů}
 \end{figure}
-
-
-

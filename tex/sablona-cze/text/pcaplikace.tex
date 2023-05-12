@@ -12,7 +12,7 @@ PC aplikace je postavena na platformě "TEST API", která je vyvíjena autorem d
 a její popis by přesáhl rámec této práce. Z tohoto důvodu bude popsána pouze část platformy, která je pro diplomovou práci nejdůležitější.\\
 
 Aplikace je rozdělena do několika vrstev, každá z vrstev by měla plnit svoji specifickou úlohu a být jakýmsi nezávislým blokem.
-PC aplikace se snaží toto "pravidlo" dodržovat nicméně ne všechny bloky jsou kompletně nezávislé.
+PC aplikace se snaží toto "pravidlo"\ dodržovat nicméně ne všechny bloky jsou kompletně nezávislé.
 Použité názvy vrstev nevychází ze žádného standartu jako např. ISO/OSI apod.\\
 
 \begin{figure}[ht!]
@@ -26,7 +26,7 @@ Použité názvy vrstev nevychází ze žádného standartu jako např. ISO/OSI 
 \section{PC aplikace - Raw low layer}
 Nejnižší vrstvou je tzv. Raw low layer. Tato vrstva složí přímo ke komunikaci se zařízením. Převádí tak příkazy z kapitoly 4 do TCP/IP popř. USB rámců.
 V případě diplomové práce tuto vrstvu pro ovládací karty zajišťuje knihovna pyVisa, která je založena na knihovně VISA od firmy National Instruments.
-Tato knihovna umožňuje pohodlně komunikovat se zařízením přes různé fyzické vrstvy (TCP/IP, USB, RS232, GPIB) a to pomocí jednotného API.\\
+Tato knihovna umožňuje pohodlně komunikovat se zařízením přes různé fyzické vrstvy (TCP/IP, USB, RS232, GPIB) a to pomocí jednotné API.\\
 
 
 \section{PC aplikace - Ttranslation Layer}
@@ -47,7 +47,7 @@ V diplomové práci byla tato vrstva např. využita k automatizovanému měřen
 
 Druhým důležitým úkolem této vrstvy je rozřazovat požadované testy do vláken programu a předcházet tak zamrzání.
 Z tohoto důvody by veškerá komunikace od vyšších vrstev měla probíhat přes tuto vrstvu.
-Tato funkcionalita se hodí pro diplomovou práci, protože umožňuje zasílat příkazy do několika ovládacích karet zároveň a
+Tato funkcionalita je vhodná pro diplomovou práci, protože umožňuje zasílat příkazy do několika ovládacích karet zároveň a
 urychlit tak měření.
 
 
@@ -71,10 +71,10 @@ Následující obrázek je ukázkou výstřižku z konfiguračního souboru test
 
 Podrobný popis konfiguračního soboru test.yaml a všech jeho funkcí by byl příliš zdlouhavý.
 Obecně jsou podporovány všechny příkazy, které nabízí Device Hub Vrstva.
-Hlavní myšlenkou je demonstrovat, že lze pomocí tohoto souboru dynamicky definovat testy a jejich widgety (způsob zobrazení). 
-To, jaký widget bude použit pro zvolený test lze měnit v části "WIDGETS" tests.yaml souboru. Například pro test "CMDLINE\_TEST" je zvolen
+Hlavní myšlenkou je demonstrovat, že pomocí tohoto souboru, lze dynamicky definovat testy a jejich widgety (způsob zobrazení). 
+To, jaký widget bude použit pro zvolený test lze měnit v části "WIDGETS"\ tests.yaml souboru. Například pro test "CMDLINE\_TEST"\ je zvolen
 widget "GRAPH", což v PC aplikaci nastaví zobrazení v podobě grafu.
-Následně v červeně označené části je definováno, které data budou zobrazeny na určitých osách grafu.\\
+Následně v červeně označené části (Obr. \ref{fig: tests yaml}) je definováno, která data budou zobrazena na určitých osách grafu.\\
 
 Po spuštění testu lze v PC aplikaci zobrazit výsledky v následující podobě.
 \begin{figure}[ht!]
@@ -95,9 +95,9 @@ PC aplikace zobrazí v pravé části výchozí widget, protože v konfiguračn�
 \end{figure}
 
 
-\subsection{konfigurační soubor tests.yaml}
+\subsection{konfigurační soubor hardwareConfig.yaml}
 Dalším konfiguračním souborem, který je v diplomové práci použit je soubor hardwareConfig.yaml. Tento soubor je oproti
-předchozího souboru tests.yaml nutný k úspěšné kompilaci programu. Nicméně jeho obsah je možné měnit i po kompilaci.
+předchozího souboru tests.yaml nutný k běhu programu. Nicméně jeho obsah je možné měnit i po kompilaci.
 Následující obrázek je ukázkou výstřižku z tohoto souboru.
 \begin{figure}[ht!]
     \centering
@@ -109,10 +109,91 @@ Následující obrázek je ukázkou výstřižku z tohoto souboru.
 
 Na výstřižku jsou zobrazeny konfigurace pro 2 zařízení, které používají pro Raw low layer právě komunikaci pomocí VISA knihoven.
 Jsou zde nastaveny nejdůležitější parametry, které jsou potřebné pro komunikaci s daným zařízením. Zajímavou možností je zvolit
-nastavení položky "COMMUNICATION" z VISA na VIRTUAL. Tímto lze aplikaci používat i v případě, že není k dispozici daný hardware.
+nastavení položky "COMMUNICATION"\ z VISA na VIRTUAL. Tímto lze aplikaci používat i v případě, že není k dispozici daný hardware.
 Veškeré testy pro dané zařízení pak probíhají v tzv. "virtuálním módu". Pro některá zařízení je opravdu emulován virtuální hardware
 a pro některá (včetně ovládacích karet z diplomové práce) jsou pouze navracovány hodnoty "VIRTUAL".\\
 
 Důležitou položkou je parametr PREFIXFORTESTS, který určuje, jaký prefix bude použit pro testy, které jsou definovány v tests.yaml.
-Například pro zmíňený test SETUP\_POWER\_SUPPLY z obrázku \ref{fig: tests yaml} je prefix "SIGLENTPSU". Každý test začínající na tento
+Například pro zmíňený test\linebreak
+SETUP\_POWER\_SUPPLY z obrázku \ref{fig: tests yaml} je prefix "SIGLENTPSU". Každý test začínající na tento
 prefix je pak přesměrován do příslušného hardwaru. V diplomové práci je využito těchto prefixů pro rozlišení jednotlivých ovládacích karet.
+
+\section{PC aplikace - MySql databáze}
+Pc aplikace používá k ukládání data MySql databázi. Do databáze jsou ukládány jednak výsedky testů, tak databáze slouží jako sjednocovací
+prvek pro výrobní data ICT tetserů od různých výrobců. 
+Výrobní data jsou převáděna pomocí různých parsovacích podprogramů do jednotné struktury databáze a zbylé části PC aplikace jsou pak nezávislé na
+formátu výrobních dat. Tato struktura umožňuje jednoduše přidávat podporu pro další výrobce, pouze tvorbou nových parsovacích podprogramů.
+
+\section{PC aplikace - Uživatelské rozhraní}
+Uživatelské rozhraní PC aplikace je založeno na knihovně PyQt6. Tato knihovna je verzí knihovny Qt (originálně C++) pro jazyk Python.
+PyQt6 umožňuje vytvářet různé widgety, které jsou mezi sebou propojovány pomocí signálů a slotů. Pro ovládací kartu bylo vytvořeno několik
+widgetů. Všechny widgety diskutované v následujících sekcích jsou dostupné pro každou z připojených ovládacích karet.
+
+\subsection{Widget - Visa terminal}
+Prvním widgetem je VISA terminal, kde lze napřímo odesílat ovládací kartě příkazy z kapitoly č.4.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 1\textwidth]{obrazky/PC_APP_VISA.png}
+    \caption{PC aplikace - widget: VISA terminal}
+    \label{fig: PCAPP VISA terminal}
+\end{figure}
+
+\subsection{Widget - Ovládání karty}
+Další widget umožňuje pomocí grafického rozhraní nastavovat nejdůležitější funkce ovládacích karet. Na obrázku \ref{fig: PCAPP ovladani karty} lze vidět
+ovládací panel, kde se pro každý pin dá nastavit jeho výstup či impedance.
+Dále lze měřit napětí na jednotlivých pinech, získat aktuální logickou úroveň na pinu, Nastavovat D/A převodník, vyčítat aktuální konfiguraci ovládací karty apod.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 1\textwidth]{obrazky/PC_APP_CONTROL_PANEL.png}
+    \caption{PC aplikace - widget: Ovládání karty}
+    \label{fig: PCAPP ovladani karty}
+\end{figure}
+
+\subsection{Widget - Ovládání Relé}
+Každá z ovládacích karet má k dispozici tzv. EXT porty, do kterých lze připojovat i jiné moduly než měřící karty diskutované v této diplomové práci.
+Jedním z modulů, terý je však využit je modul 32 relé karty připojený do EXT1 portu první ovládací karty. Tato relé karta slouží k ovládání mechanických
+částí testeru jako jsou například vzduchové válce pro kontaktování apod. Na obrázku \ref{fig: PCAPP rele} lze vidět widget pro ovládání této relé karty.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[height = 0.25\textheight]{obrazky/PC_APP_RELAY.png}
+    \caption{PC aplikace - widget:  Relé}
+    \label{fig: PCAPP rele}
+\end{figure}
+
+
+\subsection{Widget - Device status}
+Každé z připojených zařízení má v aplikaci dostupný tzv. Device status widget, ve kterém jsou zobrazeny aktuální informace o
+stavu daného zařízení. Také se v tomto widgetu vyskytuje tlačítko pro otevření příslušného konfiguračního souboru, pomocí kterého
+lze modifikovat konfiguraci daného zařízení (Obr. \ref{fig: hardwareConfig yaml}). 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 1\textwidth]{obrazky/Device_status.png}
+    \caption{PC aplikace - widget:  Device status}
+    \label{fig: PCAPP device status}
+\end{figure}
+
+\clearpage
+\subsection{Widget - ICT propojení}
+Widget ICT propojení je zobrazením dat uložených v MySQL databázi. V levé části tohoto widgetu (Pins And Probes), lze vidět všechny
+bRC piny a testpointy. Po kliknutí na některý z těchto pinů se v prostřední části (Connections) zobrazí podrobné informace o vybraném pinu.
+Pod detailními informacemi o pinu jsou zobrazena veškerá propojení, která vedou z nebo do vybraného pinu. Pro každé propojení jsou zde i přídavné
+informace o délce propojení, barvě drátu apod.\\
+
+Po kliknutí na některé z propojeních se v pravé části zobrazí grafické znázornění této cesty. Červenými kolečky jsou zde znázorněny jednotlivé bRC piny
+na spodní straně fixture a zelenými čtverečky jednotlivé testpointy.\\
+
+U každého z pinů (část Pins And Probes) i u každého z propojení (část Connections) je tlačítko s ikonou šipky. Po kliknutí na toto tlačítko
+se provede příslušný test. Výsledky jsou pak interpretovány v podobě změny barev propojení. Červená barva značí, že propojení nevyhovuje nastaveným mezním hodnotám.
+Zelená barva indikuje správné propojení. Oranžová barva je označením pro nesprávné propojení (vede na jiný pin než bylo zamýšleno).
+V případě, že propojení propojení zatím nebylo testováno, je propojení zobrazeno bezbarvě (bíle). Žlutá barva pak značí aktuálně vybrané propojení.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 1\textwidth]{obrazky/PC_APP_dataViewer.png}
+    \caption{Widget:  ICT propojení}
+    \label{fig: PCAPP ICT propojeni}
+\end{figure}

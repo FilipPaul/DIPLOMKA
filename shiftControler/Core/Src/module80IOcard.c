@@ -250,7 +250,7 @@ static void measureCommands(commandTemplate* current_command){
                     for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
                         number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_1TO40) != ((MUXES_1TO40.current_satus >> pin) & 0x01));
                         if (number_of_oposite_readings > voltage_read_averages/2){
-                            pin_voltages[pin] = DAC_VALUE * voltage_reference /4096;
+                            pin_voltages[pin] = DAC_VALUE * voltage_reference /0xFFF;
                             break;
                         }
                     }
@@ -266,7 +266,7 @@ static void measureCommands(commandTemplate* current_command){
                     for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
                         number_of_oposite_readings += (MUXreadAdress(pin,&MUXES_41TO80) != ((MUXES_41TO80.current_satus >> (40 - pin)) & 0x01));
                         if (number_of_oposite_readings > voltage_read_averages/2){
-                            pin_voltages[pin+40] = DAC_VALUE * voltage_reference /4096;
+                            pin_voltages[pin+40] = DAC_VALUE * voltage_reference /0xFFF;
                             break;
                         }
                     }
@@ -345,7 +345,7 @@ static void measureCommands(commandTemplate* current_command){
                 for (uint16_t j = 0; j < voltage_read_averages; j++){ // do averaging
                     number_of_oposite_readings += (MUXreadAdress(pin_number,&MUXES_1TO40) != initial_value);
                     if (number_of_oposite_readings > voltage_read_averages/2){
-                        pin_voltages[pin_number] = DAC_VALUE * voltage_reference /4096;
+                        pin_voltages[pin_number] = DAC_VALUE * voltage_reference /0xFFF;
                         HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0x000);
                         sprintf(current_command->response,"OK;Voltage:%f\n",pin_voltages[pin_number]);
                         return;
@@ -370,14 +370,15 @@ static void setCommands(commandTemplate* current_command){
         float voltage_to_be_set;
         voltage_to_be_set = strtof(current_command->subcommands[2],NULL);
         if (voltage_to_be_set > voltage_reference) {
-            sprintf(current_command->response,"ERROR;Requested voltage %f is bigger than reference voltage %f\n",voltage_to_be_set,voltage_reference);
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0xFFF);
+            sprintf(current_command->response,"ERROR;Requested voltage %f is bigger than reference voltage: %f\n",voltage_to_be_set,voltage_reference);
             return;
         }
 
         uint32_t dac_value;
-        dac_value = (voltage_to_be_set*4096)/voltage_reference;
+        dac_value = (voltage_to_be_set*0xFFF)/voltage_reference;
         HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dac_value);
-        sprintf(current_command->response,"OK;DAC: %lu, discretized Value in Volts:%1.5f\n",dac_value,dac_value*voltage_reference/4096);
+        sprintf(current_command->response,"OK;DAC: %lu, discretized Value in Volts:%1.5f\n",dac_value,dac_value*voltage_reference/0xFFF);
     
     }//DAC
 
