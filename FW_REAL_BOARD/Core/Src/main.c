@@ -25,6 +25,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_cdc_if.h"
+#include "stdio.h"
+#include "tcpserver.h"
+#include "globals.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,6 +58,8 @@ I2C_HandleTypeDef hi2c2;
 
 SPI_HandleTypeDef hspi2;
 
+TIM_HandleTypeDef htim11;
+
 UART_HandleTypeDef huart2;
 
 osThreadId defaultTaskHandle;
@@ -69,22 +74,22 @@ static void MX_GPIO_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_ADC2_Init(void);
 static void MX_DAC_Init(void);
-static void MX_I2C2_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_ADC3_Init(void);
 static void MX_CAN1_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_USART2_UART_Init(void);
+static void MX_I2C2_Init(void);
+static void MX_TIM11_Init(void);
 void StartDefaultTask(void const * argument);
 
-//redirect printf to USB CDC
-int _write(int file, char *data, int len)
+/* USER CODE BEGIN PFP */
+//Redriect printf to USB CDC
+int _write(int file, char *ptr, int len)
 {
-  CDC_Transmit_FS((uint8_t *)data, len);
+  CDC_Transmit_FS((uint8_t*)ptr, len);
   return len;
 }
-
-/* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
@@ -124,14 +129,15 @@ int main(void)
   MX_ADC1_Init();
   MX_ADC2_Init();
   MX_DAC_Init();
-  MX_I2C2_Init();
   MX_SPI2_Init();
   MX_ADC3_Init();
   MX_CAN1_Init();
   MX_I2C1_Init();
   MX_USART2_UART_Init();
+  MX_I2C2_Init();
+  MX_TIM11_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_TIM_Base_Start_IT(&htim11);
   /* USER CODE END 2 */
 
   /* USER CODE BEGIN RTOS_MUTEX */
@@ -152,7 +158,7 @@ int main(void)
 
   /* Create the thread(s) */
   /* definition and creation of defaultTask */
-  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 2048);
+  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 8192);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -196,9 +202,9 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 4;
-  RCC_OscInitStruct.PLL.PLLN = 72;
+  RCC_OscInitStruct.PLL.PLLN = 168;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 3;
+  RCC_OscInitStruct.PLL.PLLQ = 7;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -210,10 +216,10 @@ void SystemClock_Config(void)
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
   {
     Error_Handler();
   }
@@ -240,7 +246,7 @@ static void MX_ADC1_Init(void)
   /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion)
   */
   hadc1.Instance = ADC1;
-  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
   hadc1.Init.Resolution = ADC_RESOLUTION_12B;
   hadc1.Init.ScanConvMode = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
@@ -292,7 +298,7 @@ static void MX_ADC2_Init(void)
   /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion)
   */
   hadc2.Instance = ADC2;
-  hadc2.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
+  hadc2.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
   hadc2.Init.Resolution = ADC_RESOLUTION_12B;
   hadc2.Init.ScanConvMode = DISABLE;
   hadc2.Init.ContinuousConvMode = DISABLE;
@@ -344,7 +350,7 @@ static void MX_ADC3_Init(void)
   /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion)
   */
   hadc3.Instance = ADC3;
-  hadc3.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
+  hadc3.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
   hadc3.Init.Resolution = ADC_RESOLUTION_12B;
   hadc3.Init.ScanConvMode = DISABLE;
   hadc3.Init.ContinuousConvMode = DISABLE;
@@ -446,15 +452,8 @@ static void MX_DAC_Init(void)
   {
     Error_Handler();
   }
-
-  /** DAC channel OUT2 config
-  */
-  if (HAL_DAC_ConfigChannel(&hdac, &sConfig, DAC_CHANNEL_2) != HAL_OK)
-  {
-    Error_Handler();
-  }
   /* USER CODE BEGIN DAC_Init 2 */
-
+  HAL_DAC_Start(&hdac, DAC_CHANNEL_1);
   /* USER CODE END DAC_Init 2 */
 
 }
@@ -566,6 +565,37 @@ static void MX_SPI2_Init(void)
 }
 
 /**
+  * @brief TIM11 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM11_Init(void)
+{
+
+  /* USER CODE BEGIN TIM11_Init 0 */
+
+  /* USER CODE END TIM11_Init 0 */
+
+  /* USER CODE BEGIN TIM11_Init 1 */
+
+  /* USER CODE END TIM11_Init 1 */
+  htim11.Instance = TIM11;
+  htim11.Init.Prescaler = 0;
+  htim11.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim11.Init.Period = 240-1;
+  htim11.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim11.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  if (HAL_TIM_Base_Init(&htim11) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM11_Init 2 */
+
+  /* USER CODE END TIM11_Init 2 */
+
+}
+
+/**
   * @brief USART2 Initialization Function
   * @param None
   * @retval None
@@ -619,94 +649,91 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOE, PORTS_SER_Pin|PORTS_OE_Pin|PORTS_RCLK_Pin|PORTS_SRCLK_Pin
-                          |PORTS_SRCLR_Pin|OPTO_MUX_EN_Pin|OPTO_MUX_A2_Pin|OPTO_MUX_A1_Pin
-                          |OPTO_MUX_A0_Pin|STATUS_LED_Pin, GPIO_PIN_RESET);
+                          |PORTS_SRCLR_Pin|MUXes_6to10_A2_Pin|OPTO_MUX_EN_Pin|OPTO_MUX_A2_Pin
+                          |OPTO_MUX_A1_Pin|OPTO_MUX_A0_Pin|STATUS_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, PMOS_SHFT_1TO5_RCLK_Pin|PMOS_SHFT_1TO5_NOE_Pin|MUXes_1to5__A0_Pin|MUXes_1to5_nEN_Pin
-                          |MUXes_1to5__A1_Pin|MUXes_1to5__A2_Pin|NMOS_SHFT_1TO5_SER_Pin|NMOS_SHFT_1TO5_RCLK_Pin
+  HAL_GPIO_WritePin(GPIOC, PMOS_SHFT_1TO5_RCLK_Pin|PMOS_SHFT_1TO5_NOE_Pin|MUXes_1to5_A0_Pin|MUXes_1to5_nEN_Pin
+                          |MUXes_1to5_A1_Pin|MUXes_1to5_A2_Pin|NMOS_SHFT_1TO5_SER_Pin|NMOS_SHFT_1TO5_RCLK_Pin
                           |NMOS_SHFT_1TO5_SRCLK_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOF, PMOS_SHFT_1TO5_SRCLK_Pin|PMOS_SHFT_1TO5_SER_Pin|EEPROM_WP_Pin|MUXes_6TO10_nEN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOF, PMOS_SHFT_1TO5_SRCLK_Pin|PMOS_SHFT_1TO5_SER_Pin|EEPROM_WP_Pin|OPTO_OUTPUT_Pin
+                          |MUXes_6to10_nEN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOG, MUXes_6TO10_A0_Pin|MUXes_6TO10_A2_Pin|PMOS_SHFT_6TO10_SRCLK_Pin|PMOS_SHFT_6TO10_SRCLR_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOG, MUXes_6to10_A0_Pin|MUXes_6to10_A1_Pin|PMOS_SHFT_6TO10_SRCLK_Pin|PMOS_SHFT_6TO10_SRCLR_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, NMOS_SHFT_6TO10_NOE_Pin|NMOS_SHIFT_6TO10_SER_Pin|PMOS_SHFT_1TO5_SRCLR_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, NMOS_SHFT_6TO10_NOE_Pin|NMOS_SHFT_6TO10_SER_Pin|PMOS_SHFT_1TO5_SRCLR_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, NMOS_SHFT_6TO10_RCLK_Pin|NMOS_SHFT_6TO10_SRCLK_Pin|NMOS_SHFT_1TO5_SRCLR_Pin|PMOS_SHFT_6TO10_SER_Pin
+  HAL_GPIO_WritePin(GPIOD, NMOS_SHFT_6TO10_RCLK_Pin|NMOS_SHFT_6TO10_SRCLK_Pin|NMOS_SHFT_6TO10_SRCLR_Pin|PMOS_SHFT_6TO10_SER_Pin
                           |PMOS_SHFT_6TO10_NOE_Pin|PMOS_SHFT_6TO10_RCLK_Pin|P5V_en_Pin|P3V_en_Pin
-                          |NMOS_SHFT_1TO5_SRCLRD2_Pin, GPIO_PIN_RESET);
+                          |NMOS_SHFT_1TO5_SRCLR_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(NMOS_SHFT_1TO5_NOE_GPIO_Port, NMOS_SHFT_1TO5_NOE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : PORTS_SER_Pin PORTS_OE_Pin PORTS_RCLK_Pin PORTS_SRCLK_Pin
-                           PORTS_SRCLR_Pin OPTO_MUX_EN_Pin STATUS_LED_Pin */
+                           PORTS_SRCLR_Pin MUXes_6to10_A2_Pin OPTO_MUX_EN_Pin STATUS_LED_Pin */
   GPIO_InitStruct.Pin = PORTS_SER_Pin|PORTS_OE_Pin|PORTS_RCLK_Pin|PORTS_SRCLK_Pin
-                          |PORTS_SRCLR_Pin|OPTO_MUX_EN_Pin|STATUS_LED_Pin;
+                          |PORTS_SRCLR_Pin|MUXes_6to10_A2_Pin|OPTO_MUX_EN_Pin|STATUS_LED_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PMOS_SHFT_1TO5_RCLK_Pin PMOS_SHFT_1TO5_NOE_Pin MUXes_1to5__A0_Pin MUXes_1to5_nEN_Pin
-                           MUXes_1to5__A1_Pin MUXes_1to5__A2_Pin NMOS_SHFT_1TO5_SER_Pin NMOS_SHFT_1TO5_RCLK_Pin
+  /*Configure GPIO pins : PMOS_SHFT_1TO5_RCLK_Pin PMOS_SHFT_1TO5_NOE_Pin MUXes_1to5_A0_Pin MUXes_1to5_nEN_Pin
+                           MUXes_1to5_A1_Pin MUXes_1to5_A2_Pin NMOS_SHFT_1TO5_SER_Pin NMOS_SHFT_1TO5_RCLK_Pin
                            NMOS_SHFT_1TO5_SRCLK_Pin */
-  GPIO_InitStruct.Pin = PMOS_SHFT_1TO5_RCLK_Pin|PMOS_SHFT_1TO5_NOE_Pin|MUXes_1to5__A0_Pin|MUXes_1to5_nEN_Pin
-                          |MUXes_1to5__A1_Pin|MUXes_1to5__A2_Pin|NMOS_SHFT_1TO5_SER_Pin|NMOS_SHFT_1TO5_RCLK_Pin
+  GPIO_InitStruct.Pin = PMOS_SHFT_1TO5_RCLK_Pin|PMOS_SHFT_1TO5_NOE_Pin|MUXes_1to5_A0_Pin|MUXes_1to5_nEN_Pin
+                          |MUXes_1to5_A1_Pin|MUXes_1to5_A2_Pin|NMOS_SHFT_1TO5_SER_Pin|NMOS_SHFT_1TO5_RCLK_Pin
                           |NMOS_SHFT_1TO5_SRCLK_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PMOS_SHFT_1TO5_SRCLK_Pin PMOS_SHFT_1TO5_SER_Pin EEPROM_WP_Pin MUXes_6TO10_nEN_Pin */
-  GPIO_InitStruct.Pin = PMOS_SHFT_1TO5_SRCLK_Pin|PMOS_SHFT_1TO5_SER_Pin|EEPROM_WP_Pin|MUXes_6TO10_nEN_Pin;
+  /*Configure GPIO pins : PMOS_SHFT_1TO5_SRCLK_Pin PMOS_SHFT_1TO5_SER_Pin EEPROM_WP_Pin OPTO_OUTPUT_Pin
+                           MUXes_6to10_nEN_Pin */
+  GPIO_InitStruct.Pin = PMOS_SHFT_1TO5_SRCLK_Pin|PMOS_SHFT_1TO5_SER_Pin|EEPROM_WP_Pin|OPTO_OUTPUT_Pin
+                          |MUXes_6to10_nEN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : MUX_D_9_Pin */
-  GPIO_InitStruct.Pin = MUX_D_9_Pin;
+  /*Configure GPIO pin : MUX_D9_Pin */
+  GPIO_InitStruct.Pin = MUX_D9_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(MUX_D_9_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(MUX_D9_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : MUX_D_6_Pin */
-  GPIO_InitStruct.Pin = MUX_D_6_Pin;
+  /*Configure GPIO pin : MUX_D6_Pin */
+  GPIO_InitStruct.Pin = MUX_D6_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(MUX_D_6_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(MUX_D6_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : MUX_D_8_Pin MUX_D7_Pin BOOT1_Pin */
-  GPIO_InitStruct.Pin = MUX_D_8_Pin|MUX_D7_Pin|BOOT1_Pin;
+  /*Configure GPIO pins : MUX_D8_Pin MUX_D7_Pin BOOT1_Pin */
+  GPIO_InitStruct.Pin = MUX_D8_Pin|MUX_D7_Pin|BOOT1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : MUX_D_10_Pin */
-  GPIO_InitStruct.Pin = MUX_D_10_Pin;
+  /*Configure GPIO pin : MUX_D10_Pin */
+  GPIO_InitStruct.Pin = MUX_D10_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(MUX_D_10_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(MUX_D10_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : MUXes_6TO10_A0_Pin MUXes_6TO10_A2_Pin PMOS_SHFT_6TO10_SRCLK_Pin PMOS_SHFT_6TO10_SRCLR_Pin */
-  GPIO_InitStruct.Pin = MUXes_6TO10_A0_Pin|MUXes_6TO10_A2_Pin|PMOS_SHFT_6TO10_SRCLK_Pin|PMOS_SHFT_6TO10_SRCLR_Pin;
+  /*Configure GPIO pins : MUXes_6to10_A0_Pin MUXes_6to10_A1_Pin PMOS_SHFT_6TO10_SRCLK_Pin PMOS_SHFT_6TO10_SRCLR_Pin */
+  GPIO_InitStruct.Pin = MUXes_6to10_A0_Pin|MUXes_6to10_A1_Pin|PMOS_SHFT_6TO10_SRCLK_Pin|PMOS_SHFT_6TO10_SRCLR_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : GPIO_6TO10_A1_Pin */
-  GPIO_InitStruct.Pin = GPIO_6TO10_A1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIO_6TO10_A1_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : OPTO_MUX_D_Pin */
   GPIO_InitStruct.Pin = OPTO_MUX_D_Pin;
@@ -721,28 +748,28 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : NMOS_SHFT_6TO10_NOE_Pin NMOS_SHIFT_6TO10_SER_Pin PMOS_SHFT_1TO5_SRCLR_Pin */
-  GPIO_InitStruct.Pin = NMOS_SHFT_6TO10_NOE_Pin|NMOS_SHIFT_6TO10_SER_Pin|PMOS_SHFT_1TO5_SRCLR_Pin;
+  /*Configure GPIO pins : NMOS_SHFT_6TO10_NOE_Pin NMOS_SHFT_6TO10_SER_Pin PMOS_SHFT_1TO5_SRCLR_Pin */
+  GPIO_InitStruct.Pin = NMOS_SHFT_6TO10_NOE_Pin|NMOS_SHFT_6TO10_SER_Pin|PMOS_SHFT_1TO5_SRCLR_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : NMOS_SHFT_6TO10_RCLK_Pin NMOS_SHFT_6TO10_SRCLK_Pin NMOS_SHFT_1TO5_SRCLR_Pin PMOS_SHFT_6TO10_SER_Pin
+  /*Configure GPIO pins : NMOS_SHFT_6TO10_RCLK_Pin NMOS_SHFT_6TO10_SRCLK_Pin NMOS_SHFT_6TO10_SRCLR_Pin PMOS_SHFT_6TO10_SER_Pin
                            PMOS_SHFT_6TO10_NOE_Pin PMOS_SHFT_6TO10_RCLK_Pin P5V_en_Pin P3V_en_Pin
-                           NMOS_SHFT_1TO5_SRCLRD2_Pin */
-  GPIO_InitStruct.Pin = NMOS_SHFT_6TO10_RCLK_Pin|NMOS_SHFT_6TO10_SRCLK_Pin|NMOS_SHFT_1TO5_SRCLR_Pin|PMOS_SHFT_6TO10_SER_Pin
+                           NMOS_SHFT_1TO5_SRCLR_Pin */
+  GPIO_InitStruct.Pin = NMOS_SHFT_6TO10_RCLK_Pin|NMOS_SHFT_6TO10_SRCLK_Pin|NMOS_SHFT_6TO10_SRCLR_Pin|PMOS_SHFT_6TO10_SER_Pin
                           |PMOS_SHFT_6TO10_NOE_Pin|PMOS_SHFT_6TO10_RCLK_Pin|P5V_en_Pin|P3V_en_Pin
-                          |NMOS_SHFT_1TO5_SRCLRD2_Pin;
+                          |NMOS_SHFT_1TO5_SRCLR_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : MUX_D_5_Pin MUX_D_4_Pin MUX_D_3_Pin MUX_D_2_Pin
-                           MUX_D_1_Pin */
-  GPIO_InitStruct.Pin = MUX_D_5_Pin|MUX_D_4_Pin|MUX_D_3_Pin|MUX_D_2_Pin
-                          |MUX_D_1_Pin;
+  /*Configure GPIO pins : MUX_D5_Pin MUX_D4_Pin MUX_D3_Pin MUX_D2_Pin
+                           MUX_D1_Pin */
+  GPIO_InitStruct.Pin = MUX_D5_Pin|MUX_D4_Pin|MUX_D3_Pin|MUX_D2_Pin
+                          |MUX_D1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
@@ -774,16 +801,61 @@ void StartDefaultTask(void const * argument)
 
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
-  osDelay(3000);
   /* USER CODE BEGIN 5 */
-  printf("Initializing TCPEcho...\n\r");
-  tcpecho_init();
-  printf("Server Initialized...\n\r");
+  HAL_StatusTypeDef status;
+  uint32_t Reg_Val;
+  status = HAL_ETH_ReadPHYRegister(&heth,PHY_BSR, 0x10, &Reg_Val);
+  printf("0x10 (PHYSTS): STATUS:%d, VALUE:0x%lx bit0:%d\n\r", status,Reg_Val, Reg_Val & 1UL);
+  tcp_server_init();
+  printf("TCP Server started\n");
+  printf("DELAY 25us\n");
+  _2500_ns_delay(40);
+  printf("BOOTED FROM DFU\n");
+  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 0xFFF);
+  HAL_GPIO_WritePin(MUXes_1to5_nEN_GPIO_Port, MUXes_1to5_nEN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(MUXes_1to5_A0_GPIO_Port, MUXes_1to5_A0_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(MUXes_1to5_A1_GPIO_Port, MUXes_1to5_A1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(MUXes_1to5_A2_GPIO_Port, MUXes_1to5_A2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(NMOS_SHFT_1TO5_SRCLR_GPIO_Port, NMOS_SHFT_1TO5_SRCLR_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(NMOS_SHFT_1TO5_NOE_GPIO_Port, NMOS_SHFT_1TO5_NOE_Pin, GPIO_PIN_RESET);
+
+  HAL_GPIO_WritePin(MUXes_6to10_nEN_GPIO_Port, MUXes_6to10_nEN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(MUXes_6to10_A0_GPIO_Port, MUXes_6to10_A0_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(MUXes_6to10_A1_GPIO_Port, MUXes_6to10_A1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(MUXes_6to10_A2_GPIO_Port, MUXes_6to10_A2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(NMOS_SHFT_6TO10_SRCLR_GPIO_Port, NMOS_SHFT_6TO10_SRCLR_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(NMOS_SHFT_6TO10_NOE_GPIO_Port, NMOS_SHFT_6TO10_NOE_Pin, GPIO_PIN_RESET);
   /* Infinite loop */
   for(;;)
   {
     HAL_GPIO_TogglePin(STATUS_LED_GPIO_Port, STATUS_LED_Pin);
-    osDelay(500);
+    //Read register 0x19 on DP83848
+    
+    //HAL_I2C_Mem_Read(&hi2c2, 0b1011000, 0b10011000, I2C_MEMADD_SIZE_8BIT, i2c_data, 8, 100);
+    //printf("MAC ADDRESS: %x:%x:%x:%x:%x:%x\n\r", i2c_data[0],i2c_data[1],i2c_data[2],i2c_data[3],i2c_data[4],i2c_data[5]);
+
+    //HAL_GPIO_TogglePin(EEPROM_SCL_GPIO_Port, EEPROM_SCL_Pin);
+    /*
+    status = HAL_ETH_ReadPHYRegister(&heth,PHY_BSR, 0x0,&Reg_Val);
+    osDelay(2);
+    printf("0x0 (BMCR): STATUS:%d, 0x%lx\n\r", status,Reg_Val);
+
+    status = HAL_ETH_ReadPHYRegister(&heth,PHY_BSR, 0x1,&Reg_Val);
+    osDelay(2);
+    printf("0x1 (MSR): STATUS:%d, 0x%lx\n\r", status,Reg_Val);
+
+    status = HAL_ETH_ReadPHYRegister(&heth,PHY_BSR, 0x10,&Reg_Val);
+    osDelay(2);
+    printf("0x10 (PHYSTS): STATUS:%d, 0x%lx\n\r", status,Reg_Val);
+    
+    status = HAL_ETH_ReadPHYRegister(&heth,PHY_BSR, 0x19,&Reg_Val);
+    osDelay(2);
+    printf("0x19 (PCSR): STATUS:%d, 0x%lx\n\r", status,Reg_Val);
+
+   status = HAL_ETH_GetRxDataErrorCode(&heth,&Reg_Val);
+   osDelay(2);
+    printf("RX data ERROR: STATUS:%d, 0x%lx\n\r", status,Reg_Val);
+    */
   }
   /* USER CODE END 5 */
 }
@@ -799,6 +871,9 @@ void StartDefaultTask(void const * argument)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
   /* USER CODE BEGIN Callback 0 */
+  if (htim->Instance == TIM11) {
+    _us_tick++;
+  }
 
   /* USER CODE END Callback 0 */
   if (htim->Instance == TIM14) {

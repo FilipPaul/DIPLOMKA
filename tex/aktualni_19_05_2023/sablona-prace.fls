@@ -1,0 +1,2025 @@
+PWD c:\PROJECTS\DIPLOMKA\tex\sablona-cze
+INPUT C:\Users\Filip\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\PROJECTS\DIPLOMKA\tex\sablona-cze\sablona-prace.tex
+OUTPUT sablona-prace.log
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\sectsty\sectsty.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\xstring\xstring.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\cmap.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\dirtree\dirtree.tex
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\dirtree\dirtree.tex
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\dirtree\dirtree.tex
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\dirtree\dirtree.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT .\nastaveni.tex
+INPUT .\nastaveni.tex
+INPUT .\nastaveni.tex
+INPUT nastaveni.tex
+INPUT .\nastaveni.tex
+INPUT .\nastaveni.tex
+INPUT nastaveni.tex
+INPUT .\thesis.sty
+INPUT .\thesis.sty
+INPUT thesis.sty
+INPUT .\thesis.sty
+INPUT .\thesis.sty
+INPUT .\thesis.sty
+INPUT .\thesis.sty
+INPUT .\thesis.sty
+INPUT thesis.sty
+INPUT .\thesis.sty
+INPUT thesis.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\babel-czech\czech.ldf
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\babel-czech\czech.ldf
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\babel-czech\czech.ldf
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\babel-czech\czech.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\t1.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\t1.cmap
+OUTPUT sablona-prace.pdf
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\t1.cmap
+INPUT C:\Users\Filip\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\vafle.map
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\sablona-prace.aux
+INPUT sablona-prace.aux
+INPUT sablona-prace.aux
+INPUT .\text\uvod.aux
+INPUT text\uvod.aux
+INPUT text\uvod.aux
+INPUT .\text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT .\text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT .\text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
+INPUT .\text\reseni2.aux
+INPUT text\reseni2.aux
+INPUT text\reseni2.aux
+INPUT .\text\pcaplikace.aux
+INPUT text\pcaplikace.aux
+INPUT text\pcaplikace.aux
+INPUT .\text\VysledkyMereni.aux
+INPUT text\VysledkyMereni.aux
+INPUT text\VysledkyMereni.aux
+INPUT .\text\zaver.aux
+INPUT text\zaver.aux
+INPUT text\zaver.aux
+INPUT .\text\literatura.aux
+INPUT text\literatura.aux
+INPUT text\literatura.aux
+INPUT .\text\zkratky.aux
+INPUT text\zkratky.aux
+INPUT text\zkratky.aux
+OUTPUT sablona-prace.aux
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT .\sablona-prace.out
+INPUT sablona-prace.out
+INPUT .\sablona-prace.out
+INPUT sablona-prace.out
+INPUT .\sablona-prace.out
+INPUT sablona-prace.out
+INPUT .\sablona-prace.out
+INPUT sablona-prace.out
+INPUT .\sablona-prace.out
+INPUT .\sablona-prace.out
+OUTPUT sablona-prace.out
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT pdf\student-titulka.pdf
+INPUT .\pdf\student-titulka.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT pdf\student-zadani.pdf
+INPUT .\pdf\student-zadani.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\ot1.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\ot1.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\ot1.cmap
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\oms.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\oms.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\oms.cmap
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\omx.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\omx.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\mmap\omx.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\fonts\tfm\public\cbgreek\grmn1095.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\lgr.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\lgr.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\cmap\lgr.cmap
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\fonts\tfm\public\cbgreek\grmn0800.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\fonts\tfm\public\cbgreek\grmn0600.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy5.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\fonts\tfm\public\cbgreek\grmn0900.tfm
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\fonts\tfm\public\cbgreek\grmn0500.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT .\sablona-prace.toc
+INPUT sablona-prace.toc
+INPUT sablona-prace.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
+OUTPUT sablona-prace.toc
+INPUT .\sablona-prace.lof
+INPUT sablona-prace.lof
+INPUT sablona-prace.lof
+OUTPUT sablona-prace.lof
+INPUT .\text\uvod.tex
+INPUT .\text\uvod.tex
+INPUT .\text\uvod.tex
+OUTPUT text\uvod.aux
+INPUT .\text\uvod.tex
+INPUT .\text\uvod.tex
+INPUT .\text\uvod.tex
+INPUT text\uvod.tex
+INPUT .\text\uvod.tex
+INPUT text\uvod.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+OUTPUT text\Koncept_funkcnosti_testeru.aux
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT text\Koncept_funkcnosti_testeru.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\obrazky\ICT_tester.png
+INPUT .\obrazky\ICT_tester.png
+INPUT obrazky\ICT_tester.png
+INPUT .\obrazky\ICT_tester.png
+INPUT .\obrazky\ICT_tester.png
+INPUT .\obrazky\ICT_tester.png
+INPUT .\obrazky\ICT_tester.png
+INPUT .\obrazky\system_connection_and_fixture.png
+INPUT .\obrazky\system_connection_and_fixture.png
+INPUT obrazky\system_connection_and_fixture.png
+INPUT .\obrazky\system_connection_and_fixture.png
+INPUT .\obrazky\system_connection_and_fixture.png
+INPUT .\obrazky\system_connection_and_fixture.png
+INPUT .\obrazky\system_connection_and_fixture.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\obrazky\telnet_http_pc.png.png
+INPUT obrazky\telnet_http_pc.png.png
+INPUT .\obrazky\telnet_http_pc.png.png
+INPUT .\obrazky\telnet_http_pc.png.png
+INPUT .\obrazky\telnet_http_pc.png.png
+INPUT .\obrazky\telnet_http_pc.png.png
+INPUT .\obrazky\karta_3D_NP.png
+INPUT .\obrazky\karta_3D_NP.png
+INPUT obrazky\karta_3D_NP.png
+INPUT .\obrazky\karta_3D_NP.png
+INPUT .\obrazky\karta_3D_NP.png
+INPUT .\obrazky\karta_3D_NP.png
+INPUT .\obrazky\karta_3D_NP.png
+INPUT .\obrazky\3D_ovl_karta.png
+INPUT .\obrazky\3D_ovl_karta.png
+INPUT obrazky\3D_ovl_karta.png
+INPUT .\obrazky\3D_ovl_karta.png
+INPUT .\obrazky\3D_ovl_karta.png
+INPUT .\obrazky\3D_ovl_karta.png
+INPUT .\obrazky\3D_ovl_karta.png
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+OUTPUT text\navrh_mericich_karet.aux
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT text\navrh_mericich_karet.tex
+INPUT .\obrazky\karta_system_diagram.png
+INPUT .\obrazky\karta_system_diagram.png
+INPUT obrazky\karta_system_diagram.png
+INPUT .\obrazky\karta_system_diagram.png
+INPUT .\obrazky\karta_system_diagram.png
+INPUT .\obrazky\karta_system_diagram.png
+INPUT .\obrazky\karta_system_diagram.png
+INPUT .\obrazky\2_and_4_pins_connection.png
+INPUT .\obrazky\2_and_4_pins_connection.png
+INPUT obrazky\2_and_4_pins_connection.png
+INPUT .\obrazky\2_and_4_pins_connection.png
+INPUT .\obrazky\2_and_4_pins_connection.png
+INPUT .\obrazky\2_and_4_pins_connection.png
+INPUT .\obrazky\2_and_4_pins_connection.png
+INPUT .\obrazky\nMos_Connection.png
+INPUT .\obrazky\nMos_Connection.png
+INPUT obrazky\nMos_Connection.png
+INPUT .\obrazky\nMos_Connection.png
+INPUT .\obrazky\nMos_Connection.png
+INPUT .\obrazky\nMos_Connection.png
+INPUT .\obrazky\nMos_Connection.png
+INPUT .\obrazky\final_connection.png
+INPUT .\obrazky\final_connection.png
+INPUT obrazky\final_connection.png
+INPUT .\obrazky\final_connection.png
+INPUT .\obrazky\final_connection.png
+INPUT .\obrazky\final_connection.png
+INPUT .\obrazky\final_connection.png
+INPUT .\obrazky\Vout3D.eps
+INPUT .\obrazky\Vout3D.eps
+INPUT obrazky\Vout3D.eps
+INPUT .\obrazky\Vout3D.eps
+INPUT .\obrazky\Vout3D.eps
+INPUT .\obrazky\Vout3D-eps-converted-to.pdf
+INPUT .\obrazky\Vout3D-eps-converted-to.pdf
+INPUT .\obrazky\Vout3D.eps
+INPUT .\obrazky\Vout3D-eps-converted-to.pdf
+INPUT .\obrazky\Vout3D-eps-converted-to.pdf
+INPUT .\obrazky\Vout3D-eps-converted-to.pdf
+INPUT .\obrazky\Vout3D-eps-converted-to.pdf
+INPUT .\obrazky\general_dVF.eps
+INPUT .\obrazky\general_dVF.eps
+INPUT obrazky\general_dVF.eps
+INPUT .\obrazky\general_dVF.eps
+INPUT .\obrazky\general_dVF.eps
+INPUT .\obrazky\general_dVF-eps-converted-to.pdf
+INPUT .\obrazky\general_dVF-eps-converted-to.pdf
+INPUT .\obrazky\general_dVF.eps
+INPUT .\obrazky\general_dVF-eps-converted-to.pdf
+INPUT .\obrazky\general_dVF-eps-converted-to.pdf
+INPUT .\obrazky\general_dVF-eps-converted-to.pdf
+INPUT .\obrazky\general_dVF-eps-converted-to.pdf
+INPUT .\obrazky\PASS_FAIL_MERENI.eps
+INPUT .\obrazky\PASS_FAIL_MERENI.eps
+INPUT obrazky\PASS_FAIL_MERENI.eps
+INPUT .\obrazky\PASS_FAIL_MERENI.eps
+INPUT .\obrazky\PASS_FAIL_MERENI.eps
+INPUT .\obrazky\PASS_FAIL_MERENI-eps-converted-to.pdf
+INPUT .\obrazky\PASS_FAIL_MERENI-eps-converted-to.pdf
+INPUT .\obrazky\PASS_FAIL_MERENI.eps
+INPUT .\obrazky\PASS_FAIL_MERENI-eps-converted-to.pdf
+INPUT .\obrazky\PASS_FAIL_MERENI-eps-converted-to.pdf
+INPUT .\obrazky\PASS_FAIL_MERENI-eps-converted-to.pdf
+INPUT .\obrazky\PASS_FAIL_MERENI-eps-converted-to.pdf
+INPUT .\obrazky\MERENI_JEDNOHO_PINU.eps
+INPUT .\obrazky\MERENI_JEDNOHO_PINU.eps
+INPUT obrazky\MERENI_JEDNOHO_PINU.eps
+INPUT .\obrazky\MERENI_JEDNOHO_PINU.eps
+INPUT .\obrazky\MERENI_JEDNOHO_PINU.eps
+INPUT .\obrazky\MERENI_JEDNOHO_PINU-eps-converted-to.pdf
+INPUT .\obrazky\MERENI_JEDNOHO_PINU-eps-converted-to.pdf
+INPUT .\obrazky\MERENI_JEDNOHO_PINU.eps
+INPUT .\obrazky\MERENI_JEDNOHO_PINU-eps-converted-to.pdf
+INPUT .\obrazky\MERENI_JEDNOHO_PINU-eps-converted-to.pdf
+INPUT .\obrazky\MERENI_JEDNOHO_PINU-eps-converted-to.pdf
+INPUT .\obrazky\MERENI_JEDNOHO_PINU-eps-converted-to.pdf
+INPUT .\obrazky\vliv_RDSON.eps
+INPUT .\obrazky\vliv_RDSON.eps
+INPUT obrazky\vliv_RDSON.eps
+INPUT .\obrazky\vliv_RDSON.eps
+INPUT .\obrazky\vliv_RDSON.eps
+INPUT .\obrazky\vliv_RDSON-eps-converted-to.pdf
+INPUT .\obrazky\vliv_RDSON-eps-converted-to.pdf
+INPUT .\obrazky\vliv_RDSON.eps
+INPUT .\obrazky\vliv_RDSON-eps-converted-to.pdf
+INPUT .\obrazky\vliv_RDSON-eps-converted-to.pdf
+INPUT .\obrazky\vliv_RDSON-eps-converted-to.pdf
+INPUT .\obrazky\vliv_RDSON-eps-converted-to.pdf
+INPUT .\obrazky\mosfet_datasheet.png
+INPUT .\obrazky\mosfet_datasheet.png
+INPUT obrazky\mosfet_datasheet.png
+INPUT .\obrazky\mosfet_datasheet.png
+INPUT .\obrazky\mosfet_datasheet.png
+INPUT .\obrazky\mosfet_datasheet.png
+INPUT .\obrazky\mosfet_datasheet.png
+INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT obrazky\Nmosfet_datasheet.png
+INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT .\obrazky\PSU.png
+INPUT .\obrazky\PSU.png
+INPUT obrazky\PSU.png
+INPUT .\obrazky\PSU.png
+INPUT .\obrazky\PSU.png
+INPUT .\obrazky\PSU.png
+INPUT .\obrazky\PSU.png
+INPUT .\obrazky\all_layers_no_poly.png
+INPUT .\obrazky\all_layers_no_poly.png
+INPUT obrazky\all_layers_no_poly.png
+INPUT .\obrazky\all_layers_no_poly.png
+INPUT .\obrazky\all_layers_no_poly.png
+INPUT .\obrazky\all_layers_no_poly.png
+INPUT .\obrazky\all_layers_no_poly.png
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+OUTPUT text\navrh_ovladacich_karet.aux
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT text\navrh_ovladacich_karet.tex
+INPUT .\obrazky\ovladaci_karta_diag.png
+INPUT .\obrazky\ovladaci_karta_diag.png
+INPUT obrazky\ovladaci_karta_diag.png
+INPUT .\obrazky\ovladaci_karta_diag.png
+INPUT .\obrazky\ovladaci_karta_diag.png
+INPUT .\obrazky\ovladaci_karta_diag.png
+INPUT .\obrazky\ovladaci_karta_diag.png
+INPUT .\obrazky\DAC_OPAMP.png
+INPUT .\obrazky\DAC_OPAMP.png
+INPUT obrazky\DAC_OPAMP.png
+INPUT .\obrazky\DAC_OPAMP.png
+INPUT .\obrazky\DAC_OPAMP.png
+INPUT .\obrazky\DAC_OPAMP.png
+INPUT .\obrazky\DAC_OPAMP.png
+INPUT .\obrazky\CLK_config.png
+INPUT .\obrazky\CLK_config.png
+INPUT obrazky\CLK_config.png
+INPUT .\obrazky\CLK_config.png
+INPUT .\obrazky\CLK_config.png
+INPUT .\obrazky\CLK_config.png
+INPUT .\obrazky\CLK_config.png
+INPUT .\obrazky\USB.png
+INPUT .\obrazky\USB.png
+INPUT obrazky\USB.png
+INPUT .\obrazky\USB.png
+INPUT .\obrazky\USB.png
+INPUT .\obrazky\USB.png
+INPUT .\obrazky\USB.png
+INPUT .\obrazky\PWR_REG_3V3.png
+INPUT .\obrazky\PWR_REG_3V3.png
+INPUT obrazky\PWR_REG_3V3.png
+INPUT .\obrazky\PWR_REG_3V3.png
+INPUT .\obrazky\PWR_REG_3V3.png
+INPUT .\obrazky\PWR_REG_3V3.png
+INPUT .\obrazky\PWR_REG_3V3.png
+INPUT .\obrazky\USB_power_distr.png
+INPUT .\obrazky\USB_power_distr.png
+INPUT obrazky\USB_power_distr.png
+INPUT .\obrazky\USB_power_distr.png
+INPUT .\obrazky\USB_power_distr.png
+INPUT .\obrazky\USB_power_distr.png
+INPUT .\obrazky\USB_power_distr.png
+INPUT .\obrazky\all_layers_no_poly_control.png
+INPUT .\obrazky\all_layers_no_poly_control.png
+INPUT obrazky\all_layers_no_poly_control.png
+INPUT .\obrazky\all_layers_no_poly_control.png
+INPUT .\obrazky\all_layers_no_poly_control.png
+INPUT .\obrazky\all_layers_no_poly_control.png
+INPUT .\obrazky\all_layers_no_poly_control.png
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+OUTPUT text\reseni2.aux
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT text\reseni2.tex
+INPUT .\obrazky\Voltage_measurement_example.png
+INPUT .\obrazky\Voltage_measurement_example.png
+INPUT obrazky\Voltage_measurement_example.png
+INPUT .\obrazky\Voltage_measurement_example.png
+INPUT .\obrazky\Voltage_measurement_example.png
+INPUT .\obrazky\Voltage_measurement_example.png
+INPUT .\obrazky\Voltage_measurement_example.png
+INPUT .\obrazky\matlab_generated\pin_step1.eps
+INPUT .\obrazky\matlab_generated\pin_step1.eps
+INPUT obrazky\matlab_generated\pin_step1.eps
+INPUT .\obrazky\matlab_generated\pin_step1.eps
+INPUT .\obrazky\matlab_generated\pin_step1.eps
+INPUT .\obrazky\matlab_generated\pin_step1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step1.eps
+INPUT .\obrazky\matlab_generated\pin_step1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step5.eps
+INPUT .\obrazky\matlab_generated\pin_step5.eps
+INPUT obrazky\matlab_generated\pin_step5.eps
+INPUT .\obrazky\matlab_generated\pin_step5.eps
+INPUT .\obrazky\matlab_generated\pin_step5.eps
+INPUT .\obrazky\matlab_generated\pin_step5-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step5-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step5.eps
+INPUT .\obrazky\matlab_generated\pin_step5-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step5-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step5-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_step5-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range.eps
+INPUT obrazky\matlab_generated\pin_out_of_range.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt.eps
+INPUT obrazky\matlab_generated\pin_out_of_range_opt.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt.eps
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\pin_out_of_range_opt-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\all_pins.eps
+INPUT .\obrazky\matlab_generated\all_pins.eps
+INPUT obrazky\matlab_generated\all_pins.eps
+INPUT .\obrazky\matlab_generated\all_pins.eps
+INPUT .\obrazky\matlab_generated\all_pins.eps
+INPUT .\obrazky\matlab_generated\all_pins-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\all_pins-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\all_pins.eps
+INPUT .\obrazky\matlab_generated\all_pins-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\all_pins-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\all_pins-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\all_pins-eps-converted-to.pdf
+INPUT .\text\pcaplikace.tex
+INPUT .\text\pcaplikace.tex
+INPUT .\text\pcaplikace.tex
+OUTPUT text\pcaplikace.aux
+INPUT .\text\pcaplikace.tex
+INPUT .\text\pcaplikace.tex
+INPUT .\text\pcaplikace.tex
+INPUT text\pcaplikace.tex
+INPUT .\text\pcaplikace.tex
+INPUT text\pcaplikace.tex
+INPUT .\obrazky\PC_app_diagram.png
+INPUT .\obrazky\PC_app_diagram.png
+INPUT obrazky\PC_app_diagram.png
+INPUT .\obrazky\PC_app_diagram.png
+INPUT .\obrazky\PC_app_diagram.png
+INPUT .\obrazky\PC_app_diagram.png
+INPUT .\obrazky\PC_app_diagram.png
+INPUT .\obrazky\test_result_class.png
+INPUT .\obrazky\test_result_class.png
+INPUT obrazky\test_result_class.png
+INPUT .\obrazky\test_result_class.png
+INPUT .\obrazky\test_result_class.png
+INPUT .\obrazky\test_result_class.png
+INPUT .\obrazky\test_result_class.png
+INPUT .\obrazky\test_result_widget_graph.png
+INPUT .\obrazky\test_result_widget_graph.png
+INPUT obrazky\test_result_widget_graph.png
+INPUT .\obrazky\test_result_widget_graph.png
+INPUT .\obrazky\test_result_widget_graph.png
+INPUT .\obrazky\test_result_widget_graph.png
+INPUT .\obrazky\test_result_widget_graph.png
+INPUT .\obrazky\test_result_widget_prompt.png
+INPUT .\obrazky\test_result_widget_prompt.png
+INPUT obrazky\test_result_widget_prompt.png
+INPUT .\obrazky\test_result_widget_prompt.png
+INPUT .\obrazky\test_result_widget_prompt.png
+INPUT .\obrazky\test_result_widget_prompt.png
+INPUT .\obrazky\test_result_widget_prompt.png
+INPUT .\obrazky\hardwareConfig.png
+INPUT .\obrazky\hardwareConfig.png
+INPUT obrazky\hardwareConfig.png
+INPUT .\obrazky\hardwareConfig.png
+INPUT .\obrazky\hardwareConfig.png
+INPUT .\obrazky\hardwareConfig.png
+INPUT .\obrazky\hardwareConfig.png
+INPUT .\obrazky\PC_APP_VISA.png
+INPUT .\obrazky\PC_APP_VISA.png
+INPUT obrazky\PC_APP_VISA.png
+INPUT .\obrazky\PC_APP_VISA.png
+INPUT .\obrazky\PC_APP_VISA.png
+INPUT .\obrazky\PC_APP_VISA.png
+INPUT .\obrazky\PC_APP_VISA.png
+INPUT .\obrazky\PC_APP_CONTROL_PANEL.png
+INPUT .\obrazky\PC_APP_CONTROL_PANEL.png
+INPUT obrazky\PC_APP_CONTROL_PANEL.png
+INPUT .\obrazky\PC_APP_CONTROL_PANEL.png
+INPUT .\obrazky\PC_APP_CONTROL_PANEL.png
+INPUT .\obrazky\PC_APP_CONTROL_PANEL.png
+INPUT .\obrazky\PC_APP_CONTROL_PANEL.png
+INPUT .\obrazky\PC_APP_RELAY.png
+INPUT .\obrazky\PC_APP_RELAY.png
+INPUT obrazky\PC_APP_RELAY.png
+INPUT .\obrazky\PC_APP_RELAY.png
+INPUT .\obrazky\PC_APP_RELAY.png
+INPUT .\obrazky\PC_APP_RELAY.png
+INPUT .\obrazky\PC_APP_RELAY.png
+INPUT .\obrazky\Device_status.png
+INPUT .\obrazky\Device_status.png
+INPUT obrazky\Device_status.png
+INPUT .\obrazky\Device_status.png
+INPUT .\obrazky\Device_status.png
+INPUT .\obrazky\Device_status.png
+INPUT .\obrazky\Device_status.png
+INPUT .\obrazky\PC_APP_dataViewer.png
+INPUT .\obrazky\PC_APP_dataViewer.png
+INPUT obrazky\PC_APP_dataViewer.png
+INPUT .\obrazky\PC_APP_dataViewer.png
+INPUT .\obrazky\PC_APP_dataViewer.png
+INPUT .\obrazky\PC_APP_dataViewer.png
+INPUT .\obrazky\PC_APP_dataViewer.png
+INPUT .\text\VysledkyMereni.tex
+INPUT .\text\VysledkyMereni.tex
+INPUT .\text\VysledkyMereni.tex
+OUTPUT text\VysledkyMereni.aux
+INPUT .\text\VysledkyMereni.tex
+INPUT .\text\VysledkyMereni.tex
+INPUT .\text\VysledkyMereni.tex
+INPUT text\VysledkyMereni.tex
+INPUT .\text\VysledkyMereni.tex
+INPUT text\VysledkyMereni.tex
+INPUT .\obrazky\10hourTestScheme.png
+INPUT .\obrazky\10hourTestScheme.png
+INPUT obrazky\10hourTestScheme.png
+INPUT .\obrazky\10hourTestScheme.png
+INPUT .\obrazky\10hourTestScheme.png
+INPUT .\obrazky\10hourTestScheme.png
+INPUT .\obrazky\10hourTestScheme.png
+INPUT .\obrazky\10hourTestConfig.png
+INPUT .\obrazky\10hourTestConfig.png
+INPUT obrazky\10hourTestConfig.png
+INPUT .\obrazky\10hourTestConfig.png
+INPUT .\obrazky\10hourTestConfig.png
+INPUT .\obrazky\10hourTestConfig.png
+INPUT .\obrazky\10hourTestConfig.png
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled.eps
+INPUT obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2.eps
+INPUT obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1.eps
+INPUT obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1.eps
+INPUT obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC.eps
+INPUT obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_DAC-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1.eps
+INPUT obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1.eps
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1-eps-converted-to.pdf
+INPUT .\obrazky\matlab_generated\VOLTAGE_TESTER\calib_resistor_part1-eps-converted-to.pdf
+INPUT .\text\zaver.tex
+INPUT .\text\zaver.tex
+INPUT .\text\zaver.tex
+OUTPUT text\zaver.aux
+INPUT .\text\zaver.tex
+INPUT .\text\zaver.tex
+INPUT .\text\zaver.tex
+INPUT text\zaver.tex
+INPUT .\text\zaver.tex
+INPUT text\zaver.tex
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\text\literatura.tex
+INPUT .\text\literatura.tex
+INPUT .\text\literatura.tex
+OUTPUT text\literatura.aux
+INPUT .\text\literatura.tex
+INPUT .\text\literatura.tex
+INPUT .\text\literatura.tex
+INPUT text\literatura.tex
+INPUT .\text\literatura.tex
+INPUT text\literatura.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT .\text\zkratky.tex
+INPUT .\text\zkratky.tex
+INPUT .\text\zkratky.tex
+OUTPUT text\zkratky.aux
+INPUT .\text\zkratky.tex
+INPUT .\text\zkratky.tex
+INPUT .\text\zkratky.tex
+INPUT text\zkratky.tex
+INPUT .\text\zkratky.tex
+INPUT text\zkratky.tex
+INPUT .\sablona-prace.toa
+INPUT sablona-prace.toa
+INPUT sablona-prace.toa
+OUTPUT sablona-prace.toa
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT pdf\schema_merici_karta.pdf
+INPUT .\pdf\schema_merici_karta.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\Merici_karta_pcb.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT pdf\schema_ovl_karta.pdf
+INPUT .\pdf\schema_ovl_karta.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT pdf\Ovl_karta_pcb.pdf
+INPUT .\pdf\Ovl_karta_pcb.pdf
+INPUT sablona-prace.aux
+INPUT .\text\uvod.aux
+INPUT text\uvod.aux
+INPUT text\uvod.aux
+INPUT .\text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT .\text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT .\text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
+INPUT .\text\reseni2.aux
+INPUT text\reseni2.aux
+INPUT text\reseni2.aux
+INPUT .\text\pcaplikace.aux
+INPUT text\pcaplikace.aux
+INPUT text\pcaplikace.aux
+INPUT .\text\VysledkyMereni.aux
+INPUT text\VysledkyMereni.aux
+INPUT text\VysledkyMereni.aux
+INPUT .\text\zaver.aux
+INPUT text\zaver.aux
+INPUT text\zaver.aux
+INPUT .\text\literatura.aux
+INPUT text\literatura.aux
+INPUT text\literatura.aux
+INPUT .\text\zkratky.aux
+INPUT text\zkratky.aux
+INPUT text\zkratky.aux
+INPUT .\sablona-prace.out
+INPUT .\sablona-prace.out
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb

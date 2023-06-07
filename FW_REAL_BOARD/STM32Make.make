@@ -36,13 +36,19 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
+Core/Src/commandParser.c \
 Core/Src/freertos.c \
+Core/Src/globals.c \
 Core/Src/main.c \
+Core/Src/module80IOcard.c \
+Core/Src/multiplexers.c \
+Core/Src/shiftRegisters.c \
 Core/Src/stm32f4xx_hal_msp.c \
 Core/Src/stm32f4xx_hal_timebase_tim.c \
 Core/Src/stm32f4xx_it.c \
 Core/Src/system_stm32f4xx.c \
 Core/Src/tcpecho.c \
+Core/Src/tcpserver.c \
 Drivers/BSP/Components/dp83848/dp83848.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c \
@@ -310,7 +316,7 @@ LIBDIR = \
 
 
 # Additional LD Flags from config file
-ADDITIONALLDFLAGS = -specs=nano.specs 
+ADDITIONALLDFLAGS = -specs=nano.specs -u _printf_float 
 
 LDFLAGS = $(MCU) $(ADDITIONALLDFLAGS) -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 

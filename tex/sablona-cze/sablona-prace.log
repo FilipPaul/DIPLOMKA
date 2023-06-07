@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.20)  7 MAY 2023 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.20)  19 MAY 2023 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,37 +760,42 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 148.
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\Filip\AppData\Roaming\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count307
+)) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
+\l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box55
-) (sablona-prace.aux (text/uvod.aux) (text/reseni.aux) (text/reseni2.aux) (text/pcaplikace.aux) (text/VysledkyMereni.aux) (text/zaver.aux) (text/literatura.aux) (text/zkratky.aux))
+) (sablona-prace.aux (text/uvod.aux) (text/Koncept_funkcnosti_testeru.aux) (text/navrh_mericich_karet.aux) (text/navrh_ovladacich_karet.aux) (text/reseni2.aux) (text/pcaplikace.aux) (text/VysledkyMereni.aux) (text/zaver.aux) (text/literatura.aux) (text/zkratky.aux))
 \openout1 = `sablona-prace.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 151.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 151.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 153.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 153.
  (C:\Users\Filip\AppData\Roaming\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    ... okay on input line 153.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -829,30 +834,24 @@ LaTeX Font Info:    ... okay on input line 151.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
+\scratchcounter=\count309
 \scratchdimen=\dimen177
 \scratchbox=\box56
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\nofMPsegments=\count310
+\nofMParguments=\count311
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count311
+\MPscratchCnt=\count312
 \MPscratchDim=\dimen178
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
 \everyMPtoPDFconversion=\toks26
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\Filip\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 151.
+Package hyperref Info: Link coloring ON on input line 153.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\Filip\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
@@ -860,30 +859,30 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Filip\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 151.
-LaTeX Info: Redefining \pageref on input line 151.
-LaTeX Info: Redefining \nameref on input line 151.
+LaTeX Info: Redefining \ref on input line 153.
+LaTeX Info: Redefining \pageref on input line 153.
+LaTeX Info: Redefining \nameref on input line 153.
  (sablona-prace.out) (sablona-prace.out)
 \@outlinefile=\write3
 \openout3 = `sablona-prace.out'.
 
-\c@lstlisting=\count315
+\c@lstlisting=\count316
 
 
 pdfTeX warning: pdflatex (file ./pdf/student-titulka.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <pdf/student-titulka.pdf, id=316, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
-Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 168.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
 pdfTeX warning: pdflatex (file ./pdf/student-titulka.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
-Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 168.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
@@ -894,23 +893,23 @@ pdfTeX warning: pdflatex (file ./pdf/student-titulka.pdf): PDF inclusion: found 
 <pdf/student-titulka.pdf, id=319, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 168.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 166.
+Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [1
 
@@ -920,14 +919,14 @@ pdfTeX warning: pdflatex (file ./pdf/student-zadani.pdf): PDF inclusion: found P
 <pdf/student-zadani.pdf, id=334, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
-Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 176.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
 pdfTeX warning: pdflatex (file ./pdf/student-zadani.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
-Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 176.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
@@ -938,285 +937,184 @@ pdfTeX warning: pdflatex (file ./pdf/student-zadani.pdf): PDF inclusion: found P
 <pdf/student-zadani.pdf, id=337, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 176.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 174.
+Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [2 <./pdf/student-zadani.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 184.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 186.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 184.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 186.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 184.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 186.
  (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 184.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 186.
  (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 184.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 186.
  (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 184.
+(Font)              <10.95> on input line 186.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 184.
+(Font)              <8> on input line 186.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 184.
+(Font)              <6> on input line 186.
 <<lgr.cmap>> [3
 
 ] [4
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 195.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 197.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 195.
+(Font)              <9> on input line 197.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 195.
+(Font)              <5> on input line 197.
  [5
 
-] (sablona-prace.toc [6
+] [6
+
+] (sablona-prace.toc [7
 
 ])
 \tf@toc=\write4
 \openout4 = `sablona-prace.toc'.
 
- [7] [8] (sablona-prace.lof
+ [8] [9] (sablona-prace.lof
 Overfull \hbox (3.76195pt too wide) in paragraph at lines 21--21
  [][] [][][]\T1/lmr/m/n/10.95 Napájení m¥-°ící karty: 5V re-gu-lá-tor (celé schéma m¥-°ící karty v p°í-loze - POWER 
  []
 
-[9
+[10
 
 ])
 \tf@lof=\write5
 \openout5 = `sablona-prace.lof'.
 
- [10]
+ [11]
 \openout2 = `text/uvod.aux'.
 
- (text/uvod.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--26
-
- []
-
-) [11
+ (text/uvod.tex) [12
 
 
 
 ]
-\openout2 = `text/reseni.aux'.
+\openout2 = `text/Koncept_funkcnosti_testeru.aux'.
 
- (text/reseni.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
-
- []
-
-<obrazky/ICT_tester.png, id=637, 1958.31625pt x 1621.05624pt>
+ (text/Koncept_funkcnosti_testeru.tex
+<obrazky/ICT_tester.png, id=640, 1958.31625pt x 1621.05624pt>
 File: obrazky/ICT_tester.png Graphic file (type png)
 <use obrazky/ICT_tester.png>
 Package pdftex.def Info: obrazky/ICT_tester.png  used on input line 22.
 (pdftex.def)             Requested size: 402.03473pt x 332.78865pt.
-[12
+ [13
 
 
 
 
  <./obrazky/ICT_tester.png>]
-<obrazky/system_connection_and_fixture.png, id=646, 1970.36125pt x 745.78625pt>
+<obrazky/system_connection_and_fixture.png, id=650, 1970.36125pt x 745.78625pt>
 File: obrazky/system_connection_and_fixture.png Graphic file (type png)
 <use obrazky/system_connection_and_fixture.png>
-Package pdftex.def Info: obrazky/system_connection_and_fixture.png  used on input line 33.
+Package pdftex.def Info: obrazky/system_connection_and_fixture.png  used on input line 35.
 (pdftex.def)             Requested size: 446.7083pt x 169.08058pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
-
- []
-
-<obrazky/telnet_http_pc.png.png, id=650, 1204.5pt x 527.9725pt>
+<obrazky/telnet_http_pc.png.png, id=654, 1204.5pt x 527.9725pt>
 File: obrazky/telnet_http_pc.png.png Graphic file (type png)
 <use obrazky/telnet_http_pc.png.png>
-Package pdftex.def Info: obrazky/telnet_http_pc.png.png  used on input line 48.
+Package pdftex.def Info: obrazky/telnet_http_pc.png.png  used on input line 51.
 (pdftex.def)             Requested size: 446.7083pt x 195.80597pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-[13
+ [14
 
  <./obrazky/system_connection_and_fixture.png> <./obrazky/telnet_http_pc.png.png>]
-<obrazky/karta_3D_NP.png, id=660, 1455.18657pt x 467.49657pt>
+<obrazky/karta_3D_NP.png, id=663, 1455.18657pt x 467.49657pt>
 File: obrazky/karta_3D_NP.png Graphic file (type png)
 <use obrazky/karta_3D_NP.png>
-Package pdftex.def Info: obrazky/karta_3D_NP.png  used on input line 60.
+Package pdftex.def Info: obrazky/karta_3D_NP.png  used on input line 62.
 (pdftex.def)             Requested size: 424.3715pt x 136.3338pt.
-<obrazky/3D_ovl_karta.png, id=661, 434.37282pt x 421.575pt>
+
+Overfull \hbox (1.28609pt too wide) in paragraph at lines 56--66
+[]\T1/lmr/m/n/10.95 Navrºené za-°í-zení se skládá z m¥-°í-cích ka-ret, ovlá-da-cích ka-ret a °í-dí-cího po-£í-ta£e [].
+ []
+
+<obrazky/3D_ovl_karta.png, id=664, 434.37282pt x 421.575pt>
 File: obrazky/3D_ovl_karta.png Graphic file (type png)
 <use obrazky/3D_ovl_karta.png>
-Package pdftex.def Info: obrazky/3D_ovl_karta.png  used on input line 68.
+Package pdftex.def Info: obrazky/3D_ovl_karta.png  used on input line 69.
 (pdftex.def)             Requested size: 312.69444pt x 303.49516pt.
+[15
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--79
-
- []
-
-[14 <./obrazky/karta_3D_NP.png> <./obrazky/3D_ovl_karta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
+ <./obrazky/karta_3D_NP.png> <./obrazky/3D_ovl_karta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
 
  []
 
+) [16]
+\openout2 = `text/navrh_mericich_karet.aux'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--103
-
- []
-
-[15]
-<obrazky/karta_system_diagram.png, id=676, 1245.65375pt x 589.20125pt>
+ (text/navrh_mericich_karet.tex
+<obrazky/karta_system_diagram.png, id=679, 1245.65375pt x 589.20125pt>
 File: obrazky/karta_system_diagram.png Graphic file (type png)
 <use obrazky/karta_system_diagram.png>
-Package pdftex.def Info: obrazky/karta_system_diagram.png  used on input line 129.
+Package pdftex.def Info: obrazky/karta_system_diagram.png  used on input line 22.
 (pdftex.def)             Requested size: 446.7083pt x 211.29414pt.
- [16
+ [17
+
+
+
 
  <./obrazky/karta_system_diagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--146
-
- []
-
-<obrazky/2_and_4_pins_connection.png, id=689, 2388.925pt x 819.06pt>
+<obrazky/2_and_4_pins_connection.png, id=692, 2388.925pt x 819.06pt>
 File: obrazky/2_and_4_pins_connection.png Graphic file (type png)
 <use obrazky/2_and_4_pins_connection.png>
-Package pdftex.def Info: obrazky/2_and_4_pins_connection.png  used on input line 153.
+Package pdftex.def Info: obrazky/2_and_4_pins_connection.png  used on input line 46.
 (pdftex.def)             Requested size: 446.7083pt x 153.14844pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
-
- []
-
-[17
+ [18
 
  <./obrazky/2_and_4_pins_connection.png>]
-<obrazky/nMos_Connection.png, id=699, 1377.145pt x 765.86125pt>
+<obrazky/nMos_Connection.png, id=703, 1377.145pt x 765.86125pt>
 File: obrazky/nMos_Connection.png Graphic file (type png)
 <use obrazky/nMos_Connection.png>
-Package pdftex.def Info: obrazky/nMos_Connection.png  used on input line 178.
+Package pdftex.def Info: obrazky/nMos_Connection.png  used on input line 75.
 (pdftex.def)             Requested size: 446.7083pt x 248.42282pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--202
-
- []
-
-[18
+ [19
 
  <./obrazky/nMos_Connection.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--216
-
- []
-
-<obrazky/final_connection.png, id=714, 1105.88156pt x 519.44063pt>
+<obrazky/final_connection.png, id=719, 1105.88156pt x 519.44063pt>
 File: obrazky/final_connection.png Graphic file (type png)
 <use obrazky/final_connection.png>
-Package pdftex.def Info: obrazky/final_connection.png  used on input line 222.
+Package pdftex.def Info: obrazky/final_connection.png  used on input line 118.
 (pdftex.def)             Requested size: 446.7083pt x 209.81747pt.
+ [20
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--233
+ <./obrazky/final_connection.png>] [21
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--242
-
- []
-
-[19
-
- <./obrazky/final_connection.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
-
- []
-
-[20
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 329--332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--354
-
- []
-
+] [22]
 Package epstopdf Info: Source file: <obrazky/Vout3D.eps>
 (epstopdf)                    date: 2022-11-04 20:45:01
 (epstopdf)                    size: 568518 bytes
@@ -1224,22 +1122,16 @@ Package epstopdf Info: Source file: <obrazky/Vout3D.eps>
 (epstopdf)                    date: 2022-11-04 20:45:05
 (epstopdf)                    size: 822439 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/Vout3D-eps-converted-to.pdf obrazky/Vout3D.eps>
-(epstopdf)             \includegraphics on input line 357.
+(epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/Vout3D-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/Vout3D-eps-converted-to.pdf, id=735, 1197.47375pt x 505.89pt>
+<obrazky/Vout3D-eps-converted-to.pdf, id=747, 1197.47375pt x 505.89pt>
 File: obrazky/Vout3D-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/Vout3D-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/Vout3D-eps-converted-to.pdf  used on input line 357.
+Package pdftex.def Info: obrazky/Vout3D-eps-converted-to.pdf  used on input line 259.
 (pdftex.def)             Requested size: 446.7083pt x 188.7125pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 362--370
-
- []
-
-[21]
 Package epstopdf Info: Source file: <obrazky/general_dVF.eps>
 (epstopdf)                    date: 2022-11-04 21:13:40
 (epstopdf)                    size: 157388 bytes
@@ -1247,26 +1139,17 @@ Package epstopdf Info: Source file: <obrazky/general_dVF.eps>
 (epstopdf)                    date: 2022-11-04 21:13:43
 (epstopdf)                    size: 265495 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/general_dVF-eps-converted-to.pdf obrazky/general_dVF.eps>
-(epstopdf)             \includegraphics on input line 373.
+(epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/general_dVF-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/general_dVF-eps-converted-to.pdf, id=749, 1055.945pt x 420.57124pt>
+<obrazky/general_dVF-eps-converted-to.pdf, id=751, 1055.945pt x 420.57124pt>
 File: obrazky/general_dVF-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/general_dVF-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/general_dVF-eps-converted-to.pdf  used on input line 373.
+Package pdftex.def Info: obrazky/general_dVF-eps-converted-to.pdf  used on input line 275.
 (pdftex.def)             Requested size: 446.7083pt x 177.91577pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--383
-
- []
-
-[22 <./obrazky/Vout3D-eps-converted-to.pdf> <./obrazky/general_dVF-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 385--396
-
- []
-
+[23 <./obrazky/Vout3D-eps-converted-to.pdf> <./obrazky/general_dVF-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/PASS_FAIL_MERENI.eps>
 (epstopdf)                    date: 2022-11-04 22:03:09
 (epstopdf)                    size: 270161 bytes
@@ -1274,17 +1157,17 @@ Package epstopdf Info: Source file: <obrazky/PASS_FAIL_MERENI.eps>
 (epstopdf)                    date: 2022-11-04 22:03:12
 (epstopdf)                    size: 252686 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf obrazky/PASS_FAIL_MERENI.eps>
-(epstopdf)             \includegraphics on input line 401.
+(epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf, id=768, 1191.45125pt x 1067.99pt>
+<obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf, id=772, 1191.45125pt x 1067.99pt>
 File: obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf  used on input line 401.
+Package pdftex.def Info: obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf  used on input line 304.
 (pdftex.def)             Requested size: 446.7083pt x 400.41379pt.
-[23
+[24
 
  <./obrazky/PASS_FAIL_MERENI-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/MERENI_JEDNOHO_PINU.eps>
@@ -1294,17 +1177,17 @@ Package epstopdf Info: Source file: <obrazky/MERENI_JEDNOHO_PINU.eps>
 (epstopdf)                    date: 2022-11-04 22:03:01
 (epstopdf)                    size: 233463 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf obrazky/MERENI_JEDNOHO_PINU.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf, id=781, 1191.45125pt x 1067.99pt>
+<obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf, id=785, 1191.45125pt x 1067.99pt>
 File: obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf  used on input line 415.
+Package pdftex.def Info: obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf  used on input line 318.
 (pdftex.def)             Requested size: 446.7083pt x 400.41379pt.
-[24
+[25
 
  <./obrazky/MERENI_JEDNOHO_PINU-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/vliv_RDSON.eps>
@@ -1314,312 +1197,146 @@ Package epstopdf Info: Source file: <obrazky/vliv_RDSON.eps>
 (epstopdf)                    date: 2022-11-04 23:29:21
 (epstopdf)                    size: 178138 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/vliv_RDSON-eps-converted-to.pdf obrazky/vliv_RDSON.eps>
-(epstopdf)             \includegraphics on input line 438.
+(epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/vliv_RDSON-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/vliv_RDSON-eps-converted-to.pdf, id=792, 1307.88625pt x 793.96625pt>
+<obrazky/vliv_RDSON-eps-converted-to.pdf, id=797, 1307.88625pt x 793.96625pt>
 File: obrazky/vliv_RDSON-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/vliv_RDSON-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/vliv_RDSON-eps-converted-to.pdf  used on input line 438.
+Package pdftex.def Info: obrazky/vliv_RDSON-eps-converted-to.pdf  used on input line 340.
 (pdftex.def)             Requested size: 446.7083pt x 271.18068pt.
-<obrazky/mosfet_datasheet.png, id=793, 605.26125pt x 266.49562pt>
+<obrazky/mosfet_datasheet.png, id=798, 605.26125pt x 266.49562pt>
 File: obrazky/mosfet_datasheet.png Graphic file (type png)
 <use obrazky/mosfet_datasheet.png>
-Package pdftex.def Info: obrazky/mosfet_datasheet.png  used on input line 447.
+Package pdftex.def Info: obrazky/mosfet_datasheet.png  used on input line 350.
 (pdftex.def)             Requested size: 244.2613pt x 107.54703pt.
-[25
-
- <./obrazky/vliv_RDSON-eps-converted-to.pdf> <./obrazky/mosfet_datasheet.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 455--459
-
- []
-
-<obrazky/Nmosfet_datasheet.png, id=808, 423.08063pt x 335.75438pt>
-File: obrazky/Nmosfet_datasheet.png Graphic file (type png)
-<use obrazky/Nmosfet_datasheet.png>
-Package pdftex.def Info: obrazky/Nmosfet_datasheet.png  used on input line 462.
-(pdftex.def)             Requested size: 225.8714pt x 179.25237pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--478
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--492
-
- []
-
 [26
 
+ <./obrazky/vliv_RDSON-eps-converted-to.pdf> <./obrazky/mosfet_datasheet.png>]
+<obrazky/Nmosfet_datasheet.png, id=812, 423.08063pt x 335.75438pt>
+File: obrazky/Nmosfet_datasheet.png Graphic file (type png)
+<use obrazky/Nmosfet_datasheet.png>
+Package pdftex.def Info: obrazky/Nmosfet_datasheet.png  used on input line 365.
+(pdftex.def)             Requested size: 225.8714pt x 179.25237pt.
+ [27
+
  <./obrazky/Nmosfet_datasheet.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 493--496
-
+Underfull \hbox (badness 2096) in paragraph at lines 405--409
+[]\T1/lmr/m/n/10.95 Multiplexer by m¥l být ovla-da-telný 3.3V i 5V lo-gi-kou. Byl zvo-len mul-tiplexer
  []
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 514--522
-
- []
-
-<obrazky/PSU.png, id=826, 674.52pt x 372.64218pt>
+<obrazky/PSU.png, id=823, 674.52pt x 372.64218pt>
 File: obrazky/PSU.png Graphic file (type png)
 <use obrazky/PSU.png>
-Package pdftex.def Info: obrazky/PSU.png  used on input line 525.
+Package pdftex.def Info: obrazky/PSU.png  used on input line 427.
 (pdftex.def)             Requested size: 446.7083pt x 246.79181pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 530--534
-
- []
-
-[28
-
- <./obrazky/PSU.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--555
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--570
-
- []
-
-<obrazky/all_layers_no_poly.png, id=834, 2135.72906pt x 626.34pt>
+[28] [29 <./obrazky/PSU.png>]
+<obrazky/all_layers_no_poly.png, id=838, 2135.72906pt x 626.34pt>
 File: obrazky/all_layers_no_poly.png Graphic file (type png)
 <use obrazky/all_layers_no_poly.png>
-Package pdftex.def Info: obrazky/all_layers_no_poly.png  used on input line 578.
+Package pdftex.def Info: obrazky/all_layers_no_poly.png  used on input line 471.
 (pdftex.def)             Requested size: 446.7083pt x 131.00008pt.
-) [29 <./obrazky/all_layers_no_poly.png>]
-\openout2 = `text/reseni2.aux'.
+) [30 <./obrazky/all_layers_no_poly.png>]
+\openout2 = `text/navrh_ovladacich_karet.aux'.
 
- (text/reseni2.tex
-<obrazky/ovladaci_karta_diag.png, id=841, 1260.71pt x 983.675pt>
+ (text/navrh_ovladacich_karet.tex
+<obrazky/ovladaci_karta_diag.png, id=844, 1260.71pt x 983.675pt>
 File: obrazky/ovladaci_karta_diag.png Graphic file (type png)
 <use obrazky/ovladaci_karta_diag.png>
-Package pdftex.def Info: obrazky/ovladaci_karta_diag.png  used on input line 14.
+Package pdftex.def Info: obrazky/ovladaci_karta_diag.png  used on input line 16.
 (pdftex.def)             Requested size: 446.7083pt x 348.53914pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
-
- []
-
-[30
+ [31
 
 
 
 
  <./obrazky/ovladaci_karta_diag.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-<obrazky/DAC_OPAMP.png, id=854, 1347.0325pt x 562.1pt>
+<obrazky/DAC_OPAMP.png, id=858, 1347.0325pt x 562.1pt>
 File: obrazky/DAC_OPAMP.png Graphic file (type png)
 <use obrazky/DAC_OPAMP.png>
-Package pdftex.def Info: obrazky/DAC_OPAMP.png  used on input line 51.
+Package pdftex.def Info: obrazky/DAC_OPAMP.png  used on input line 53.
 (pdftex.def)             Requested size: 446.7083pt x 186.40273pt.
-[31 <./obrazky/DAC_OPAMP.png>]
-<obrazky/snubber_values.png, id=864, 299.61937pt x 130.23656pt>
-File: obrazky/snubber_values.png Graphic file (type png)
-<use obrazky/snubber_values.png>
-Package pdftex.def Info: obrazky/snubber_values.png  used on input line 71.
-(pdftex.def)             Requested size: 299.61864pt x 130.23624pt.
-
-Overfull \hbox (6.13353pt too wide) in paragraph at lines 76--81
+ [32 <./obrazky/DAC_OPAMP.png>]
+Overfull \hbox (9.13353pt too wide) in paragraph at lines 87--88
 []\T1/lmr/m/n/10.95 Protoºe da-ta-sheet ne-u-vádí hod-noty sou-£ás-tek pro ka-pa-citní zá-t¥º 240pF, je od-por R_COMP
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
-
- []
-
-[32 <./obrazky/snubber_values.png>]
-<obrazky/CLK_config.png, id=876, 865.73438pt x 335.00156pt>
+<obrazky/CLK_config.png, id=870, 1285.80376pt x 486.31688pt>
 File: obrazky/CLK_config.png Graphic file (type png)
 <use obrazky/CLK_config.png>
-Package pdftex.def Info: obrazky/CLK_config.png  used on input line 107.
-(pdftex.def)             Requested size: 446.7083pt x 172.85742pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
-
- []
-
-[33 <./obrazky/CLK_config.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 155--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--171
-
- []
-
-<obrazky/USB.png, id=883, 938.75719pt x 356.83313pt>
+Package pdftex.def Info: obrazky/CLK_config.png  used on input line 118.
+(pdftex.def)             Requested size: 446.7083pt x 168.95195pt.
+[33] [34 <./obrazky/CLK_config.png>]
+<obrazky/USB.png, id=886, 938.75719pt x 356.83313pt>
 File: obrazky/USB.png Graphic file (type png)
 <use obrazky/USB.png>
-Package pdftex.def Info: obrazky/USB.png  used on input line 174.
+Package pdftex.def Info: obrazky/USB.png  used on input line 185.
 (pdftex.def)             Requested size: 446.7083pt x 169.79695pt.
-[34 <./obrazky/USB.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 181--186
-
- []
-
-<obrazky/PWR_REG_3V3.png, id=889, 1905.36844pt x 654.94687pt>
+ [35 <./obrazky/USB.png>]
+<obrazky/PWR_REG_3V3.png, id=892, 1905.36844pt x 654.94687pt>
 File: obrazky/PWR_REG_3V3.png Graphic file (type png)
 <use obrazky/PWR_REG_3V3.png>
-Package pdftex.def Info: obrazky/PWR_REG_3V3.png  used on input line 189.
+Package pdftex.def Info: obrazky/PWR_REG_3V3.png  used on input line 200.
 (pdftex.def)             Requested size: 446.7083pt x 153.54277pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
-
- []
-
-[35
+ [36
 
  <./obrazky/PWR_REG_3V3.png>]
-<obrazky/USB_power_distr.png, id=895, 874.76813pt x 420.82219pt>
+<obrazky/USB_power_distr.png, id=899, 874.76813pt x 420.82219pt>
 File: obrazky/USB_power_distr.png Graphic file (type png)
 <use obrazky/USB_power_distr.png>
-Package pdftex.def Info: obrazky/USB_power_distr.png  used on input line 219.
+Package pdftex.def Info: obrazky/USB_power_distr.png  used on input line 229.
 (pdftex.def)             Requested size: 446.7083pt x 214.899pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--258
-
- []
-
-[36
+ [37
 
  <./obrazky/USB_power_distr.png>]
-<obrazky/all_layers_no_poly_control.png, id=902, 1446.90562pt x 1454.43375pt>
+<obrazky/all_layers_no_poly_control.png, id=907, 1446.90562pt x 1454.43375pt>
 File: obrazky/all_layers_no_poly_control.png Graphic file (type png)
 <use obrazky/all_layers_no_poly_control.png>
-Package pdftex.def Info: obrazky/all_layers_no_poly_control.png  used on input line 261.
+Package pdftex.def Info: obrazky/all_layers_no_poly_control.png  used on input line 268.
 (pdftex.def)             Requested size: 446.7083pt x 449.0278pt.
- [37 <./obrazky/all_layers_no_poly_control.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--299
+) [38
 
- []
+ <./obrazky/all_layers_no_poly_control.png>]
+\openout2 = `text/reseni2.aux'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--307
-
- []
+ (text/reseni2.tex [39
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--312
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
-
- []
-
-[38
 
 ]
-Overfull \hbox (4.82657pt too wide) in paragraph at lines 342--346
+Overfull \hbox (4.82657pt too wide) in paragraph at lines 77--80
 \T1/lmr/m/n/10.95 gis-tr·. Re-le-vantní sku-piny po-suv-ných re-gis-tr· pro di-plo-mo-vou práci jsou IO1TO40_OUTPUTS,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--346
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
+[40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 
  []
 
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 461--464
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--205
 
  []
 
-<obrazky/Voltage_measurement_example.png, id=928, 923.45pt x 240.9pt>
+<obrazky/Voltage_measurement_example.png, id=931, 923.45pt x 240.9pt>
 File: obrazky/Voltage_measurement_example.png Graphic file (type png)
 <use obrazky/Voltage_measurement_example.png>
-Package pdftex.def Info: obrazky/Voltage_measurement_example.png  used on input line 473.
-(pdftex.def)             Requested size: 402.03473pt x 104.87886pt.
+Package pdftex.def Info: obrazky/Voltage_measurement_example.png  used on input line 213.
+(pdftex.def)             Requested size: 357.368pt x 93.22647pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--481
-
+Overfull \hbox (1.26733pt too wide) in paragraph at lines 208--219
+[]\T1/lmr/m/n/10.95 Proces m¥-°ení na-p¥tí lze kon-fi-gu-ro-vat po-mocí p°í-kaz· ze sku-piny SET CON-FI-GU-RATION.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--484
-
- []
-
-[42 <./obrazky/Voltage_measurement_example.png>]
+[43 <./obrazky/Voltage_measurement_example.png>]
 Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_step1.eps>
 (epstopdf)                    date: 2023-05-02 16:59:28
 (epstopdf)                    size: 157029 bytes
@@ -1627,16 +1344,22 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_step1.eps>
 (epstopdf)                    date: 2023-05-02 16:59:35
 (epstopdf)                    size: 46253 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/pin_step1-eps-converted-to.pdf obrazky/matlab_generated/pin_step1.eps>
-(epstopdf)             \includegraphics on input line 490.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/pin_step1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/pin_step1-eps-converted-to.pdf, id=936, 1664.2175pt x 785.93625pt>
+<obrazky/matlab_generated/pin_step1-eps-converted-to.pdf, id=940, 1664.2175pt x 785.93625pt>
 File: obrazky/matlab_generated/pin_step1-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/pin_step1-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/pin_step1-eps-converted-to.pdf  used on input line 490.
-(pdftex.def)             Requested size: 402.03473pt x 189.86377pt.
+Package pdftex.def Info: obrazky/matlab_generated/pin_step1-eps-converted-to.pdf  used on input line 229.
+(pdftex.def)             Requested size: 446.7083pt x 210.9584pt.
+
+Underfull \hbox (badness 3557) in paragraph at lines 238--243
+[]\T1/lmr/m/n/10.95 Detekce p°e-klo-pení pro-bíhá tak, ºe se vy-£ítá N-krát (lze na-sta-vit kon-fi-gu-rací
+ []
+
+[44 <./obrazky/matlab_generated/pin_step1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_step5.eps>
 (epstopdf)                    date: 2023-05-02 16:59:29
 (epstopdf)                    size: 157024 bytes
@@ -1644,22 +1367,16 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_step5.eps>
 (epstopdf)                    date: 2023-05-02 16:59:36
 (epstopdf)                    size: 46823 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/pin_step5-eps-converted-to.pdf obrazky/matlab_generated/pin_step5.eps>
-(epstopdf)             \includegraphics on input line 505.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/pin_step5-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/pin_step5-eps-converted-to.pdf, id=938, 1658.195pt x 785.93625pt>
+<obrazky/matlab_generated/pin_step5-eps-converted-to.pdf, id=955, 1658.195pt x 785.93625pt>
 File: obrazky/matlab_generated/pin_step5-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/pin_step5-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/pin_step5-eps-converted-to.pdf  used on input line 505.
-(pdftex.def)             Requested size: 402.03473pt x 190.54733pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--513
-
- []
-
-[43 <./obrazky/matlab_generated/pin_step1-eps-converted-to.pdf> <./obrazky/matlab_generated/pin_step5-eps-converted-to.pdf>]
+Package pdftex.def Info: obrazky/matlab_generated/pin_step5-eps-converted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 446.7083pt x 211.72592pt.
 Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_out_of_range.eps>
 (epstopdf)                    date: 2023-05-02 16:59:30
 (epstopdf)                    size: 157523 bytes
@@ -1667,21 +1384,19 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_out_of_range.e
 (epstopdf)                    date: 2023-05-02 16:59:37
 (epstopdf)                    size: 43478 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf obrazky/matlab_generated/pin_out_of_range.eps>
-(epstopdf)             \includegraphics on input line 519.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf, id=963, 1664.2175pt x 785.93625pt>
+<obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf, id=958, 1664.2175pt x 785.93625pt>
 File: obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf  used on input line 519.
-(pdftex.def)             Requested size: 402.03473pt x 189.86377pt.
+Package pdftex.def Info: obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf  used on input line 260.
+(pdftex.def)             Requested size: 446.7083pt x 210.9584pt.
+[45
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--530
-
- []
-
+ <./obrazky/matlab_generated/pin_step5-eps-converted-to.pdf> <./obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_out_of_range_opt.eps>
 (epstopdf)                    date: 2023-05-02 16:59:31
 (epstopdf)                    size: 163164 bytes
@@ -1689,36 +1404,29 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/pin_out_of_range_o
 (epstopdf)                    date: 2023-05-02 16:59:37
 (epstopdf)                    size: 45537 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf obrazky/matlab_generated/pin_out_of_range_opt.eps>
-(epstopdf)             \includegraphics on input line 533.
+(epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf, id=966, 1664.2175pt x 785.93625pt>
+<obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf, id=983, 1664.2175pt x 785.93625pt>
 File: obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf  used on input line 533.
-(pdftex.def)             Requested size: 402.03473pt x 189.86377pt.
+Package pdftex.def Info: obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf  used on input line 286.
+(pdftex.def)             Requested size: 446.7083pt x 210.9584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--545
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--551
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
 []\T1/lmr/m/n/10.95 Dal²í kon-fi-gu-race, které lze vy-u-ºít jsou DAC_RAMP_MAX_VALUE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--551
-
- []
-
-[44 <./obrazky/matlab_generated/pin_out_of_range-eps-converted-to.pdf>]
-Underfull \hbox (badness 5036) in paragraph at lines 552--555
+Underfull \hbox (badness 4391) in paragraph at lines 300--303
 []\T1/lmr/m/n/10.95 Prozatím bylo dis-ku-to-váno pouze m¥-°ení na-p¥tí na jed-nom pinu. V p°í-pad¥
  []
 
+[46
+
+ <./obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/matlab_generated/all_pins.eps>
 (epstopdf)                    date: 2023-05-02 16:59:30
 (epstopdf)                    size: 157504 bytes
@@ -1726,192 +1434,111 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/all_pins.eps>
 (epstopdf)                    date: 2023-05-02 17:09:45
 (epstopdf)                    size: 34104 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/all_pins-eps-converted-to.pdf obrazky/matlab_generated/all_pins.eps>
-(epstopdf)             \includegraphics on input line 558.
+(epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/all_pins-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/all_pins-eps-converted-to.pdf, id=982, 1671.24374pt x 787.94376pt>
+<obrazky/matlab_generated/all_pins-eps-converted-to.pdf, id=997, 1671.24374pt x 787.94376pt>
 File: obrazky/matlab_generated/all_pins-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/all_pins-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/all_pins-eps-converted-to.pdf  used on input line 558.
-(pdftex.def)             Requested size: 402.03473pt x 189.5432pt.
+Package pdftex.def Info: obrazky/matlab_generated/all_pins-eps-converted-to.pdf  used on input line 307.
+(pdftex.def)             Requested size: 446.7083pt x 210.60756pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--568
-
- []
-
-[45 <./obrazky/matlab_generated/pin_out_of_range_opt-eps-converted-to.pdf> <./obrazky/matlab_generated/all_pins-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 580--583
+Underfull \hbox (badness 10000) in paragraph at lines 330--333
 
  []
 
+[47
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--596
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--602
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 603--611
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 612--618
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 619--622
-
- []
-
-) [47]
+ <./obrazky/matlab_generated/all_pins-eps-converted-to.pdf>]) [48] [49]
 \openout2 = `text/pcaplikace.aux'.
 
  (text/pcaplikace.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-
- []
-
-<obrazky/PC_app_diagram.png, id=1015, 1884.03876pt x 1505.625pt>
+<obrazky/PC_app_diagram.png, id=1023, 1884.03876pt x 1505.625pt>
 File: obrazky/PC_app_diagram.png Graphic file (type png)
 <use obrazky/PC_app_diagram.png>
-Package pdftex.def Info: obrazky/PC_app_diagram.png  used on input line 20.
+Package pdftex.def Info: obrazky/PC_app_diagram.png  used on input line 17.
 (pdftex.def)             Requested size: 402.03473pt x 321.26782pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-
- []
-
-[48
+ [50
 
 
 
 
  <./obrazky/PC_app_diagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
-
- []
-
-[49]
-<obrazky/test_result_class.png, id=1026, 1336.24219pt x 502.87875pt>
+<obrazky/test_result_class.png, id=1029, 1336.24219pt x 502.87875pt>
 File: obrazky/test_result_class.png Graphic file (type png)
 <use obrazky/test_result_class.png>
-Package pdftex.def Info: obrazky/test_result_class.png  used on input line 67.
-(pdftex.def)             Requested size: 402.03473pt x 151.30215pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--78
-
- []
-
-<obrazky/test_result_widget_graph.png, id=1028, 1436.36626pt x 771.63281pt>
+Package pdftex.def Info: obrazky/test_result_class.png  used on input line 64.
+(pdftex.def)             Requested size: 446.7083pt x 168.11436pt.
+ [51]
+<obrazky/test_result_widget_graph.png, id=1035, 1436.36626pt x 771.63281pt>
 File: obrazky/test_result_widget_graph.png Graphic file (type png)
 <use obrazky/test_result_widget_graph.png>
-Package pdftex.def Info: obrazky/test_result_widget_graph.png  used on input line 82.
-(pdftex.def)             Requested size: 402.03473pt x 215.97328pt.
-<obrazky/test_result_widget_prompt.png, id=1029, 1016.29688pt x 360.59718pt>
+Package pdftex.def Info: obrazky/test_result_widget_graph.png  used on input line 79.
+(pdftex.def)             Requested size: 446.7083pt x 239.96901pt.
+<obrazky/test_result_widget_prompt.png, id=1036, 1016.29688pt x 360.59718pt>
 File: obrazky/test_result_widget_prompt.png Graphic file (type png)
 <use obrazky/test_result_widget_prompt.png>
-Package pdftex.def Info: obrazky/test_result_widget_prompt.png  used on input line 92.
-(pdftex.def)             Requested size: 402.03473pt x 142.64616pt.
-[50 <./obrazky/test_result_class.png> <./obrazky/test_result_widget_graph.png>]
-<obrazky/hardwareConfig.png, id=1036, 538.26094pt x 599.23875pt>
+Package pdftex.def Info: obrazky/test_result_widget_prompt.png  used on input line 89.
+(pdftex.def)             Requested size: 446.7083pt x 158.49817pt.
+ [52 <./obrazky/test_result_class.png> <./obrazky/test_result_widget_graph.png>]
+<obrazky/hardwareConfig.png, id=1043, 538.26094pt x 599.23875pt>
 File: obrazky/hardwareConfig.png Graphic file (type png)
 <use obrazky/hardwareConfig.png>
-Package pdftex.def Info: obrazky/hardwareConfig.png  used on input line 104.
+Package pdftex.def Info: obrazky/hardwareConfig.png  used on input line 101.
 (pdftex.def)             Requested size: 245.69092pt x 273.5227pt.
- [51 <./obrazky/test_result_widget_prompt.png> <./obrazky/hardwareConfig.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
-
+ [53 <./obrazky/test_result_widget_prompt.png> <./obrazky/hardwareConfig.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--117
+\T1/lmr/m/n/10.95 pro testy, které jsou de-fi-no-vány v tests.yaml. Na-p°í-klad pro zmí-n¥ný test
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-\T1/lmr/m/n/10.95 pro testy, které jsou de-fi-no-vány v tests.yaml. Na-p°í-klad pro zmí¬ený test
- []
-
-<obrazky/PC_APP_VISA.png, id=1044, 1389.69188pt x 348.55219pt>
+<obrazky/PC_APP_VISA.png, id=1051, 1389.69188pt x 348.55219pt>
 File: obrazky/PC_APP_VISA.png Graphic file (type png)
 <use obrazky/PC_APP_VISA.png>
-Package pdftex.def Info: obrazky/PC_APP_VISA.png  used on input line 137.
+Package pdftex.def Info: obrazky/PC_APP_VISA.png  used on input line 134.
 (pdftex.def)             Requested size: 446.7083pt x 112.03891pt.
-[52
+[54
 
  <./obrazky/PC_APP_VISA.png>]
-<obrazky/PC_APP_CONTROL_PANEL.png, id=1051, 1212.02812pt x 574.39594pt>
+<obrazky/PC_APP_CONTROL_PANEL.png, id=1058, 1212.02812pt x 574.39594pt>
 File: obrazky/PC_APP_CONTROL_PANEL.png Graphic file (type png)
 <use obrazky/PC_APP_CONTROL_PANEL.png>
-Package pdftex.def Info: obrazky/PC_APP_CONTROL_PANEL.png  used on input line 149.
+Package pdftex.def Info: obrazky/PC_APP_CONTROL_PANEL.png  used on input line 147.
 (pdftex.def)             Requested size: 446.7083pt x 211.6993pt.
-<obrazky/PC_APP_RELAY.png, id=1053, 477.28313pt x 266.49562pt>
+<obrazky/PC_APP_RELAY.png, id=1060, 477.28313pt x 266.49562pt>
 File: obrazky/PC_APP_RELAY.png Graphic file (type png)
 <use obrazky/PC_APP_RELAY.png>
-Package pdftex.def Info: obrazky/PC_APP_RELAY.png  used on input line 161.
+Package pdftex.def Info: obrazky/PC_APP_RELAY.png  used on input line 159.
 (pdftex.def)             Requested size: 321.04523pt x 179.25237pt.
- [53 <./obrazky/PC_APP_CONTROL_PANEL.png> <./obrazky/PC_APP_RELAY.png>]
-<obrazky/Device_status.png, id=1061, 927.465pt x 350.05782pt>
+ [55 <./obrazky/PC_APP_CONTROL_PANEL.png> <./obrazky/PC_APP_RELAY.png>]
+<obrazky/Device_status.png, id=1069, 927.465pt x 350.05782pt>
 File: obrazky/Device_status.png Graphic file (type png)
 <use obrazky/Device_status.png>
-Package pdftex.def Info: obrazky/Device_status.png  used on input line 174.
+Package pdftex.def Info: obrazky/Device_status.png  used on input line 172.
 (pdftex.def)             Requested size: 446.7083pt x 168.6027pt.
- [54 <./obrazky/Device_status.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 181--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
-
- []
-
-<obrazky/PC_APP_dataViewer.png, id=1067, 1443.14156pt x 812.28468pt>
+<obrazky/PC_APP_dataViewer.png, id=1070, 1443.14156pt x 812.28468pt>
 File: obrazky/PC_APP_dataViewer.png Graphic file (type png)
 <use obrazky/PC_APP_dataViewer.png>
-Package pdftex.def Info: obrazky/PC_APP_dataViewer.png  used on input line 196.
-(pdftex.def)             Requested size: 446.7083pt x 251.4338pt.
-) [55
+Package pdftex.def Info: obrazky/PC_APP_dataViewer.png  used on input line 185.
+(pdftex.def)             Requested size: 394.89432pt x 222.27118pt.
+ [56 <./obrazky/Device_status.png> <./obrazky/PC_APP_dataViewer.png>]) [57
 
- <./obrazky/PC_APP_dataViewer.png>]
+]
 \openout2 = `text/VysledkyMereni.aux'.
 
  (text/VysledkyMereni.tex
-<obrazky/10hourTestScheme.png, id=1075, 1585.925pt x 722.7pt>
+<obrazky/10hourTestScheme.png, id=1082, 1585.925pt x 722.7pt>
 File: obrazky/10hourTestScheme.png Graphic file (type png)
 <use obrazky/10hourTestScheme.png>
 Package pdftex.def Info: obrazky/10hourTestScheme.png  used on input line 10.
-(pdftex.def)             Requested size: 402.03473pt x 183.19984pt.
-<obrazky/10hourTestConfig.png, id=1077, 1209.01688pt x 529.98pt>
+(pdftex.def)             Requested size: 446.7083pt x 203.55661pt.
+<obrazky/10hourTestConfig.png, id=1084, 1209.01688pt x 529.98pt>
 File: obrazky/10hourTestConfig.png Graphic file (type png)
 <use obrazky/10hourTestConfig.png>
 Package pdftex.def Info: obrazky/10hourTestConfig.png  used on input line 20.
-(pdftex.def)             Requested size: 402.03473pt x 176.23634pt.
- [56
+(pdftex.def)             Requested size: 446.7083pt x 195.81456pt.
+ [58
 
 
 
@@ -1929,16 +1556,11 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf, id=1085, 1735.48375pt x 651.43375pt>
+<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf, id=1092, 1735.48375pt x 651.43375pt>
 File: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf  used on input line 28.
 (pdftex.def)             Requested size: 446.7083pt x 167.66902pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-
- []
-
 Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2.eps>
 (epstopdf)                    date: 2023-05-07 03:03:08
 (epstopdf)                    size: 265813 bytes
@@ -1951,18 +1573,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf, id=1091, 1735.48375pt x 651.43375pt>
+<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf, id=1098, 1735.48375pt x 651.43375pt>
 File: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf  used on input line 44.
 (pdftex.def)             Requested size: 446.7083pt x 167.66902pt.
-[57
+[59
 
  <./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_cas_prehled-eps-converted-to.pdf> <./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part2-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-
- []
-
 Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1.eps>
 (epstopdf)                    date: 2023-05-07 03:03:07
 (epstopdf)                    size: 802504 bytes
@@ -1975,17 +1593,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf, id=1108, 1735.48375pt x 1571.8725pt>
+<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf, id=1115, 1735.48375pt x 1571.8725pt>
 File: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf  used on input line 58.
 (pdftex.def)             Requested size: 446.7083pt x 404.5758pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-[58
+[60
 
  <./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_voltage_part1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1.eps>
@@ -1995,23 +1608,19 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/dlo
 (epstopdf)                    date: 2023-05-07 15:39:50
 (epstopdf)                    size: 812320 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf, id=1120, 1735.48375pt x 1571.8725pt>
+<obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf, id=1128, 1735.48375pt x 1571.8725pt>
 File: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf  used on input line 73.
+Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf  used on input line 74.
 (pdftex.def)             Requested size: 446.7083pt x 404.5758pt.
-[59
+[61
 
  <./obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 97--106
-
- []
-
 Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC.eps>
 (epstopdf)                    date: 2023-05-07 14:17:44
 (epstopdf)                    size: 404133 bytes
@@ -2019,28 +1628,19 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/cal
 (epstopdf)                    date: 2023-05-07 14:17:52
 (epstopdf)                    size: 158549 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC.eps>
-(epstopdf)             \includegraphics on input line 109.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf, id=1133, 1689.31125pt x 1537.745pt>
+<obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf, id=1142, 1689.31125pt x 1537.745pt>
 File: obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf  used on input line 109.
-(pdftex.def)             Requested size: 402.03473pt x 365.96909pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
-
- []
-
-[60
+Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf  used on input line 111.
+(pdftex.def)             Requested size: 446.7083pt x 406.63231pt.
+[62
 
  <./obrazky/matlab_generated/VOLTAGE_TESTER/calib_DAC-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-
- []
-
 Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1.eps>
 (epstopdf)                    date: 2023-05-07 16:21:56
 (epstopdf)                    size: 962619 bytes
@@ -2048,57 +1648,35 @@ Package epstopdf Info: Source file: <obrazky/matlab_generated/VOLTAGE_TESTER/cal
 (epstopdf)                    date: 2023-05-07 16:22:04
 (epstopdf)                    size: 936820 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf, id=1143, 1735.48375pt x 1571.8725pt>
+<obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf, id=1152, 1735.48375pt x 1571.8725pt>
 File: obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf  used on input line 131.
 (pdftex.def)             Requested size: 446.7083pt x 404.5758pt.
-[61 <./obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf>])
-Underfull \hbox (badness 10000) in paragraph at lines 152--230
-
- []
-
-[62
+[63 <./obrazky/matlab_generated/VOLTAGE_TESTER/calib_resistor_part1-eps-converted-to.pdf>]) [64
 
 ]
 \openout2 = `text/zaver.aux'.
 
- (text/zaver.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
-
- []
-
-) [63
+ (text/zaver.tex [65
 
 
 
 
 ]
+<obrazky/assembly_3D_model.png, id=1176, 1191.7022pt x 1017.8025pt>
+File: obrazky/assembly_3D_model.png Graphic file (type png)
+<use obrazky/assembly_3D_model.png>
+Package pdftex.def Info: obrazky/assembly_3D_model.png  used on input line 46.
+(pdftex.def)             Requested size: 446.7083pt x 381.5197pt.
+) [66
+
+ <./obrazky/assembly_3D_model.png>]
 \openout2 = `text/literatura.aux'.
 
  (text/literatura.tex
@@ -2110,7 +1688,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 47--52
 []\T1/lmr/m/n/10.95 Wikipedia: \T1/lmr/m/it/10.95 CAD data ex-change \T1/lmr/m/n/10.95 [on-line]. 2022, Wi-ki-pe-dia - CAD data ex-change
  []
 
-[64
+[67
 
 
 
@@ -2120,10 +1698,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--81
 []\T1/lmr/m/n/10.95 PANJIT Se-mi-con-duc-tor: \T1/lmr/m/it/10.95 PJA3432 \T1/lmr/m/n/10.95 [on-line]. PJA3432 - Pro-duct da-ta-sheet
  []
 
-[65]) [66]
+[68]) [69]
 \openout2 = `text/zkratky.aux'.
 
- (text/zkratky.tex) [67
+ (text/zkratky.tex) [70
 
 
 
@@ -2133,27 +1711,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--81
 \tf@toa=\write6
 \openout6 = `sablona-prace.toa'.
 
- [68
+ [71
 
 
 
-] [69
+] [72
 
 
 ]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_merici_karta.pdf, id=1243, 845.07724pt x 597.55246pt>
+<pdf/schema_merici_karta.pdf, id=1258, 845.07724pt x 597.55246pt>
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf  used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf  used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf  used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf  used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
@@ -2161,188 +1739,188 @@ pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: fo
 
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_merici_karta.pdf, id=1246, page=1, 845.07724pt x 597.55246pt>
+<pdf/schema_merici_karta.pdf, id=1261, page=1, 845.07724pt x 597.55246pt>
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page1 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[70
+[73
 
  <./pdf/schema_merici_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_merici_karta.pdf, id=1277, page=2, 845.07724pt x 597.55246pt>
+<pdf/schema_merici_karta.pdf, id=1293, page=2, 845.07724pt x 597.55246pt>
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 2>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page2 used on input line 253.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
-<use pdf/schema_merici_karta.pdf, page 2>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page2 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page2 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 2>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page2 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page2 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[71 <./pdf/schema_merici_karta.pdf>]
+File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
+<use pdf/schema_merici_karta.pdf, page 2>
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page2 used on input line 257.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[74 <./pdf/schema_merici_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_merici_karta.pdf, id=1282, page=3, 845.07724pt x 597.55246pt>
+<pdf/schema_merici_karta.pdf, id=1298, page=3, 845.07724pt x 597.55246pt>
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 3>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page3 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page3 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 3>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page3 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page3 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 3>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page3 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page3 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[72 <./pdf/schema_merici_karta.pdf>]
+[75 <./pdf/schema_merici_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_merici_karta.pdf, id=1287, page=4, 845.07724pt x 597.55246pt>
+<pdf/schema_merici_karta.pdf, id=1303, page=4, 845.07724pt x 597.55246pt>
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 4>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page4 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page4 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 4>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page4 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page4 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 4>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page4 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page4 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[73 <./pdf/schema_merici_karta.pdf>]
+[76 <./pdf/schema_merici_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_merici_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_merici_karta.pdf, id=1294, page=5, 845.07724pt x 597.55246pt>
+<pdf/schema_merici_karta.pdf, id=1309, page=5, 845.07724pt x 597.55246pt>
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 5>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page5 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page5 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 5>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page5 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page5 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_merici_karta.pdf Graphic file (type pdf)
 <use pdf/schema_merici_karta.pdf, page 5>
-Package pdftex.def Info: pdf/schema_merici_karta.pdf , page5 used on input line 253.
+Package pdftex.def Info: pdf/schema_merici_karta.pdf , page5 used on input line 257.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[74 <./pdf/schema_merici_karta.pdf>] [75
+[77 <./pdf/schema_merici_karta.pdf>] [78
 
 ]
-<pdf/Merici_karta_pcb.pdf, id=1303, 845.0471pt x 597.50829pt>
+<pdf/Merici_karta_pcb.pdf, id=1318, 845.0471pt x 597.50829pt>
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf  used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf  used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf  used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf  used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<pdf/Merici_karta_pcb.pdf, id=1306, page=1, 845.0471pt x 597.50829pt>
+<pdf/Merici_karta_pcb.pdf, id=1321, page=1, 845.0471pt x 597.50829pt>
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 258.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Merici_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [76
+File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Merici_karta_pcb.pdf, page 1>
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page1 used on input line 262.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+ [79
 
  <./pdf/Merici_karta_pcb.pdf>]
-<pdf/Merici_karta_pcb.pdf, id=1324, page=2, 845.0471pt x 597.50829pt>
+<pdf/Merici_karta_pcb.pdf, id=1340, page=2, 845.0471pt x 597.50829pt>
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 2>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page2 used on input line 258.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Merici_karta_pcb.pdf, page 2>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page2 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page2 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 2>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page2 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page2 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [77 <./pdf/Merici_karta_pcb.pdf>]
-<pdf/Merici_karta_pcb.pdf, id=1330, page=3, 845.0471pt x 597.50829pt>
+File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Merici_karta_pcb.pdf, page 2>
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page2 used on input line 262.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+ [80 <./pdf/Merici_karta_pcb.pdf>]
+<pdf/Merici_karta_pcb.pdf, id=1346, page=3, 845.0471pt x 597.50829pt>
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 3>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page3 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page3 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 3>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page3 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page3 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 3>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page3 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page3 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [78 <./pdf/Merici_karta_pcb.pdf>]
-<pdf/Merici_karta_pcb.pdf, id=1337, page=4, 845.0471pt x 597.50829pt>
+ [81 <./pdf/Merici_karta_pcb.pdf>]
+<pdf/Merici_karta_pcb.pdf, id=1353, page=4, 845.0471pt x 597.50829pt>
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 4>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page4 used on input line 258.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Merici_karta_pcb.pdf, page 4>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page4 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page4 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Merici_karta_pcb.pdf, page 4>
-Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page4 used on input line 258.
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page4 used on input line 262.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [79 <./pdf/Merici_karta_pcb.pdf>] [80
+File: pdf/Merici_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Merici_karta_pcb.pdf, page 4>
+Package pdftex.def Info: pdf/Merici_karta_pcb.pdf , page4 used on input line 262.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+ [82 <./pdf/Merici_karta_pcb.pdf>] [83
 
 
 
 ]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1348, 845.07724pt x 597.55246pt>
+<pdf/schema_ovl_karta.pdf, id=1363, 845.07724pt x 597.55246pt>
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf  used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf  used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf  used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf  used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
@@ -2350,250 +1928,250 @@ pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found
 
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1351, page=1, 845.07724pt x 597.55246pt>
+<pdf/schema_ovl_karta.pdf, id=1366, page=1, 845.07724pt x 597.55246pt>
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 1>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page1 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[81
+[84
 
  <./pdf/schema_ovl_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1382, page=2, 845.07724pt x 597.55246pt>
+<pdf/schema_ovl_karta.pdf, id=1397, page=2, 845.07724pt x 597.55246pt>
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 2>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page2 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 2>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page2 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page2 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 2>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page2 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[82 <./pdf/schema_ovl_karta.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1387, page=3, 845.07724pt x 597.55246pt>
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 3>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page3 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page2 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 3>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page3 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 3>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page3 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[83 <./pdf/schema_ovl_karta.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1393, page=4, 845.07724pt x 597.55246pt>
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 4>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page4 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 4>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page4 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 4>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page4 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[84 <./pdf/schema_ovl_karta.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1398, page=5, 845.07724pt x 597.55246pt>
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 5>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page5 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 5>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page5 used on input line 267.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 5>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page5 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 2>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page2 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [85 <./pdf/schema_ovl_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1404, page=6, 845.07724pt x 597.55246pt>
+<pdf/schema_ovl_karta.pdf, id=1403, page=3, 845.07724pt x 597.55246pt>
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 6>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page6 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 3>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page3 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 6>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page6 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 3>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page3 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 6>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page6 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 3>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page3 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [86 <./pdf/schema_ovl_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1409, page=7, 845.07724pt x 597.55246pt>
+<pdf/schema_ovl_karta.pdf, id=1409, page=4, 845.07724pt x 597.55246pt>
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 7>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page7 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 4>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page4 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 7>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page7 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 4>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page4 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
-<use pdf/schema_ovl_karta.pdf, page 7>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page7 used on input line 267.
+<use pdf/schema_ovl_karta.pdf, page 4>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page4 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [87 <./pdf/schema_ovl_karta.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/schema_ovl_karta.pdf, id=1414, page=8, 845.07724pt x 597.55246pt>
+<pdf/schema_ovl_karta.pdf, id=1414, page=5, 845.07724pt x 597.55246pt>
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 5>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page5 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 5>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page5 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 5>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page5 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[88 <./pdf/schema_ovl_karta.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/schema_ovl_karta.pdf, id=1419, page=6, 845.07724pt x 597.55246pt>
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 6>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page6 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 6>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page6 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 6>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page6 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[89 <./pdf/schema_ovl_karta.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/schema_ovl_karta.pdf, id=1424, page=7, 845.07724pt x 597.55246pt>
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 7>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page7 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 7>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page7 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
+<use pdf/schema_ovl_karta.pdf, page 7>
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page7 used on input line 271.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[90 <./pdf/schema_ovl_karta.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdf/schema_ovl_karta.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/schema_ovl_karta.pdf, id=1429, page=8, 845.07724pt x 597.55246pt>
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 8>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page8 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page8 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 8>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page8 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page8 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: pdf/schema_ovl_karta.pdf Graphic file (type pdf)
 <use pdf/schema_ovl_karta.pdf, page 8>
-Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page8 used on input line 267.
+Package pdftex.def Info: pdf/schema_ovl_karta.pdf , page8 used on input line 271.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[88 <./pdf/schema_ovl_karta.pdf>] [89
+[91 <./pdf/schema_ovl_karta.pdf>] [92
 
 ]
-<pdf/Ovl_karta_pcb.pdf, id=1423, 845.0471pt x 597.50829pt>
+<pdf/Ovl_karta_pcb.pdf, id=1439, 845.0471pt x 597.50829pt>
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf  used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf  used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf  used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf  used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<pdf/Ovl_karta_pcb.pdf, id=1426, page=1, 845.0471pt x 597.50829pt>
+<pdf/Ovl_karta_pcb.pdf, id=1442, page=1, 845.0471pt x 597.50829pt>
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf, page 1>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [90
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 1>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page1 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+ [93
 
  <./pdf/Ovl_karta_pcb.pdf>]
-<pdf/Ovl_karta_pcb.pdf, id=1449, page=2, 845.0471pt x 597.50829pt>
+<pdf/Ovl_karta_pcb.pdf, id=1465, page=2, 845.0471pt x 597.50829pt>
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf, page 2>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page2 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 2>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page2 used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page2 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
 <use pdf/Ovl_karta_pcb.pdf, page 2>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page2 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [91 <./pdf/Ovl_karta_pcb.pdf>]
-<pdf/Ovl_karta_pcb.pdf, id=1456, page=3, 845.0471pt x 597.50829pt>
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 3>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page3 used on input line 272.
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page2 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 3>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page3 used on input line 272.
+<use pdf/Ovl_karta_pcb.pdf, page 2>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page2 used on input line 276.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 3>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page3 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [92 <./pdf/Ovl_karta_pcb.pdf>]
-<pdf/Ovl_karta_pcb.pdf, id=1463, page=4, 845.0471pt x 597.50829pt>
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 4>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page4 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 4>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page4 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 4>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page4 used on input line 272.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [93 <./pdf/Ovl_karta_pcb.pdf>]
-<pdf/Ovl_karta_pcb.pdf, id=1469, page=5, 1195.0156pt x 845.0471pt>
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 5>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page5 used on input line 272.
-(pdftex.def)             Requested size: 1195.0127pt x 845.04504pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 5>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page5 used on input line 272.
-(pdftex.def)             Requested size: 1195.0127pt x 845.04504pt.
-File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
-<use pdf/Ovl_karta_pcb.pdf, page 5>
-Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page5 used on input line 272.
-(pdftex.def)             Requested size: 1195.0127pt x 845.04504pt.
  [94 <./pdf/Ovl_karta_pcb.pdf>]
-\c@page@count=\count316
- (sablona-prace.aux (text/uvod.aux) (text/reseni.aux) (text/reseni2.aux) (text/pcaplikace.aux) (text/VysledkyMereni.aux) (text/zaver.aux) (text/literatura.aux) (text/zkratky.aux))
+<pdf/Ovl_karta_pcb.pdf, id=1471, page=3, 845.0471pt x 597.50829pt>
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 3>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page3 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 3>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page3 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 3>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page3 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+ [95 <./pdf/Ovl_karta_pcb.pdf>]
+<pdf/Ovl_karta_pcb.pdf, id=1478, page=4, 845.0471pt x 597.50829pt>
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 4>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page4 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 4>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page4 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 4>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page4 used on input line 276.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+ [96 <./pdf/Ovl_karta_pcb.pdf>]
+<pdf/Ovl_karta_pcb.pdf, id=1484, page=5, 1195.0156pt x 845.0471pt>
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 5>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page5 used on input line 276.
+(pdftex.def)             Requested size: 1195.0127pt x 845.04504pt.
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 5>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page5 used on input line 276.
+(pdftex.def)             Requested size: 1195.0127pt x 845.04504pt.
+File: pdf/Ovl_karta_pcb.pdf Graphic file (type pdf)
+<use pdf/Ovl_karta_pcb.pdf, page 5>
+Package pdftex.def Info: pdf/Ovl_karta_pcb.pdf , page5 used on input line 276.
+(pdftex.def)             Requested size: 1195.0127pt x 845.04504pt.
+ [97 <./pdf/Ovl_karta_pcb.pdf>]
+\c@page@count=\count317
+ (sablona-prace.aux (text/uvod.aux) (text/Koncept_funkcnosti_testeru.aux) (text/navrh_mericich_karet.aux) (text/navrh_ovladacich_karet.aux) (text/reseni2.aux) (text/pcaplikace.aux) (text/VysledkyMereni.aux) (text/zaver.aux) (text/literatura.aux) (text/zkratky.aux))
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 427D4FD5B8453430C4C779B650665D50;13149.
+(rerunfilecheck)             Checksum: 371682BD4CB3A6F741E1911C31951CFE;13139.
  ) 
 Here is how much of TeX's memory you used:
- 16798 strings out of 478582
- 282245 string characters out of 2854159
- 717988 words of memory out of 3000000
- 34238 multiletter control sequences out of 15000+600000
+ 17191 strings out of 478582
+ 289637 string characters out of 2854159
+ 713988 words of memory out of 3000000
+ 34610 multiletter control sequences out of 15000+600000
  551902 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,19n,75p,505b,583s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on sablona-prace.pdf (94 pages, 21405435 bytes).
+ 61i,19n,75p,543b,583s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on sablona-prace.pdf (97 pages, 21615846 bytes).
 PDF statistics:
- 1601 PDF objects out of 1728 (max. 8388607)
- 275 named destinations out of 1000 (max. 500000)
+ 1621 PDF objects out of 1728 (max. 8388607)
+ 279 named destinations out of 1000 (max. 500000)
  1109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

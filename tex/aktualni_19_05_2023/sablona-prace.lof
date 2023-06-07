@@ -1,0 +1,54 @@
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {czech}{}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Části ICT testeru (obrázek testeru vlevo nahoře převzat z \cite {ICT_picture})}}{12}{figure.8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Koncepce funkčnosti navrhovaného testeru}}{13}{figure.10}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Systémová koncepce}}{13}{figure.12}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Měřící karta}}{14}{figure.13}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Ovládací karta - 3D model}}{14}{figure.14}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Blokový diagram měřících karet}}{16}{figure.27}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Napěťový dělič: a) vlevo pro 2; b) vpravo pro 4 propojené bRC piny}}{17}{figure.31}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Napěťový dělič pro s možností high Z vstupem}}{18}{figure.33}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Zapojení měřící části s p-channel MOSFET}}{19}{figure.34}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 3D zobrazení rovnice pro výstupní napětí děliče (generováno pomocí MATLAB) }}{22}{figure.44}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 3D zobrazení rovnice \ref {eq:citilivost} s podmínkami (generováno pomocí MATLAB)}}{22}{figure.45}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces PASS FAIL - přesnost $R_{path}$ 2$\Omega $ (generováno pomocí MATLAB)}}{23}{figure.46}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Přesné měření mezi 2 piny - (generováno pomocí MATLAB)}}{24}{figure.47}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces vliv RDSon na přesnost měření (generováno pomocí MATLAB)}}{25}{figure.50}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Výstřižek z datasheetu mosfetu SSM3J358R,LF - RDSON\cite {PMOS_datasheet}}}{25}{figure.51}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Výstřižek z datasheetu N-channel mosfetu PJA3432\_R1\_00001 - RDSON\cite {NMOS_datasheet}}}{26}{figure.53}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Napájení měřící karty: 5V regulátor (celé schéma měřící karty v příloze - POWER REGULATORS)}}{28}{figure.58}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Výsledný návrh PCB měřící karty - všechny vrstvy bez zobrazených polygonů}}{29}{figure.61}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Funkční diagram ovládací karty}}{30}{figure.69}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces DAC-externí zesilovač}}{31}{figure.72}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Konfigurace hodinových signálů - STM32CubeMX}}{33}{figure.77}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces USB rozhraní}}{34}{figure.82}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Regulátor napětí - 3V3 MCUs}}{35}{figure.84}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Distribuce napájení}}{36}{figure.85}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Návrh PCB ovládací karty - všechny vrstvy bez polygonů}}{37}{figure.88}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Zjednodušené schéma zapojení pro měření napětí na bRC pinu}}{42}{figure.101}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 1)}}{43}{figure.102}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Časové průběhy napětí - měření napětí na bRC pinu (DAC\_RAMP = 5)}}{44}{figure.103}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Časové průběhy napětí - měření nízkého napětí na bRC pinu (DAC\_RAMP = 5)}}{44}{figure.104}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Časové průběhy napětí - měření nízkého napětí na bRC pinu optimalizace}}{45}{figure.105}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Časové průběhy napětí - měření napětí na všech pinech současně}}{46}{figure.106}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces PC aplikace - top level diagram}}{49}{figure.113}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces PC aplikace - tests.yaml ukázka}}{51}{figure.119}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces PC aplikace - tests.yaml ukázka výsledku testů - graf}}{51}{figure.120}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces PC aplikace - tests.yaml ukázka výsledku testů - default}}{52}{figure.121}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces PC aplikace - hardwareConfig.yaml}}{52}{figure.123}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces PC aplikace - widget: VISA terminal}}{53}{figure.127}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces PC aplikace - widget: Ovládání karty}}{54}{figure.129}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces PC aplikace - widget: Relé}}{54}{figure.131}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces PC aplikace - widget: Device status}}{55}{figure.133}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Widget: ICT propojení}}{55}{figure.135}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Dlouhodobá stabilita - schéma zapojení}}{57}{figure.138}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Dlouhodobá stabilita - Konfigurace měřící karty}}{57}{figure.139}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Dlouhodobá stabilita - Časový průběh všech naměřených napětí}}{58}{figure.140}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Dlouhodobá stabilita - Přiblížení časových průběhů napětí na pinech 7 až 8}}{58}{figure.141}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Dlouhodobá stabilita - Přiblížení časových průběhů napětí na pinech 1 až 6}}{59}{figure.142}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Dlouhodobá stabilita - Přiblížení časových průběhů odporů na pinech 1 až 6}}{60}{figure.143}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Kalibrace D/A převodníku}}{61}{figure.146}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Dlouhodobá stabilita - Po kalibraci}}{62}{figure.147}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces 3D model mechanické části testeru}}{65}{figure.151}%

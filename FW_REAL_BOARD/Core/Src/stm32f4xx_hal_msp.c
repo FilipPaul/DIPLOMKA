@@ -99,10 +99,10 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     /**ADC1 GPIO Configuration
     PA0-WKUP     ------> ADC1_IN0
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_0;
+    GPIO_InitStruct.Pin = V_pin_sense1_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+    HAL_GPIO_Init(V_pin_sense1_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN ADC1_MspInit 1 */
 
@@ -141,10 +141,10 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     /**ADC3 GPIO Configuration
     PF6     ------> ADC3_IN4
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_6;
+    GPIO_InitStruct.Pin = ADC_CH_4_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+    HAL_GPIO_Init(ADC_CH_4_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN ADC3_MspInit 1 */
 
@@ -172,7 +172,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
     /**ADC1 GPIO Configuration
     PA0-WKUP     ------> ADC1_IN0
     */
-    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_0);
+    HAL_GPIO_DeInit(V_pin_sense1_GPIO_Port, V_pin_sense1_Pin);
 
   /* USER CODE BEGIN ADC1_MspDeInit 1 */
 
@@ -206,7 +206,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
     /**ADC3 GPIO Configuration
     PF6     ------> ADC3_IN4
     */
-    HAL_GPIO_DeInit(GPIOF, GPIO_PIN_6);
+    HAL_GPIO_DeInit(ADC_CH_4_GPIO_Port, ADC_CH_4_Pin);
 
   /* USER CODE BEGIN ADC3_MspDeInit 1 */
 
@@ -300,9 +300,8 @@ void HAL_DAC_MspInit(DAC_HandleTypeDef* hdac)
     __HAL_RCC_GPIOA_CLK_ENABLE();
     /**DAC GPIO Configuration
     PA4     ------> DAC_OUT1
-    PA5     ------> DAC_OUT2
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_5;
+    GPIO_InitStruct.Pin = GPIO_PIN_4;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -332,9 +331,8 @@ void HAL_DAC_MspDeInit(DAC_HandleTypeDef* hdac)
 
     /**DAC GPIO Configuration
     PA4     ------> DAC_OUT1
-    PA5     ------> DAC_OUT2
     */
-    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_4|GPIO_PIN_5);
+    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_4);
 
   /* USER CODE BEGIN DAC_MspDeInit 1 */
 
@@ -387,7 +385,7 @@ void HAL_I2C_MspInit(I2C_HandleTypeDef* hi2c)
     PF0     ------> I2C2_SDA
     PF1     ------> I2C2_SCL
     */
-    GPIO_InitStruct.Pin = EEPROM_SDA_Pin|EEPROM_SCL_Pin;
+    GPIO_InitStruct.Pin = I2C_EEPROM_SDA_Pin|I2C_EEPROM_SCL_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -443,9 +441,9 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* hi2c)
     PF0     ------> I2C2_SDA
     PF1     ------> I2C2_SCL
     */
-    HAL_GPIO_DeInit(EEPROM_SDA_GPIO_Port, EEPROM_SDA_Pin);
+    HAL_GPIO_DeInit(I2C_EEPROM_SDA_GPIO_Port, I2C_EEPROM_SDA_Pin);
 
-    HAL_GPIO_DeInit(EEPROM_SCL_GPIO_Port, EEPROM_SCL_Pin);
+    HAL_GPIO_DeInit(I2C_EEPROM_SCL_GPIO_Port, I2C_EEPROM_SCL_Pin);
 
   /* USER CODE BEGIN I2C2_MspDeInit 1 */
 
@@ -529,6 +527,56 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
   /* USER CODE BEGIN SPI2_MspDeInit 1 */
 
   /* USER CODE END SPI2_MspDeInit 1 */
+  }
+
+}
+
+/**
+* @brief TIM_Base MSP Initialization
+* This function configures the hardware resources used in this example
+* @param htim_base: TIM_Base handle pointer
+* @retval None
+*/
+void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
+{
+  if(htim_base->Instance==TIM11)
+  {
+  /* USER CODE BEGIN TIM11_MspInit 0 */
+
+  /* USER CODE END TIM11_MspInit 0 */
+    /* Peripheral clock enable */
+    __HAL_RCC_TIM11_CLK_ENABLE();
+    /* TIM11 interrupt Init */
+    HAL_NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn, 5, 0);
+    HAL_NVIC_EnableIRQ(TIM1_TRG_COM_TIM11_IRQn);
+  /* USER CODE BEGIN TIM11_MspInit 1 */
+
+  /* USER CODE END TIM11_MspInit 1 */
+  }
+
+}
+
+/**
+* @brief TIM_Base MSP De-Initialization
+* This function freeze the hardware resources used in this example
+* @param htim_base: TIM_Base handle pointer
+* @retval None
+*/
+void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
+{
+  if(htim_base->Instance==TIM11)
+  {
+  /* USER CODE BEGIN TIM11_MspDeInit 0 */
+
+  /* USER CODE END TIM11_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_TIM11_CLK_DISABLE();
+
+    /* TIM11 interrupt DeInit */
+    HAL_NVIC_DisableIRQ(TIM1_TRG_COM_TIM11_IRQn);
+  /* USER CODE BEGIN TIM11_MspDeInit 1 */
+
+  /* USER CODE END TIM11_MspDeInit 1 */
   }
 
 }

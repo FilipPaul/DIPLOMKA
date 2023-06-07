@@ -146,6 +146,8 @@
     linkcolor=black,
     urlcolor=black
 }
+\usepackage[skip=10pt plus1pt, indent=20pt]{parskip}
+%\usepackage{float}
 %\usepackage[hidelinks]{hyperref}
 
 \begin{document}
@@ -195,7 +197,7 @@
 \makedeclaration
 
 %%% Vysázení poděkování
-%\makeacknowledgement
+\makeacknowledgement
 
 %%% Vysázení obsahu
 \tableofcontents
@@ -224,7 +226,9 @@
 
 %%% Vložení souboru 'text/reseni' s popisem řešení práce
 % (rozdělte na více souborů či kapitol, pokud je vhodné)
-\include{text/reseni}
+\include{text/Koncept_funkcnosti_testeru}
+\include{text/navrh_mericich_karet}
+\include{text/navrh_ovladacich_karet}
 \include{text/reseni2}
 \include{text/pcaplikace}
 \include{text/VysledkyMereni}

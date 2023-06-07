@@ -1,34 +1,50 @@
-\chapter*{Závěr (TOTO JE Závěr ze semestrální práce !! - bude změněno)}
+\chapter*{Závěr}
 \phantomsection
 \addcontentsline{toc}{chapter}{Závěr}
-
-V semestrální práci bylo navrhnuto škálovatelné řešení pro měření
+V diplomové práci bylo navrženo a realizováno škálovatelné řešení pro měření
 odporu propojení velkého množství elektrických cest. Výsledkem návrhu
-je koncepce měřících a ovládacích karet, které dohromady tvoří pole 4000 pinů
-mezi kterými lze libovolně měřit odpor elektrické cesty.\\
+je koncepce měřících a ovládacích karet, které dohromady tvoří pole 4000 pinů,
+mezi kterými lze libovolně měřit odpor elektrických cest. Pro obě karty
+lze v příloze diplomové práce nalézt schéma zapojení a výrobní data.\par
 
-Kombinací těchto karet lze teoreticky docílit měření 4000 projení cest současně v PASS/FAIL režimu do 40\,ms
-a následně výsledky procházet v řídící PC aplikaci.
-Byly navrženy 2 módy ve kterých by mělo zařízení pracovat (PASS/FAIL a měření přesného odporu).\\
+Pro ovládací kartu byl vyvinut firmware, který ve spolupráci s PC aplikací umožňuje provádět automatická měření a
+následně výsledky prezentovat ve srozumitelné grafické podobě. Dále vyvinutá PC aplikace umožňuje pohodlně
+pomocí grafického rozhraní manuálně ovládat vstupy a výstupy ovládacích a měřících karet.
+Dále aplikace umožňuje formátovat vstupní data,
+která jsou generována nejrozšířenějšími ICT testery AGILENT (KEYSIGHT) 30xx.\par
 
-K ovládacím kartám bylo navrženo schéma zapojení a téměř hotový návrh PCB. Nicméně ovládací karty nebyly prozatím vyrobeny.
-K měřícím kartám bylo vyrobeno PCB a nyní se čeká na osazení komponentů externí firmou.
-Po otestování měřících karet pomocí prototypových NUCLEO-F429ZI budou dány do výroby i ovládací karty.\\
+Pro automatický běh testeru jsou k dispozici dva pracovní režimy (PASS/FAIL a měření přesného odporu).
+V režimu PASS/FAIL lze proměřit propojení všech 4000 bRC
+vůči jednomu vybranému bRC pinu do 40\,ms (včetně signalizace v PC aplikaci),
+což splňuje požadavek na rychlost měření.\par
 
-Dále byl vytvořen firmware pro ovládací karty. Firmware není zdaleka finální, obsahuje však kostru programu, kde
-je implementován telnet a http server. Funkce těchto serverů bude výrazně rozšířena po vyrobení ovládacích karet.
-Momentálně telnet server nedisponuje všemi příkazy potřebnými k ovládání měřících karet. V současnosti jsou implementovány
-pouze příkazy pro nastavení A/D, D/A převodníku a ovládání některých dalších periférií.\\
+Funkčnost celého systému byla ověřena automatizovaným přibližně 9hodinovým měřením 
+v režimu přesného měření odporu. Při tomto měření byla dosažena požadovaná přesnost,
+která je definována absolutní chybou $\pm3\,\Omega$ pro rozsah $0\,\Omega$ až $100\,\Omega$ a relativní chybou
+$\pm5\,\%$ pro rozsah $100\,\Omega$ až $1000\,\Omega$.\par
 
-V semestrální práci byla vytvořena aplikace pro PC, která umožňuje vhodně formátovat vstupní data pro tester a zobrazovat je 
-v interaktivním grafickém režimu. 
-Aplikace však neobsahuje část, pro ovládání karet. Momentálně slouží jako základ
-pro tvorbu měřících matic popsaných v části Algoritmizace a měřící procedury. Dále aplikace
-umožňuje formátovat vstupní data, která jsou generována nejrozšířenějšími ICT testery AGILENT (KEYSIGHT) 30xx.\\
+Výše zmíněné vlastnosti systému splňují základní požadavky na funkčnost elektrické části zařízení.
+Nicméně zařízení v době odevzdání diplomové práce má několik nedostatků, které budou postupně odstraňovány
+i po odevzdání práce. Prvním nedostatkem je, že ovládací karty neobsahují bootloader,
+který by umožňoval aktualizaci firmwaru pomocí Ethernetu. Dále, protože zatím bylo osazeno pouze 10 kusů ovládacích karet,
+nebylo možné zařízení otestovat v plném rozsahu.\par
 
-Úkolem do diplomové práce je dokončit firmware a výrobu ovládacích karet. Navrhnout kalibrační procedury měřících karet.
-Vyvinout PC aplikaci pro ovládání karet a zobrazování výsledků měření.
-Společně s konstruktéry navrhnout a realizovat mechanické řešení testeru.
-Mechanické řešení obsahuje především návrh pneumatického kontaktování.
-Dále navrhnout bezpečnostní mechanizmy pro případnou poruchu testeru.
-Na závěr otestovat funkčnost a ověřit věrohodnost předpokládaných parametrů testeru. 
+V současné době umožňuje PC aplikace načítat pouze generovaná data z ICT testerů AGILENT (KEYSIGHT) 30xx.
+Do budoucna je plánováno rozšíření o další formáty dat, které jsou generovány jinými ICT testery.\par
+
+Úkolem diplomové práce bylo realizovat i mechanickou část testeru.
+Ve spolupráci s konstruktéry firmy Čevor Innovation a.s. byl navržen 3D model (Obrázek na další straně).
+V modelu je celá logika testeru zabudovaná do stolu tvořeného hliníkovými profily.
+Do stolu bude zabudováno také napájení celého zařízení, bezpečnostní prvky
+v podobě start/stop tlačítka a optické závory, pneumatické části a další.
+Konstrukce zařízení musí být dostatečně robustní, aby byla schopná úspěšně odolávat silám (9000\,N)
+potřebným k nakontaktování všech 4000 pinů.
+\clearpage
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width = 1\textwidth]{obrazky/assembly_3D_model.png}
+    \caption{3D model mechanické části testeru}
+    \label{fig: assembly model}
+\end{figure}
+

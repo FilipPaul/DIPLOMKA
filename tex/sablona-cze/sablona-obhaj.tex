@@ -96,9 +96,8 @@
 				\item ICT tester
 				\item Fixture
 				\item Měření odporu
-				\item Testovací jehly
-				\item Probes
-				\item bRC
+				\item Škálovatelnost
+				\item Rychlost
 			\end{itemize}
 		\end{minipage}
 		\begin{minipage}{0.65\textwidth}
@@ -109,53 +108,28 @@
 
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Koncepce testeru 1/2}
-	\vspace*{0.5cm}
-	\begin{figure}[ht!]
-		\centering
-		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = \textwidth]{obrazky/system_connection_and_fixture.png}
-	\end{figure}
+	\frametitle{PASS/FAIL VS měření přesného odporu}
+	\vspace*{1.5cm}
+	\begin{table}[ht!]
+		\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|lccccc|}
+		\hline
+		\multicolumn{6}{|c|}{\textbf{Požadované charekteristiky měřícího obvodu}}                                                                                                                                                                                                                                                                                  \\ \hline
+		\multicolumn{1}{|l|}{\textbf{TEST MODE}}                & \multicolumn{1}{c|}{\textbf{Počet pinů}} & \multicolumn{1}{c|}{\textbf{Rozsah $[\Omega]$}}  & \multicolumn{1}{c|}{\textbf{Přesnost $[\pm \Omega]$}} & \multicolumn{1}{c|}{\textbf{čas $[\mu s/pin]$}} & \textbf{Celkový čas $[ms]$} \\ \hline
+		\multicolumn{1}{|l|}{\textbf{PASS/FAIL}}                & \multicolumn{1}{c|}{4000}                & \multicolumn{1}{c|}{1-101}                      & \multicolumn{1}{c|}{3}                                & \multicolumn{1}{c|}{2,5}                        & 10                          \\ \hline
+		\multicolumn{1}{|l|}{\textbf{PASS/FAIL}}                & \multicolumn{1}{c|}{4000}                & \multicolumn{1}{c|}{101-1000}                      & \multicolumn{1}{c|}{rel. chyba 5\%}                                & \multicolumn{1}{c|}{2,5}                        & 10                          \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Měření   "pravé"\ hodnoty}} & \multicolumn{1}{c|}{4000}                & \multicolumn{1}{c|}{1-101}                      & \multicolumn{1}{c|}{3}                                & \multicolumn{1}{c|}{Nedefinován}                & Nedefinován                 \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Měření   "pravé"\ hodnoty}} & \multicolumn{1}{c|}{4000}                & \multicolumn{1}{c|}{101-1000}                      & \multicolumn{1}{c|}{rel. chyba 5\%}                                & \multicolumn{1}{c|}{Nedefinován}                & Nedefinován                 \\ \hline
+		\end{tabular}%
+		}
+		\caption{Požadované měřící charakteristiky}
+		\label{tab:Požadované měřící charakteristiky}
+	\end{table}
 \end{frame}
 
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Koncepce testeru 2/2}
-	\vspace*{0.5cm}
-	\begin{figure}[ht!]
-		\centering
-		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = \textwidth]{obrazky/telnet_http_pc.png}
-	\end{figure}
-\end{frame}
-
-
-\begin{frame} 
-	% nadpis snímku
-	\frametitle{Měřící karta 1/4}
-	\vspace*{0.7cm}
-	\begin{figure}[ht!]
-		\centering
-		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = \textwidth]{obrazky/karta_3D_NP.png}
-	\end{figure}
-\end{frame}
-
-\begin{frame} 
-	% nadpis snímku
-	\frametitle{Měřící karta  2/4}
-	\vspace*{0.5cm}
-	\begin{figure}[ht!]
-		\centering
-		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = \textwidth]{obrazky/karta_system_diagram.png}
-	\end{figure}
-\end{frame}
-
-
-\begin{frame} 
-	% nadpis snímku
-	\frametitle{Měřící karta 3/4}
+	\frametitle{Koncepce měření 1/3}
 	\vspace*{0.5cm}
 	\begin{figure}[ht!]
 		\centering
@@ -166,82 +140,73 @@
 
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Měřící karta 4/4}
+	\frametitle{Koncepce měření 2/3}
 	\vspace*{0.5cm}
 	\begin{figure}[ht!]
 		\centering
 		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = \textwidth]{obrazky/final_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/R_meas_obhj.png}
 	\end{figure}
 \end{frame}
 
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Volba Rx}
-	\begin{figure}[ht!]
-
-$\frac{V_{ref}}{2^{12}} + \frac{V_{in} \cdot R^P_{DSon}}{R_{out}/N_{pins} + R^P_{DSon}} < \left| \frac{\partial V_{out} }{\partial R_{path}}\cdot \Delta R_{path} \right|$
-		\includegraphics[height = 0.6\textheight]{obrazky/general_dVF.eps}
-	\end{figure}
-\end{frame}
-
-\begin{frame} 
-	% nadpis snímku
-	\frametitle{Volba Rx: vliv paralelních cest}
+	\frametitle{Koncepce měření 3/3}
+	\vspace*{0.5cm}
 	\begin{figure}[ht!]
 		\centering
-		\begin{minipage}{0.3\textwidth}
-			\begin{itemize}
-				\item 1 až 80 pinů
-				\item přesnost 2\,$\Omega$
-			\end{itemize}
-		\end{minipage}
-		\begin{minipage}{0.65\textwidth}
-		\includegraphics[height = 0.8\textheight]{obrazky/PASS_FAIL_MERENI.eps}
-		\end{minipage}
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/matlab_generated/pin_step1.eps}
 	\end{figure}
 \end{frame}
 
-
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Volba Rx: Maximální přesnost}
+	\frametitle{Koncepce testeru}
+	\vspace*{0.5cm}
 	\begin{figure}[ht!]
 		\centering
-		\begin{minipage}{0.3\textwidth}
-			\begin{itemize}
-				\item pouze 1 pin
-				\item přesnost 0.03 - 1\,$\Omega$
-			\end{itemize}
-		\end{minipage}
-		\begin{minipage}{0.65\textwidth}
-		\includegraphics[height = 0.8\textheight]{obrazky/MERENI_JEDNOHO_PINU.eps}
-		\end{minipage}
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/system_karet_obh.png}
 	\end{figure}
 \end{frame}
 
+
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Volba Rx: Vliv RDSON}
+	\frametitle{Foto propojení měřící a ovládací karty}
 	\begin{figure}[ht!]
 		\centering
-		\begin{minipage}{0.3\textwidth}
-			\begin{itemize}
-				\item 40 pinů
-				\item přesnost 2\,$\Omega$
-				\item RDSON 15-35\,$m\Omega$
-			\end{itemize}
-		\end{minipage}
-		\begin{minipage}{0.65\textwidth}
-		\includegraphics[width = 1.1\textwidth]{obrazky/vliv_RDSON.eps}
-		\end{minipage}
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[height = 0.7\textwidth, angle = 90]{obrazky/foto_obh.jpg}
 	\end{figure}
 \end{frame}
 
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Měřící karta 1/2}
+	\vspace*{0.5cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/karta_system_diagram.png}
+	\end{figure}
+\end{frame}
 
 \begin{frame} 
 	% nadpis snímku
-	\frametitle{Ovládací karta}
+	\frametitle{Měřící karta  2/2}
+	\vspace*{1cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/all_layers_no_poly.png}
+	\end{figure}
+\end{frame}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Ovládací karta 1/2}
 
 	\begin{figure}[ht!]
 		\centering
@@ -249,6 +214,66 @@ $\frac{V_{ref}}{2^{12}} + \frac{V_{in} \cdot R^P_{DSon}}{R_{out}/N_{pins} + R^P_
 		\includegraphics[height = 0.8\textheight]{obrazky/ovladaci_karta_diag.png}
 	\end{figure}
 \end{frame}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Ovládací karta 2/2}
+
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[height = 0.8\textheight]{obrazky/all_layers_no_poly_control.png}
+	\end{figure}
+\end{frame}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Dosažená přesnost měření 1/3}
+
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/10hourTestScheme.png}
+	\end{figure}
+\end{frame}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Dosažená přesnost měření 2/3}
+
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/matlab_generated/VOLTAGE_TESTER/dlouhodoba_stabilita_resistor_part1_obhj.eps}
+	\end{figure}
+\end{frame}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Dosažená přesnost a rychlost měření 3/3}
+	\vspace*{0.7cm}
+	\begin{table}[ht!]
+	\centering
+		\resizebox{0.7\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+		-        & \textbf{PIN2} & \textbf{PIN3} & \textbf{PIN4} & \textbf{PIN5} & \textbf{PIN6} \\ \hline
+		\textbf{ref odpor {[}$\Omega${]}}  & 16.5     & 100.57     & 180.77     & 996.75      & 4673.19 \\ \hline
+		\textbf{abs chyba {[}$\Omega${]}}  & 0.11     & 0.62      & 2.15     & 17.61      & 34.42     \\ \hline
+		\textbf{rel chyba {[}\%{]}} & 0.647      & 0.616      & 1.189      & 1.767      & 0.737      \\ \hline
+		\end{tabular}%
+		}
+		\caption{Chyby měření odporů vůči pinu č. 1}
+		\label{tab:chyby mereni calibrated}
+	\end{table}
+
+	\begin{itemize}
+		\item Čas měření v PASS/FAIL režimu je závislý převážně na rychlosti zpracování PC aplikace. Obvyklá odezva aplikace je do 50ms.
+	\end{itemize}
+\end{frame}
+
+
+
 
 
 \begin{frame} 
@@ -258,7 +283,7 @@ $\frac{V_{ref}}{2^{12}} + \frac{V_{in} \cdot R^P_{DSon}}{R_{out}/N_{pins} + R^P_
 	\begin{figure}[ht!]
 		\centering
 		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = 0.85\textwidth]{obrazky/PC_AP_top_view.png}
+		\includegraphics[width = 1\textwidth]{obrazky/PC_APP_dataViewer.png}
 	\end{figure}
 \end{frame}
 
@@ -269,21 +294,21 @@ $\frac{V_{ref}}{2^{12}} + \frac{V_{in} \cdot R^P_{DSon}}{R_{out}/N_{pins} + R^P_
 	\begin{figure}[ht!]
 		\centering
 		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
-		\includegraphics[width = 0.85\textwidth]{obrazky/PC_AP_top_only1.png}
+		\includegraphics[width = 1\textwidth]{obrazky/PC_APP_CONTROL_PANEL.png}
 	\end{figure}
 \end{frame}
 
 %%%%%%%%%%%%%
 \begin{frame} 
-	\frametitle{Pokračování do DP}
+	\frametitle{Pokračování DP}
 	\vspace*{0.5cm}
 	\begin{itemize}
-		\item Osazení měřící karty a odladění firmwaru
-		\item Dokončení návrhu a výroba ovládací karty
-		\item Bezpečnostní prvky (RACK)
+		\item Finalizace mechanické konstrukce testeru
+		\item Ethernet bootloader
+		\item Odladění v "ostrém"\ provozu
+		\item Ověření dlouhodobé spolehlivosti
+		\item Vylepšení CSS stylů PC aplikace
 		\item Rozšíření PC aplikace
-		\item Mechanická konstrukce testeru
-		\item Ověření funkčnosti a parametrů
 	\end{itemize}
 \end{frame}
 
@@ -297,15 +322,108 @@ $\frac{V_{ref}}{2^{12}} + \frac{V_{in} \cdot R^P_{DSon}}{R_{out}/N_{pins} + R^P_
 	\end{center}
 \end{frame}
 
+
 % otázky oponenta
-%frame{
-%frametitle{Otázky oponenta}
-%\begin{itemize}
-%	\item \textbf{Otázka 1:}\\
-%	Odpověď 1
-%	\item \textbf{Otázka 2:}\\
-%	Odpověď 2
-%\end{itemize}
-%
+\frame{
+\frametitle{Otázky oponenta}
+\begin{itemize}
+	\item \textbf{Uveďte, na kterých částech zařízení jste pracoval sám a zda jste u některých bloků využil spolupráci s kolegy z firmy.}\\
+	\item \textbf{Jak často se bude provádět kalibrace zařízení, jednou po sestavení převodníku nebo periodicky?}\\
+	\item \textbf{Proč nebyla pro měření použita metoda postupné aproximace (půlení intervalu)? Bylo by takto možné urychlit měření přesného odporu?}\\
+\end{itemize}
+}
+
+\frame{
+\frametitle{Otázky oponenta - Spolupráce kolegů}
+\vspace*{1.5cm}
+\begin{center}
+	{\Huge Uveďte, na kterých částech zařízení jste pracoval sám a zda jste u některých bloků využil spolupráci s kolegy z firmy.}
+\end{center}
+}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Spolupráce kolegů}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[height = 0.8\textheight]{obrazky/assembly_3D_model.png}
+	\end{figure}
+\end{frame}
+
+
+\frame{
+\frametitle{Otázky oponenta - Kalibrace}
+\vspace*{1.5cm}
+\begin{center}
+	{\Huge Jak často se bude provádět kalibrace zařízení, jednou po sestavení převodníku nebo periodicky?}
+\end{center}
+}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Otázky oponenta - Kalibrace}
+	\vspace*{1.2cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/kalibrace_obh.png}
+	\end{figure}
+\end{frame}
+
+\frame{
+\frametitle{Otázky oponenta - metoda postupné aproximace}
+\vspace*{1.5cm}
+\begin{center}
+	{\Huge Proč nebyla pro měření použita metoda postupné aproximace (půlení intervalu)? Bylo by takto možné urychlit měření přesného odporu?}
+\end{center}
+}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Otázky oponenta - metoda postupné aproximace 1/4}
+	\vspace*{0.5cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/matlab_generated/pin_step1.eps}
+	\end{figure}
+\end{frame}
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Otázky oponenta - metoda postupné aproximace 2/4}
+	\vspace*{0.5cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/matlab_generated/pin_out_of_range.eps}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Otázky oponenta - metoda postupné aproximace 3/4}
+	\vspace*{0.5cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/matlab_generated/pin_out_of_range_opt.eps}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame} 
+	% nadpis snímku
+	\frametitle{Otázky oponenta - metoda postupné aproximace 4/4}
+	\vspace*{0.5cm}
+	\begin{figure}[ht!]
+		\centering
+		%\includegraphics[width = \textwidth]{obrazky/system_connection.png}
+		\includegraphics[width = \textwidth]{obrazky/matlab_generated/all_pins.eps}
+	\end{figure}
+\end{frame}
+
 
 \end{document}

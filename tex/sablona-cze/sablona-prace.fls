@@ -705,6 +705,29 @@ INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -722,9 +745,15 @@ INPUT sablona-prace.aux
 INPUT .\text\uvod.aux
 INPUT text\uvod.aux
 INPUT text\uvod.aux
-INPUT .\text\reseni.aux
-INPUT text\reseni.aux
-INPUT text\reseni.aux
+INPUT .\text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT .\text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT .\text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
 INPUT .\text\reseni2.aux
 INPUT text\reseni2.aux
 INPUT text\reseni2.aux
@@ -763,22 +792,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\Filip\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -1004,16 +1017,16 @@ INPUT .\text\uvod.tex
 INPUT text\uvod.tex
 INPUT .\text\uvod.tex
 INPUT text\uvod.tex
-INPUT .\text\reseni.tex
-INPUT .\text\reseni.tex
-INPUT .\text\reseni.tex
-OUTPUT text\reseni.aux
-INPUT .\text\reseni.tex
-INPUT .\text\reseni.tex
-INPUT .\text\reseni.tex
-INPUT text\reseni.tex
-INPUT .\text\reseni.tex
-INPUT text\reseni.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+OUTPUT text\Koncept_funkcnosti_testeru.aux
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT text\Koncept_funkcnosti_testeru.tex
+INPUT .\text\Koncept_funkcnosti_testeru.tex
+INPUT text\Koncept_funkcnosti_testeru.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\obrazky\ICT_tester.png
@@ -1051,6 +1064,16 @@ INPUT .\obrazky\3D_ovl_karta.png
 INPUT .\obrazky\3D_ovl_karta.png
 INPUT .\obrazky\3D_ovl_karta.png
 INPUT .\obrazky\3D_ovl_karta.png
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+OUTPUT text\navrh_mericich_karet.aux
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT text\navrh_mericich_karet.tex
+INPUT .\text\navrh_mericich_karet.tex
+INPUT text\navrh_mericich_karet.tex
 INPUT .\obrazky\karta_system_diagram.png
 INPUT .\obrazky\karta_system_diagram.png
 INPUT obrazky\karta_system_diagram.png
@@ -1153,6 +1176,7 @@ INPUT .\obrazky\Nmosfet_datasheet.png
 INPUT .\obrazky\Nmosfet_datasheet.png
 INPUT .\obrazky\Nmosfet_datasheet.png
 INPUT .\obrazky\Nmosfet_datasheet.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
 INPUT .\obrazky\PSU.png
 INPUT .\obrazky\PSU.png
 INPUT obrazky\PSU.png
@@ -1167,16 +1191,16 @@ INPUT .\obrazky\all_layers_no_poly.png
 INPUT .\obrazky\all_layers_no_poly.png
 INPUT .\obrazky\all_layers_no_poly.png
 INPUT .\obrazky\all_layers_no_poly.png
-INPUT .\text\reseni2.tex
-INPUT .\text\reseni2.tex
-INPUT .\text\reseni2.tex
-OUTPUT text\reseni2.aux
-INPUT .\text\reseni2.tex
-INPUT .\text\reseni2.tex
-INPUT .\text\reseni2.tex
-INPUT text\reseni2.tex
-INPUT .\text\reseni2.tex
-INPUT text\reseni2.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+OUTPUT text\navrh_ovladacich_karet.aux
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT text\navrh_ovladacich_karet.tex
+INPUT .\text\navrh_ovladacich_karet.tex
+INPUT text\navrh_ovladacich_karet.tex
 INPUT .\obrazky\ovladaci_karta_diag.png
 INPUT .\obrazky\ovladaci_karta_diag.png
 INPUT obrazky\ovladaci_karta_diag.png
@@ -1191,13 +1215,6 @@ INPUT .\obrazky\DAC_OPAMP.png
 INPUT .\obrazky\DAC_OPAMP.png
 INPUT .\obrazky\DAC_OPAMP.png
 INPUT .\obrazky\DAC_OPAMP.png
-INPUT .\obrazky\snubber_values.png
-INPUT .\obrazky\snubber_values.png
-INPUT obrazky\snubber_values.png
-INPUT .\obrazky\snubber_values.png
-INPUT .\obrazky\snubber_values.png
-INPUT .\obrazky\snubber_values.png
-INPUT .\obrazky\snubber_values.png
 INPUT .\obrazky\CLK_config.png
 INPUT .\obrazky\CLK_config.png
 INPUT obrazky\CLK_config.png
@@ -1233,7 +1250,16 @@ INPUT .\obrazky\all_layers_no_poly_control.png
 INPUT .\obrazky\all_layers_no_poly_control.png
 INPUT .\obrazky\all_layers_no_poly_control.png
 INPUT .\obrazky\all_layers_no_poly_control.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+OUTPUT text\reseni2.aux
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT text\reseni2.tex
+INPUT .\text\reseni2.tex
+INPUT text\reseni2.tex
 INPUT .\obrazky\Voltage_measurement_example.png
 INPUT .\obrazky\Voltage_measurement_example.png
 INPUT obrazky\Voltage_measurement_example.png
@@ -1487,6 +1513,13 @@ INPUT .\text\zaver.tex
 INPUT text\zaver.tex
 INPUT .\text\zaver.tex
 INPUT text\zaver.tex
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
+INPUT .\obrazky\assembly_3D_model.png
 INPUT .\text\literatura.tex
 INPUT .\text\literatura.tex
 INPUT .\text\literatura.tex
@@ -1925,9 +1958,15 @@ INPUT sablona-prace.aux
 INPUT .\text\uvod.aux
 INPUT text\uvod.aux
 INPUT text\uvod.aux
-INPUT .\text\reseni.aux
-INPUT text\reseni.aux
-INPUT text\reseni.aux
+INPUT .\text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT text\Koncept_funkcnosti_testeru.aux
+INPUT .\text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT text\navrh_mericich_karet.aux
+INPUT .\text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
+INPUT text\navrh_ovladacich_karet.aux
 INPUT .\text\reseni2.aux
 INPUT text\reseni2.aux
 INPUT text\reseni2.aux
@@ -1976,6 +2015,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
